@@ -25,6 +25,22 @@ function getGameEmoji(index) {
   return GAME_EMOJIS[index % GAME_EMOJIS.length];
 }
 
+function getGameById(id) {
+  var games = window.KIZ_DATA.games;
+  for (var i = 0; i < games.length; i++) {
+    if (games[i].id === id) return games[i];
+  }
+  return null;
+}
+
+function getGameThumb(game) {
+  // Prefer copy-specific thumb (Chinese edition), fallback to game thumb
+  if (game.copies && game.copies.length > 0 && game.copies[0].urlThumb) {
+    return game.copies[0].urlThumb;
+  }
+  return game.urlThumb || '';
+}
+
 function getGameNameById(id) {
   var games = window.KIZ_DATA.games;
   for (var i = 0; i < games.length; i++) {
@@ -164,11 +180,12 @@ function renderHotGames() {
 
   var html = '';
   for (var i = 0; i < sorted.length; i++) {
-    var name = getGameNameById(sorted[i].id);
-    var color = GAME_CARD_COLORS[i % GAME_CARD_COLORS.length];
+    var game = getGameById(sorted[i].id);
+    var name = game ? game.name : 'Unknown';
+    var thumb = game ? getGameThumb(game) : '';
     html += '<div class="game-card" onclick="location.href=\'games.html\'">' +
-      '<div class="game-card-image" style="background:' + color + ';">' +
-        '<span>' + getGameEmoji(i) + '</span>' +
+      '<div class="game-card-image">' +
+        (thumb ? '<img src="' + thumb + '" alt="' + name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
       '</div>' +
       '<div class="game-card-body">' +
         '<div class="game-card-title">' + name + '</div>' +
@@ -261,11 +278,11 @@ function renderGameLibrary() {
     for (var i = 0; i < filtered.length; i++) {
       var g = filtered[i];
       var count = playCount[g.id] || 0;
-      var color = GAME_CARD_COLORS[i % GAME_CARD_COLORS.length];
+      var thumb = getGameThumb(g);
       var bggUrl = g.bggId ? 'https://boardgamegeek.com/boardgame/' + g.bggId : '#';
       html += '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
-        '<div class="game-card-image" style="background:' + color + ';">' +
-          '<span style="font-size:40px;">' + getGameEmoji(i) + '</span>' +
+        '<div class="game-card-image">' +
+          (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
         '</div>' +
         '<div class="game-card-body">' +
           '<div class="game-card-title">' + g.name + '</div>' +
