@@ -11547,26 +11547,6 @@ window.KIZ_DATA = {
       ]
     },
     {
-      "id": 7,
-      "name": "大搜查! 英勇冒險",
-      "bggId": 266121,
-      "bggName": "Unlock!: Heroic Adventures",
-      "minPlayers": 1,
-      "maxPlayers": 6,
-      "minPlayTime": 60,
-      "maxPlayTime": 60,
-      "designers": "Mathieu Casnin, Thomas Cauët, Cyril Demaegd, Vincent Goyat, Dave Neale",
-      "urlImage": "https://cf.geekdo-images.com/biw1DYvUdQ4-ZgIOtUDqhQ__original/img/vV6PSQWPpihv9718RaxFEEcgYgA=/0x0/filters:format(jpeg)/pic4432319.jpg",
-      "urlThumb": "https://cf.geekdo-images.com/biw1DYvUdQ4-ZgIOtUDqhQ__thumb/img/Nv2EPGFRbeOzcJ2ErbN6EsET5CU=/fit-in/200x150/filters:strip_icc()/pic4432319.jpg",
-      "isExpansion": 0,
-      "copies": [
-        {
-          "gameName": "大搜查! 英勇冒險",
-          "urlThumb": "https://cf.geekdo-images.com/EFhWXwO9Inas01E5zQxZyQ__thumb/img/0PamARhs3oxvganLWQJ1sHNFTJo=/fit-in/200x150/filters:strip_icc()/pic5951470.jpg"
-        }
-      ]
-    },
-    {
       "id": 8,
       "name": "战争之匣",
       "bggId": 249259,
@@ -11583,6 +11563,46 @@ window.KIZ_DATA = {
         {
           "gameName": "战争之匣",
           "urlThumb": "https://cf.geekdo-images.com/6QAEf7IGGzHjhrVqA1KFVQ__thumb/img/-2P3eu1_NxEEv40piwb8gm27Tao=/fit-in/200x150/filters:strip_icc()/pic7434148.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "战争之匣：权贵",
+      "bggId": 284444,
+      "bggName": "War Chest: Nobility",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "minPlayTime": 30,
+      "maxPlayTime": 60,
+      "designers": "Trevor Benjamin, David Thompson (I)",
+      "urlImage": "https://cf.geekdo-images.com/pPuOyAIrh6qYv0QvpfWP2A__original/img/m60WN2A92kPpdHkt7hSDQimbhp0=/0x0/filters:format(jpeg)/pic4860409.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/pPuOyAIrh6qYv0QvpfWP2A__thumb/img/dYqtsMygKr7AGcPc9Wnc2Q6W99E=/fit-in/200x150/filters:strip_icc()/pic4860409.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "战争之匣：权贵",
+          "urlThumb": "https://cf.geekdo-images.com/a5klYq02LW4dB54BRN6LaQ__previewthumb/img/lUd9cC_Qr6pUEZ--MwavGY6TS7U=/fit-in/300x320/filters:strip_icc()/pic7009220.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "战争之匣：围城",
+      "bggId": 324656,
+      "bggName": "War Chest: Siege",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "minPlayTime": 30,
+      "maxPlayTime": 60,
+      "designers": "Trevor Benjamin, David Thompson (I)",
+      "urlImage": "https://cf.geekdo-images.com/8zkpPMJOUW6YF8ZRJmGuFQ__original/img/q5BFOGy2g3CDTgb-1ykhF8pH_hw=/0x0/filters:format(jpeg)/pic6031075.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/8zkpPMJOUW6YF8ZRJmGuFQ__thumb/img/tRGzYPngW6xI_bhBMrObeaxZIFs=/fit-in/200x150/filters:strip_icc()/pic6031075.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "战争之匣：围城",
+          "urlThumb": "https://cf.geekdo-images.com/fbeTp59ZQNth16re7p6fHA__thumb/img/RyT_kmF66WQLk6wDC9Nl6x1QHPc=/fit-in/200x150/filters:strip_icc()/pic7009222.jpg"
         }
       ]
     },
@@ -11667,6 +11687,26 @@ window.KIZ_DATA = {
       ]
     },
     {
+      "id": 16,
+      "name": "罪案疑云：好莱坞的枪声",
+      "bggId": 237900,
+      "bggName": "Detective: Bullets over Hollywood",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "minPlayTime": 30,
+      "maxPlayTime": 150,
+      "designers": "Evan Derrick",
+      "urlImage": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__original/img/dcwvexXJ3-hZQRvbU24tZMMy_7E=/0x0/filters:format(png)/pic4806093.png",
+      "urlThumb": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__thumb/img/qH4wf8jVQHZfF0dOFIF1CcB68xQ=/fit-in/200x150/filters:strip_icc()/pic4806093.png",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "罪案疑云：好莱坞的枪声",
+          "urlThumb": "https://cf.geekdo-images.com/mH58En-0uCSsSz7iw3eiOA__thumb/img/nBBFfijllWm2itYn_271IRKoOzk=/fit-in/200x150/filters:strip_icc()/pic8545711.jpg"
+        }
+      ]
+    },
+    {
       "id": 17,
       "name": "現代藝術",
       "bggId": 118,
@@ -11683,6 +11723,46 @@ window.KIZ_DATA = {
         {
           "gameName": "現代藝術",
           "urlThumb": "https://cf.geekdo-images.com/VrecaPljkx_LOgdKXJ5gNw__thumb/img/dZCW2IxVXb7Oio1raZVC3_MOqNY=/fit-in/200x150/filters:strip_icc()/pic7716896.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "罪案疑云：天使与恶魔",
+      "bggId": 388374,
+      "bggName": "Detective: Saints & Sinners",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "minPlayTime": 120,
+      "maxPlayTime": 120,
+      "designers": "Alara Cameron, Evan Derrick, Logan Giannini",
+      "urlImage": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__original/img/rSXfW0NzjfzcuhOUJiAuaneIbMA=/0x0/filters:format(jpeg)/pic8382627.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__thumb/img/owJK8ZyWOPvDLxxiSfieOUbyGfo=/fit-in/200x150/filters:strip_icc()/pic8382627.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "罪案疑云：天使与恶魔",
+          "urlThumb": "https://cf.geekdo-images.com/avlNLfd1v2iMnpic3sDTXA__thumb/img/lu91pqokrYm8bQ4I-8Ii5eegTow=/fit-in/200x150/filters:strip_icc()/pic8643342.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "罪案疑云：迷雾与幻影",
+      "bggId": 287075,
+      "bggName": "Detective: Smoke and Mirrors",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "minPlayTime": 45,
+      "maxPlayTime": 120,
+      "designers": "Evan Derrick",
+      "urlImage": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__original/img/1cX0pOz1e1DxMjRHhFYORBQb2LE=/0x0/filters:format(jpeg)/pic6653145.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__thumb/img/_NxfExq2zQkZcobedKuPPwPk6mU=/fit-in/200x150/filters:strip_icc()/pic6653145.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "罪案疑云：迷雾与幻影",
+          "urlThumb": "https://cf.geekdo-images.com/3tz81pIHuULaeBuZ4ceoPw__thumb/img/e8cBIOS8W35sfzElncglFa6H_yA=/fit-in/200x150/filters:strip_icc()/pic8643341.jpg"
         }
       ]
     },
@@ -11787,22 +11867,22 @@ window.KIZ_DATA = {
       ]
     },
     {
-      "id": 25,
-      "name": "时空神探：巴黎1920",
-      "bggId": 402111,
-      "bggName": "Kronologic: Paris 1920",
-      "minPlayers": 1,
+      "id": 26,
+      "name": "一带一路 (Belt and Road)",
+      "bggId": 441743,
+      "bggName": "一带一路 (Belt and Road)",
+      "minPlayers": 2,
       "maxPlayers": 4,
-      "minPlayTime": 30,
-      "maxPlayTime": 30,
-      "designers": "Fabien Gridel, Yoann Levet",
-      "urlImage": "https://cf.geekdo-images.com/BTLIJvNhaROMzo6cqP0aNw__original/img/BagaofOFwLoN8hOqY3AKd6ij7Lk=/0x0/filters:format(png)/pic7963849.png",
-      "urlThumb": "https://cf.geekdo-images.com/BTLIJvNhaROMzo6cqP0aNw__thumb/img/pZ40LewUI2fCRrpd3-0sKELUG4I=/fit-in/200x150/filters:strip_icc()/pic7963849.png",
+      "minPlayTime": 0,
+      "maxPlayTime": 0,
+      "designers": "Xuchenou(徐晨鸥)",
+      "urlImage": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__original/img/xQNI5ckpySKsZTesLYHjOAfhKuk=/0x0/filters:format(jpeg)/pic8782948.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__thumb/img/m_Nfq9nsvCDrCBdSIYXn2HbIiRQ=/fit-in/200x150/filters:strip_icc()/pic8782948.jpg",
       "isExpansion": 0,
       "copies": [
         {
-          "gameName": "时空神探：巴黎1920",
-          "urlThumb": "https://cf.geekdo-images.com/hs2S-MqxnVImXby7ZZQzHw__thumb/img/_cGJqwWGF7t9biP1rX9Bz5ePpuY=/fit-in/200x150/filters:strip_icc()/pic8334576.jpg"
+          "gameName": "一带一路 (Belt and Road)",
+          "urlThumb": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__thumb/img/m_Nfq9nsvCDrCBdSIYXn2HbIiRQ=/fit-in/200x150/filters:strip_icc()/pic8782948.jpg"
         }
       ]
     },
@@ -11843,26 +11923,6 @@ window.KIZ_DATA = {
         {
           "gameName": "骸骨險境: 堅不可摧",
           "urlThumb": ""
-        }
-      ]
-    },
-    {
-      "id": 29,
-      "name": "末世亲缘：斯旺之书",
-      "bggId": 340216,
-      "bggName": "Heredity: The Book of Swan",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "minPlayTime": 120,
-      "maxPlayTime": 180,
-      "designers": "Jerome Cance, Laurent Kobel",
-      "urlImage": "https://cf.geekdo-images.com/U2REknDWUEXMo-LU8lAPNg__original/img/73UNG0rEHX5Q7Khzv8-OawnmFgM=/0x0/filters:format(png)/pic8828048.png",
-      "urlThumb": "https://cf.geekdo-images.com/U2REknDWUEXMo-LU8lAPNg__thumb/img/mAmYUmxM_rJZfOCbVtY3kV73ET4=/fit-in/200x150/filters:strip_icc()/pic8828048.png",
-      "isExpansion": 0,
-      "copies": [
-        {
-          "gameName": "末世亲缘：斯旺之书",
-          "urlThumb": "https://cf.geekdo-images.com/ylk9H-f4Lb-ijod2YhPmwg__previewthumb/img/BRobdQ3vksCM3alKRO3sRFuMiuI=/fit-in/300x320/filters:strip_icc()/pic8545722.png"
         }
       ]
     },
@@ -11987,46 +12047,6 @@ window.KIZ_DATA = {
       ]
     },
     {
-      "id": 41,
-      "name": "大搜查! 史詩冒險",
-      "bggId": 294612,
-      "bggName": "Unlock!: Epic Adventures",
-      "minPlayers": 1,
-      "maxPlayers": 6,
-      "minPlayTime": 60,
-      "maxPlayTime": 60,
-      "designers": "Mathieu Casnin, Cyril Demaegd, Guilaine Didier, Gabriel Durnerin, Luna Marie, Théo Rivière",
-      "urlImage": "https://cf.geekdo-images.com/NNVWKOGOKLIkjXvhZKA_Dg__original/img/qHxswbvzbxAMnUdXEltHRzPZciM=/0x0/filters:format(jpeg)/pic5009100.jpg",
-      "urlThumb": "https://cf.geekdo-images.com/NNVWKOGOKLIkjXvhZKA_Dg__thumb/img/IepFDkC6ngdTCAosPTFwvpLvohc=/fit-in/200x150/filters:strip_icc()/pic5009100.jpg",
-      "isExpansion": 0,
-      "copies": [
-        {
-          "gameName": "大搜查! 史詩冒險",
-          "urlThumb": "https://cf.geekdo-images.com/vutqw-xawlBmJbK4kz1D1A__thumb/img/ABtOEiJnDxrz6Gfdd6b4_FVcE8U=/fit-in/200x150/filters:strip_icc()/pic5951466.jpg"
-        }
-      ]
-    },
-    {
-      "id": 42,
-      "name": "大搜查：神话冒险",
-      "bggId": 302425,
-      "bggName": "Unlock!: Mythic Adventures",
-      "minPlayers": 1,
-      "maxPlayers": 6,
-      "minPlayTime": 60,
-      "maxPlayTime": 60,
-      "designers": "Cyril Demaegd, Jérémy Fraile, Vincent Goyat, Jeremy Koch, Périnne Kurtz, Arnaud Pincemaille, Yohan Servais",
-      "urlImage": "https://cf.geekdo-images.com/WS1Rfg-PUi8XB00iMJresw__original/img/WGgH2xLObSIK2TDmXEFYuW2KQ0o=/0x0/filters:format(jpeg)/pic5712544.jpg",
-      "urlThumb": "https://cf.geekdo-images.com/WS1Rfg-PUi8XB00iMJresw__thumb/img/UMUl6bHBk_7IHFAzfxtC-SHE1Rg=/fit-in/200x150/filters:strip_icc()/pic5712544.jpg",
-      "isExpansion": 0,
-      "copies": [
-        {
-          "gameName": "大搜查：神话冒险",
-          "urlThumb": "https://cf.geekdo-images.com/bba_zWI9gwsP3h-BtPlExw__previewthumb/img/nYmSJqQ8eqGxfNbZ7_QlyoKvLCY=/fit-in/300x320/filters:strip_icc()/pic6167263.png"
-        }
-      ]
-    },
-    {
       "id": 43,
       "name": "Flip 7",
       "bggId": 420087,
@@ -12043,6 +12063,66 @@ window.KIZ_DATA = {
         {
           "gameName": "Flip 7",
           "urlThumb": "https://cf.geekdo-images.com/bGJlDiwrV7MCTBLB96W0EQ__thumb/img/2XVMkxuMogvqZzPePUXDQZEIBOA=/fit-in/200x150/filters:strip_icc()/pic8794481.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "遙遠之地：地下族群",
+      "bggId": 425029,
+      "bggName": "Faraway: People From Below",
+      "minPlayers": 2,
+      "maxPlayers": 7,
+      "minPlayTime": 25,
+      "maxPlayTime": 25,
+      "designers": "Johannes Goupy, Corentin Lebrat",
+      "urlImage": "https://cf.geekdo-images.com/IAm2HJ23ikP6ixbm3Cbcbw__original/img/gs8wZCRecDoc29xB8OJF8Cg-ROI=/0x0/filters:format(jpeg)/pic8557413.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/IAm2HJ23ikP6ixbm3Cbcbw__thumb/img/2y38Fpj1I2aKank6S-nTIhNQH-A=/fit-in/200x150/filters:strip_icc()/pic8557413.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "遙遠之地：地下族群",
+          "urlThumb": "https://cf.geekdo-images.com/rgbbrW3CnQ5G3sFgIF6Wfg__thumb/img/angSBd4pbmt8FGZLmaeVFxn3Z80=/fit-in/200x150/filters:strip_icc()/pic8624086.png"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "战争之匣：夜幕",
+      "bggId": 388565,
+      "bggName": "War Chest: Nightfall",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "minPlayTime": 30,
+      "maxPlayTime": 60,
+      "designers": "Trevor Benjamin, David Thompson (I)",
+      "urlImage": "https://cf.geekdo-images.com/47svrIp_8WxJAMeyAvn6hA__original/img/Mey-_NmgPc4N1zyTgufxd6eroDo=/0x0/filters:format(png)/pic7522071.png",
+      "urlThumb": "https://cf.geekdo-images.com/47svrIp_8WxJAMeyAvn6hA__thumb/img/WezQAGniiRqvyJQdSoBvyDhaw4E=/fit-in/200x150/filters:strip_icc()/pic7522071.png",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "战争之匣：夜幕",
+          "urlThumb": "https://cf.geekdo-images.com/djvsKRLS6H1j1bIYMvDxpw__thumb/img/ScfI_XNOILWyNzJdbYKVFjrZRNs=/fit-in/200x150/filters:strip_icc()/pic8340459.png"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "星弧航记",
+      "bggId": 359871,
+      "bggName": "Arcs",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "minPlayTime": 60,
+      "maxPlayTime": 120,
+      "designers": "Cole Wehrle",
+      "urlImage": "https://cf.geekdo-images.com/XWImAu_3RK61wbzcKboVdA__original/img/43ianMZOks7UHlZILx0VBRntOmM=/0x0/filters:format(png)/pic8145530.png",
+      "urlThumb": "https://cf.geekdo-images.com/XWImAu_3RK61wbzcKboVdA__thumb/img/Ry-6KHwNgERWadyxs1X1_P3dMvY=/fit-in/200x150/filters:strip_icc()/pic8145530.png",
+      "isExpansion": 0,
+      "copies": [
+        {
+          "gameName": "星弧航记",
+          "urlThumb": "https://cf.geekdo-images.com/7mnOdic9iPitbx4X235URg__previewthumb/img/a6Ro0CqIVNTpbqHPYHsx3r58gwU=/fit-in/300x320/filters:strip_icc()/pic8632548.jpg"
         }
       ]
     },
@@ -12087,6 +12167,126 @@ window.KIZ_DATA = {
       ]
     },
     {
+      "id": 51,
+      "name": "英雄止步:會長的復仇",
+      "bggId": 351550,
+      "bggName": "Keep the Heroes Out!: Guild Master's Revenge Expansion",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "minPlayTime": 40,
+      "maxPlayTime": 40,
+      "designers": "Luís Brueh",
+      "urlImage": "https://cf.geekdo-images.com/ZC5y7zSkbNwKTIk-eHs1ww__original/img/xOla56xO6KDxuBbSz5B_yhn6vP8=/0x0/filters:format(jpeg)/pic6985340.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/ZC5y7zSkbNwKTIk-eHs1ww__thumb/img/R6JyMhUW5uEEC1RoqzMOhWe84G0=/fit-in/200x150/filters:strip_icc()/pic6985340.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "英雄止步:會長的復仇",
+          "urlThumb": "https://cf.geekdo-images.com/JmcK3Kj0ZkFoxtq_TBWqXw__previewthumb/img/Di_6Fcs5Nmd3bJQOVFYtRRdDfJA=/fit-in/300x320/filters:strip_icc()/pic8262479.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Keep the Heroes Out!: Boss Battles",
+      "bggId": 394150,
+      "bggName": "Keep the Heroes Out!: Boss Battles",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 40,
+      "maxPlayTime": 0,
+      "designers": "Luís Brueh",
+      "urlImage": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__original/img/d0Zr97bSd-we8eSG-OVeexYqTDk=/0x0/filters:format(jpeg)/pic7793981.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__thumb/img/gdyuc1fbs0PZ8Ow41n-R8Nefyl0=/fit-in/200x150/filters:strip_icc()/pic7793981.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "Keep the Heroes Out!: Boss Battles",
+          "urlThumb": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Too Many Bones: Riffle",
+      "bggId": 370264,
+      "bggName": "Too Many Bones: Riffle",
+      "minPlayers": 0,
+      "maxPlayers": 0,
+      "minPlayTime": 0,
+      "maxPlayTime": 0,
+      "designers": "Adam Carlson, Josh J. Carlson",
+      "urlImage": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__original/img/FPBVNyv_zj3GJqqp8ZdkwNcREBA=/0x0/filters:format(png)/pic7062819.png",
+      "urlThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__thumb/img/nI32TO4iNeOIcUM39y8AKVl9rwo=/fit-in/200x150/filters:strip_icc()/pic7062819.png",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "Too Many Bones: Riffle",
+          "urlThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__previewthumb/img/Mpyljf7MoUXnSMdI4W9YBbKN-80=/fit-in/300x320/filters:strip_icc()/pic7062819.png"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Too Many Bones: Carcass",
+      "bggId": 349581,
+      "bggName": "Too Many Bones: Carcass",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 60,
+      "maxPlayTime": 120,
+      "designers": "Josh J. Carlson, Adam Carlson, Josh Wielgus",
+      "urlImage": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__original/img/et_n56Ng35DPxOFW1CgH_-MjoGw=/0x0/filters:format(jpeg)/pic6478237.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__thumb/img/ogt_oWV3RJW6tcVO_jDVtvSp_MI=/fit-in/200x150/filters:strip_icc()/pic6478237.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "Too Many Bones: Carcass",
+          "urlThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__previewthumb/img/2-5l3L-IfA-1ikOkXkXDEnlKz-U=/fit-in/300x320/filters:strip_icc()/pic6478237.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Too Many Bones: Polaris",
+      "bggId": 349579,
+      "bggName": "Too Many Bones: Polaris",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 60,
+      "maxPlayTime": 120,
+      "designers": "Josh J. Carlson, Adam Carlson, Ryan Howard, Salem Scott",
+      "urlImage": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__original/img/5MwgvP_hBijNifRJGCuq9PS5po0=/0x0/filters:format(jpeg)/pic6478240.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__thumb/img/ScKhnZdxSfqUdJ8rm_2jDeoCFSE=/fit-in/200x150/filters:strip_icc()/pic6478240.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "Too Many Bones: Polaris",
+          "urlThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__previewthumb/img/Hc8Q8wo_LU_67Lm39Y7wfeZzZQ8=/fit-in/300x320/filters:strip_icc()/pic6478240.jpg"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Too Many Bones: Static",
+      "bggId": 349580,
+      "bggName": "Too Many Bones: Static",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 60,
+      "maxPlayTime": 120,
+      "designers": "Adam Carlson, Josh J. Carlson, Logan Giannini",
+      "urlImage": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__original/img/pYNRPK2lsim_6vFJU0NwaN8WsTw=/0x0/filters:format(jpeg)/pic6478243.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__thumb/img/Ov6SSJ1nJ8XBE-we722E9cefEow=/fit-in/200x150/filters:strip_icc()/pic6478243.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "Too Many Bones: Static",
+          "urlThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__previewthumb/img/3wScf3yy16lEWokH5D51aKJtFbY=/fit-in/300x320/filters:strip_icc()/pic6478243.jpg"
+        }
+      ]
+    },
+    {
       "id": 57,
       "name": "籤籤入扣 stick stack",
       "bggId": 204734,
@@ -12103,6 +12303,66 @@ window.KIZ_DATA = {
         {
           "gameName": "籤籤入扣 stick stack",
           "urlThumb": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "星弧航记：衰变星域",
+      "bggId": 363757,
+      "bggName": "Arcs: The Blighted Reach Expansion",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "minPlayTime": 0,
+      "maxPlayTime": 0,
+      "designers": "Cole Wehrle",
+      "urlImage": "https://cf.geekdo-images.com/oYYhihuGrebXvGWOMzhapw__original/img/kFZ5A1g1rOPZQsjdRHWbUTo0R-U=/0x0/filters:format(png)/pic8145540.png",
+      "urlThumb": "https://cf.geekdo-images.com/oYYhihuGrebXvGWOMzhapw__thumb/img/-Com6BgA4Yxq4WCmuLZjRRofrj0=/fit-in/200x150/filters:strip_icc()/pic8145540.png",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "星弧航记：衰变星域",
+          "urlThumb": "https://cf.geekdo-images.com/zKOrnygE6fEbzQ0-hHSbPw__previewthumb/img/KjlnNeY-tx71lqEcZtR7AqwmtMc=/fit-in/300x320/filters:strip_icc()/pic9022762.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Keep the Heroes Out!: The Great Dreamer Expansion",
+      "bggId": 351549,
+      "bggName": "Keep the Heroes Out!: The Great Dreamer Expansion",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 40,
+      "maxPlayTime": 40,
+      "designers": "Luís Brueh",
+      "urlImage": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__original/img/NCo-ciQdI1kMRmlKqZx_wt3Tsiw=/0x0/filters:format(jpeg)/pic6985344.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__thumb/img/aF7bXAy3Q3Z8d5kyoInyn4sQz3Q=/fit-in/200x150/filters:strip_icc()/pic6985344.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "Keep the Heroes Out!: The Great Dreamer Expansion",
+          "urlThumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__previewthumb/img/bAZfl0Bxy2AtLuVu2KQ_2ESsrzI=/fit-in/300x320/filters:strip_icc()/pic6985344.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
+      "bggId": 404357,
+      "bggName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 40,
+      "maxPlayTime": 0,
+      "designers": "Luís Brueh",
+      "urlImage": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__original/img/q_G8WbTWPpVpG7cC_iC4Il1SxG4=/0x0/filters:format(jpeg)/pic7998936.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__thumb/img/wy_MpH1K5s73vq6yJJMUp4R7eYg=/fit-in/200x150/filters:strip_icc()/pic7998936.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
+          "urlThumb": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__previewthumb/img/KNPGoAqUELYR1folBF96mXBPrpA=/fit-in/300x320/filters:strip_icc()/pic7998936.jpg"
         }
       ]
     },
@@ -12247,21 +12507,6 @@ window.KIZ_DATA = {
       ]
     },
     {
-      "id": 70,
-      "name": "冠军挑战者！",
-      "bggId": 359970,
-      "bggName": "Challengers!",
-      "minPlayers": 1,
-      "maxPlayers": 8,
-      "minPlayTime": 45,
-      "maxPlayTime": 45,
-      "designers": "Johannes Krenner, Markus Slawitscheck",
-      "urlImage": "https://cf.geekdo-images.com/GtLESZ4ZjqikK12bjBTmig__original/img/CHUtcmSXFs8LYKRHyUaeio2ra4U=/0x0/filters:format(jpeg)/pic7040521.jpg",
-      "urlThumb": "https://cf.geekdo-images.com/GtLESZ4ZjqikK12bjBTmig__small/img/66Emb1wn1JD_5_9XdsYY2DgMVMA=/fit-in/200x150/filters:strip_icc()/pic7040521.jpg",
-      "isExpansion": 1,
-      "copies": []
-    },
-    {
       "id": 74,
       "name": "骰筑火星",
       "bggId": 296108,
@@ -12302,6 +12547,26 @@ window.KIZ_DATA = {
       ]
     },
     {
+      "id": 76,
+      "name": "沙丘：帝國 血脈永續",
+      "bggId": 426129,
+      "bggName": "Dune: Imperium – Bloodlines",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "minPlayTime": 60,
+      "maxPlayTime": 120,
+      "designers": "Phil Amylon, Andy Clautice, Paul Dennen, Caleb Vance",
+      "urlImage": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__original/img/P8jioOvt9CVRO6BoNRjk1pLv05Y=/0x0/filters:format(jpeg)/pic8350442.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__small/img/niL2urMdy3ExhhQzbtMdsFUbSW4=/fit-in/200x150/filters:strip_icc()/pic8350442.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "沙丘：帝國 血脈永續",
+          "urlThumb": "https://cf.geekdo-images.com/sJZr-RQ6ZQOsUpOEXHlUWA__previewthumb/img/xFCY-zJc5tgKiFnkISe1DAA49vc=/fit-in/300x320/filters:strip_icc()/pic9230746.png"
+        }
+      ]
+    },
+    {
       "id": 77,
       "name": "波多黎各 1897 特別典藏版",
       "bggId": 415843,
@@ -12317,6 +12582,126 @@ window.KIZ_DATA = {
       "copies": [
         {
           "gameName": "波多黎各 1897 特別典藏版",
+          "urlThumb": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Terraforming Mars: The Dice Game – Missions",
+      "bggId": 453392,
+      "bggName": "Terraforming Mars: The Dice Game – Missions",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 45,
+      "maxPlayTime": 45,
+      "designers": "Daniel Fryxelius, Jacob Fryxelius",
+      "urlImage": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__original/img/QMm4IWF48v833dzB53JkFpxDRYc=/0x0/filters:format(png)/pic9155610.png",
+      "urlThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "Terraforming Mars: The Dice Game – Missions",
+          "urlThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
+      "bggId": 430036,
+      "bggName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "minPlayTime": 30,
+      "maxPlayTime": 45,
+      "designers": "Antoine Bauza, Bruno Cathala",
+      "urlImage": "https://cf.geekdo-images.com/AsuMGeaCnJrQ-6IhT559eQ__original/img/bcQJAn5a2WAGaXFJ8tkoFQuPV6E=/0x0/filters:format(png)/pic8448727.png",
+      "urlThumb": "https://cf.geekdo-images.com/AsuMGeaCnJrQ-6IhT559eQ__small/img/9sj1HeAKXCtEZOpWPL46C2nivaY=/fit-in/200x150/filters:strip_icc()/pic8448727.png",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
+          "urlThumb": "https://cf.geekdo-images.com/ngqAhmcN-PPeoNvJC3eonQ__small/img/nQkfWnOr1BE7kn2MRKiHdkEMIjU=/fit-in/200x150/filters:strip_icc()/pic9109378.jpg"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
+      "bggId": 428620,
+      "bggName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "minPlayTime": 30,
+      "maxPlayTime": 45,
+      "designers": "Antoine Bauza, Bruno Cathala",
+      "urlImage": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__original/img/axHtAMNF0O8OPwM1RgAoR_tMle4=/0x0/filters:format(png)/pic8448726.png",
+      "urlThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
+          "urlThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "菲雅的沼泽",
+      "bggId": 438442,
+      "bggName": "Feya's Swamp",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "minPlayTime": 80,
+      "maxPlayTime": 100,
+      "designers": "Helge Ostertag, Anselm Ostertag",
+      "urlImage": "https://cf.geekdo-images.com/lxzo9PekKd4TRyBUlLH7Yw__original/img/5ofkerciKc8XsWYgejw3xTK0AkE=/0x0/filters:format(png)/pic8703614.png",
+      "urlThumb": "https://cf.geekdo-images.com/lxzo9PekKd4TRyBUlLH7Yw__small/img/1cEL93SEH6KEoO7CAlde9Sqi12s=/fit-in/200x150/filters:strip_icc()/pic8703614.png",
+      "isExpansion": 0,
+      "copies": [
+        {
+          "gameName": "菲雅的沼泽",
+          "urlThumb": "https://cf.geekdo-images.com/N3v9AO1HJuLBePRKr7X-nQ__previewthumb/img/e0RhqPUP6srk7uNIZ7d1-G6dLBw=/fit-in/300x320/filters:strip_icc()/pic8979494.jpg"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "UNO Flip!",
+      "bggId": 271460,
+      "bggName": "UNO Flip!",
+      "minPlayers": 2,
+      "maxPlayers": 10,
+      "minPlayTime": 30,
+      "maxPlayTime": 30,
+      "designers": "(Uncredited)",
+      "urlImage": "https://cf.geekdo-images.com/8IO6sl0jN5IylDDRAOK8GQ__original/img/scsSPfbOuxIedcBNjC4EtGb_MEc=/0x0/filters:format(jpeg)/pic8214042.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/8IO6sl0jN5IylDDRAOK8GQ__small/img/FNNjUKGi6KOAxkithC8seFipxPo=/fit-in/200x150/filters:strip_icc()/pic8214042.jpg",
+      "isExpansion": 0,
+      "copies": [
+        {
+          "gameName": "UNO Flip!",
+          "urlThumb": "https://cf.geekdo-images.com/xKahlcAjb8x8ZTavBtQ4AQ__previewthumb/img/ofTgeTUV1t0GR0pAvFlWO94E-HE=/fit-in/300x320/filters:strip_icc()/pic8947326.jpg"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "七大奇迹：舰队扩展",
+      "bggId": 316382,
+      "bggName": "7 Wonders Second Edition: Armada",
+      "minPlayers": 3,
+      "maxPlayers": 7,
+      "minPlayTime": 40,
+      "maxPlayTime": 40,
+      "designers": "Antoine Bauza",
+      "urlImage": "https://cf.geekdo-images.com/JINa9Jb2y5cfRiT2jXojzg__original/img/e3ACVfu0m0q9KEKdnYHGcR-JMBU=/0x0/filters:format(png)/pic5792049.png",
+      "urlThumb": "https://cf.geekdo-images.com/JINa9Jb2y5cfRiT2jXojzg__small/img/RIDNcfauf7aa0bcJcYn50Oomblc=/fit-in/200x150/filters:strip_icc()/pic5792049.png",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "七大奇迹：舰队扩展",
           "urlThumb": ""
         }
       ]
@@ -12382,6 +12767,66 @@ window.KIZ_DATA = {
       ]
     },
     {
+      "id": 94,
+      "name": "忍者之夜",
+      "bggId": 306321,
+      "bggName": "Night of the Ninja",
+      "minPlayers": 4,
+      "maxPlayers": 11,
+      "minPlayTime": 15,
+      "maxPlayTime": 30,
+      "designers": "Justin Gary",
+      "urlImage": "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__original/img/ylHi_WPL5I4FAHbQaaOm5QZW7uc=/0x0/filters:format(jpeg)/pic5426946.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__small/img/r6HitXm51jUA9MgnzrObznLnGUM=/fit-in/200x150/filters:strip_icc()/pic5426946.jpg",
+      "isExpansion": 0,
+      "copies": [
+        {
+          "gameName": "忍者之夜",
+          "urlThumb": "https://cf.geekdo-images.com/BRCK7GyQ61RdrRPM5SVpXQ__previewthumb/img/uamI-mkh4_XqJW0npmY-jnb7i-4=/fit-in/300x320/filters:strip_icc()/pic6905758.png"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "The Lord of the Rings: Duel for Middle-Earth – Allies",
+      "bggId": 450429,
+      "bggName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "minPlayTime": 30,
+      "maxPlayTime": 30,
+      "designers": "Antoine Bauza, Bruno Cathala",
+      "urlImage": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__original/img/1LJ61Stvb-t0gsF0jUS1JMSq1h8=/0x0/filters:format(jpeg)/pic8993092.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
+          "urlThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "星空觅迹：探寻地外文明计划",
+      "bggId": 418059,
+      "bggName": "SETI: Search for Extraterrestrial Intelligence",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 40,
+      "maxPlayTime": 160,
+      "designers": "Tomáš Holek",
+      "urlImage": "https://cf.geekdo-images.com/_BUXOVRDU9g_eRwgpR5ZZw__original/img/28ob2JiASW8iX8XoVzp5Y25-h24=/0x0/filters:format(jpeg)/pic8160466.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/_BUXOVRDU9g_eRwgpR5ZZw__small/img/icamIZ4nP3HHH3vczZqTr1hQgKY=/fit-in/200x150/filters:strip_icc()/pic8160466.jpg",
+      "isExpansion": 0,
+      "copies": [
+        {
+          "gameName": "星空觅迹：探寻地外文明计划",
+          "urlThumb": "https://cf.geekdo-images.com/OGn3NoOqA5ff6bnhUJ54qg__previewthumb/img/kM1bYVhat68suBc0DUm0toH047o=/fit-in/300x320/filters:strip_icc()/pic9001481.jpg"
+        }
+      ]
+    },
+    {
       "id": 98,
       "name": "魔戒：命运同盟",
       "bggId": 436217,
@@ -12398,6 +12843,26 @@ window.KIZ_DATA = {
         {
           "gameName": "魔戒：命运同盟",
           "urlThumb": "https://cf.geekdo-images.com/nkClgOdfdO607xmqREwdOA__small/img/Z5sQN0e-rXbfaI3aZucv37yjPJ4=/fit-in/200x150/filters:strip_icc()/pic8920654.png"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "瘟疫危機︰承傳",
+      "bggId": 161936,
+      "bggName": "Pandemic Legacy: Season 1",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "minPlayTime": 60,
+      "maxPlayTime": 60,
+      "designers": "Rob Daviau, Matt Leacock",
+      "urlImage": "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__original/img/PlzAH7swN1nsFxOXbfUvE3TkE5w=/0x0/filters:format(png)/pic2452831.png",
+      "urlThumb": "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__small/img/NQQcjS31TO0DE246N9rpt0hd9eo=/fit-in/200x150/filters:strip_icc()/pic2452831.png",
+      "isExpansion": 0,
+      "copies": [
+        {
+          "gameName": "瘟疫危機︰承傳",
+          "urlThumb": "https://cf.geekdo-images.com/UCurv84wkB3RzFysLGvGaw__small/img/KNoAmeV9w3ssnCGVmBgzp11uUxE=/fit-in/200x150/filters:strip_icc()/pic3025181.jpg"
         }
       ]
     },
@@ -12442,6 +12907,26 @@ window.KIZ_DATA = {
       ]
     },
     {
+      "id": 102,
+      "name": "双侠小队",
+      "bggId": 434906,
+      "bggName": "Tag Team",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "minPlayTime": 15,
+      "maxPlayTime": 15,
+      "designers": "Gricha German, Corentin Lebrat",
+      "urlImage": "https://cf.geekdo-images.com/sLSlzWRe8Ixnksqawkzb3Q__original/img/EylfRGx2qLzoQ3scqz19GPQYxo0=/0x0/filters:format(jpeg)/pic8805857.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/sLSlzWRe8Ixnksqawkzb3Q__small/img/O9Kg90i8kSi8N2ndrOKXaTTrQXE=/fit-in/200x150/filters:strip_icc()/pic8805857.jpg",
+      "isExpansion": 1,
+      "copies": [
+        {
+          "gameName": "双侠小队",
+          "urlThumb": "https://cf.geekdo-images.com/aSaDFixOy12N3-M_Mf7QBA__previewthumb/img/xB2OdWNQVn_ARTUYT1iI2B5cLxw=/fit-in/300x320/filters:strip_icc()/pic9476184.jpg"
+        }
+      ]
+    },
+    {
       "id": 104,
       "name": "诡镇奇谈：洛夫克拉夫特情书",
       "bggId": 424784,
@@ -12475,8 +12960,8 @@ window.KIZ_DATA = {
   "stats": {
     "totalPlays": 363,
     "totalPlayers": 39,
-    "totalGames": 52,
-    "avgPlaysPerGame": 7.0,
+    "totalGames": 76,
+    "avgPlaysPerGame": 4.8,
     "avgPlaysPerPlayer": 9.3,
     "topGames": [
       {
