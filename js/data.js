@@ -173,7 +173,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 38,
-      "name": "韦的学长",
+      "name": "许秋池",
       "uuid": "BF61FF3D-2A5F-4A11-B827-D90861C3E663"
     },
     {
