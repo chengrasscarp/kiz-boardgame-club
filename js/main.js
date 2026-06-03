@@ -35,10 +35,17 @@ function getGameById(id) {
 
 function getGameThumb(game) {
   // Prefer copy-specific thumb (Chinese edition), fallback to game thumb
+  var thumb = '';
   if (game.copies && game.copies.length > 0 && game.copies[0].urlThumb) {
-    return game.copies[0].urlThumb;
+    thumb = game.copies[0].urlThumb;
+  } else {
+    thumb = game.urlThumb || '';
   }
-  return game.urlThumb || '';
+  // Only allow BGG CDN URLs
+  if (thumb && thumb.indexOf('https://cf.geekdo-images.com/') === 0) {
+    return thumb;
+  }
+  return '';
 }
 
 function getGameNameById(id) {
@@ -166,30 +173,23 @@ function renderHotGames() {
   if (!container) return;
 
   var data = window.KIZ_DATA;
-  // Count plays per game
-  var playCount = {};
-  for (var i = 0; i < data.plays.length; i++) {
-    var gid = data.plays[i].gameRefId;
-    playCount[gid] = (playCount[gid] || 0) + 1;
-  }
-
-  // Sort by play count descending
-  var sorted = Object.keys(playCount).map(function(id) {
-    return {id: Number(id), count: playCount[id]};
-  }).sort(function(a, b) { return b.count - a.count; }).slice(0, 8);
+  // Sort games by pre-computed playCount descending
+  var sorted = data.games.slice().sort(function(a, b) {
+    return (b.playCount || 0) - (a.playCount || 0);
+  }).slice(0, 8);
 
   var html = '';
   for (var i = 0; i < sorted.length; i++) {
-    var game = getGameById(sorted[i].id);
-    var name = game ? game.name : 'Unknown';
-    var thumb = game ? getGameThumb(game) : '';
+    var game = sorted[i];
+    var name = game.name;
+    var thumb = getGameThumb(game);
     html += '<div class="game-card" onclick="location.href=\'games.html\'">' +
       '<div class="game-card-image">' +
         (thumb ? '<img src="' + thumb + '" alt="' + name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
       '</div>' +
       '<div class="game-card-body">' +
         '<div class="game-card-title">' + name + '</div>' +
-        '<div class="game-card-plays">🏆 ' + sorted[i].count + '次游玩</div>' +
+        '<div class="game-card-plays">🏆 ' + (game.playCount || 0) + '次游玩</div>' +
       '</div>' +
     '</div>';
   }
@@ -241,13 +241,6 @@ function renderGameLibrary() {
 
   var data = window.KIZ_DATA;
 
-  // Count plays per game
-  var playCount = {};
-  for (var i = 0; i < data.plays.length; i++) {
-    var gid = data.plays[i].gameRefId;
-    playCount[gid] = (playCount[gid] || 0) + 1;
-  }
-
   // Fill game count
   var countEl = document.getElementById('gameCount');
   if (countEl) countEl.textContent = data.games.length + '款桌游，总有一款适合你';
@@ -263,7 +256,7 @@ function renderGameLibrary() {
     if (sortBy === 'name') {
       filtered.sort(function(a, b) { return a.name.localeCompare(b.name, 'zh'); });
     } else {
-      filtered.sort(function(a, b) { return (playCount[b.id] || 0) - (playCount[a.id] || 0); });
+      filtered.sort(function(a, b) { return (b.playCount || 0) - (a.playCount || 0); });
     }
 
     var noResults = document.getElementById('noResults');
@@ -277,7 +270,7 @@ function renderGameLibrary() {
     var html = '';
     for (var i = 0; i < filtered.length; i++) {
       var g = filtered[i];
-      var count = playCount[g.id] || 0;
+      var count = g.playCount || 0;
       var thumb = getGameThumb(g);
       var bggUrl = g.bggId ? 'https://boardgamegeek.com/boardgame/' + g.bggId : '#';
       html += '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +

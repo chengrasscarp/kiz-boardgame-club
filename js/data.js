@@ -11439,6 +11439,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/VrNrk7XVU1hN0j1ZFhjcjw__original/img/IYxnn0KV56lDy18_0e23DSLcMso=/0x0/filters:format(jpeg)/pic4934938.jpg",
       "urlThumb": "https://cf.geekdo-images.com/VrNrk7XVU1hN0j1ZFhjcjw__thumb/img/6XPO0XNGGw3V77NjWR0K7Y33fqc=/fit-in/200x150/filters:strip_icc()/pic4934938.jpg",
       "isExpansion": 0,
+      "playCount": 7,
       "copies": [
         {
           "gameName": "勃根地城堡豪華版",
@@ -11459,6 +11460,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/o6HpiLCBBFvc7XvBv7DEig__original/img/jVL7_CuVxXEHUMEEXGI9VyJ0-Vg=/0x0/filters:format(jpeg)/pic7902371.jpg",
       "urlThumb": "https://cf.geekdo-images.com/o6HpiLCBBFvc7XvBv7DEig__thumb/img/cP3zFhQXbpOo4jMbXWgPShAdn4E=/fit-in/200x150/filters:strip_icc()/pic7902371.jpg",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "璀璨宝石：宝可梦",
@@ -11479,6 +11481,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__original/img/rqcUdtu_N4v-SpI96XVmpYHnJww=/0x0/filters:format(png)/pic8234167.png",
       "urlThumb": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__thumb/img/KKU_42Uswt4tKCpf1zY5kTzgr-g=/fit-in/200x150/filters:strip_icc()/pic8234167.png",
       "isExpansion": 0,
+      "playCount": 1,
       "copies": [
         {
           "gameName": "璀璨寶石",
@@ -11499,6 +11502,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__original/img/NelFMJToi6WYyDQheBZiwCP7-qE=/0x0/filters:format(jpeg)/pic6929347.jpg",
       "urlThumb": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__thumb/img/E0OuG2X4HsbOdCh1uLyZZcMiapQ=/fit-in/200x150/filters:strip_icc()/pic6929347.jpg",
       "isExpansion": 0,
+      "playCount": 7,
       "copies": [
         {
           "gameName": "璀璨宝石：对决",
@@ -11519,6 +11523,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/jzhXRU3pYfzmmZAFw7oM7A__original/img/gG5l3DuTX26_mu29yYkPUUB3P4o=/0x0/filters:format(jpeg)/pic3810997.jpg",
       "urlThumb": "https://cf.geekdo-images.com/jzhXRU3pYfzmmZAFw7oM7A__thumb/img/SnJL_C7V909VbRcUygLvRxPfSXY=/fit-in/200x150/filters:strip_icc()/pic3810997.jpg",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "拉密豪华版",
@@ -11539,6 +11544,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/xWdK1lL-2ZTdzBZGYjjqkw__original/img/952nbRCH-EE0TtcMD_Cpol0tRXQ=/0x0/filters:format(jpeg)/pic3469246.jpg",
       "urlThumb": "https://cf.geekdo-images.com/xWdK1lL-2ZTdzBZGYjjqkw__thumb/img/wl_YxOhd-S6QbpyHAQZGhV109rw=/fit-in/200x150/filters:strip_icc()/pic3469246.jpg",
       "isExpansion": 0,
+      "playCount": 37,
       "copies": [
         {
           "gameName": "罪案疑云：天使之城",
@@ -11559,6 +11565,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/BryJNSSDbCohXeaJPx3tpw__original/img/pgmg83e1lUqNo7FTLdscWNDwlPE=/0x0/filters:format(png)/pic4232048.png",
       "urlThumb": "https://cf.geekdo-images.com/BryJNSSDbCohXeaJPx3tpw__thumb/img/5fmJlAM307xX3zozMnStTuWYphI=/fit-in/200x150/filters:strip_icc()/pic4232048.png",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "战争之匣",
@@ -11579,6 +11586,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/pPuOyAIrh6qYv0QvpfWP2A__original/img/m60WN2A92kPpdHkt7hSDQimbhp0=/0x0/filters:format(jpeg)/pic4860409.jpg",
       "urlThumb": "https://cf.geekdo-images.com/pPuOyAIrh6qYv0QvpfWP2A__thumb/img/dYqtsMygKr7AGcPc9Wnc2Q6W99E=/fit-in/200x150/filters:strip_icc()/pic4860409.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "战争之匣：权贵",
@@ -11599,6 +11607,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/8zkpPMJOUW6YF8ZRJmGuFQ__original/img/q5BFOGy2g3CDTgb-1ykhF8pH_hw=/0x0/filters:format(jpeg)/pic6031075.jpg",
       "urlThumb": "https://cf.geekdo-images.com/8zkpPMJOUW6YF8ZRJmGuFQ__thumb/img/tRGzYPngW6xI_bhBMrObeaxZIFs=/fit-in/200x150/filters:strip_icc()/pic6031075.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "战争之匣：围城",
@@ -11619,6 +11628,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/cf0xxkevbwTGF3VUZymKjg__original/img/vkElrRCPJxy7Q3TH9olpq20egA4=/0x0/filters:format(png)/pic6398727.png",
       "urlThumb": "https://cf.geekdo-images.com/cf0xxkevbwTGF3VUZymKjg__thumb/img/NUcMdmZ3_eA1YfIwL8iRgkZKaHw=/fit-in/200x150/filters:strip_icc()/pic6398727.png",
       "isExpansion": 0,
+      "playCount": 11,
       "copies": [
         {
           "gameName": "SCOUT",
@@ -11639,6 +11649,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/WuOY1XAIJQ-RGAmT_apW_w__original/img/06TSBC2s-cwbxfPmy_pf7n5p-jM=/0x0/filters:format(jpeg)/pic8632998.jpg",
       "urlThumb": "https://cf.geekdo-images.com/WuOY1XAIJQ-RGAmT_apW_w__thumb/img/dhNHd8Ztln_lUFAdti6WkPnGTGg=/fit-in/200x150/filters:strip_icc()/pic8632998.jpg",
       "isExpansion": 0,
+      "playCount": 10,
       "copies": [
         {
           "gameName": "牛頭王",
@@ -11659,6 +11670,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__original/img/hAjxxZsNRnj7BkJD1YDIhkk_sU8=/0x0/filters:format(jpeg)/pic4572408.jpg",
       "urlThumb": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__thumb/img/rDg9t7gP1iqNcy3NZxAWGVoWYok=/fit-in/200x150/filters:strip_icc()/pic4572408.jpg",
       "isExpansion": 0,
+      "playCount": 7,
       "copies": [
         {
           "gameName": "CABO (Second Edition)",
@@ -11679,6 +11691,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/4l_h4ixyimOzHBqyB7_GKA__original/img/zHeQZ6aDvCGhb2VCMK5H1Z8vM8M=/0x0/filters:format(png)/pic7707572.png",
       "urlThumb": "https://cf.geekdo-images.com/4l_h4ixyimOzHBqyB7_GKA__thumb/img/lgSaGPsRq0VkCY_2jeHej6OckTw=/fit-in/200x150/filters:strip_icc()/pic7707572.png",
       "isExpansion": 0,
+      "playCount": 1,
       "copies": [
         {
           "gameName": "猩猩相惜",
@@ -11699,6 +11712,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__original/img/dcwvexXJ3-hZQRvbU24tZMMy_7E=/0x0/filters:format(png)/pic4806093.png",
       "urlThumb": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__thumb/img/qH4wf8jVQHZfF0dOFIF1CcB68xQ=/fit-in/200x150/filters:strip_icc()/pic4806093.png",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "罪案疑云：好莱坞的枪声",
@@ -11719,6 +11733,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/wLto-xaabHwKQe_Bc4iD1Q__original/img/s3Gai8XBTVfWFFlYpL4XF3kIlWU=/0x0/filters:format(png)/pic3458036.png",
       "urlThumb": "https://cf.geekdo-images.com/wLto-xaabHwKQe_Bc4iD1Q__thumb/img/AUqMholGVlwXLjMcxwiziE_7Ffw=/fit-in/200x150/filters:strip_icc()/pic3458036.png",
       "isExpansion": 0,
+      "playCount": 3,
       "copies": [
         {
           "gameName": "現代藝術",
@@ -11739,6 +11754,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__original/img/rSXfW0NzjfzcuhOUJiAuaneIbMA=/0x0/filters:format(jpeg)/pic8382627.jpg",
       "urlThumb": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__thumb/img/owJK8ZyWOPvDLxxiSfieOUbyGfo=/fit-in/200x150/filters:strip_icc()/pic8382627.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "罪案疑云：天使与恶魔",
@@ -11759,6 +11775,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__original/img/1cX0pOz1e1DxMjRHhFYORBQb2LE=/0x0/filters:format(jpeg)/pic6653145.jpg",
       "urlThumb": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__thumb/img/_NxfExq2zQkZcobedKuPPwPk6mU=/fit-in/200x150/filters:strip_icc()/pic6653145.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "罪案疑云：迷雾与幻影",
@@ -11779,6 +11796,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/HpGXIlt5i6T-0jbiQRReOg__original/img/2uApg8IOYjNVSzbUIwJUa-Z8eL8=/0x0/filters:format(png)/pic8303080.png",
       "urlThumb": "https://cf.geekdo-images.com/HpGXIlt5i6T-0jbiQRReOg__thumb/img/8wfQelnNsbXCykJWMjD8UAjhleU=/fit-in/200x150/filters:strip_icc()/pic8303080.png",
       "isExpansion": 0,
+      "playCount": 49,
       "copies": [
         {
           "gameName": "炸弹克星",
@@ -11799,6 +11817,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/uXMeQzNenHb3zK7Hoa6b2w__original/img/mWOQnkpyYBorh_Y1-0Y2o-ew17k=/0x0/filters:format(jpeg)/pic7398904.jpg",
       "urlThumb": "https://cf.geekdo-images.com/uXMeQzNenHb3zK7Hoa6b2w__thumb/img/WyPClajMWU9lV5BdCXiZnqdZgmU=/fit-in/200x150/filters:strip_icc()/pic7398904.jpg",
       "isExpansion": 0,
+      "playCount": 13,
       "copies": [
         {
           "gameName": "天合小队",
@@ -11819,6 +11838,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__original/img/jTY6_PRF6FrUgInfMajzobVy0S8=/0x0/filters:format(png)/pic7570101.png",
       "urlThumb": "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__thumb/img/5G45GN8CE7pq38fJMMocmPtV4_U=/fit-in/200x150/filters:strip_icc()/pic7570101.png",
       "isExpansion": 0,
+      "playCount": 11,
       "copies": [
         {
           "gameName": "遙遠之地",
@@ -11839,6 +11859,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__original/img/B374C04Eip7fmQBGJzgiOTp-jyQ=/0x0/filters:format(jpeg)/pic5100691.jpg",
       "urlThumb": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__thumb/img/tVSFjSxYEcw7sKj3unIIQV8kxoc=/fit-in/200x150/filters:strip_icc()/pic5100691.jpg",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "卡斯卡迪亚之旅",
@@ -11859,6 +11880,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__original/img/MSX7waTxS81SiyxAmmCJFFWAl1I=/0x0/filters:format(jpeg)/pic7107431.jpg",
       "urlThumb": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__thumb/img/hPsEFlgh0b_JhtQmsJQv3vmq814=/fit-in/200x150/filters:strip_icc()/pic7107431.jpg",
       "isExpansion": 1,
+      "playCount": 3,
       "copies": [
         {
           "gameName": "展翅翱翔：亚洲篇",
@@ -11879,6 +11901,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__original/img/xQNI5ckpySKsZTesLYHjOAfhKuk=/0x0/filters:format(jpeg)/pic8782948.jpg",
       "urlThumb": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__thumb/img/m_Nfq9nsvCDrCBdSIYXn2HbIiRQ=/fit-in/200x150/filters:strip_icc()/pic8782948.jpg",
       "isExpansion": 0,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "一带一路 (Belt and Road)",
@@ -11899,6 +11922,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__original/img/cWe3u0UaHUWOWmFRGFAQYlFuYW4=/0x0/filters:format(png)/pic6871709.png",
       "urlThumb": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__thumb/img/ibEjwlnZixyeVXYcS_793Cgtrdw=/fit-in/200x150/filters:strip_icc()/pic6871709.png",
       "isExpansion": 0,
+      "playCount": 9,
       "copies": [
         {
           "gameName": "花砖物语：巧夺天工",
@@ -11919,6 +11943,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__original/img/kIX9K4lOWHA3N9Mbp_tv3kHdjH8=/0x0/filters:format(jpeg)/pic6459659.jpg",
       "urlThumb": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__thumb/img/1vOvXQ6dCrBd5uzciGpc8-cbZuM=/fit-in/200x150/filters:strip_icc()/pic6459659.jpg",
       "isExpansion": 1,
+      "playCount": 5,
       "copies": [
         {
           "gameName": "骸骨險境: 堅不可摧",
@@ -11939,6 +11964,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/oc3u6OQpJkf9TvDw4iI9xA__original/img/Hh2zbSnLEARMlNg0OzImf2-5FIw=/0x0/filters:format(jpeg)/pic4991936.jpg",
       "urlThumb": "https://cf.geekdo-images.com/oc3u6OQpJkf9TvDw4iI9xA__thumb/img/Otc-6MFf-HC9ep-82ub2B2rID78=/fit-in/200x150/filters:strip_icc()/pic4991936.jpg",
       "isExpansion": 0,
+      "playCount": 1,
       "copies": [
         {
           "gameName": "傳情畫意",
@@ -11959,6 +11985,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/EybxJlUc9rz7F7HVFLqsdw__original/img/Ts4M5eOW38r2oTvJmkx0uwNodv4=/0x0/filters:format(jpeg)/pic8378939.jpg",
       "urlThumb": "https://cf.geekdo-images.com/EybxJlUc9rz7F7HVFLqsdw__thumb/img/rojFW0-h-bteedVG4aJXG1x7V0o=/fit-in/200x150/filters:strip_icc()/pic8378939.jpg",
       "isExpansion": 0,
+      "playCount": 11,
       "copies": [
         {
           "gameName": "魔戒：中洲对决",
@@ -11979,6 +12006,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/eCdiHCB9OobumwaGl4dbOQ__original/img/U4DY7_OUE1XI1m1Fi0iubbf2sEI=/0x0/filters:format(png)/pic6204967.png",
       "urlThumb": "https://cf.geekdo-images.com/eCdiHCB9OobumwaGl4dbOQ__thumb/img/dyaAIesMyeQWUoLRA25Dj9MhruI=/fit-in/200x150/filters:strip_icc()/pic6204967.png",
       "isExpansion": 0,
+      "playCount": 13,
       "copies": [
         {
           "gameName": "欢迎来到月球",
@@ -11999,6 +12027,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__original/img/q7YTy8sOZVf65mbLwnMYvjm1Iv0=/0x0/filters:format(png)/pic7683878.png",
       "urlThumb": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__thumb/img/jq8k_OtehrDmlr05OPXymlPM27Q=/fit-in/200x150/filters:strip_icc()/pic7683878.png",
       "isExpansion": 1,
+      "playCount": 2,
       "copies": [
         {
           "gameName": "Challengers! Beach Cup",
@@ -12019,6 +12048,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/hHZWXnUTMYDd_KTAM6Jwlw__original/img/lL6QJ69UmZT7CeljUcjyA47b-e0=/0x0/filters:format(jpeg)/pic3759421.jpg",
       "urlThumb": "https://cf.geekdo-images.com/hHZWXnUTMYDd_KTAM6Jwlw__thumb/img/O5XHaPOALYquS058qcXWVm5b_k4=/fit-in/200x150/filters:strip_icc()/pic3759421.jpg",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "谍报风云：5周年纪念版",
@@ -12039,6 +12069,7 @@ window.KIZ_DATA = {
       "urlImage": "",
       "urlThumb": "",
       "isExpansion": 0,
+      "playCount": 5,
       "copies": [
         {
           "gameName": "三国杀：欢乐斗地主",
@@ -12059,6 +12090,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
       "urlThumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__thumb/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
       "isExpansion": 0,
+      "playCount": 10,
       "copies": [
         {
           "gameName": "Flip 7",
@@ -12079,6 +12111,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/IAm2HJ23ikP6ixbm3Cbcbw__original/img/gs8wZCRecDoc29xB8OJF8Cg-ROI=/0x0/filters:format(jpeg)/pic8557413.jpg",
       "urlThumb": "https://cf.geekdo-images.com/IAm2HJ23ikP6ixbm3Cbcbw__thumb/img/2y38Fpj1I2aKank6S-nTIhNQH-A=/fit-in/200x150/filters:strip_icc()/pic8557413.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "遙遠之地：地下族群",
@@ -12099,6 +12132,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/47svrIp_8WxJAMeyAvn6hA__original/img/Mey-_NmgPc4N1zyTgufxd6eroDo=/0x0/filters:format(png)/pic7522071.png",
       "urlThumb": "https://cf.geekdo-images.com/47svrIp_8WxJAMeyAvn6hA__thumb/img/WezQAGniiRqvyJQdSoBvyDhaw4E=/fit-in/200x150/filters:strip_icc()/pic7522071.png",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "战争之匣：夜幕",
@@ -12119,6 +12153,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/XWImAu_3RK61wbzcKboVdA__original/img/43ianMZOks7UHlZILx0VBRntOmM=/0x0/filters:format(png)/pic8145530.png",
       "urlThumb": "https://cf.geekdo-images.com/XWImAu_3RK61wbzcKboVdA__thumb/img/Ry-6KHwNgERWadyxs1X1_P3dMvY=/fit-in/200x150/filters:strip_icc()/pic8145530.png",
       "isExpansion": 0,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "星弧航记",
@@ -12139,6 +12174,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__original/img/FpyxH41Y6_ROoePAilPNEhXnzO8=/0x0/filters:format(jpeg)/pic3490053.jpg",
       "urlThumb": "https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__thumb/img/o18rjEemoWaVru9Y2TyPwuIaRfE=/fit-in/200x150/filters:strip_icc()/pic3490053.jpg",
       "isExpansion": 0,
+      "playCount": 6,
       "copies": [
         {
           "gameName": "工業革命：伯明翰",
@@ -12159,6 +12195,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__original/img/qtWs6Wg0a241k2D1TWWbesVwu-s=/0x0/filters:format(jpeg)/pic6985339.jpg",
       "urlThumb": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__thumb/img/3et-UTpNaMhKlHPgnj89mkTkGkU=/fit-in/200x150/filters:strip_icc()/pic6985339.jpg",
       "isExpansion": 0,
+      "playCount": 3,
       "copies": [
         {
           "gameName": "英雄止步",
@@ -12179,6 +12216,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ZC5y7zSkbNwKTIk-eHs1ww__original/img/xOla56xO6KDxuBbSz5B_yhn6vP8=/0x0/filters:format(jpeg)/pic6985340.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ZC5y7zSkbNwKTIk-eHs1ww__thumb/img/R6JyMhUW5uEEC1RoqzMOhWe84G0=/fit-in/200x150/filters:strip_icc()/pic6985340.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "英雄止步:會長的復仇",
@@ -12199,6 +12237,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__original/img/d0Zr97bSd-we8eSG-OVeexYqTDk=/0x0/filters:format(jpeg)/pic7793981.jpg",
       "urlThumb": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__thumb/img/gdyuc1fbs0PZ8Ow41n-R8Nefyl0=/fit-in/200x150/filters:strip_icc()/pic7793981.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: Boss Battles",
@@ -12219,6 +12258,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__original/img/FPBVNyv_zj3GJqqp8ZdkwNcREBA=/0x0/filters:format(png)/pic7062819.png",
       "urlThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__thumb/img/nI32TO4iNeOIcUM39y8AKVl9rwo=/fit-in/200x150/filters:strip_icc()/pic7062819.png",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "Too Many Bones: Riffle",
@@ -12239,6 +12279,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__original/img/et_n56Ng35DPxOFW1CgH_-MjoGw=/0x0/filters:format(jpeg)/pic6478237.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__thumb/img/ogt_oWV3RJW6tcVO_jDVtvSp_MI=/fit-in/200x150/filters:strip_icc()/pic6478237.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "Too Many Bones: Carcass",
@@ -12259,6 +12300,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__original/img/5MwgvP_hBijNifRJGCuq9PS5po0=/0x0/filters:format(jpeg)/pic6478240.jpg",
       "urlThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__thumb/img/ScKhnZdxSfqUdJ8rm_2jDeoCFSE=/fit-in/200x150/filters:strip_icc()/pic6478240.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "Too Many Bones: Polaris",
@@ -12279,6 +12321,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__original/img/pYNRPK2lsim_6vFJU0NwaN8WsTw=/0x0/filters:format(jpeg)/pic6478243.jpg",
       "urlThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__thumb/img/Ov6SSJ1nJ8XBE-we722E9cefEow=/fit-in/200x150/filters:strip_icc()/pic6478243.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "Too Many Bones: Static",
@@ -12299,6 +12342,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/CFYHrg61ph-Et4YQkedWnA__original/img/v0uO6tolsMEc7GXdv1L0SJv9IfQ=/0x0/filters:format(jpeg)/pic3107661.jpg",
       "urlThumb": "https://cf.geekdo-images.com/CFYHrg61ph-Et4YQkedWnA__thumb/img/W2fs8ZJSiwXfXRkasIzs1cMmRro=/fit-in/200x150/filters:strip_icc()/pic3107661.jpg",
       "isExpansion": 0,
+      "playCount": 6,
       "copies": [
         {
           "gameName": "籤籤入扣 stick stack",
@@ -12319,6 +12363,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/oYYhihuGrebXvGWOMzhapw__original/img/kFZ5A1g1rOPZQsjdRHWbUTo0R-U=/0x0/filters:format(png)/pic8145540.png",
       "urlThumb": "https://cf.geekdo-images.com/oYYhihuGrebXvGWOMzhapw__thumb/img/-Com6BgA4Yxq4WCmuLZjRRofrj0=/fit-in/200x150/filters:strip_icc()/pic8145540.png",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "星弧航记：衰变星域",
@@ -12339,6 +12384,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__original/img/NCo-ciQdI1kMRmlKqZx_wt3Tsiw=/0x0/filters:format(jpeg)/pic6985344.jpg",
       "urlThumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__thumb/img/aF7bXAy3Q3Z8d5kyoInyn4sQz3Q=/fit-in/200x150/filters:strip_icc()/pic6985344.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Great Dreamer Expansion",
@@ -12359,6 +12405,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__original/img/q_G8WbTWPpVpG7cC_iC4Il1SxG4=/0x0/filters:format(jpeg)/pic7998936.jpg",
       "urlThumb": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__thumb/img/wy_MpH1K5s73vq6yJJMUp4R7eYg=/fit-in/200x150/filters:strip_icc()/pic7998936.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
@@ -12379,6 +12426,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/rGomBfj0FGrZM-w3h5HFWQ__original/img/XtVFdYXLAxdGOjQOGCkrms-hLUU=/0x0/filters:format(png)/pic8250341.png",
       "urlThumb": "https://cf.geekdo-images.com/rGomBfj0FGrZM-w3h5HFWQ__thumb/img/DnptKBxT6l_W2B3jGXdnEDEkDM0=/fit-in/200x150/filters:strip_icc()/pic8250341.png",
       "isExpansion": 0,
+      "playCount": 21,
       "copies": [
         {
           "gameName": "城堡嘉年华",
@@ -12399,6 +12447,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/UVUkjMV_Q2paVUIUP30Vvw__original/img/BoUtCkd1NRO0bR1R5EwL51xIuXA=/0x0/filters:format(jpeg)/pic7664424.jpg",
       "urlThumb": "https://cf.geekdo-images.com/UVUkjMV_Q2paVUIUP30Vvw__thumb/img/H6qmxJrRFjtOAPZOfDoZ480-46I=/fit-in/200x150/filters:strip_icc()/pic7664424.jpg",
       "isExpansion": 1,
+      "playCount": 6,
       "copies": [
         {
           "gameName": "沙丘：帝国 - 起义",
@@ -12419,6 +12468,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/R2R8UHcaRNJwaCJq8PJGFQ__original/img/qjjJqaGaMogvjhygppEy7Yg5p3E=/0x0/filters:format(jpeg)/pic43709.jpg",
       "urlThumb": "https://cf.geekdo-images.com/R2R8UHcaRNJwaCJq8PJGFQ__thumb/img/wxs22a4TfQjVpfpmNvaTdPo0FHY=/fit-in/200x150/filters:strip_icc()/pic43709.jpg",
       "isExpansion": 0,
+      "playCount": 1,
       "copies": [
         {
           "gameName": "Mahjong",
@@ -12439,6 +12489,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/nLDGtbwdSC0eYKffjYzrnQ__original/img/KlTmf1wl3PsFlPtQek6BfjUOC4A=/0x0/filters:format(jpeg)/pic6917219.jpg",
       "urlThumb": "https://cf.geekdo-images.com/nLDGtbwdSC0eYKffjYzrnQ__thumb/img/8F46R57i735WAI6ZjCppWb73bT0=/fit-in/200x150/filters:strip_icc()/pic6917219.jpg",
       "isExpansion": 0,
+      "playCount": 3,
       "copies": [
         {
           "gameName": "Betrayal at House on the Hill: 3rd Edition",
@@ -12459,6 +12510,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/Z6MMX39UEAZT3-f-DlnHsA__original/img/0t6A_tOIToHUkrBkhd2vUKDfric=/0x0/filters:format(jpeg)/pic8114705.jpg",
       "urlThumb": "https://cf.geekdo-images.com/Z6MMX39UEAZT3-f-DlnHsA__small/img/5Bf6oWIJTdHYpLAodTPqbDxh_Bc=/fit-in/200x150/filters:strip_icc()/pic8114705.jpg",
       "isExpansion": 0,
+      "playCount": 12,
       "copies": [
         {
           "gameName": "Gloomhaven: Buttons & Bugs",
@@ -12479,6 +12531,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/C6V2VCtf1_7cavenn7Is3A__original/img/mdgxo4BZpLgvG20XfNHfMg8j8Go=/0x0/filters:format(jpeg)/pic8932906.jpg",
       "urlThumb": "https://cf.geekdo-images.com/C6V2VCtf1_7cavenn7Is3A__small/img/ZJJOWNSKk81xpvNkMpGd5T0ybLo=/fit-in/200x150/filters:strip_icc()/pic8932906.jpg",
       "isExpansion": 0,
+      "playCount": 7,
       "copies": [
         {
           "gameName": "方舟保护区",
@@ -12499,6 +12552,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/4EVpaxECrqdKYVtBJnFLeA__original/img/FxbhktE-icFY-fQTbE14-GCa318=/0x0/filters:format(png)/pic3008714.png",
       "urlThumb": "https://cf.geekdo-images.com/4EVpaxECrqdKYVtBJnFLeA__small/img/XHjyZnIevY46IZZAxbma6HvWlIw=/fit-in/200x150/filters:strip_icc()/pic3008714.png",
       "isExpansion": 0,
+      "playCount": 3,
       "copies": [
         {
           "gameName": "無間風雲",
@@ -12519,6 +12573,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ZaBpuleG30S1-hAmJnL4RA__original/img/V1kFJ4iZmcH94m7gNYgHvuMny0w=/0x0/filters:format(jpeg)/pic7077185.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ZaBpuleG30S1-hAmJnL4RA__small/img/7AM38OD3FPy_I1Z2t8HP2GYz4WU=/fit-in/200x150/filters:strip_icc()/pic7077185.jpg",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "骰筑火星",
@@ -12539,6 +12594,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/602eY-xlgkaL3gtyZ7QVVQ__original/img/0pBr7ImqUOKLPUb12_r0_R0MD1M=/0x0/filters:format(jpeg)/pic7347437.jpg",
       "urlThumb": "https://cf.geekdo-images.com/602eY-xlgkaL3gtyZ7QVVQ__small/img/6u9GKTBVH0wRAhhpOi1kn3sSNeo=/fit-in/200x150/filters:strip_icc()/pic7347437.jpg",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "巫师飞塔",
@@ -12559,6 +12615,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__original/img/P8jioOvt9CVRO6BoNRjk1pLv05Y=/0x0/filters:format(jpeg)/pic8350442.jpg",
       "urlThumb": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__small/img/niL2urMdy3ExhhQzbtMdsFUbSW4=/fit-in/200x150/filters:strip_icc()/pic8350442.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "沙丘：帝國 血脈永續",
@@ -12579,6 +12636,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ewNPD8vcrsXVfuVc9_E6hg__original/img/H3yQmt-6vi4jSPP-Ty0ehZ0lksM=/0x0/filters:format(jpeg)/pic8376834.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ewNPD8vcrsXVfuVc9_E6hg__small/img/fEkdPMxyjK8G9uqdRPT14Q-UCVo=/fit-in/200x150/filters:strip_icc()/pic8376834.jpg",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "波多黎各 1897 特別典藏版",
@@ -12599,6 +12657,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__original/img/QMm4IWF48v833dzB53JkFpxDRYc=/0x0/filters:format(png)/pic9155610.png",
       "urlThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "Terraforming Mars: The Dice Game – Missions",
@@ -12619,6 +12678,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/AsuMGeaCnJrQ-6IhT559eQ__original/img/bcQJAn5a2WAGaXFJ8tkoFQuPV6E=/0x0/filters:format(png)/pic8448727.png",
       "urlThumb": "https://cf.geekdo-images.com/AsuMGeaCnJrQ-6IhT559eQ__small/img/9sj1HeAKXCtEZOpWPL46C2nivaY=/fit-in/200x150/filters:strip_icc()/pic8448727.png",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
@@ -12639,6 +12699,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__original/img/axHtAMNF0O8OPwM1RgAoR_tMle4=/0x0/filters:format(png)/pic8448726.png",
       "urlThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
@@ -12659,6 +12720,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/lxzo9PekKd4TRyBUlLH7Yw__original/img/5ofkerciKc8XsWYgejw3xTK0AkE=/0x0/filters:format(png)/pic8703614.png",
       "urlThumb": "https://cf.geekdo-images.com/lxzo9PekKd4TRyBUlLH7Yw__small/img/1cEL93SEH6KEoO7CAlde9Sqi12s=/fit-in/200x150/filters:strip_icc()/pic8703614.png",
       "isExpansion": 0,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "菲雅的沼泽",
@@ -12679,6 +12741,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/8IO6sl0jN5IylDDRAOK8GQ__original/img/scsSPfbOuxIedcBNjC4EtGb_MEc=/0x0/filters:format(jpeg)/pic8214042.jpg",
       "urlThumb": "https://cf.geekdo-images.com/8IO6sl0jN5IylDDRAOK8GQ__small/img/FNNjUKGi6KOAxkithC8seFipxPo=/fit-in/200x150/filters:strip_icc()/pic8214042.jpg",
       "isExpansion": 0,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "UNO Flip!",
@@ -12699,6 +12762,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/JINa9Jb2y5cfRiT2jXojzg__original/img/e3ACVfu0m0q9KEKdnYHGcR-JMBU=/0x0/filters:format(png)/pic5792049.png",
       "urlThumb": "https://cf.geekdo-images.com/JINa9Jb2y5cfRiT2jXojzg__small/img/RIDNcfauf7aa0bcJcYn50Oomblc=/fit-in/200x150/filters:strip_icc()/pic5792049.png",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "七大奇迹：舰队扩展",
@@ -12719,6 +12783,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/Naw8y8J_s-8cvq1GoTON6w__original/img/8wVEVzdf5BoPvSiscnGvCAPNe2Q=/0x0/filters:format(jpeg)/pic7416519.jpg",
       "urlThumb": "https://cf.geekdo-images.com/Naw8y8J_s-8cvq1GoTON6w__small/img/ieH8A28KJe3truXqQe1nDXSpxUE=/fit-in/200x150/filters:strip_icc()/pic7416519.jpg",
       "isExpansion": 0,
+      "playCount": 6,
       "copies": [
         {
           "gameName": "七大奇蹟：第二版",
@@ -12739,6 +12804,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/QhsvR9GY0LbTpj27fairWA__original/img/4ODyzAOOgoIJrUzLOjtzItR2uH0=/0x0/filters:format(jpeg)/pic186610.jpg",
       "urlThumb": "https://cf.geekdo-images.com/QhsvR9GY0LbTpj27fairWA__small/img/_Nvnav-rd4ckyC_lMKYu0AqC06I=/fit-in/200x150/filters:strip_icc()/pic186610.jpg",
       "isExpansion": 1,
+      "playCount": 1,
       "copies": [
         {
           "gameName": "Poker",
@@ -12759,6 +12825,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/4BDkj75aMObXau8L08jX5w__original/img/NLdUQTH9CQX5FgaqCcNbmAccQr8=/0x0/filters:format(jpeg)/pic4673729.jpg",
       "urlThumb": "https://cf.geekdo-images.com/4BDkj75aMObXau8L08jX5w__small/img/ICsFoIjh4k2TlrByRP_sWL9sDKw=/fit-in/200x150/filters:strip_icc()/pic4673729.jpg",
       "isExpansion": 0,
+      "playCount": 3,
       "copies": [
         {
           "gameName": "拉斯維加斯豪華版",
@@ -12779,6 +12846,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__original/img/ylHi_WPL5I4FAHbQaaOm5QZW7uc=/0x0/filters:format(jpeg)/pic5426946.jpg",
       "urlThumb": "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__small/img/r6HitXm51jUA9MgnzrObznLnGUM=/fit-in/200x150/filters:strip_icc()/pic5426946.jpg",
       "isExpansion": 0,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "忍者之夜",
@@ -12799,6 +12867,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__original/img/1LJ61Stvb-t0gsF0jUS1JMSq1h8=/0x0/filters:format(jpeg)/pic8993092.jpg",
       "urlThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
@@ -12819,6 +12888,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/_BUXOVRDU9g_eRwgpR5ZZw__original/img/28ob2JiASW8iX8XoVzp5Y25-h24=/0x0/filters:format(jpeg)/pic8160466.jpg",
       "urlThumb": "https://cf.geekdo-images.com/_BUXOVRDU9g_eRwgpR5ZZw__small/img/icamIZ4nP3HHH3vczZqTr1hQgKY=/fit-in/200x150/filters:strip_icc()/pic8160466.jpg",
       "isExpansion": 0,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "星空觅迹：探寻地外文明计划",
@@ -12839,6 +12909,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/scw36iBIad7l-rGzxPGcGg__original/img/JZKAg-ETtE7z3YbgSMPd242rCqE=/0x0/filters:format(png)/pic8662670.png",
       "urlThumb": "https://cf.geekdo-images.com/scw36iBIad7l-rGzxPGcGg__small/img/dyMBa6SBkPwpWfA4FINqbX8RNDQ=/fit-in/200x150/filters:strip_icc()/pic8662670.png",
       "isExpansion": 0,
+      "playCount": 1,
       "copies": [
         {
           "gameName": "魔戒：命运同盟",
@@ -12859,6 +12930,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__original/img/PlzAH7swN1nsFxOXbfUvE3TkE5w=/0x0/filters:format(png)/pic2452831.png",
       "urlThumb": "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__small/img/NQQcjS31TO0DE246N9rpt0hd9eo=/fit-in/200x150/filters:strip_icc()/pic2452831.png",
       "isExpansion": 0,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "瘟疫危機︰承傳",
@@ -12879,6 +12951,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/cCLn9Mvb7jRSaZzHeUXhoQ__original/img/NK4hsA9nc-kdI07hR0Nc23dL_bk=/0x0/filters:format(jpeg)/pic6937913.jpg",
       "urlThumb": "https://cf.geekdo-images.com/cCLn9Mvb7jRSaZzHeUXhoQ__small/img/B8BFQLR2Po3ekI_7XSG1kR9oil0=/fit-in/200x150/filters:strip_icc()/pic6937913.jpg",
       "isExpansion": 0,
+      "playCount": 2,
       "copies": [
         {
           "gameName": "噤声寻宝记！地下墓穴",
@@ -12899,6 +12972,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/1uW8t9AkuqOF0xjv_sXKgw__original/img/iBRrCDdqyVY1ckqWIjo0xQ_k70A=/0x0/filters:format(png)/pic9106864.png",
       "urlThumb": "https://cf.geekdo-images.com/1uW8t9AkuqOF0xjv_sXKgw__small/img/tWEmoT1EaoYUpbwrTGCLMHaaZGs=/fit-in/200x150/filters:strip_icc()/pic9106864.png",
       "isExpansion": 0,
+      "playCount": 4,
       "copies": [
         {
           "gameName": "Magical Athlete",
@@ -12919,6 +12993,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/sLSlzWRe8Ixnksqawkzb3Q__original/img/EylfRGx2qLzoQ3scqz19GPQYxo0=/0x0/filters:format(jpeg)/pic8805857.jpg",
       "urlThumb": "https://cf.geekdo-images.com/sLSlzWRe8Ixnksqawkzb3Q__small/img/O9Kg90i8kSi8N2ndrOKXaTTrQXE=/fit-in/200x150/filters:strip_icc()/pic8805857.jpg",
       "isExpansion": 1,
+      "playCount": 0,
       "copies": [
         {
           "gameName": "双侠小队",
@@ -12939,6 +13014,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/hLfQAtkN8m06_L3xAtqXEQ__original/img/EdWsCpTM0VqDLQuSTsTuGjGUuKY=/0x0/filters:format(png)/pic8544768.png",
       "urlThumb": "https://cf.geekdo-images.com/hLfQAtkN8m06_L3xAtqXEQ__small/img/noJhLlB0U0_TVyBj_pQRm07qxWI=/fit-in/200x150/filters:strip_icc()/pic8544768.png",
       "isExpansion": 0,
+      "playCount": 7,
       "copies": [
         {
           "gameName": "诡镇奇谈：洛夫克拉夫特情书",
