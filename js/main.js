@@ -255,6 +255,8 @@ function renderGameLibrary() {
 
     if (sortBy === 'name') {
       filtered.sort(function(a, b) { return a.name.localeCompare(b.name, 'zh'); });
+    } else if (sortBy === 'players') {
+      filtered.sort(function(a, b) { return b.maxPlayers - a.maxPlayers || a.minPlayers - b.minPlayers; });
     } else {
       filtered.sort(function(a, b) { return (b.playCount || 0) - (a.playCount || 0); });
     }
@@ -273,15 +275,17 @@ function renderGameLibrary() {
       var count = g.playCount || 0;
       var thumb = getGameThumb(g);
       var bggUrl = g.bggId ? 'https://boardgamegeek.com/boardgame/' + g.bggId : '#';
+      var rank = (sortBy === 'plays') ? '<span class="game-rank">#' + (i + 1) + '</span>' : '';
       html += '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
         '<div class="game-card-image">' +
           (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
+          rank +
         '</div>' +
         '<div class="game-card-body">' +
           '<div class="game-card-title">' + g.name + '</div>' +
           '<div class="game-card-plays">🏆 ' + count + '次游玩</div>' +
           '<div class="game-card-tags">' +
-            '<span class="tag tag-primary">' + g.minPlayers + '-' + g.maxPlayers + '人</span>' +
+            '<span class="tag tag-primary">👥 ' + g.minPlayers + '-' + g.maxPlayers + '人</span>' +
             (g.designers ? '<span class="tag tag-secondary">' + g.designers.split(',')[0] + '</span>' : '') +
           '</div>' +
         '</div>' +
