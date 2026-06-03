@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>活动记录 - KIZ桌游协会</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">🎲 KIZ桌游协会</a>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">首页</a>
+      <a href="games.html">游戏库</a>
+      <a href="plays.html" class="active">活动记录</a>
+      <a href="members.html">成员墙</a>
+      <a href="leaderboard.html">排行榜</a>
+      <a href="about.html">关于我们</a>
+    </div>
+  </div>
+</nav>
+
+<section class="page-section">
+  <h1 class="section-title">📋 活动记录</h1>
+  <p class="section-subtitle" id="playCount">--场线下对局</p>
+  <div class="filter-bar">
+    <select id="playGameFilter">
+      <option value="">全部游戏</option>
+    </select>
+    <select id="playLocationFilter">
+      <option value="">全部地点</option>
+    </select>
+  </div>
+  <div class="timeline" id="playTimeline"></div>
+  <div class="load-more" id="loadMoreContainer">
+    <button id="loadMoreBtn">加载更多</button>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© KIZ桌游协会 · 茨坝人才公寓405 · 骰子一掷，友谊长存 🎲</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    initNavigation();
+    renderPlayRecords();
+  });
+</script>
+</body>
+</html>

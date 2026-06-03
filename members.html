@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>成员墙 - KIZ桌游协会</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">🎲 KIZ桌游协会</a>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">首页</a>
+      <a href="games.html">游戏库</a>
+      <a href="plays.html">活动记录</a>
+      <a href="members.html" class="active">成员墙</a>
+      <a href="leaderboard.html">排行榜</a>
+      <a href="about.html">关于我们</a>
+    </div>
+  </div>
+</nav>
+
+<section class="page-section">
+  <h1 class="section-title">🧑‍🤝‍🧑 成员墙</h1>
+  <p class="section-subtitle" id="memberCount">--位研究生玩家</p>
+
+  <!-- Top 3 Podium -->
+  <div class="podium" id="podium"></div>
+
+  <!-- Member Grid -->
+  <div class="member-grid" id="memberGrid"></div>
+</section>
+
+<footer class="footer">
+  <p>© KIZ桌游协会 · 茨坝人才公寓405 · 骰子一掷，友谊长存 🎲</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    initNavigation();
+    renderMemberWall();
+  });
+</script>
+</body>
+</html>

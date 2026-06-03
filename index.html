@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIZ桌游协会</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">🎲 KIZ桌游协会</a>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="active">首页</a>
+      <a href="games.html">游戏库</a>
+      <a href="plays.html">活动记录</a>
+      <a href="members.html">成员墙</a>
+      <a href="leaderboard.html">排行榜</a>
+      <a href="about.html">关于我们</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>欢迎来到 KIZ 桌游协会</h1>
+    <p>骰子一掷，友谊长存。这里是 KIZ 桌游爱好者的聚集地。</p>
+    <div class="hero-buttons">
+      <a href="games.html" class="btn-primary">探索游戏库</a>
+      <a href="about.html" class="btn-outline">加入我们</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Bar -->
+<section class="stats-bar">
+  <div class="stat-item">
+    <div class="stat-number" id="statGames">--</div>
+    <div class="stat-label">款游戏</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number green" id="statPlays">--</div>
+    <div class="stat-label">场对战</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number gold" id="statPlayers">--</div>
+    <div class="stat-label">位玩家</div>
+  </div>
+</section>
+
+<!-- Hot Games -->
+<section class="page-section">
+  <h2 class="section-title">🔥 热门游戏</h2>
+  <p class="section-subtitle">研究生们最爱玩的桌游</p>
+  <div class="game-grid" id="hotGames"></div>
+</section>
+
+<!-- Recent Plays -->
+<section class="page-section">
+  <h2 class="section-title">📋 最近活动</h2>
+  <p class="section-subtitle">最新几场线下对局</p>
+  <div class="timeline" id="recentPlays"></div>
+  <div class="load-more">
+    <a href="plays.html"><button>查看全部活动 →</button></a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© KIZ桌游协会 · 茨坝人才公寓405 · 骰子一掷，友谊长存 🎲</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    initNavigation();
+    fillStats();
+    renderHotGames();
+    renderRecentPlays();
+  });
+</script>
+</body>
+</html>
