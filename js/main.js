@@ -205,7 +205,7 @@ function renderRecentPlays() {
   var data = window.KIZ_DATA;
   // Sort plays by date descending
   var sorted = data.plays.slice().sort(function(a, b) {
-    return b.playDateYmd - a.playDateYmd;
+    return b.playDate.localeCompare(a.playDate);
   }).slice(0, 3);
 
   var html = '';
@@ -329,7 +329,7 @@ function renderPlayRecords() {
 
   // Sort plays by date descending
   var sortedPlays = data.plays.slice().sort(function(a, b) {
-    return b.playDateYmd - a.playDateYmd;
+    return b.playDate.localeCompare(a.playDate);
   });
 
   // Fill game filter
