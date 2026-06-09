@@ -247,6 +247,7 @@ input, select { font-family: inherit; }
   justify-content: center;
   overflow: hidden;
   background: var(--color-bg);
+  position: relative;
 }
 
 .game-card-image img {
@@ -259,6 +260,7 @@ input, select { font-family: inherit; }
   font-size: 40px;
   opacity: 0.3;
 }
+
 
 .game-card-body {
   padding: 16px;

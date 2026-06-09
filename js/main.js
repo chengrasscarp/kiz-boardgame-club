@@ -257,6 +257,8 @@ function renderGameLibrary() {
       filtered.sort(function(a, b) { return a.name.localeCompare(b.name, 'zh'); });
     } else if (sortBy === 'players') {
       filtered.sort(function(a, b) { return b.maxPlayers - a.maxPlayers || a.minPlayers - b.minPlayers; });
+    } else if (sortBy === 'rating') {
+      filtered.sort(function(a, b) { return (b.rating || 0) - (a.rating || 0); });
     } else {
       filtered.sort(function(a, b) { return (b.playCount || 0) - (a.playCount || 0); });
     }
@@ -275,11 +277,9 @@ function renderGameLibrary() {
       var count = g.playCount || 0;
       var thumb = getGameThumb(g);
       var bggUrl = g.bggId ? 'https://boardgamegeek.com/boardgame/' + g.bggId : '#';
-      var rank = (sortBy === 'plays') ? '<span class="game-rank">#' + (i + 1) + '</span>' : '';
       html += '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
         '<div class="game-card-image">' +
           (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
-          rank +
         '</div>' +
         '<div class="game-card-body">' +
           '<div class="game-card-title">' + g.name + '</div>' +
