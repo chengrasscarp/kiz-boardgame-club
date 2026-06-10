@@ -14004,10 +14004,6 @@ window.KIZ_DATA = {
         "count": 12
       },
       {
-        "gameRefId": 25,
-        "count": 12
-      },
-      {
         "gameRefId": 66,
         "count": 12
       },
@@ -14018,6 +14014,10 @@ window.KIZ_DATA = {
       {
         "gameRefId": 32,
         "count": 11
+      },
+      {
+        "gameRefId": 27,
+        "count": 10
       }
     ],
     "topPlayers": [
