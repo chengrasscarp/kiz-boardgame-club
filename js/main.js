@@ -536,15 +536,8 @@ function renderLeaderboard() {
   var data = window.KIZ_DATA;
 
   // Count plays per game
-  var gamePlayCount = {};
-  for (var i = 0; i < data.plays.length; i++) {
-    var gid = data.plays[i].gameRefId;
-    gamePlayCount[gid] = (gamePlayCount[gid] || 0) + 1;
-  }
-  var topGames = Object.keys(gamePlayCount)
-    .map(function(id) { return {id: Number(id), count: gamePlayCount[id]}; })
-    .sort(function(a, b) { return b.count - a.count; })
-    .slice(0, 10);
+  // Use pre-computed top games (already filtered for owned games)
+  var topGames = data.stats.topGames;
 
   // Count plays per player
   var playerPlayCount = {};
@@ -572,7 +565,7 @@ function renderLeaderboard() {
   if (gamesEl) {
     var html = '';
     for (var i = 0; i < topGames.length; i++) {
-      var name = getGameNameById(topGames[i].id);
+      var name = getGameNameById(topGames[i].gameRefId);
       html += '<div class="leaderboard-row">' +
         '<span class="leaderboard-rank' + (i < 3 ? ' top' : '') + '">' + (i + 1) + '</span>' +
         '<span class="leaderboard-name">' + name + '</span>' +
