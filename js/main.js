@@ -33,6 +33,14 @@ function getGameById(id) {
   return null;
 }
 
+function renderAvatar(name, extraStyle) {
+  var imgPath = 'img/' + name + '.jpg';
+  return '<div class="member-avatar"' + (extraStyle || '') + '>' +
+    '<img src="' + imgPath + '" onerror="this.style.display=\'none\';this.nextSibling.style.display=\'\';" onload="this.style.display=\'\';this.nextSibling.style.display=\'none\';">' +
+    '<span class="avatar-initial">' + name.charAt(0) + '</span>' +
+  '</div>';
+}
+
 function renderComplexity(weight) {
   // 把 1-5 的 weight 转成方块可视化: ▰▰▰▱▱
   var filled = Math.round(weight);
@@ -498,7 +506,7 @@ function renderMemberWall() {
       var p = sorted[i];
       html += '<div class="podium-card ' + podiumClasses[i] + '">' +
         '<div class="podium-medal">' + medals[i] + '</div>' +
-        '<div class="member-avatar" style="margin:8px auto;' + (p.avatarColor ? 'background:' + p.avatarColor + ';' : 'background:white;') + '">' + p.name.charAt(0) + '</div>' +
+        renderAvatar(p.name, ' style="margin:8px auto;' + (p.avatarColor ? 'background:' + p.avatarColor + ';' : 'background:white;') + '"') +
         '<div class="podium-name">' + p.name + '</div>' +
         '<div class="podium-plays">' + (playCount[p.id] || 0) + '场</div>' +
       '</div>';
@@ -514,7 +522,7 @@ function renderMemberWall() {
       var p = sorted[i];
       var initial = p.name.charAt(0);
       html += '<div class="member-card">' +
-        '<div class="member-avatar"' + (p.avatarColor ? ' style="background:' + p.avatarColor + ';"' : '') + '>' + initial + '</div>' +
+        renderAvatar(p.name, (p.avatarColor ? ' style="background:' + p.avatarColor + ';"' : '')) +
         '<div class="member-name">' + p.name + '</div>' +
         '<div class="member-plays">' + (playCount[p.id] || 0) + '场</div>' +
       '</div>';

@@ -406,6 +406,20 @@ input, select { font-family: inherit; }
   justify-content: center;
   font-weight: 700;
   font-size: 18px;
+  overflow: hidden;
+  position: relative;
+}
+
+.member-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.avatar-initial {
+  position: absolute;
 }
 
 .member-name {
