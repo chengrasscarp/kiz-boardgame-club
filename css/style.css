@@ -261,6 +261,36 @@ input, select { font-family: inherit; }
   opacity: 0.3;
 }
 
+.bgg-rank-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgba(0,0,0,0.75);
+  color: #FFD700;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.game-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.meta-stars {
+  color: #e8a817;
+  white-space: nowrap;
+}
+
+.complexity {
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
 
 .game-card-body {
   padding: 16px;

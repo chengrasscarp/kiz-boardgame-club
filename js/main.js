@@ -33,6 +33,16 @@ function getGameById(id) {
   return null;
 }
 
+function renderComplexity(weight) {
+  // 把 1-5 的 weight 转成方块可视化: ▰▰▰▱▱
+  var filled = Math.round(weight);
+  var result = '';
+  for (var i = 0; i < 5; i++) {
+    result += i < filled ? '▰' : '▱';
+  }
+  return result;
+}
+
 function getGameThumb(game) {
   // Prefer copy-specific thumb (Chinese edition), fallback to game thumb
   var thumb = '';
@@ -258,7 +268,17 @@ function renderGameLibrary() {
     } else if (sortBy === 'players') {
       filtered.sort(function(a, b) { return b.maxPlayers - a.maxPlayers || a.minPlayers - b.minPlayers; });
     } else if (sortBy === 'rating') {
-      filtered.sort(function(a, b) { return (b.rating || 0) - (a.rating || 0); });
+      filtered.sort(function(a, b) { return (b.bggRating || 0) - (a.bggRating || 0); });
+    } else if (sortBy === 'rank') {
+      filtered.sort(function(a, b) {
+        var ra = a.bggRank, rb = b.bggRank;
+        if (ra == null && rb == null) return 0;
+        if (ra == null) return 1;
+        if (rb == null) return -1;
+        return ra - rb;
+      });
+    } else if (sortBy === 'complexity') {
+      filtered.sort(function(a, b) { return (b.complexity || 0) - (a.complexity || 0); });
     } else {
       filtered.sort(function(a, b) { return (b.playCount || 0) - (a.playCount || 0); });
     }
@@ -277,16 +297,25 @@ function renderGameLibrary() {
       var count = g.playCount || 0;
       var thumb = getGameThumb(g);
       var bggUrl = g.bggId ? 'https://boardgamegeek.com/boardgame/' + g.bggId : '#';
+      var rankBadge = g.bggRank ? '<span class="bgg-rank-badge">#' + g.bggRank + '</span>' : '';
+      var stars = g.bggRating ? '⭐' + g.bggRating.toFixed(1) : '';
+      var complexityHtml = g.complexity ? '<span class="complexity" title="复杂度 ' + g.complexity.toFixed(1) + '/5">' + renderComplexity(g.complexity) + ' ' + g.complexity.toFixed(1) + '</span>' : '';
       html += '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
         '<div class="game-card-image">' +
           (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
+          rankBadge +
         '</div>' +
         '<div class="game-card-body">' +
           '<div class="game-card-title">' + g.name + '</div>' +
+          '<div class="game-card-meta">' +
+            (stars ? '<span class="meta-stars">' + stars + '</span>' : '') +
+            (complexityHtml || '') +
+          '</div>' +
           '<div class="game-card-plays">🏆 ' + count + '次游玩</div>' +
           '<div class="game-card-tags">' +
             '<span class="tag tag-primary">👥 ' + g.minPlayers + '-' + g.maxPlayers + '人</span>' +
-            (g.designers ? '<span class="tag tag-secondary">' + g.designers.split(',')[0] + '</span>' : '') +
+            (g.bestPlayers ? '<span class="tag tag-accent">👍 ' + g.bestPlayers + '人</span>' : '') +
+            (g.yearPublished ? '<span class="tag tag-secondary">📅 ' + g.yearPublished + '</span>' : '') +
           '</div>' +
         '</div>' +
       '</div>';
@@ -469,7 +498,7 @@ function renderMemberWall() {
       var p = sorted[i];
       html += '<div class="podium-card ' + podiumClasses[i] + '">' +
         '<div class="podium-medal">' + medals[i] + '</div>' +
-        '<div class="member-avatar" style="margin:8px auto;background:white;">' + p.name.charAt(0) + '</div>' +
+        '<div class="member-avatar" style="margin:8px auto;' + (p.avatarColor ? 'background:' + p.avatarColor + ';' : 'background:white;') + '">' + p.name.charAt(0) + '</div>' +
         '<div class="podium-name">' + p.name + '</div>' +
         '<div class="podium-plays">' + (playCount[p.id] || 0) + '场</div>' +
       '</div>';
@@ -485,7 +514,7 @@ function renderMemberWall() {
       var p = sorted[i];
       var initial = p.name.charAt(0);
       html += '<div class="member-card">' +
-        '<div class="member-avatar">' + initial + '</div>' +
+        '<div class="member-avatar"' + (p.avatarColor ? ' style="background:' + p.avatarColor + ';"' : '') + '>' + initial + '</div>' +
         '<div class="member-name">' + p.name + '</div>' +
         '<div class="member-plays">' + (playCount[p.id] || 0) + '场</div>' +
       '</div>';

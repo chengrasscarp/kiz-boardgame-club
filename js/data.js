@@ -4,222 +4,266 @@ window.KIZ_DATA = {
     {
       "id": 1,
       "name": "桌友05",
-      "uuid": "20525577-2614-418F-9423-0DF44DAA5B21"
+      "uuid": "20525577-2614-418F-9423-0DF44DAA5B21",
+      "avatarColor": "hsl(150,10%,77%)"
     },
     {
       "id": 2,
       "name": "桌友32",
-      "uuid": "D8EFC582-19FE-41FD-B2FC-1E7197394474"
+      "uuid": "D8EFC582-19FE-41FD-B2FC-1E7197394474",
+      "avatarColor": null
     },
     {
       "id": 3,
       "name": "桌友01",
-      "uuid": "8B7B3A22-32F1-4211-8984-A81C21E90534"
+      "uuid": "8B7B3A22-32F1-4211-8984-A81C21E90534",
+      "avatarColor": null
     },
     {
       "id": 4,
       "name": "桌友15",
-      "uuid": "C49B4B10-827B-4E70-8AA1-C03F790504BC"
+      "uuid": "C49B4B10-827B-4E70-8AA1-C03F790504BC",
+      "avatarColor": null
     },
     {
       "id": 5,
       "name": "桌友33",
-      "uuid": "99D89905-81E0-467C-ACDC-A5286DFDC9D1"
+      "uuid": "99D89905-81E0-467C-ACDC-A5286DFDC9D1",
+      "avatarColor": null
     },
     {
       "id": 6,
       "name": "桌友08",
-      "uuid": "8A6AF849-D4B3-4968-8285-301B90BFF3FB"
+      "uuid": "8A6AF849-D4B3-4968-8285-301B90BFF3FB",
+      "avatarColor": null
     },
     {
       "id": 7,
       "name": "桌友42",
-      "uuid": "81329C92-84B7-4A3E-971F-03522B7B0F8E"
+      "uuid": "81329C92-84B7-4A3E-971F-03522B7B0F8E",
+      "avatarColor": null
     },
     {
       "id": 8,
       "name": "桌友37",
-      "uuid": "B732F611-2BEA-4CF4-A02D-27FB84F0F4FD"
+      "uuid": "B732F611-2BEA-4CF4-A02D-27FB84F0F4FD",
+      "avatarColor": null
     },
     {
       "id": 9,
       "name": "桌友27",
-      "uuid": "00DE0C9A-F06C-42DB-AA16-1A28A868AB52"
+      "uuid": "00DE0C9A-F06C-42DB-AA16-1A28A868AB52",
+      "avatarColor": null
     },
     {
       "id": 10,
       "name": "桌友16",
-      "uuid": "D17797A2-4450-4E91-954A-09CDE6ED7D54"
+      "uuid": "D17797A2-4450-4E91-954A-09CDE6ED7D54",
+      "avatarColor": null
     },
     {
       "id": 11,
       "name": "桌友38",
-      "uuid": "D0962917-C9FB-461C-AC56-F219EDA78229"
+      "uuid": "D0962917-C9FB-461C-AC56-F219EDA78229",
+      "avatarColor": null
     },
     {
       "id": 12,
       "name": "桌友20",
-      "uuid": "E5FBD6F8-0039-4957-8E2C-1C661796249C"
+      "uuid": "E5FBD6F8-0039-4957-8E2C-1C661796249C",
+      "avatarColor": null
     },
     {
       "id": 13,
       "name": "桌友02",
-      "uuid": "4CDC2E79-5678-414E-A7F2-F545B5F1ED3B"
+      "uuid": "4CDC2E79-5678-414E-A7F2-F545B5F1ED3B",
+      "avatarColor": null
     },
     {
       "id": 14,
       "name": "桌友14",
-      "uuid": "95E9BCA9-8694-4C75-AECA-366911AFD71C"
+      "uuid": "95E9BCA9-8694-4C75-AECA-366911AFD71C",
+      "avatarColor": null
     },
     {
       "id": 15,
       "name": "桌友11",
-      "uuid": "4C5152B2-37C3-4338-8377-98BCBA736A97"
+      "uuid": "4C5152B2-37C3-4338-8377-98BCBA736A97",
+      "avatarColor": null
     },
     {
       "id": 16,
       "name": "桌友41",
-      "uuid": "15F929E7-EC1A-441B-A818-17B23ADBCFA5"
+      "uuid": "15F929E7-EC1A-441B-A818-17B23ADBCFA5",
+      "avatarColor": null
     },
     {
       "id": 17,
       "name": "桌友09",
-      "uuid": "3F88333E-64D6-422B-A546-3AECC7ADA297"
+      "uuid": "3F88333E-64D6-422B-A546-3AECC7ADA297",
+      "avatarColor": null
     },
     {
       "id": 21,
       "name": "桌友28",
-      "uuid": "62B3F625-5B3C-4D29-9DE3-0D6A0464EB09"
+      "uuid": "62B3F625-5B3C-4D29-9DE3-0D6A0464EB09",
+      "avatarColor": null
     },
     {
       "id": 22,
       "name": "桌友29",
-      "uuid": "3CFCAB35-1F22-49BD-BE35-3FBBCB00F1BF"
+      "uuid": "3CFCAB35-1F22-49BD-BE35-3FBBCB00F1BF",
+      "avatarColor": null
     },
     {
       "id": 23,
       "name": "桌友18",
-      "uuid": "EC7D13DB-2CB5-499A-A4E8-902E7D9A4C99"
+      "uuid": "EC7D13DB-2CB5-499A-A4E8-902E7D9A4C99",
+      "avatarColor": null
     },
     {
       "id": 24,
       "name": "桌友10",
-      "uuid": "4DA3948A-819A-4270-93B5-43001862E71F"
+      "uuid": "4DA3948A-819A-4270-93B5-43001862E71F",
+      "avatarColor": null
     },
     {
       "id": 25,
       "name": "桌友23",
-      "uuid": "D76C7325-198E-46A9-A0EA-31492443AA28"
+      "uuid": "D76C7325-198E-46A9-A0EA-31492443AA28",
+      "avatarColor": null
     },
     {
       "id": 26,
       "name": "桌友12",
-      "uuid": "3B291EAE-68D7-48B9-870A-67D28C394500"
+      "uuid": "3B291EAE-68D7-48B9-870A-67D28C394500",
+      "avatarColor": null
     },
     {
       "id": 27,
       "name": "桌友19",
-      "uuid": "BF9D7E9F-0AB4-4BF9-B68D-9CAC1148D82D"
+      "uuid": "BF9D7E9F-0AB4-4BF9-B68D-9CAC1148D82D",
+      "avatarColor": null
     },
     {
       "id": 28,
       "name": "桌友26",
-      "uuid": "DDECA7A5-A95F-406B-AE4F-C3E55EA047DF"
+      "uuid": "DDECA7A5-A95F-406B-AE4F-C3E55EA047DF",
+      "avatarColor": null
     },
     {
       "id": 29,
       "name": "桌友35",
-      "uuid": "9E477850-8D56-4574-9B08-9B9AA68076D0"
+      "uuid": "9E477850-8D56-4574-9B08-9B9AA68076D0",
+      "avatarColor": null
     },
     {
       "id": 30,
       "name": "桌友30",
-      "uuid": "DA298E33-9EB5-4367-8AC9-0A1909B3FEB3"
+      "uuid": "DA298E33-9EB5-4367-8AC9-0A1909B3FEB3",
+      "avatarColor": "hsl(150,10%,77%)"
     },
     {
       "id": 31,
       "name": "桌友40",
-      "uuid": "41AA5F7E-D88D-4A68-B036-F9418B16D017"
+      "uuid": "41AA5F7E-D88D-4A68-B036-F9418B16D017",
+      "avatarColor": "hsl(150,10%,77%)"
     },
     {
       "id": 32,
       "name": "桌友21",
-      "uuid": "FD818BAA-C784-4B78-8576-F3F62447CFED"
+      "uuid": "FD818BAA-C784-4B78-8576-F3F62447CFED",
+      "avatarColor": "hsl(150,10%,77%)"
     },
     {
       "id": 33,
       "name": "桌友25",
-      "uuid": "2A001A4D-0B56-44F0-B17E-61C13645755F"
+      "uuid": "2A001A4D-0B56-44F0-B17E-61C13645755F",
+      "avatarColor": null
     },
     {
       "id": 34,
       "name": "桌友06",
-      "uuid": "AA943BB9-D07A-4F26-B6DC-5EC90C111FEE"
+      "uuid": "AA943BB9-D07A-4F26-B6DC-5EC90C111FEE",
+      "avatarColor": null
     },
     {
       "id": 35,
       "name": "桌友13",
-      "uuid": "F73EFD95-68FF-4C50-9C4E-7E395293A535"
+      "uuid": "F73EFD95-68FF-4C50-9C4E-7E395293A535",
+      "avatarColor": null
     },
     {
       "id": 36,
       "name": "桌友22",
-      "uuid": "6C65F7BE-9CD5-44DE-B2AD-18A0C3FD9800"
+      "uuid": "6C65F7BE-9CD5-44DE-B2AD-18A0C3FD9800",
+      "avatarColor": null
     },
     {
       "id": 37,
       "name": "桌友36",
-      "uuid": "27275E62-7AD1-4A2C-A251-496CF09BBF6D"
+      "uuid": "27275E62-7AD1-4A2C-A251-496CF09BBF6D",
+      "avatarColor": null
     },
     {
       "id": 38,
       "name": "桌友31",
-      "uuid": "BF61FF3D-2A5F-4A11-B827-D90861C3E663"
+      "uuid": "BF61FF3D-2A5F-4A11-B827-D90861C3E663",
+      "avatarColor": null
     },
     {
       "id": 46,
       "name": "桌友43",
-      "uuid": "F5DBA21D-CDA9-49C8-AE43-1F7B8EC1CCF3"
+      "uuid": "F5DBA21D-CDA9-49C8-AE43-1F7B8EC1CCF3",
+      "avatarColor": null
     },
     {
       "id": 47,
       "name": "桌友03",
-      "uuid": "FBD8FBBE-80DA-4CBB-AFFC-4A82670B2873"
+      "uuid": "FBD8FBBE-80DA-4CBB-AFFC-4A82670B2873",
+      "avatarColor": null
     },
     {
       "id": 48,
       "name": "桌友44",
-      "uuid": "FF1B0EC7-E8E2-40F7-83F4-A195E0C05D57"
+      "uuid": "FF1B0EC7-E8E2-40F7-83F4-A195E0C05D57",
+      "avatarColor": null
     },
     {
       "id": 49,
       "name": "桌友04",
-      "uuid": "F3749FAA-CC43-477E-8BE4-D69A156D5815"
+      "uuid": "F3749FAA-CC43-477E-8BE4-D69A156D5815",
+      "avatarColor": null
     },
     {
       "id": 50,
       "name": "桌友39",
-      "uuid": "7FA06CC0-A90C-4D86-9378-B246BB718D27"
+      "uuid": "7FA06CC0-A90C-4D86-9378-B246BB718D27",
+      "avatarColor": null
     },
     {
       "id": 51,
       "name": "桌友07",
-      "uuid": "7B991CE3-D3EF-425C-9113-40A0314C2F43"
+      "uuid": "7B991CE3-D3EF-425C-9113-40A0314C2F43",
+      "avatarColor": null
     },
     {
       "id": 52,
       "name": "桌友34",
-      "uuid": "582A9DFF-4278-44AE-AAAF-E24C46B05DDE"
+      "uuid": "582A9DFF-4278-44AE-AAAF-E24C46B05DDE",
+      "avatarColor": null
     },
     {
       "id": 60,
       "name": "桌友24",
-      "uuid": "2F2C0291-24F9-413F-843E-80CCA507F949"
+      "uuid": "2F2C0291-24F9-413F-843E-80CCA507F949",
+      "avatarColor": null
     },
     {
       "id": 61,
       "name": "桌友17",
-      "uuid": "15447203-3B6E-47A6-9822-B5DA75A71E7B"
+      "uuid": "15447203-3B6E-47A6-9822-B5DA75A71E7B",
+      "avatarColor": null
     }
   ],
   "plays": [
@@ -11712,6 +11756,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/VrNrk7XVU1hN0j1ZFhjcjw__thumb/img/6XPO0XNGGw3V77NjWR0K7Y33fqc=/fit-in/200x150/filters:strip_icc()/pic4934938.jpg",
       "isExpansion": 0,
       "playCount": 7,
+      "bggRank": null,
+      "bggRating": 8.01295,
+      "complexity": 2.9,
+      "yearPublished": 2020,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese/English edition",
       "copies": [
         {
           "gameName": "勃根地城堡豪華版",
@@ -11734,6 +11786,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/o6HpiLCBBFvc7XvBv7DEig__thumb/img/cP3zFhQXbpOo4jMbXWgPShAdn4E=/fit-in/200x150/filters:strip_icc()/pic7902371.jpg",
       "isExpansion": 0,
       "playCount": 4,
+      "bggRank": 1309,
+      "bggRating": 6.50866,
+      "complexity": 1.8,
+      "yearPublished": 2024,
+      "bestPlayers": "3",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "璀璨宝石：宝可梦",
@@ -11756,6 +11816,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__thumb/img/KKU_42Uswt4tKCpf1zY5kTzgr-g=/fit-in/200x150/filters:strip_icc()/pic8234167.png",
       "isExpansion": 0,
       "playCount": 1,
+      "bggRank": 244,
+      "bggRating": 7.29275,
+      "complexity": 1.8,
+      "yearPublished": 2016,
+      "bestPlayers": "3",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "璀璨寶石",
@@ -11778,6 +11846,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__thumb/img/E0OuG2X4HsbOdCh1uLyZZcMiapQ=/fit-in/200x150/filters:strip_icc()/pic6929347.jpg",
       "isExpansion": 0,
       "playCount": 7,
+      "bggRank": 111,
+      "bggRating": 7.55825,
+      "complexity": 2.0,
+      "yearPublished": 2022,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "璀璨宝石：对决",
@@ -11800,6 +11876,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/jzhXRU3pYfzmmZAFw7oM7A__thumb/img/SnJL_C7V909VbRcUygLvRxPfSXY=/fit-in/200x150/filters:strip_icc()/pic3810997.jpg",
       "isExpansion": 0,
       "playCount": 5,
+      "bggRank": 6516,
+      "bggRating": 5.69108,
+      "complexity": 2.0,
+      "yearPublished": 2016,
+      "bestPlayers": "3,4",
+      "languageDependence": "",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "",
       "copies": [
         {
           "gameName": "拉密豪华版",
@@ -11822,6 +11906,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/xWdK1lL-2ZTdzBZGYjjqkw__thumb/img/wl_YxOhd-S6QbpyHAQZGhV109rw=/fit-in/200x150/filters:strip_icc()/pic3469246.jpg",
       "isExpansion": 0,
       "playCount": 39,
+      "bggRank": 641,
+      "bggRating": 6.87996,
+      "complexity": 2.4,
+      "yearPublished": 2021,
+      "bestPlayers": "3,4",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "罪案疑云：天使之城",
@@ -11844,6 +11936,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/BryJNSSDbCohXeaJPx3tpw__thumb/img/5fmJlAM307xX3zozMnStTuWYphI=/fit-in/200x150/filters:strip_icc()/pic4232048.png",
       "isExpansion": 0,
       "playCount": 4,
+      "bggRank": 182,
+      "bggRating": 7.38881,
+      "complexity": 2.3,
+      "yearPublished": 2020,
+      "bestPlayers": "2",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "战争之匣",
@@ -11866,6 +11966,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/pPuOyAIrh6qYv0QvpfWP2A__thumb/img/dYqtsMygKr7AGcPc9Wnc2Q6W99E=/fit-in/200x150/filters:strip_icc()/pic4860409.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 6.47091,
+      "complexity": 2.3,
+      "yearPublished": 2020,
+      "bestPlayers": "2",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "战争之匣：权贵",
@@ -11888,6 +11996,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/8zkpPMJOUW6YF8ZRJmGuFQ__thumb/img/tRGzYPngW6xI_bhBMrObeaxZIFs=/fit-in/200x150/filters:strip_icc()/pic6031075.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 6.20943,
+      "complexity": 2.4,
+      "yearPublished": 2021,
+      "bestPlayers": "2,4",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "战争之匣：围城",
@@ -11910,6 +12026,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/cf0xxkevbwTGF3VUZymKjg__thumb/img/NUcMdmZ3_eA1YfIwL8iRgkZKaHw=/fit-in/200x150/filters:strip_icc()/pic6398727.png",
       "isExpansion": 0,
       "playCount": 11,
+      "bggRank": 107,
+      "bggRating": 7.5806,
+      "complexity": 1.4,
+      "yearPublished": 2021,
+      "bestPlayers": "4",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Japanese/Chinese/English edition",
       "copies": [
         {
           "gameName": "SCOUT",
@@ -11932,6 +12056,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/WuOY1XAIJQ-RGAmT_apW_w__thumb/img/dhNHd8Ztln_lUFAdti6WkPnGTGg=/fit-in/200x150/filters:strip_icc()/pic8632998.jpg",
       "isExpansion": 0,
       "playCount": 10,
+      "bggRank": 678,
+      "bggRating": 6.85845,
+      "complexity": 1.2,
+      "yearPublished": 1994,
+      "bestPlayers": "5,6",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese/English edition",
       "copies": [
         {
           "gameName": "牛頭王",
@@ -11954,6 +12086,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__thumb/img/rDg9t7gP1iqNcy3NZxAWGVoWYok=/fit-in/200x150/filters:strip_icc()/pic4572408.jpg",
       "isExpansion": 0,
       "playCount": 7,
+      "bggRank": 1732,
+      "bggRating": 6.34225,
+      "complexity": 1.2,
+      "yearPublished": 2019,
+      "bestPlayers": "3,4",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "English standard edition",
       "copies": [
         {
           "gameName": "CABO (Second Edition)",
@@ -11976,6 +12116,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/4l_h4ixyimOzHBqyB7_GKA__thumb/img/lgSaGPsRq0VkCY_2jeHej6OckTw=/fit-in/200x150/filters:strip_icc()/pic7707572.png",
       "isExpansion": 0,
       "playCount": 1,
+      "bggRank": null,
+      "bggRating": 0.0,
+      "complexity": 1.0,
+      "yearPublished": 2023,
+      "bestPlayers": "",
+      "languageDependence": "",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "猩猩相惜",
@@ -11998,6 +12146,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__thumb/img/qH4wf8jVQHZfF0dOFIF1CcB68xQ=/fit-in/200x150/filters:strip_icc()/pic4806093.png",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.79897,
+      "complexity": 2.9,
+      "yearPublished": 2022,
+      "bestPlayers": "2",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "罪案疑云：好莱坞的枪声",
@@ -12020,6 +12176,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/wLto-xaabHwKQe_Bc4iD1Q__thumb/img/AUqMholGVlwXLjMcxwiziE_7Ffw=/fit-in/200x150/filters:strip_icc()/pic3458036.png",
       "isExpansion": 0,
       "playCount": 3,
+      "bggRank": 221,
+      "bggRating": 7.33106,
+      "complexity": 2.3,
+      "yearPublished": 2017,
+      "bestPlayers": "4,5",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "CMON Chinese edition 2017",
       "copies": [
         {
           "gameName": "現代藝術",
@@ -12042,6 +12206,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__thumb/img/owJK8ZyWOPvDLxxiSfieOUbyGfo=/fit-in/200x150/filters:strip_icc()/pic8382627.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.55753,
+      "complexity": 2.0,
+      "yearPublished": 2025,
+      "bestPlayers": "1",
+      "languageDependence": "Unplayable in another language",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "罪案疑云：天使与恶魔",
@@ -12064,6 +12236,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__thumb/img/_NxfExq2zQkZcobedKuPPwPk6mU=/fit-in/200x150/filters:strip_icc()/pic6653145.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.73199,
+      "complexity": 2.7,
+      "yearPublished": 2025,
+      "bestPlayers": "1",
+      "languageDependence": "Unplayable in another language",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "罪案疑云：迷雾与幻影",
@@ -12086,6 +12266,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/HpGXIlt5i6T-0jbiQRReOg__thumb/img/8wfQelnNsbXCykJWMjD8UAjhleU=/fit-in/200x150/filters:strip_icc()/pic8303080.png",
       "isExpansion": 0,
       "playCount": 49,
+      "bggRank": 93,
+      "bggRating": 7.62049,
+      "complexity": 2.0,
+      "yearPublished": 2024,
+      "bestPlayers": "4",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "炸弹克星",
@@ -12108,6 +12296,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/uXMeQzNenHb3zK7Hoa6b2w__thumb/img/WyPClajMWU9lV5BdCXiZnqdZgmU=/fit-in/200x150/filters:strip_icc()/pic7398904.jpg",
       "isExpansion": 0,
       "playCount": 13,
+      "bggRank": 32,
+      "bggRating": 7.8895,
+      "complexity": 2.0,
+      "yearPublished": 2024,
+      "bestPlayers": "2",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "天合小队",
@@ -12130,6 +12326,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__thumb/img/5G45GN8CE7pq38fJMMocmPtV4_U=/fit-in/200x150/filters:strip_icc()/pic7570101.png",
       "isExpansion": 0,
       "playCount": 12,
+      "bggRank": 259,
+      "bggRating": 7.26575,
+      "complexity": 1.9,
+      "yearPublished": 2024,
+      "bestPlayers": "3",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "摩点",
+      "versionNickname": "Chinese edition with Cave City cover",
       "copies": [
         {
           "gameName": "遙遠之地",
@@ -12152,6 +12356,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__thumb/img/tVSFjSxYEcw7sKj3unIIQV8kxoc=/fit-in/200x150/filters:strip_icc()/pic5100691.jpg",
       "isExpansion": 0,
       "playCount": 4,
+      "bggRank": 60,
+      "bggRating": 7.73429,
+      "complexity": 1.8,
+      "yearPublished": 2021,
+      "bestPlayers": "2,3",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "卡斯卡迪亚之旅",
@@ -12174,6 +12386,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__thumb/img/hPsEFlgh0b_JhtQmsJQv3vmq814=/fit-in/200x150/filters:strip_icc()/pic7107431.jpg",
       "isExpansion": 1,
       "playCount": 3,
+      "bggRank": 88,
+      "bggRating": 7.63406,
+      "complexity": 2.7,
+      "yearPublished": 2022,
+      "bestPlayers": "2",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "展翅翱翔：亚洲篇",
@@ -12196,6 +12416,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__thumb/img/m_Nfq9nsvCDrCBdSIYXn2HbIiRQ=/fit-in/200x150/filters:strip_icc()/pic8782948.jpg",
       "isExpansion": 0,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 0.0,
+      "complexity": 0.0,
+      "yearPublished": 2024,
+      "bestPlayers": "",
+      "languageDependence": "",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "一带一路 (Belt and Road)",
@@ -12218,6 +12446,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__thumb/img/ibEjwlnZixyeVXYcS_793Cgtrdw=/fit-in/200x150/filters:strip_icc()/pic6871709.png",
       "isExpansion": 0,
       "playCount": 10,
+      "bggRank": 725,
+      "bggRating": 6.82474,
+      "complexity": 1.8,
+      "yearPublished": 2024,
+      "bestPlayers": "2,3",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "花砖物语：巧夺天工",
@@ -12240,6 +12476,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__thumb/img/1vOvXQ6dCrBd5uzciGpc8-cbZuM=/fit-in/200x150/filters:strip_icc()/pic6459659.jpg",
       "isExpansion": 1,
       "playCount": 5,
+      "bggRank": 1295,
+      "bggRating": 6.51356,
+      "complexity": 3.9,
+      "yearPublished": 2023,
+      "bestPlayers": "1,2",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Traditional Chinese edition",
       "copies": [
         {
           "gameName": "骸骨險境: 堅不可摧",
@@ -12262,6 +12506,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/oc3u6OQpJkf9TvDw4iI9xA__thumb/img/Otc-6MFf-HC9ep-82ub2B2rID78=/fit-in/200x150/filters:strip_icc()/pic4991936.jpg",
       "isExpansion": 0,
       "playCount": 1,
+      "bggRank": 350,
+      "bggRating": 7.14559,
+      "complexity": 1.1,
+      "yearPublished": 2009,
+      "bestPlayers": "8",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "",
+      "versionNickname": "Broadway Chinese edition",
       "copies": [
         {
           "gameName": "傳情畫意",
@@ -12284,6 +12536,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/EybxJlUc9rz7F7HVFLqsdw__thumb/img/rojFW0-h-bteedVG4aJXG1x7V0o=/fit-in/200x150/filters:strip_icc()/pic8378939.jpg",
       "isExpansion": 0,
       "playCount": 11,
+      "bggRank": 19,
+      "bggRating": 7.98525,
+      "complexity": 2.1,
+      "yearPublished": 2024,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "魔戒：中洲对决",
@@ -12306,6 +12566,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/eCdiHCB9OobumwaGl4dbOQ__thumb/img/dyaAIesMyeQWUoLRA25Dj9MhruI=/fit-in/200x150/filters:strip_icc()/pic6204967.png",
       "isExpansion": 0,
       "playCount": 13,
+      "bggRank": 213,
+      "bggRating": 7.35093,
+      "complexity": 2.5,
+      "yearPublished": 2024,
+      "bestPlayers": "2,3,4",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "欢迎来到月球",
@@ -12328,6 +12596,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__thumb/img/jq8k_OtehrDmlr05OPXymlPM27Q=/fit-in/200x150/filters:strip_icc()/pic7683878.png",
       "isExpansion": 1,
       "playCount": 2,
+      "bggRank": 1542,
+      "bggRating": 6.41538,
+      "complexity": 2.1,
+      "yearPublished": 2023,
+      "bestPlayers": "4,6,8",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "",
       "copies": [
         {
           "gameName": "Challengers! Beach Cup",
@@ -12350,6 +12626,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/hHZWXnUTMYDd_KTAM6Jwlw__thumb/img/O5XHaPOALYquS058qcXWVm5b_k4=/fit-in/200x150/filters:strip_icc()/pic3759421.jpg",
       "isExpansion": 0,
       "playCount": 4,
+      "bggRank": 117,
+      "bggRating": 7.54899,
+      "complexity": 1.8,
+      "yearPublished": 2023,
+      "bestPlayers": "4,6",
+      "languageDependence": "Unplayable in another language",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese 5th Anniversary edition",
       "copies": [
         {
           "gameName": "谍报风云：5周年纪念版",
@@ -12372,6 +12656,14 @@ window.KIZ_DATA = {
       "urlThumb": "",
       "isExpansion": 0,
       "playCount": 5,
+      "bggRank": null,
+      "bggRating": 0,
+      "complexity": 0,
+      "yearPublished": 0,
+      "bestPlayers": "",
+      "languageDependence": "",
+      "acquiredFrom": "",
+      "versionNickname": "",
       "copies": [
         {
           "gameName": "三国杀：欢乐斗地主",
@@ -12394,6 +12686,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__thumb/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
       "isExpansion": 0,
       "playCount": 10,
+      "bggRank": 516,
+      "bggRating": 6.98817,
+      "complexity": 1.0,
+      "yearPublished": 2025,
+      "bestPlayers": "5,6",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "English second edition",
       "copies": [
         {
           "gameName": "Flip 7",
@@ -12416,6 +12716,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/IAm2HJ23ikP6ixbm3Cbcbw__thumb/img/2y38Fpj1I2aKank6S-nTIhNQH-A=/fit-in/200x150/filters:strip_icc()/pic8557413.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 6.28946,
+      "complexity": 1.9,
+      "yearPublished": 2025,
+      "bestPlayers": "2,4",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "遙遠之地：地下族群",
@@ -12438,6 +12746,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/47svrIp_8WxJAMeyAvn6hA__thumb/img/WezQAGniiRqvyJQdSoBvyDhaw4E=/fit-in/200x150/filters:strip_icc()/pic7522071.png",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.71729,
+      "complexity": 2.5,
+      "yearPublished": 2024,
+      "bestPlayers": "2",
+      "languageDependence": "",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "战争之匣：夜幕",
@@ -12460,6 +12776,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/XWImAu_3RK61wbzcKboVdA__thumb/img/Ry-6KHwNgERWadyxs1X1_P3dMvY=/fit-in/200x150/filters:strip_icc()/pic8145530.png",
       "isExpansion": 0,
       "playCount": 0,
+      "bggRank": 100,
+      "bggRating": 7.59728,
+      "complexity": 3.4,
+      "yearPublished": 2025,
+      "bestPlayers": "3,4",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "集石",
+      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "星弧航记",
@@ -12482,6 +12806,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__thumb/img/o18rjEemoWaVru9Y2TyPwuIaRfE=/fit-in/200x150/filters:strip_icc()/pic3490053.jpg",
       "isExpansion": 0,
       "playCount": 6,
+      "bggRank": 1,
+      "bggRating": 8.39358,
+      "complexity": 3.9,
+      "yearPublished": 2020,
+      "bestPlayers": "3,4",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "工業革命：伯明翰",
@@ -12504,6 +12836,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__thumb/img/3et-UTpNaMhKlHPgnj89mkTkGkU=/fit-in/200x150/filters:strip_icc()/pic6985339.jpg",
       "isExpansion": 0,
       "playCount": 3,
+      "bggRank": 360,
+      "bggRating": 7.1332,
+      "complexity": 2.5,
+      "yearPublished": 2022,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "英雄止步",
@@ -12526,6 +12866,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/ZC5y7zSkbNwKTIk-eHs1ww__thumb/img/R6JyMhUW5uEEC1RoqzMOhWe84G0=/fit-in/200x150/filters:strip_icc()/pic6985340.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 6.01137,
+      "complexity": 2.6,
+      "yearPublished": 2022,
+      "bestPlayers": "3",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "英雄止步:會長的復仇",
@@ -12548,6 +12896,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__thumb/img/gdyuc1fbs0PZ8Ow41n-R8Nefyl0=/fit-in/200x150/filters:strip_icc()/pic7793981.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.96181,
+      "complexity": 2.9,
+      "yearPublished": 2024,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: Boss Battles",
@@ -12570,6 +12926,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__thumb/img/nI32TO4iNeOIcUM39y8AKVl9rwo=/fit-in/200x150/filters:strip_icc()/pic7062819.png",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.87385,
+      "complexity": 3.6,
+      "yearPublished": 2022,
+      "bestPlayers": "",
+      "languageDependence": "",
+      "acquiredFrom": "",
+      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Too Many Bones: Riffle",
@@ -12592,6 +12956,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__thumb/img/ogt_oWV3RJW6tcVO_jDVtvSp_MI=/fit-in/200x150/filters:strip_icc()/pic6478237.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.78496,
+      "complexity": 3.3,
+      "yearPublished": 2023,
+      "bestPlayers": "",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "",
+      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Too Many Bones: Carcass",
@@ -12614,6 +12986,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__thumb/img/ScKhnZdxSfqUdJ8rm_2jDeoCFSE=/fit-in/200x150/filters:strip_icc()/pic6478240.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.79,
+      "complexity": 4.0,
+      "yearPublished": 2023,
+      "bestPlayers": "",
+      "languageDependence": "",
+      "acquiredFrom": "",
+      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Too Many Bones: Polaris",
@@ -12636,6 +13016,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__thumb/img/Ov6SSJ1nJ8XBE-we722E9cefEow=/fit-in/200x150/filters:strip_icc()/pic6478243.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.79419,
+      "complexity": 4.0,
+      "yearPublished": 2023,
+      "bestPlayers": "",
+      "languageDependence": "",
+      "acquiredFrom": "",
+      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Too Many Bones: Static",
@@ -12658,6 +13046,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/CFYHrg61ph-Et4YQkedWnA__thumb/img/W2fs8ZJSiwXfXRkasIzs1cMmRro=/fit-in/200x150/filters:strip_icc()/pic3107661.jpg",
       "isExpansion": 0,
       "playCount": 6,
+      "bggRank": 8786,
+      "bggRating": 5.61318,
+      "complexity": 1.0,
+      "yearPublished": 2016,
+      "bestPlayers": "6",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "籤籤入扣 stick stack",
@@ -12680,6 +13076,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/oYYhihuGrebXvGWOMzhapw__thumb/img/-Com6BgA4Yxq4WCmuLZjRRofrj0=/fit-in/200x150/filters:strip_icc()/pic8145540.png",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 6.97935,
+      "complexity": 4.5,
+      "yearPublished": 2024,
+      "bestPlayers": "3,4",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "星弧航记：衰变星域",
@@ -12702,6 +13106,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__thumb/img/aF7bXAy3Q3Z8d5kyoInyn4sQz3Q=/fit-in/200x150/filters:strip_icc()/pic6985344.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.97984,
+      "complexity": 2.6,
+      "yearPublished": 2022,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "English/Portuguese/Chinese edition",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Great Dreamer Expansion",
@@ -12724,6 +13136,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__thumb/img/wy_MpH1K5s73vq6yJJMUp4R7eYg=/fit-in/200x150/filters:strip_icc()/pic7998936.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.72751,
+      "complexity": 2.7,
+      "yearPublished": 2024,
+      "bestPlayers": "2",
+      "languageDependence": "",
+      "acquiredFrom": "",
+      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
@@ -12746,6 +13166,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/rGomBfj0FGrZM-w3h5HFWQ__thumb/img/DnptKBxT6l_W2B3jGXdnEDEkDM0=/fit-in/200x150/filters:strip_icc()/pic8250341.png",
       "isExpansion": 0,
       "playCount": 22,
+      "bggRank": 220,
+      "bggRating": 7.33213,
+      "complexity": 1.7,
+      "yearPublished": 2025,
+      "bestPlayers": "2",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "城堡嘉年华",
@@ -12768,6 +13196,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/UVUkjMV_Q2paVUIUP30Vvw__thumb/img/H6qmxJrRFjtOAPZOfDoZ480-46I=/fit-in/200x150/filters:strip_icc()/pic7664424.jpg",
       "isExpansion": 1,
       "playCount": 6,
+      "bggRank": 5,
+      "bggRating": 8.2431,
+      "complexity": 3.5,
+      "yearPublished": 2025,
+      "bestPlayers": "4",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "沙丘：帝国 - 起义",
@@ -12790,6 +13226,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/R2R8UHcaRNJwaCJq8PJGFQ__thumb/img/wxs22a4TfQjVpfpmNvaTdPo0FHY=/fit-in/200x150/filters:strip_icc()/pic43709.jpg",
       "isExpansion": 0,
       "playCount": 1,
+      "bggRank": 1008,
+      "bggRating": 6.6492,
+      "complexity": 2.6,
+      "yearPublished": 1850,
+      "bestPlayers": "4",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "",
       "copies": [
         {
           "gameName": "Mahjong",
@@ -12812,6 +13256,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/nLDGtbwdSC0eYKffjYzrnQ__thumb/img/8F46R57i735WAI6ZjCppWb73bT0=/fit-in/200x150/filters:strip_icc()/pic6917219.jpg",
       "isExpansion": 0,
       "playCount": 3,
+      "bggRank": 1279,
+      "bggRating": 6.52015,
+      "complexity": 2.4,
+      "yearPublished": 2025,
+      "bestPlayers": "5",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "Betrayal at House on the Hill: 3rd Edition",
@@ -12834,6 +13286,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/Z6MMX39UEAZT3-f-DlnHsA__small/img/5Bf6oWIJTdHYpLAodTPqbDxh_Bc=/fit-in/200x150/filters:strip_icc()/pic8114705.jpg",
       "isExpansion": 0,
       "playCount": 12,
+      "bggRank": 901,
+      "bggRating": 6.70959,
+      "complexity": 3.3,
+      "yearPublished": 2024,
+      "bestPlayers": "1",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "咸鱼",
+      "versionNickname": "",
       "copies": [
         {
           "gameName": "Gloomhaven: Buttons & Bugs",
@@ -12856,6 +13316,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/C6V2VCtf1_7cavenn7Is3A__small/img/ZJJOWNSKk81xpvNkMpGd5T0ybLo=/fit-in/200x150/filters:strip_icc()/pic8932906.jpg",
       "isExpansion": 0,
       "playCount": 7,
+      "bggRank": 826,
+      "bggRating": 6.75227,
+      "complexity": 2.8,
+      "yearPublished": 2025,
+      "bestPlayers": "2,3",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "淘宝造点",
+      "versionNickname": "Simplied Chinese edition",
       "copies": [
         {
           "gameName": "方舟保护区",
@@ -12878,6 +13346,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/4EVpaxECrqdKYVtBJnFLeA__small/img/XHjyZnIevY46IZZAxbma6HvWlIw=/fit-in/200x150/filters:strip_icc()/pic3008714.png",
       "isExpansion": 0,
       "playCount": 3,
+      "bggRank": 2686,
+      "bggRating": 6.09451,
+      "complexity": 1.3,
+      "yearPublished": 2014,
+      "bestPlayers": "6,8",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "無間風雲",
@@ -12900,6 +13376,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/ZaBpuleG30S1-hAmJnL4RA__small/img/7AM38OD3FPy_I1Z2t8HP2GYz4WU=/fit-in/200x150/filters:strip_icc()/pic7077185.jpg",
       "isExpansion": 0,
       "playCount": 4,
+      "bggRank": 1039,
+      "bggRating": 6.63455,
+      "complexity": 2.4,
+      "yearPublished": 2023,
+      "bestPlayers": "2",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "骰筑火星",
@@ -12922,6 +13406,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__small/img/niL2urMdy3ExhhQzbtMdsFUbSW4=/fit-in/200x150/filters:strip_icc()/pic8350442.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 6.76053,
+      "complexity": 3.7,
+      "yearPublished": 2025,
+      "bestPlayers": "4",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "淘宝aa桌游",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "沙丘：帝國 血脈永續",
@@ -12944,6 +13436,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/ewNPD8vcrsXVfuVc9_E6hg__small/img/fEkdPMxyjK8G9uqdRPT14Q-UCVo=/fit-in/200x150/filters:strip_icc()/pic8376834.jpg",
       "isExpansion": 0,
       "playCount": 4,
+      "bggRank": null,
+      "bggRating": 6.89661,
+      "complexity": 3.0,
+      "yearPublished": 2025,
+      "bestPlayers": "4",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "新物集",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "波多黎各 1897 特別典藏版",
@@ -12966,6 +13466,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.56295,
+      "complexity": 2.7,
+      "yearPublished": 2025,
+      "bestPlayers": "3",
+      "languageDependence": "",
+      "acquiredFrom": "",
+      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Terraforming Mars: The Dice Game – Missions",
@@ -12988,6 +13496,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/AsuMGeaCnJrQ-6IhT559eQ__small/img/9sj1HeAKXCtEZOpWPL46C2nivaY=/fit-in/200x150/filters:strip_icc()/pic8448727.png",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.58305,
+      "complexity": 2.0,
+      "yearPublished": 2025,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "Multilingual edition, second printing",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
@@ -13010,6 +13526,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 5.65109,
+      "complexity": 1.7,
+      "yearPublished": 2025,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "Multilingual edition, second printing",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
@@ -13032,6 +13556,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/lxzo9PekKd4TRyBUlLH7Yw__small/img/1cEL93SEH6KEoO7CAlde9Sqi12s=/fit-in/200x150/filters:strip_icc()/pic8703614.png",
       "isExpansion": 0,
       "playCount": 0,
+      "bggRank": 2487,
+      "bggRating": 6.13733,
+      "complexity": 3.1,
+      "yearPublished": 2025,
+      "bestPlayers": "4",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "菲雅的沼泽",
@@ -13054,6 +13586,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/8IO6sl0jN5IylDDRAOK8GQ__small/img/FNNjUKGi6KOAxkithC8seFipxPo=/fit-in/200x150/filters:strip_icc()/pic8214042.jpg",
       "isExpansion": 0,
       "playCount": 0,
+      "bggRank": 3994,
+      "bggRating": 5.88617,
+      "complexity": 1.2,
+      "yearPublished": 2024,
+      "bestPlayers": "4",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "EN/FR/DE/NL/IT edition",
       "copies": [
         {
           "gameName": "UNO Flip!",
@@ -13076,6 +13616,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/JINa9Jb2y5cfRiT2jXojzg__small/img/RIDNcfauf7aa0bcJcYn50Oomblc=/fit-in/200x150/filters:strip_icc()/pic5792049.png",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 6.04587,
+      "complexity": 3.0,
+      "yearPublished": 2021,
+      "bestPlayers": "5",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "七大奇迹：舰队扩展",
@@ -13098,6 +13646,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/Naw8y8J_s-8cvq1GoTON6w__small/img/ieH8A28KJe3truXqQe1nDXSpxUE=/fit-in/200x150/filters:strip_icc()/pic7416519.jpg",
       "isExpansion": 0,
       "playCount": 6,
+      "bggRank": 200,
+      "bggRating": 7.3623,
+      "complexity": 2.3,
+      "yearPublished": 2020,
+      "bestPlayers": "4,5",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "七大奇蹟：第二版",
@@ -13120,6 +13676,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/QhsvR9GY0LbTpj27fairWA__small/img/_Nvnav-rd4ckyC_lMKYu0AqC06I=/fit-in/200x150/filters:strip_icc()/pic186610.jpg",
       "isExpansion": 1,
       "playCount": 1,
+      "bggRank": 1414,
+      "bggRating": 6.46367,
+      "complexity": 2.4,
+      "yearPublished": 1810,
+      "bestPlayers": "5,6",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "",
       "copies": [
         {
           "gameName": "Poker",
@@ -13142,6 +13706,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/4BDkj75aMObXau8L08jX5w__small/img/ICsFoIjh4k2TlrByRP_sWL9sDKw=/fit-in/200x150/filters:strip_icc()/pic4673729.jpg",
       "isExpansion": 0,
       "playCount": 3,
+      "bggRank": 956,
+      "bggRating": 6.67608,
+      "complexity": 1.4,
+      "yearPublished": 2020,
+      "bestPlayers": "4,5",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "",
+      "versionNickname": "English/Chinese edition",
       "copies": [
         {
           "gameName": "拉斯維加斯豪華版",
@@ -13164,6 +13736,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__small/img/r6HitXm51jUA9MgnzrObznLnGUM=/fit-in/200x150/filters:strip_icc()/pic5426946.jpg",
       "isExpansion": 0,
       "playCount": 0,
+      "bggRank": 2259,
+      "bggRating": 6.19362,
+      "complexity": 1.8,
+      "yearPublished": 2022,
+      "bestPlayers": "6,7,8",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "忍者之夜",
@@ -13186,6 +13766,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg",
       "isExpansion": 1,
       "playCount": 0,
+      "bggRank": null,
+      "bggRating": 6.19937,
+      "complexity": 1.8,
+      "yearPublished": 2025,
+      "bestPlayers": "2",
+      "languageDependence": "No necessary in-game text",
+      "acquiredFrom": "淘宝",
+      "versionNickname": "",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
@@ -13208,6 +13796,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/_BUXOVRDU9g_eRwgpR5ZZw__small/img/icamIZ4nP3HHH3vczZqTr1hQgKY=/fit-in/200x150/filters:strip_icc()/pic8160466.jpg",
       "isExpansion": 0,
       "playCount": 0,
+      "bggRank": 15,
+      "bggRating": 8.0362,
+      "complexity": 3.8,
+      "yearPublished": 2025,
+      "bestPlayers": "3",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "星空觅迹：探寻地外文明计划",
@@ -13230,6 +13826,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/scw36iBIad7l-rGzxPGcGg__small/img/dyMBa6SBkPwpWfA4FINqbX8RNDQ=/fit-in/200x150/filters:strip_icc()/pic8662670.png",
       "isExpansion": 0,
       "playCount": 1,
+      "bggRank": 80,
+      "bggRating": 7.66533,
+      "complexity": 3.1,
+      "yearPublished": 2025,
+      "bestPlayers": "3",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "",
+      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "魔戒：命运同盟",
@@ -13252,6 +13856,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__small/img/NQQcjS31TO0DE246N9rpt0hd9eo=/fit-in/200x150/filters:strip_icc()/pic2452831.png",
       "isExpansion": 0,
       "playCount": 0,
+      "bggRank": 3,
+      "bggRating": 8.34492,
+      "complexity": 2.8,
+      "yearPublished": 2016,
+      "bestPlayers": "4",
+      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese blue edition",
       "copies": [
         {
           "gameName": "瘟疫危機︰承傳",
@@ -13274,6 +13886,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/cCLn9Mvb7jRSaZzHeUXhoQ__small/img/B8BFQLR2Po3ekI_7XSG1kR9oil0=/fit-in/200x150/filters:strip_icc()/pic6937913.jpg",
       "isExpansion": 0,
       "playCount": 3,
+      "bggRank": 49,
+      "bggRating": 7.77591,
+      "complexity": 2.5,
+      "yearPublished": 2025,
+      "bestPlayers": "3",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "",
+      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "噤声寻宝记！地下墓穴",
@@ -13296,6 +13916,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/1uW8t9AkuqOF0xjv_sXKgw__small/img/tWEmoT1EaoYUpbwrTGCLMHaaZGs=/fit-in/200x150/filters:strip_icc()/pic9106864.png",
       "isExpansion": 0,
       "playCount": 4,
+      "bggRank": 447,
+      "bggRating": 7.04959,
+      "complexity": 1.2,
+      "yearPublished": 2025,
+      "bestPlayers": "5,6",
+      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
+      "acquiredFrom": "",
+      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Magical Athlete",
@@ -13318,6 +13946,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/hLfQAtkN8m06_L3xAtqXEQ__small/img/noJhLlB0U0_TVyBj_pQRm07qxWI=/fit-in/200x150/filters:strip_icc()/pic8544768.png",
       "isExpansion": 0,
       "playCount": 9,
+      "bggRank": 2422,
+      "bggRating": 6.15128,
+      "complexity": 1.4,
+      "yearPublished": 2025,
+      "bestPlayers": "4",
+      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
+      "acquiredFrom": "",
+      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "诡镇奇谈：洛夫克拉夫特情书",
