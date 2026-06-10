@@ -161,19 +161,19 @@ window.KIZ_DATA = {
       "id": 30,
       "name": "桌友30",
       "uuid": "DA298E33-9EB5-4367-8AC9-0A1909B3FEB3",
-      "avatarColor": "hsl(150,10%,77%)"
+      "avatarColor": null
     },
     {
       "id": 31,
       "name": "桌友40",
       "uuid": "41AA5F7E-D88D-4A68-B036-F9418B16D017",
-      "avatarColor": "hsl(150,10%,77%)"
+      "avatarColor": null
     },
     {
       "id": 32,
       "name": "桌友21",
       "uuid": "FD818BAA-C784-4B78-8576-F3F62447CFED",
-      "avatarColor": "hsl(150,10%,77%)"
+      "avatarColor": null
     },
     {
       "id": 33,
