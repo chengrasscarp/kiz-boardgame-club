@@ -259,26 +259,29 @@ function renderGameLibrary() {
 
   var data = window.KIZ_DATA;
 
-  // Fill game count
+  // Split games
+  var baseGames = data.games.filter(function(g) { return !g.isExpansion; });
+  var expGames = data.games.filter(function(g) { return g.isExpansion; });
+
+  // Fill counts
   var countEl = document.getElementById('gameCount');
-  if (countEl) countEl.textContent = data.games.length + '款桌游，总有一款适合你';
+  if (countEl) countEl.textContent = baseGames.length + '款桌游本体 + ' + expGames.length + '款扩展';
+  var baseCountEl = document.getElementById('baseCount');
+  if (baseCountEl) baseCountEl.textContent = '🎮 桌游本体（' + baseGames.length + '款）';
+  var expCountEl = document.getElementById('expCount');
+  if (expCountEl) expCountEl.textContent = '📦 游戏扩展（' + expGames.length + '款）';
 
-  function render(filterText, sortBy) {
-    filterText = (filterText || '').toLowerCase();
+  function sortList(list, sortBy) {
     sortBy = sortBy || 'plays';
-
-    var filtered = data.games.filter(function(g) {
-      return g.name.toLowerCase().indexOf(filterText) !== -1;
-    });
-
+    var sorted = list.slice();
     if (sortBy === 'name') {
-      filtered.sort(function(a, b) { return a.name.localeCompare(b.name, 'zh'); });
+      sorted.sort(function(a, b) { return a.name.localeCompare(b.name, 'zh'); });
     } else if (sortBy === 'players') {
-      filtered.sort(function(a, b) { return b.maxPlayers - a.maxPlayers || a.minPlayers - b.minPlayers; });
+      sorted.sort(function(a, b) { return b.maxPlayers - a.maxPlayers || a.minPlayers - b.minPlayers; });
     } else if (sortBy === 'rating') {
-      filtered.sort(function(a, b) { return (b.bggRating || 0) - (a.bggRating || 0); });
+      sorted.sort(function(a, b) { return (b.bggRating || 0) - (a.bggRating || 0); });
     } else if (sortBy === 'rank') {
-      filtered.sort(function(a, b) {
+      sorted.sort(function(a, b) {
         var ra = a.bggRank, rb = b.bggRank;
         if (ra == null && rb == null) return 0;
         if (ra == null) return 1;
@@ -286,54 +289,76 @@ function renderGameLibrary() {
         return ra - rb;
       });
     } else if (sortBy === 'complexity') {
-      filtered.sort(function(a, b) { return (b.complexity || 0) - (a.complexity || 0); });
+      sorted.sort(function(a, b) { return (b.complexity || 0) - (a.complexity || 0); });
     } else {
-      filtered.sort(function(a, b) { return (b.playCount || 0) - (a.playCount || 0); });
+      sorted.sort(function(a, b) { return (b.playCount || 0) - (a.playCount || 0); });
     }
+    return sorted;
+  }
 
+  function renderCard(g) {
+    var count = g.playCount || 0;
+    var thumb = getGameThumb(g);
+    var bggUrl = g.bggId ? 'https://boardgamegeek.com/boardgame/' + g.bggId : '#';
+    var rankBadge = g.bggRank ? '<span class="bgg-rank-badge">#' + g.bggRank + '</span>' : '';
+    var stars = g.bggRating ? '⭐' + g.bggRating.toFixed(1) : '';
+    var complexityHtml = g.complexity ? '<span class="complexity" title="复杂度 ' + g.complexity.toFixed(1) + '/5">' + renderComplexity(g.complexity) + ' ' + g.complexity.toFixed(1) + '</span>' : '';
+    return '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
+      '<div class="game-card-image">' +
+        (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
+        rankBadge +
+      '</div>' +
+      '<div class="game-card-body">' +
+        '<div class="game-card-title">' + g.name + '</div>' +
+        '<div class="game-card-meta">' +
+          (stars ? '<span class="meta-stars">' + stars + '</span>' : '') +
+          (complexityHtml || '') +
+        '</div>' +
+        '<div class="game-card-plays">🏆 ' + count + '次游玩</div>' +
+        '<div class="game-card-tags">' +
+          '<span class="tag tag-primary">👥 ' + g.minPlayers + '-' + g.maxPlayers + '人</span>' +
+          (g.bestPlayers ? '<span class="tag tag-accent">👍 ' + g.bestPlayers + '人</span>' : '') +
+          (g.yearPublished ? '<span class="tag tag-secondary">📅 ' + g.yearPublished + '</span>' : '') +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function render(filterText, sortBy) {
+    filterText = (filterText || '').toLowerCase();
+    sortBy = sortBy || 'plays';
+
+    var filteredBase = baseGames.filter(function(g) {
+      return g.name.toLowerCase().indexOf(filterText) !== -1;
+    });
+    var filteredExp = expGames.filter(function(g) {
+      return g.name.toLowerCase().indexOf(filterText) !== -1;
+    });
+
+    filteredBase = sortList(filteredBase, sortBy);
+    filteredExp = sortList(filteredExp, sortBy);
+
+    var total = filteredBase.length + filteredExp.length;
     var noResults = document.getElementById('noResults');
-    if (filtered.length === 0) {
+    if (total === 0) {
       if (noResults) noResults.style.display = 'block';
-      container.innerHTML = '';
+      document.getElementById('gameGrid').innerHTML = '';
+      document.getElementById('expGrid').innerHTML = '';
       return;
     }
     if (noResults) noResults.style.display = 'none';
 
-    var html = '';
-    for (var i = 0; i < filtered.length; i++) {
-      var g = filtered[i];
-      var count = g.playCount || 0;
-      var thumb = getGameThumb(g);
-      var bggUrl = g.bggId ? 'https://boardgamegeek.com/boardgame/' + g.bggId : '#';
-      var rankBadge = g.bggRank ? '<span class="bgg-rank-badge">#' + g.bggRank + '</span>' : '';
-      var stars = g.bggRating ? '⭐' + g.bggRating.toFixed(1) : '';
-      var complexityHtml = g.complexity ? '<span class="complexity" title="复杂度 ' + g.complexity.toFixed(1) + '/5">' + renderComplexity(g.complexity) + ' ' + g.complexity.toFixed(1) + '</span>' : '';
-      html += '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
-        '<div class="game-card-image">' +
-          (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
-          rankBadge +
-        '</div>' +
-        '<div class="game-card-body">' +
-          '<div class="game-card-title">' + g.name + '</div>' +
-          '<div class="game-card-meta">' +
-            (stars ? '<span class="meta-stars">' + stars + '</span>' : '') +
-            (complexityHtml || '') +
-          '</div>' +
-          '<div class="game-card-plays">🏆 ' + count + '次游玩</div>' +
-          '<div class="game-card-tags">' +
-            '<span class="tag tag-primary">👥 ' + g.minPlayers + '-' + g.maxPlayers + '人</span>' +
-            (g.bestPlayers ? '<span class="tag tag-accent">👍 ' + g.bestPlayers + '人</span>' : '') +
-            (g.yearPublished ? '<span class="tag tag-secondary">📅 ' + g.yearPublished + '</span>' : '') +
-          '</div>' +
-        '</div>' +
-      '</div>';
-    }
-    container.innerHTML = html;
+    var baseHtml = '';
+    for (var i = 0; i < filteredBase.length; i++) { baseHtml += renderCard(filteredBase[i]); }
+    document.getElementById('gameGrid').innerHTML = baseHtml;
+
+    var expHtml = '';
+    for (var i = 0; i < filteredExp.length; i++) { expHtml += renderCard(filteredExp[i]); }
+    document.getElementById('expGrid').innerHTML = expHtml;
   }
 
   render();
 
-  // Search
   var searchInput = document.getElementById('gameSearch');
   var sortSelect = document.getElementById('gameSort');
 
