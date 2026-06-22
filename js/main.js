@@ -52,15 +52,16 @@ function renderComplexity(weight) {
 }
 
 function getGameThumb(game) {
-  // Prefer copy-specific thumb (Chinese edition), fallback to game thumb
-  var thumb = '';
-  if (game.copies && game.copies.length > 0 && game.copies[0].urlThumb) {
-    thumb = game.copies[0].urlThumb;
-  } else {
-    thumb = game.urlThumb || '';
+  // Prefer game thumb, fallback to copy thumb (skip preview thumbs)
+  var thumb = game.urlThumb || '';
+  if ((!thumb || thumb.indexOf('previewthumb') !== -1) && game.copies && game.copies.length > 0) {
+    var copyThumb = game.copies[0].urlThumb || '';
+    if (copyThumb && copyThumb.indexOf('previewthumb') === -1) {
+      thumb = copyThumb;
+    }
   }
-  // Only allow BGG CDN URLs
-  if (thumb && thumb.indexOf('https://cf.geekdo-images.com/') === 0) {
+  // Only allow BGG CDN URLs (not preview thumbs)
+  if (thumb && thumb.indexOf('https://cf.geekdo-images.com/') === 0 && thumb.indexOf('previewthumb') === -1) {
     return thumb;
   }
   return '';
