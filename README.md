@@ -26,7 +26,7 @@ kiz-boardgame-club/
 ├── members.html           # 成员墙
 ├── plays.html             # 活动记录
 ├── generate_data.py       # 数据生成脚本（读取 BGStats 导出）
-├── collection.csv         # 游戏收藏原始数据
+├── collection.csv         # BGG 收藏导出清单（手动维护，网站数据管线未读取，仅供参考）
 ├── css/
 │   └── style.css          # 样式
 ├── js/
@@ -79,6 +79,7 @@ BGStatsExport.json  ──(generate_data.py)──▶  js/data.js  ──▶  js
 4. 提交并更新 `js/data.js` 即可（私人导出文件本身不会被提交）。
 
 > ⚠️ 注意：`js/data.js` 由脚本生成并纳入版本控制；`BGStatsExport.json` 为私人数据，请勿提交。
+> 根目录的 `collection.csv` 是 BGG 收藏清单（含库存位置），由手动导出维护，**不参与上述数据管线**，请勿与导出文件混淆。
 
 ## 🚀 部署
 
