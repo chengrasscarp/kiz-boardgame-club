@@ -36,7 +36,7 @@ function getGameById(id) {
 function renderAvatar(name, extraStyle) {
   var imgPath = 'img/' + name + '.jpg';
   return '<div class="member-avatar"' + (extraStyle || '') + '>' +
-    '<img src="' + imgPath + '" class="avatar-img" onerror="this.style.display=\'none\'" onload="this.style.display=\'\'">' +
+    '<img src="' + imgPath + '" class="avatar-img" onerror="this.style.display=\'none\'" onload="this.style.display=\'block\'">' +
     '<span class="avatar-initial">' + name.charAt(0) + '</span>' +
   '</div>';
 }
