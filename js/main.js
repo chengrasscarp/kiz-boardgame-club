@@ -75,6 +75,73 @@ function getGameNameById(id) {
   return 'Unknown';
 }
 
+/* ===== Win Rate Stats ===== */
+// 某玩家对某游戏至少玩过这么多场，才计入"最高胜率"候选，避免 1 场 100% 的偶然
+var WIN_RATE_MIN_PLAYS = 2;
+
+// 统计每位玩家在每个游戏上的胜场/场次，key 为 "玩家id:游戏id"
+function buildWinRateMaps() {
+  var data = window.KIZ_DATA;
+  // 只统计在玩家名单内的人，排除被筛选掉的非研究生等"幽灵玩家"
+  var validPids = {};
+  for (var i = 0; i < data.players.length; i++) validPids[data.players[i].id] = true;
+  var wins = {};
+  var plays = {};
+  for (var i = 0; i < data.plays.length; i++) {
+    var play = data.plays[i];
+    if (play.ignored) continue;
+    var gid = play.gameRefId;
+    var scores = play.playerScores || [];
+    for (var j = 0; j < scores.length; j++) {
+      var pid = scores[j].playerRefId;
+      if (!validPids[pid]) continue;
+      var key = pid + ':' + gid;
+      plays[key] = (plays[key] || 0) + 1;
+      if (scores[j].winner) wins[key] = (wins[key] || 0) + 1;
+    }
+  }
+  return { wins: wins, plays: plays };
+}
+
+// 某玩家胜率最高的游戏（tie-break：胜场更多者优先）
+function getPlayerBestGame(pid, maps) {
+  var best = null;
+  var prefix = pid + ':';
+  for (var key in maps.plays) {
+    if (key.indexOf(prefix) !== 0) continue;
+    var pc = maps.plays[key];
+    if (pc < WIN_RATE_MIN_PLAYS) continue;
+    var wc = maps.wins[key] || 0;
+    var rate = Math.round(wc / pc * 100);
+    var gid = key.split(':')[1];
+    // 跳过已下架/不在游戏库中的对局（gameRefId 在 games 里找不到），避免渲染出 "null"
+    var gameName = getGameNameById(Number(gid));
+    if (gameName === null) continue;
+    if (!best || rate > best.rate || (rate === best.rate && wc > best.wins)) {
+      best = { gameId: Number(gid), gameName: gameName, rate: rate, wins: wc, plays: pc };
+    }
+  }
+  return (best && best.rate > 0) ? best : null;
+}
+
+// 某游戏胜率最高的玩家（tie-break：胜场更多者优先）
+function getGameBestPlayer(gid, maps) {
+  var best = null;
+  var prefix = gid + ':';
+  for (var key in maps.plays) {
+    if (key.indexOf(prefix) !== 0) continue;
+    var pc = maps.plays[key];
+    if (pc < WIN_RATE_MIN_PLAYS) continue;
+    var wc = maps.wins[key] || 0;
+    var rate = Math.round(wc / pc * 100);
+    var pid = key.split(':')[0];
+    if (!best || rate > best.rate || (rate === best.rate && wc > best.wins)) {
+      best = { playerId: Number(pid), name: getPlayerNameById(Number(pid)), rate: rate, wins: wc, plays: pc };
+    }
+  }
+  return (best && best.rate > 0) ? best : null;
+}
+
 function getPlayerNameById(id) {
   var players = window.KIZ_DATA.players;
   for (var i = 0; i < players.length; i++) {
@@ -259,6 +326,7 @@ function renderGameLibrary() {
   if (!container) return;
 
   var data = window.KIZ_DATA;
+  var winMaps = buildWinRateMaps();
 
   // Split games
   var baseGames = data.games.filter(function(g) { return !g.isExpansion; });
@@ -304,6 +372,8 @@ function renderGameLibrary() {
     var rankBadge = g.bggRank ? '<span class="bgg-rank-badge">#' + g.bggRank + '</span>' : '';
     var stars = g.bggRating ? '⭐' + g.bggRating.toFixed(1) : '';
     var complexityHtml = g.complexity ? '<span class="complexity" title="复杂度 ' + g.complexity.toFixed(1) + '/5">' + renderComplexity(g.complexity) + ' ' + g.complexity.toFixed(1) + '</span>' : '';
+    var gp = getGameBestPlayer(g.id, winMaps);
+    var gpHtml = gp ? '<div class="winrate-line">👑 胜率王：' + gp.name + '（' + gp.rate + '%）</div>' : '';
     return '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
       '<div class="game-card-image">' +
         (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
@@ -316,6 +386,7 @@ function renderGameLibrary() {
           (complexityHtml || '') +
         '</div>' +
         '<div class="game-card-plays">🏆 ' + count + '次游玩</div>' +
+        gpHtml +
         '<div class="game-card-tags">' +
           '<span class="tag tag-primary">👥 ' + g.minPlayers + '-' + g.maxPlayers + '人</span>' +
           (g.bestPlayers ? '<span class="tag tag-accent">👍 ' + g.bestPlayers + '人</span>' : '') +
@@ -502,6 +573,7 @@ function renderPlayRecords() {
 /* ===== Members Page ===== */
 function renderMemberWall() {
   var data = window.KIZ_DATA;
+  var winMaps = buildWinRateMaps();
 
   // Fill count
   var countEl = document.getElementById('memberCount');
@@ -547,10 +619,13 @@ function renderMemberWall() {
     for (var i = 0; i < sorted.length; i++) {
       var p = sorted[i];
       var initial = p.name.charAt(0);
+      var bg = getPlayerBestGame(p.id, winMaps);
+      var bgHtml = bg ? '<div class="member-best">🏆 最擅长：' + bg.gameName + '（' + bg.rate + '%，' + bg.wins + '/' + bg.plays + '）</div>' : '';
       html += '<div class="member-card">' +
         renderAvatar(p.name, (p.avatarColor ? ' style="background:' + p.avatarColor + ';"' : '')) +
         '<div class="member-name">' + p.name + '</div>' +
         '<div class="member-plays">' + (playCount[p.id] || 0) + '场</div>' +
+        bgHtml +
       '</div>';
     }
     gridEl.innerHTML = html;

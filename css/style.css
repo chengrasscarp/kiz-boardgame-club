@@ -437,6 +437,19 @@ input, select { font-family: inherit; }
   color: var(--color-text-muted);
 }
 
+.member-best {
+  font-size: 12px;
+  color: var(--color-primary);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+.winrate-line {
+  font-size: 12px;
+  color: var(--color-primary);
+  margin-top: 6px;
+}
+
 /* ===== Member Podium (Top 3) ===== */
 .podium {
   display: grid;
