@@ -106,19 +106,19 @@ function buildWinRateMaps() {
 // 某玩家胜率最高的游戏（tie-break：胜场更多者优先）
 function getPlayerBestGame(pid, maps) {
   var best = null;
-  var prefix = pid + ':';
   for (var key in maps.plays) {
-    if (key.indexOf(prefix) !== 0) continue;
+    var parts = key.split(':');
+    if (Number(parts[0]) !== pid) continue;
     var pc = maps.plays[key];
     if (pc < WIN_RATE_MIN_PLAYS) continue;
     var wc = maps.wins[key] || 0;
     var rate = Math.round(wc / pc * 100);
-    var gid = key.split(':')[1];
+    var gid = Number(parts[1]);
     // 跳过已下架/不在游戏库中的对局（gameRefId 在 games 里找不到），避免渲染出 "null"
-    var gameName = getGameNameById(Number(gid));
+    var gameName = getGameNameById(gid);
     if (gameName === null) continue;
     if (!best || rate > best.rate || (rate === best.rate && wc > best.wins)) {
-      best = { gameId: Number(gid), gameName: gameName, rate: rate, wins: wc, plays: pc };
+      best = { gameId: gid, gameName: gameName, rate: rate, wins: wc, plays: pc };
     }
   }
   return (best && best.rate > 0) ? best : null;
@@ -127,16 +127,18 @@ function getPlayerBestGame(pid, maps) {
 // 某游戏胜率最高的玩家（tie-break：胜场更多者优先）
 function getGameBestPlayer(gid, maps) {
   var best = null;
-  var prefix = gid + ':';
   for (var key in maps.plays) {
-    if (key.indexOf(prefix) !== 0) continue;
+    var parts = key.split(':');
+    if (Number(parts[1]) !== gid) continue;
     var pc = maps.plays[key];
     if (pc < WIN_RATE_MIN_PLAYS) continue;
     var wc = maps.wins[key] || 0;
     var rate = Math.round(wc / pc * 100);
-    var pid = key.split(':')[0];
+    var pid = Number(parts[0]);
+    var pname = getPlayerNameById(pid);
+    if (pname === null) continue;
     if (!best || rate > best.rate || (rate === best.rate && wc > best.wins)) {
-      best = { playerId: Number(pid), name: getPlayerNameById(Number(pid)), rate: rate, wins: wc, plays: pc };
+      best = { playerId: pid, name: pname, rate: rate, wins: wc, plays: pc };
     }
   }
   return (best && best.rate > 0) ? best : null;
