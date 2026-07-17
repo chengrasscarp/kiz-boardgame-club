@@ -195,7 +195,7 @@ function renderHotGames() {
   // Sort games by pre-computed playCount descending
   var sorted = data.games.slice().sort(function(a, b) {
     return (b.playCount || 0) - (a.playCount || 0);
-  }).slice(0, 8);
+  }).slice(0, 16);
 
   var html = '';
   for (var i = 0; i < sorted.length; i++) {
