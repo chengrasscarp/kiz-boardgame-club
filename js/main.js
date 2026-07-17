@@ -76,8 +76,8 @@ function getGameNameById(id) {
 }
 
 /* ===== Win Rate Stats ===== */
-// 某玩家对某游戏至少玩过这么多场，才计入"最高胜率"候选，避免 1 场 100% 的偶然
-var WIN_RATE_MIN_PLAYS = 2;
+// 某玩家对某游戏至少玩过这么多场，才计入"最高胜率"候选，避免少数场次 100% 的偶然
+var WIN_RATE_MIN_PLAYS = 5;
 
 // 统计每位玩家在每个游戏上的胜场/场次，key 为 "玩家id:游戏id"
 function buildWinRateMaps() {
