@@ -359,7 +359,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D1FD21BF-30EE-41FA-B5A0-FE33DD050B99",
@@ -393,7 +394,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "53437FB3-C99C-44E9-BE25-88ABC97745B8",
@@ -421,7 +423,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4F2D6919-0FCF-4D36-87C6-CBF3C8176729",
@@ -437,7 +440,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F9FDEDBE-2AD8-4C07-898E-A18C2213A358",
@@ -459,7 +463,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EBE3B17E-EDE6-40C7-AEA1-4BEF293902B5",
@@ -481,7 +486,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0CE600B1-8548-4EB1-9E31-78C6D7C7C8A1",
@@ -515,7 +521,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "888A5A58-A62A-4181-9981-8C68603FF5A3",
@@ -543,7 +550,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8EBE9530-499D-4A2C-B53C-DE5E4CE121BC",
@@ -571,7 +579,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6D572D16-C95A-40FA-96D6-B4C383590CA2",
@@ -611,7 +620,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4A1336F2-4907-4C9A-AE8C-AC2CB147CDCE",
@@ -651,7 +661,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1E39A65F-316D-4293-8F26-0233DE93DF4A",
@@ -673,7 +684,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5A1A42BE-0A2B-4675-82EA-DFB309552E2A",
@@ -689,7 +701,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0FC2DC87-6CC2-4212-B2FB-7C8503182735",
@@ -723,7 +736,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9D28CA6B-F0B0-4F5A-8D16-48C91E93EE8B",
@@ -757,7 +771,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D9A01B1D-0596-4B42-A709-22F764EA7379",
@@ -791,7 +806,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "3D1549F0-9C9F-4803-931D-3A04CC542239",
@@ -831,7 +847,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "81F42C84-4939-439F-B604-E082CC91F25F",
@@ -871,7 +888,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F862CA15-D1E4-4025-AC9C-325CB7904C52",
@@ -911,7 +929,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "980186D8-0BF7-45AA-8A27-6DC3C2C89299",
@@ -933,7 +952,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "3B1F9E7F-F0AE-4A3D-B525-4FB7A3E2B28F",
@@ -955,7 +975,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "41443D4E-D3A0-48D5-B2CF-CBDCCF3885A3",
@@ -977,7 +998,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "93E1D477-AC01-48E1-8785-1473C7825469",
@@ -999,7 +1021,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "51C5247C-F561-406F-9251-3145AC9FF4D3",
@@ -1027,7 +1050,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CF4182E3-FB74-4169-812D-8EFE89596994",
@@ -1049,7 +1073,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "36B957EE-C01E-4FB6-866D-76E87A41495D",
@@ -1071,7 +1096,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DBD7F6AE-84A1-4585-8BE7-2FFD0D3EDF6F",
@@ -1111,7 +1137,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "FD5F8103-D54E-4392-A40F-31ED37394E75",
@@ -1157,7 +1184,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6189E457-00C0-4DBF-BB33-64ACC8EFAD44",
@@ -1203,7 +1231,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D14632DB-F6A9-41E0-A2ED-9386B38740BA",
@@ -1231,7 +1260,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "10C70CFD-DA3F-411B-8880-777E7C711236",
@@ -1265,7 +1295,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2FBDA1C7-0442-4837-B4F5-600BC99792AE",
@@ -1305,7 +1336,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C473CD05-E163-4FDD-8B25-9957A68E4E49",
@@ -1345,7 +1377,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E82A2DBF-1C53-4FBE-B94A-A09CDD307D99",
@@ -1385,7 +1418,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "475C98B6-36F4-4918-9D9E-6845EA461F34",
@@ -1437,7 +1471,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "AF730083-8921-4805-B41B-416AE270D5F9",
@@ -1464,6 +1499,12 @@ window.KIZ_DATA = {
           "score": "60",
           "winner": false,
           "rank": 0
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
         }
       ]
     },
@@ -1493,6 +1534,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
+        }
       ]
     },
     {
@@ -1521,7 +1568,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B10F1DD0-48DA-4B64-A0E7-960B9407F7CE",
@@ -1549,7 +1597,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EB67E8DB-2453-47E9-8398-724039A620D9",
@@ -1583,6 +1632,12 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 9
+        }
       ]
     },
     {
@@ -1611,7 +1666,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D4528588-C26D-4C08-8048-91F730555319",
@@ -1639,7 +1695,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "20A7BE7E-DE21-4477-B5F0-D78CC883C537",
@@ -1667,7 +1724,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "BB4FD562-668C-408D-BA83-94BD204091A1",
@@ -1700,6 +1758,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 0
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 46
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 9
         }
       ]
     },
@@ -1741,7 +1809,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "22081978-E324-4405-B4DA-886E3022DF0C",
@@ -1781,7 +1850,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9DAC3CC8-69E2-4937-A6A1-A4FE34FABF8B",
@@ -1821,7 +1891,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C489CE60-6E56-4C40-A488-8FD6920CAD59",
@@ -1861,7 +1932,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EABABA97-0870-47CE-ADD6-E84E86C4F758",
@@ -1901,7 +1973,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "957C4BF9-26F0-408D-818B-B37A1932F93E",
@@ -1923,7 +1996,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "90F4B1B7-0274-452A-8D06-1288CB349BB0",
@@ -1944,6 +2018,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 0
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 82
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 81
         }
       ]
     },
@@ -1997,7 +2081,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8F18EA47-2F01-4627-A085-001E8068B53E",
@@ -2031,7 +2116,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E3E70556-C356-4C90-B3F6-4F2F433F949E",
@@ -2065,7 +2151,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "7B440644-428A-4EAC-AA0C-930AA55D7754",
@@ -2087,7 +2174,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "3B314958-3EF8-4541-823D-C8F66E13C86C",
@@ -2109,7 +2197,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "603EBE3C-69E1-426C-93A6-CD69BE061E0F",
@@ -2155,7 +2244,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "08CBDCEA-B621-4878-A63F-AD56CE04E300",
@@ -2201,7 +2291,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DA9D5096-CA91-4E91-9BD9-B10E59090F21",
@@ -2222,6 +2313,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 0
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 81
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 82
         }
       ]
     },
@@ -2245,7 +2346,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0FE3C3CF-9982-469E-8E7C-1FD52045F253",
@@ -2279,7 +2381,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "AEECA83F-7C93-421D-97B6-EE4AD17A6E8E",
@@ -2313,7 +2416,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F0C761F2-87E6-48D4-A854-F44A103A2B58",
@@ -2347,7 +2451,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "980DFFB3-9D0A-4489-B950-29B4E154308B",
@@ -2369,7 +2474,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "7FEAEC42-6D47-4BA0-96E8-B7E7897BDD80",
@@ -2391,7 +2497,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DC0FEB4E-AEFD-4BD5-AAB2-8F8EBA4FB73D",
@@ -2437,7 +2544,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "3BCA9C7D-9325-4FE0-99D0-D871AA78FA89",
@@ -2483,7 +2591,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "129842DD-3348-411E-B224-8623D5874EB4",
@@ -2505,7 +2614,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D60836CC-26F7-4D67-B152-A6AE0C4EC1BF",
@@ -2539,7 +2649,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C1AACEC4-3DEF-426E-A9CE-331DDE25AEC2",
@@ -2579,7 +2690,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "46E53EA3-D63F-49D3-AEAD-6B075FF2E388",
@@ -2594,6 +2706,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 0
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
         }
       ]
     },
@@ -2617,7 +2735,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E95CCAD2-6C7C-4F7C-A8D2-ADDA63375B8F",
@@ -2639,7 +2758,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "33303787-7702-4F41-B8C8-7209956A5161",
@@ -2691,7 +2811,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "12A175A1-E8BB-427C-B171-4500B4B9F70D",
@@ -2719,7 +2840,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A21C54EB-8F87-4DA0-99DB-54BEDC100319",
@@ -2747,7 +2869,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "57B87071-5BAB-4324-9060-A17D593030AC",
@@ -2775,7 +2898,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6E6DEADF-07E1-4E07-97E4-55F35EC0F439",
@@ -2809,7 +2933,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "41CD476C-68A9-40A4-A680-DA35A0CE33E8",
@@ -2843,7 +2968,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "31C13BCE-E14A-4AD6-8341-FA42D72CF6DA",
@@ -2865,7 +2991,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "3E5B3289-D7EC-407E-8B60-3EC660DEB760",
@@ -2887,7 +3014,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DFCC0F69-AF8F-412B-8DD1-4F7ED7308682",
@@ -2927,7 +3055,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D6582B63-4EC0-472C-A107-0DB3E824CA3C",
@@ -2967,7 +3096,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C2790DAC-82E5-4D54-A2A0-D1A322BAEEFD",
@@ -3007,7 +3137,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EE3EE041-0021-4D31-899C-0EF8368228E4",
@@ -3053,7 +3184,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "35C4CA0F-9B87-4735-A353-61125EDBF9FB",
@@ -3099,7 +3231,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EA83AAEA-3FD1-4F47-B48E-0081B7C57B57",
@@ -3145,7 +3278,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DA42A6D9-D385-44D5-B920-F7877991A79B",
@@ -3191,7 +3325,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6A74CAC7-EE47-4AB6-89C0-AAB28D756229",
@@ -3231,6 +3366,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
+        }
       ]
     },
     {
@@ -3253,7 +3394,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "55831763-2724-4A04-8A63-ACEEC5C28205",
@@ -3275,7 +3417,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A59C343E-5BAC-411D-8276-D408E8F3A5D8",
@@ -3315,7 +3458,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E045849B-1877-4648-A8EC-268C571830BD",
@@ -3343,7 +3487,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8D8100D1-2409-4D1D-98C5-DBCA80D38D93",
@@ -3365,7 +3510,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B73DF764-68D9-477A-B841-C2D24202657D",
@@ -3411,7 +3557,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CAE1EB9E-C95B-4DDD-A079-7B619D1E92E3",
@@ -3457,7 +3604,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F6C1A773-E504-4D7A-BC38-D7E702BA38EC",
@@ -3485,7 +3633,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "226CC796-AD32-4B32-9CDC-137ED2D6A2A6",
@@ -3513,7 +3662,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D6225276-4BA5-4AAF-98CA-439F96EF0F7C",
@@ -3546,6 +3696,12 @@ window.KIZ_DATA = {
           "score": "61",
           "winner": true,
           "rank": 0
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
         }
       ]
     },
@@ -3581,7 +3737,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "307AAFDB-FD8E-4721-9992-EAD83E01B06A",
@@ -3615,7 +3772,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "688D0865-2BF9-4349-9933-9C101511355D",
@@ -3649,7 +3807,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "7677470C-C168-40EC-B9BE-831B08EC0F46",
@@ -3683,7 +3842,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C65D0D86-EB72-4081-AAF8-37A00C66CF5B",
@@ -3717,7 +3877,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "56E9478F-0472-401D-B184-9CC68BC549A9",
@@ -3751,7 +3912,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8E748EDA-C3D6-43F9-8AF4-AE8C884AACC1",
@@ -3785,7 +3947,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5011B1D1-5E08-460F-A9DB-81218A8A0DD0",
@@ -3813,7 +3976,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "60649E5F-7FCD-4954-86FC-BDD231140AA8",
@@ -3841,7 +4005,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "145F2411-3F50-4FD4-B712-A766EFE7AB43",
@@ -3863,7 +4028,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1A6D2088-B480-41B0-8E89-5787BB27D964",
@@ -3885,7 +4051,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9E5422DD-3DD1-4E15-A8C4-3DA91DEF772B",
@@ -3907,7 +4074,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "3B0C2205-D674-410D-A73D-C4F255A856A2",
@@ -3929,7 +4097,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4F708083-ABA0-437A-8971-E7AE5C98C277",
@@ -3951,7 +4120,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "930CE042-C32D-42A3-B16F-B189D079D249",
@@ -3973,7 +4143,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "813C3036-1F9F-4654-ACC9-BF7AB6AC3D7A",
@@ -4025,7 +4196,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 6
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "846B970D-4DD7-43B9-AA73-A7A318B23460",
@@ -4053,7 +4225,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4FAC7B11-4762-4016-8A98-1ED1440A72D0",
@@ -4081,7 +4254,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "403588E7-AC85-49CA-8BAD-F4ECC128EBF1",
@@ -4115,7 +4289,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E09233D1-43FE-4491-AD81-313C20FB43CF",
@@ -4155,7 +4330,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E1566AE4-2E30-4D34-87CA-E291D7127219",
@@ -4195,7 +4371,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "321A4B94-2797-4ABC-96C7-7C3CAA2ED619",
@@ -4229,7 +4406,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "60820AF5-CCB9-40C6-8772-8D9C3BBD0D90",
@@ -4263,7 +4441,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1FCA6511-EF17-4DD8-BF5C-B35394FAA288",
@@ -4315,7 +4494,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "72E606C9-B1DF-4CCC-BAEE-80C4C868BFA4",
@@ -4367,7 +4547,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "14AA1A58-7ACF-4AA8-B00B-EFCBC54D06EC",
@@ -4413,7 +4594,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "AB3FA81E-F797-47C3-ADD9-92905DE390C0",
@@ -4453,7 +4635,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F2ECB787-BCAA-405D-A204-C7BC1FC1D638",
@@ -4493,7 +4676,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "74B3F6B8-1BB9-4648-A5D0-28B7B9F47EDD",
@@ -4533,7 +4717,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CF4753C3-91CC-4197-B850-9A581B8B4136",
@@ -4573,7 +4758,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2FA1653A-3390-49A2-94C6-46C01678F428",
@@ -4613,7 +4799,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "140CDFE2-F539-454D-9EDC-D305A58EAD5C",
@@ -4653,7 +4840,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "732F2D87-FF80-45AD-9332-CCCD7F62B637",
@@ -4681,7 +4869,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "56126C5D-72F3-4541-B09C-3016F5748968",
@@ -4721,7 +4910,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "7737F357-2C0A-4CCC-B027-F87074539255",
@@ -4761,7 +4951,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D4A301ED-5A7E-4622-9566-23A3FB8FACB4",
@@ -4801,7 +4992,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "713F06FF-12C3-49E9-A257-E3F608ABD5F7",
@@ -4835,7 +5027,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5A295662-5ACF-4A53-B534-45D2623AA802",
@@ -4875,7 +5068,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E3E07559-6AA4-4F3C-B444-478BC855E82E",
@@ -4903,7 +5097,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E1C72CED-685B-454C-983E-20DF4E1B6726",
@@ -4925,7 +5120,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9912338E-7D0B-4267-967D-BC1369E73CF2",
@@ -4965,7 +5161,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "51A39C18-1900-4264-B882-8DBAFC720BBD",
@@ -5004,6 +5201,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
         }
       ]
     },
@@ -5045,7 +5248,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 5
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DF5C5FAF-076F-4C20-98EB-7A7C5C484E76",
@@ -5079,7 +5283,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "3880E0DD-FAF9-4155-AD9B-D1019A3421AF",
@@ -5101,7 +5306,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "378C2D4E-3FBF-400C-97B7-73DD2F867ABA",
@@ -5123,7 +5329,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "31492A03-47DD-412C-8633-6B9C5DFED768",
@@ -5145,7 +5352,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6048F011-A6D7-4BE6-998A-4FB932389F74",
@@ -5161,7 +5369,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9F3E843B-BFD5-492F-A0DA-940071E5B15F",
@@ -5189,7 +5398,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C7570C1B-B54F-4063-A111-F9956F24CCDC",
@@ -5223,7 +5433,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0CDD75E5-7EE5-46C5-8CCA-7FE6ED521E8D",
@@ -5263,7 +5474,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A0F715C0-C3F2-4CDA-8E5E-F7D8E1BF0263",
@@ -5303,7 +5515,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 5
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "38D27517-2318-4878-A616-05CA05CEF02A",
@@ -5337,7 +5550,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5AF222C0-5052-4168-8314-3DD1886EF4E9",
@@ -5371,7 +5585,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4970FAD7-2ACF-4F36-89C7-AABB32531128",
@@ -5387,7 +5602,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9B4B8870-38A8-4D7D-922C-B4BEDAB842F5",
@@ -5403,7 +5619,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B47095C2-DD79-4595-B4A9-E21DF474BB3C",
@@ -5449,7 +5666,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 5
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5505B4B4-CBFB-477A-A5F0-0D80EECFC8F3",
@@ -5495,7 +5713,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 6
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C7CC0BA2-6467-4004-9CDC-D184709DBD16",
@@ -5535,7 +5754,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "79E1C79A-D07F-4A2C-BA39-5AFE30219F61",
@@ -5575,7 +5795,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "72AE2985-328D-45F8-B790-1C043DB5F300",
@@ -5615,7 +5836,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4C334B0F-3526-48CC-A0C6-65332E3BD253",
@@ -5649,7 +5871,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DBC0B224-A398-4EA6-80F9-5076C49FF0AD",
@@ -5689,7 +5912,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F75B4A0B-74C9-4BE1-B662-AF7148D15B6A",
@@ -5729,7 +5953,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CB4F084B-28CA-427F-A9A5-F29DCC38AC1C",
@@ -5768,6 +5993,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
         }
       ]
     },
@@ -5809,7 +6040,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DC87BB92-6FEB-486C-BBDC-217AFBC95058",
@@ -5825,7 +6057,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "94E3FC6F-1DA7-4C5E-9273-D5F611435E24",
@@ -5864,6 +6097,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 51
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 59
         }
       ]
     },
@@ -5905,7 +6148,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "283FFC8B-4AB5-4EA2-9E16-3CD4E7A6B001",
@@ -5927,7 +6171,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9ED31BEE-F672-44BE-8FD7-E6468BB9FDD9",
@@ -5949,7 +6194,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "918DAB5F-E390-4933-89AE-77A565F06101",
@@ -5977,7 +6223,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C5957886-689B-4279-8E27-6DAC6971CFBF",
@@ -5992,6 +6239,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
         }
       ]
     },
@@ -6009,7 +6262,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "71FA4DC1-992E-4009-8D36-51CF3914E78B",
@@ -6025,7 +6279,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "66A076BF-0E3C-4159-A11C-0735910B1138",
@@ -6041,7 +6296,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "80C849F4-55CF-43F0-8774-576FC15AEB39",
@@ -6057,7 +6313,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4495A6E1-D3AE-412F-B595-8BB2C0CBACAA",
@@ -6103,7 +6360,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "362B6DB4-7141-484C-AC4C-AA9F21E23859",
@@ -6149,7 +6407,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0A110A56-0EA2-4F0D-BA58-7165FCAAA6CF",
@@ -6195,7 +6454,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "FA92E1A1-DB08-4C80-A647-EEEC5631506C",
@@ -6235,7 +6495,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A4EAF82F-7AEC-4755-B97C-5A7ADC6ABE8E",
@@ -6275,7 +6536,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CDC0BFF6-2AE8-4B88-AFCB-B72B1927D049",
@@ -6297,7 +6559,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2A3E196E-68B0-4ABD-92D4-84FDC15B7D9E",
@@ -6319,7 +6582,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D915429D-3282-4E18-AC94-462101369301",
@@ -6341,7 +6605,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B5939A9C-D5D7-4F5A-8F42-E2F56DA6EB06",
@@ -6363,7 +6628,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8A7F2987-DBCE-477B-A96B-321C2209FFF9",
@@ -6385,7 +6651,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "38F6358D-0091-4372-B693-B5B726A9624A",
@@ -6419,7 +6686,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "34124525-EE73-43DF-8CE4-464FE9F4C8D2",
@@ -6459,7 +6727,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "01427A6F-8E7E-4813-83A8-1E722EACCCBE",
@@ -6499,7 +6768,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "56807FD4-85A5-4829-9405-AB92D52FB9FA",
@@ -6539,7 +6809,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2ED6EBAF-BAE6-4AD8-A743-645DAA253926",
@@ -6579,7 +6850,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "10B6C5FF-3D66-40B7-9C5E-4AA9980D33DB",
@@ -6619,7 +6891,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EC29935D-082A-42E7-B7EB-78C65919537D",
@@ -6659,7 +6932,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "57B8E93B-2ECE-4354-9332-544F4C44AC46",
@@ -6699,7 +6973,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2EE960F6-C92A-4C9B-8ED2-05F0D98FAF79",
@@ -6739,7 +7014,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9FEEF5D2-184F-4269-BEFC-2D725D7055B0",
@@ -6779,7 +7055,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "652768E5-87F5-4340-8127-C7F8CC9A234C",
@@ -6819,7 +7096,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6DC49158-A6B5-4B0A-8C34-B5F8995A689B",
@@ -6859,7 +7137,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "ECD1FE08-6517-4761-BDCB-D9EE0511D682",
@@ -6899,7 +7178,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "10549101-EF4A-4621-8917-49000F47CE42",
@@ -6939,7 +7219,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1822DF5F-64C9-4385-8297-A4ECFFB24D1B",
@@ -6967,7 +7248,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C3676809-17D9-440F-8742-099E5645F6EE",
@@ -6983,7 +7265,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8B85CC5D-3AF7-43A2-A32B-54118658025F",
@@ -6999,7 +7282,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B4EEC8F4-4766-45A0-A62C-0E6709215D06",
@@ -7015,7 +7299,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6A2743AF-0A79-4E43-AC33-A8DEB34DC543",
@@ -7031,7 +7316,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A7A1F017-F83D-4477-A449-0808671369A7",
@@ -7053,7 +7339,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C644940D-6952-439D-8631-15654A3114EF",
@@ -7075,7 +7362,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2686975C-7541-4A1A-9F13-DCA19C30D140",
@@ -7097,7 +7385,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E0CB7589-015D-4250-988A-812D8CDC7C96",
@@ -7118,6 +7407,12 @@ window.KIZ_DATA = {
           "score": "67",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
         }
       ]
     },
@@ -7141,6 +7436,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
+        }
       ]
     },
     {
@@ -7163,7 +7464,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "270C6F89-DBD7-46D6-BF1B-6C76716C0BF3",
@@ -7179,7 +7481,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "081FC6C7-EB98-4E46-BE4A-5A54F0D87F32",
@@ -7195,7 +7498,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "ABF56ED2-4601-4C47-B1FC-C1DA1BD33FD8",
@@ -7211,7 +7515,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "851679D4-3502-4983-8458-E6A93CADCD0A",
@@ -7227,7 +7532,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CF276F62-004D-4B7F-B977-FCC641879009",
@@ -7261,7 +7567,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "FE16431F-DFFF-432B-BA71-7D0C21F4022D",
@@ -7295,7 +7602,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "46FF70D3-7232-40BA-AFA4-78560B44AE91",
@@ -7311,7 +7619,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A065DEC0-F689-4FC9-B6B3-A327CD11A5D4",
@@ -7333,6 +7642,16 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 82
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 81
+        }
       ]
     },
     {
@@ -7349,7 +7668,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EBA07182-1421-427D-9C09-8888C7EA5969",
@@ -7365,7 +7685,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6CCA0708-396C-4733-BEFA-D89FF4F8CE06",
@@ -7399,7 +7720,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6B667BD5-8938-4F2B-A830-6F56AE2C093C",
@@ -7427,7 +7749,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D7FCA95B-62CB-4CC8-903D-E7A63E1267C5",
@@ -7449,7 +7772,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "7AEC9BA2-5106-456F-9E73-051C6F175BE7",
@@ -7471,7 +7795,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8C8B100F-EF1C-42D3-B641-8EF0A73F625C",
@@ -7493,7 +7818,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B7D8EB25-C318-40F4-A165-DFA1C0909D4A",
@@ -7527,7 +7853,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D9A59E74-B7F5-4390-A645-8F3F599856B4",
@@ -7561,7 +7888,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "41CB5FC2-012F-4E09-8DEA-2E66BCE13365",
@@ -7595,7 +7923,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D2100157-1DA7-4C03-8327-B39206ED2D93",
@@ -7629,7 +7958,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D0AD166F-856C-401E-A375-0D0A5B085065",
@@ -7657,7 +7987,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1C40DFB3-FF7D-42F0-B2A9-47E88E054635",
@@ -7691,7 +8022,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "83B2F90C-C729-4AC9-AE60-7268D348758C",
@@ -7725,7 +8057,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B2BCF56D-E014-47E0-9B67-AEB48C085118",
@@ -7765,6 +8098,12 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
+        }
       ]
     },
     {
@@ -7786,6 +8125,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 82
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 81
         }
       ]
     },
@@ -7815,7 +8164,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4C32F5E4-488F-4624-8A60-037E689961E3",
@@ -7843,7 +8193,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C0A75A4E-FA29-4ECB-9DD5-8F0550FF1C89",
@@ -7871,7 +8222,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2398AC20-8481-4CD8-B017-C71831F1B126",
@@ -7899,7 +8251,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E25026F1-2D17-4C59-9D33-50E341B21563",
@@ -7921,7 +8274,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A8F52990-E918-4DF3-A97F-65B8625A7ED4",
@@ -7948,6 +8302,16 @@ window.KIZ_DATA = {
           "score": "80",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 80
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 79
         }
       ]
     },
@@ -7977,7 +8341,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "51DF553D-8953-4D3D-BC17-CA2E71D01EC3",
@@ -7993,7 +8358,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4A2333A6-CC10-47F3-B410-736BF69CF022",
@@ -8009,7 +8375,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DFF05716-EFE5-492E-B736-D7DC15115112",
@@ -8043,7 +8410,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9FC37E0F-B54A-4706-833C-DBEE569BAD90",
@@ -8077,7 +8445,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1F287072-B334-48A0-941E-F163570D5B03",
@@ -8117,7 +8486,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "ACD9AB86-3FF3-4CF5-AA3F-32238E105E4E",
@@ -8157,7 +8527,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9F48B0C9-71AD-4C94-B8F6-BD27D6F00FAE",
@@ -8197,7 +8568,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "32188136-ECBF-4058-B91E-B5DF73C35A23",
@@ -8237,7 +8609,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6A3FD8DB-B100-46FA-A9A9-1B0A12AEDABF",
@@ -8277,7 +8650,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A42FF24C-5E99-46A4-94AF-DF7A14ED798F",
@@ -8317,7 +8691,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A80122CA-03FC-4CC4-AE78-3571CDE89E42",
@@ -8351,7 +8726,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "60B49A53-3F51-49B5-AA1F-3E48CFF18D5A",
@@ -8391,7 +8767,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "968BE2C6-17A0-42B5-90DC-64117B617568",
@@ -8431,7 +8808,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "FD6CD6B2-7430-4DA3-B666-8435946B69F9",
@@ -8464,6 +8842,12 @@ window.KIZ_DATA = {
           "score": "13",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 76
         }
       ]
     },
@@ -8499,7 +8883,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F966F54B-4430-4B46-8028-5E6BDE59E855",
@@ -8533,7 +8918,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CB36C627-1209-41C5-AE3C-B42710C5AB31",
@@ -8567,7 +8953,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6FF930B6-D52E-4EA5-9CD2-DADE65CE287F",
@@ -8582,6 +8969,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 55
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 54
         }
       ]
     },
@@ -8605,7 +9002,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0D70BE18-8459-489F-B136-462467A3D020",
@@ -8620,6 +9018,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 53
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 56
         }
       ]
     },
@@ -8643,6 +9051,16 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 81
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 82
+        }
       ]
     },
     {
@@ -8665,7 +9083,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "72DCD6DC-1F6B-4CE4-8786-64AEC4C202BD",
@@ -8687,7 +9106,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D0952DE6-5BEC-4CE1-B5B0-EE6323F49296",
@@ -8708,6 +9128,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 81
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 82
         }
       ]
     },
@@ -8737,7 +9167,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D6341977-F31D-4EBB-B917-C1028C4048AD",
@@ -8764,6 +9195,16 @@ window.KIZ_DATA = {
           "score": "55",
           "winner": false,
           "rank": 3
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 80
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 79
         }
       ]
     },
@@ -8799,7 +9240,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "AE239F05-4EA7-4B96-9329-22CD879C8DEC",
@@ -8833,7 +9275,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9BD15BBB-F6E7-4FAE-A633-70EBB8362F3B",
@@ -8873,7 +9316,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "BA4F68A2-E65D-4CF3-A35E-36034BEF4DE4",
@@ -8889,7 +9333,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6CE4F063-8B2A-4E8A-88EF-0850D90F2C68",
@@ -8929,7 +9374,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9AB3BBCA-5043-4380-B783-2BFB81F09731",
@@ -8945,7 +9391,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C163859A-1ECA-47D7-95D7-1E21966BB024",
@@ -8961,7 +9408,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "AA0662AD-D264-4A73-A786-0DE98E749E57",
@@ -8982,6 +9430,16 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 82
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 81
         }
       ]
     },
@@ -9011,7 +9469,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "75480D65-6E4B-4728-8411-F4D25FB30B38",
@@ -9038,6 +9497,12 @@ window.KIZ_DATA = {
           "score": "81",
           "winner": false,
           "rank": 3
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
         }
       ]
     },
@@ -9067,7 +9532,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8E54DD61-22F9-46C4-95B7-7364186961DC",
@@ -9095,7 +9561,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A72190DA-213D-47DA-A043-72CAF1FDB88D",
@@ -9135,7 +9602,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D0C860ED-C6B8-4369-AD50-36147759FB23",
@@ -9175,7 +9643,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A937B118-48FF-4951-A945-72166CEDD315",
@@ -9215,7 +9684,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4E129BCB-2D92-4B4B-B58C-FC1DA59F79EA",
@@ -9255,6 +9725,12 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 85
+        }
       ]
     },
     {
@@ -9283,7 +9759,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B2E733CE-C4BC-4821-A308-58C3B8B036DF",
@@ -9329,7 +9806,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1D170B6E-FF63-4B99-9825-2AC91A9F6223",
@@ -9375,7 +9853,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9842E8EE-BA65-4BA9-9FBA-CAF7D735BBBD",
@@ -9421,6 +9900,12 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 85
+        }
       ]
     },
     {
@@ -9449,7 +9934,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "AA0B35A9-0EFE-40E9-A8A6-04F7A11FCA50",
@@ -9477,7 +9963,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "BA1CDA42-48FC-4351-98E6-F05041AF0B63",
@@ -9505,7 +9992,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2ECDB2F9-8822-4C0B-9A90-AA7D22C20257",
@@ -9539,7 +10027,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6320DF48-8515-457E-84EF-54F1561FBACE",
@@ -9573,7 +10062,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "29534E5B-8955-469D-834F-9C4CE1C589F0",
@@ -9607,7 +10097,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E1CA4C92-9A5E-4C8A-BE26-B8DFD61AFE4F",
@@ -9629,7 +10120,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CD98FCE0-E293-4A87-8A06-D77D7603ACE4",
@@ -9651,7 +10143,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "19DDC67D-AF71-4957-BBFA-606AF8BA46AB",
@@ -9685,7 +10178,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "880C2B7D-75A6-435F-9EF8-CBC5CE9F9AB4",
@@ -9725,6 +10219,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
+        }
       ]
     },
     {
@@ -9759,7 +10259,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "770E6560-7A9E-48B9-9A44-6CD49C7AE2DE",
@@ -9799,7 +10300,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4623067A-3684-4022-9DFB-FA3F59E12BF2",
@@ -9839,7 +10341,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "BD82AD71-8D96-4BC5-AF8B-E355779F47EC",
@@ -9860,6 +10363,20 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 82
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 81
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 96
         }
       ]
     },
@@ -9883,6 +10400,20 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 81
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 96
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 82
+        }
       ]
     },
     {
@@ -9904,6 +10435,20 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 81
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 96
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 82
         }
       ]
     },
@@ -9927,7 +10472,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "922EDD8B-DC2F-425F-9F9E-C3283E8DB54D",
@@ -9949,7 +10495,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6574F71D-F5F6-4B64-8305-6F3E5EE9B6A4",
@@ -9989,6 +10536,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
+        }
       ]
     },
     {
@@ -10004,6 +10557,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
         }
       ]
     },
@@ -10045,7 +10604,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "83F0A931-FECC-4CCE-9BD5-4AB7552D44F7",
@@ -10085,7 +10645,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4B4204F4-C30A-4D73-9D74-B11EE2A69224",
@@ -10119,7 +10680,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "21C46C9C-F0DE-44A4-87D8-096DFFD8AC86",
@@ -10153,7 +10715,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "61C0C4DE-BF0D-4DE8-B14A-0241C2C92EFF",
@@ -10187,7 +10750,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A8FE56B5-3201-4617-A000-39D48B34D003",
@@ -10203,7 +10767,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "807DB16D-1A90-4AC2-834C-A3BC03992D29",
@@ -10219,7 +10784,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2EC774CB-C9ED-48CD-A5AA-432B381D7C17",
@@ -10235,7 +10801,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4A72DAFF-F6A1-428C-B646-105E176B0D59",
@@ -10251,7 +10818,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "300F094D-72F6-4138-85F4-5B786F284545",
@@ -10267,7 +10835,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2D6F6C1C-9174-4F46-84C9-1E27F83D45A4",
@@ -10283,7 +10852,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5B21E326-EE37-4E78-9F78-D485D22DDA1E",
@@ -10299,7 +10869,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0D778136-4CD1-479D-899E-FE3600EDB1C0",
@@ -10315,7 +10886,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E44BAAAF-14D9-4DA9-B56F-1B804367CAB2",
@@ -10331,7 +10903,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "FFB73D96-4759-4AA5-84FD-7EC41AA1D0FA",
@@ -10346,6 +10919,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
         }
       ]
     },
@@ -10363,6 +10942,12 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
+        }
       ]
     },
     {
@@ -10378,6 +10963,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
         }
       ]
     },
@@ -10395,6 +10986,12 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
+        }
       ]
     },
     {
@@ -10411,6 +11008,12 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
+        }
       ]
     },
     {
@@ -10426,6 +11029,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
         }
       ]
     },
@@ -10461,7 +11070,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "176217E7-4B51-48E0-830C-92011F690DE5",
@@ -10501,6 +11111,12 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
+        }
       ]
     },
     {
@@ -10535,6 +11151,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 76
+        }
       ]
     },
     {
@@ -10562,6 +11184,12 @@ window.KIZ_DATA = {
           "score": "8",
           "winner": false,
           "rank": 3
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 76
         }
       ]
     },
@@ -10603,6 +11231,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
+        }
       ]
     },
     {
@@ -10624,6 +11258,20 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 82
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 81
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 96
         }
       ]
     },
@@ -10659,7 +11307,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D8B879F8-8E00-49FE-9CF5-E997E5821BAF",
@@ -10693,7 +11342,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "83A34BB5-9E8F-48D0-B267-F0FA258CA227",
@@ -10715,7 +11365,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4DF49014-5678-4D1E-B2DB-951A023F1540",
@@ -10737,7 +11388,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CBF4216A-7FAE-45C4-8954-9FD09612CAC6",
@@ -10758,6 +11410,12 @@ window.KIZ_DATA = {
           "score": "57",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
         }
       ]
     },
@@ -10799,6 +11457,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
+        }
       ]
     },
     {
@@ -10839,7 +11503,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A1835AD1-13BC-4C95-B0B4-15458AA1D2DC",
@@ -10867,7 +11532,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9AB65147-BF39-4F43-B4E4-F2EA5214531C",
@@ -10900,6 +11566,12 @@ window.KIZ_DATA = {
           "score": "5",
           "winner": false,
           "rank": 4
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 76
         }
       ]
     },
@@ -10935,7 +11607,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A744A7F4-0793-4268-BE0A-39F5B7C2C0E6",
@@ -10969,7 +11642,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "62F38206-E91E-460A-BCA9-690090EDCDB7",
@@ -11003,7 +11677,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5589C45A-83F2-4D7B-8E8C-F672EB3893AD",
@@ -11031,7 +11706,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B6D2787F-5F9A-4981-8C9E-7A240BF75299",
@@ -11059,7 +11735,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C923AD36-ECF8-4ADE-BD1E-41CA92EA0AE4",
@@ -11087,7 +11764,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "A0BF8639-F9F2-4FBD-A542-955EBA943D7E",
@@ -11121,7 +11799,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F37CB605-FB9A-4828-BE43-8B260F8B3B17",
@@ -11155,7 +11834,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 0
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1E36C064-0EEA-4516-9626-15CCB1161304",
@@ -11189,7 +11869,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1FD69A8D-8CD1-4F50-A8BC-02C74200A489",
@@ -11223,7 +11904,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C0FF32FA-0922-46BF-B49F-D00DCD079562",
@@ -11257,7 +11939,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F73FC943-FDB6-4BC5-A112-521B9E2E525C",
@@ -11285,7 +11968,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E3F0C97A-5C2F-4AD6-9118-AFDEAB6C0689",
@@ -11319,7 +12003,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0F7BE465-3C85-4C55-8D65-B76987EA7C37",
@@ -11353,7 +12038,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CAFD26FD-83D7-43A2-9555-2CDBD551CF30",
@@ -11387,7 +12073,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DD8B4A6C-C02F-4F64-9AD8-90C1FA906400",
@@ -11421,7 +12108,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "3307C969-431F-471A-831C-A63B2B97F4E4",
@@ -11436,6 +12124,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
         }
       ]
     },
@@ -11471,7 +12165,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "F0C11CBB-3EB5-49BF-85CA-77DA2C01E346",
@@ -11510,6 +12205,12 @@ window.KIZ_DATA = {
           "score": "73",
           "winner": false,
           "rank": 4
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 85
         }
       ]
     },
@@ -11551,6 +12252,12 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
+        }
       ]
     },
     {
@@ -11566,6 +12273,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
         }
       ]
     },
@@ -11595,7 +12308,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E724B35A-31A8-49FD-8DAC-E05E640FF737",
@@ -11623,7 +12337,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "0DB5F0C3-ED7C-4632-9511-E5CB8DF742A8",
@@ -11651,7 +12366,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "350605BB-1A0F-4C21-898E-EE95C0EE1E7F",
@@ -11679,7 +12395,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B755CB6E-FF63-4148-BF21-47EB43FE94ED",
@@ -11707,7 +12424,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "221DFECD-30F6-424E-A72E-61BC9C3DB467",
@@ -11728,6 +12446,12 @@ window.KIZ_DATA = {
           "score": "84",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
         }
       ]
     },
@@ -11757,7 +12481,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E539B36E-01C9-4970-801C-E281358CDC3F",
@@ -11796,6 +12521,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
         }
       ]
     },
@@ -11843,7 +12574,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1385C4D9-E60C-4DB2-B183-818A25189E0A",
@@ -11901,7 +12633,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B5CD2E4F-95BA-4E43-A5BE-0EB8CFC7EC0D",
@@ -11959,7 +12692,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C61B7DD6-48AE-4A5B-AC7C-45E34A9681EF",
@@ -11993,7 +12727,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "564BE8A5-6B9D-4EAB-9AD6-ADFBC4C5BA56",
@@ -12027,7 +12762,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6F289C1F-0AB3-45DA-A99D-EC5F1AC1924A",
@@ -12061,7 +12797,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5DD48DAB-DF79-4A9F-8E63-DFBEC99824A6",
@@ -12095,7 +12832,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "BCB870B1-0386-46B5-A704-585D453619EF",
@@ -12129,7 +12867,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "DCAA6DA3-B0E2-4535-8D33-77C886B885EB",
@@ -12163,7 +12902,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "BDA7248F-B0A6-468D-AFB0-C6B5651C6CA7",
@@ -12197,7 +12937,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4D66EA5D-BA23-43D1-9F5D-0F451B29E01C",
@@ -12231,7 +12972,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6F70157C-6DB6-457A-B68C-8FF16712617C",
@@ -12265,7 +13007,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C134C7A2-4C58-4BDF-87F3-2A1B54C9B36E",
@@ -12299,7 +13042,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1E9A9D0E-6957-4805-97B8-E5E8CDFB209D",
@@ -12333,7 +13077,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "01F8A6FA-9D9B-477B-82EE-B9684D930EFA",
@@ -12367,7 +13112,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B836BED6-3DA5-415A-9BAB-D9D130055739",
@@ -12401,7 +13147,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "44F060AA-2EE4-40D4-8586-D996F3B55AF6",
@@ -12435,7 +13182,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "7AC65013-6F7A-4CA8-843C-6F1C86843AD4",
@@ -12469,7 +13217,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E0B9A177-1353-4488-8379-67D36CDFB188",
@@ -12503,7 +13252,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "805BFA7C-66F4-4F4E-9CC7-F7143F1CE975",
@@ -12537,7 +13287,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "4CB7F881-D475-462F-BF63-102FB5460FF5",
@@ -12571,7 +13322,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "AC5ED920-8599-4227-A79B-5FFA4F3096E8",
@@ -12623,7 +13375,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 6
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E65C4399-047E-4D53-A930-F8E2C5E7E08F",
@@ -12675,7 +13428,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "77E76AF8-858E-432B-9663-59530015ADC8",
@@ -12727,7 +13481,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "739C6002-2F24-47BC-ABB1-38D599706F38",
@@ -12779,7 +13534,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9A7BA1EF-D5E9-4D08-9EF9-3DCF00E8DA71",
@@ -12807,7 +13563,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "00DE2FF8-F0BF-414C-9113-0B2C1A3F3249",
@@ -12847,7 +13604,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "9FB06E99-3777-4D44-8ACD-1AC8635E9454",
@@ -12887,7 +13645,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 5
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "BE74DBFF-2A15-400C-BB3E-6D23848C074A",
@@ -12921,7 +13680,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "932E9831-31AD-458A-A114-1409FFCF4B09",
@@ -12955,7 +13715,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "932E5C2E-8A1D-418A-914F-F1142E443357",
@@ -12989,7 +13750,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6CFA1B89-2083-4222-A6A5-CAC2633FE597",
@@ -13029,7 +13791,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 4
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "E2EBD2AA-EC51-4F08-AB22-EB11D96CDF26",
@@ -13069,7 +13832,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "FCEABF8C-AC7B-42BF-A467-822EE8605C9F",
@@ -13109,7 +13873,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 5
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D86B3291-C9F1-4A11-89BA-4F7F42A94810",
@@ -13143,7 +13908,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B5A2E3A4-333E-45C8-8AED-44DE3640E794",
@@ -13177,7 +13943,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "32CE108B-47AA-421D-85A7-AD01C3D40089",
@@ -13211,7 +13978,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "5C2D424F-809C-445E-BEA3-8493EFB83EF6",
@@ -13245,7 +14013,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C05D96E2-BD0B-4372-B0DA-D4EDBBBA56AA",
@@ -13279,7 +14048,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6869FF55-79B4-434E-B7C7-ED156BFB466F",
@@ -13313,7 +14083,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "09682EBB-ADD1-4C07-BC12-CC2A88DD9D84",
@@ -13340,6 +14111,16 @@ window.KIZ_DATA = {
           "score": "88",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 45
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 110
         }
       ]
     },
@@ -13387,7 +14168,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 3
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6534B5F3-36DD-46C9-ADD3-87E497D6A506",
@@ -13433,7 +14215,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "393D4E20-36DC-496D-A6C3-015CA40DF995",
@@ -13479,7 +14262,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "1E965264-DDD9-4F31-9879-FC7E3B2F54E6",
@@ -13513,7 +14297,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EA45C029-11B9-4F97-ACED-F83CBD8AA3E7",
@@ -13547,7 +14332,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "D62AA86B-EC4C-49E2-981E-944FC99B28C0",
@@ -13581,7 +14367,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "B66B8ECE-7650-4042-89C8-AE0985B520FF",
@@ -13615,7 +14402,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "8BBFFFB7-F0AC-4310-BBF3-03D37515F889",
@@ -13655,7 +14443,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 2
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "2CC34968-96F1-4EB5-9DFB-645D3213D869",
@@ -13695,7 +14484,8 @@ window.KIZ_DATA = {
           "winner": true,
           "rank": 1
         }
-      ]
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "C27BE8F8-1D2B-44A0-B6A7-22CA0B2CA800",
@@ -13735,7 +14525,8 @@ window.KIZ_DATA = {
           "winner": false,
           "rank": 5
         }
-      ]
+      ],
+      "expansionPlays": []
     }
   ],
   "games": [
@@ -13767,7 +14558,8 @@ window.KIZ_DATA = {
           "gameName": "勃根地城堡豪華版",
           "urlThumb": "https://cf.geekdo-images.com/C782V4VtaEZpP7MF6nJ0xw__thumb/img/bq366wA-qrkxvwk0aXz4D23YWYI=/fit-in/200x150/filters:strip_icc()/pic5697468.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 2,
@@ -13797,7 +14589,8 @@ window.KIZ_DATA = {
           "gameName": "璀璨宝石：宝可梦",
           "urlThumb": "https://cf.geekdo-images.com/6fPq2SuzGH4W3eWH9aIEcA__thumb/img/Rgm_o332-MfmhW7p6K3ClCJ62Rw=/fit-in/200x150/filters:strip_icc()/pic8299356.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 3,
@@ -13827,7 +14620,8 @@ window.KIZ_DATA = {
           "gameName": "璀璨寶石",
           "urlThumb": "https://cf.geekdo-images.com/IuEvupnLgQWOmL4NrsawLw__thumb/img/XqTJpIjae9kRHPevrx2hMhdwT2E=/fit-in/200x150/filters:strip_icc()/pic6098467.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 4,
@@ -13857,7 +14651,8 @@ window.KIZ_DATA = {
           "gameName": "璀璨宝石：对决",
           "urlThumb": "https://cf.geekdo-images.com/hJWRlZYEcf5tb_MLlxhR-g__thumb/img/X4GYI4OAuQpmP7vjlEelw9JQRmo=/fit-in/200x150/filters:strip_icc()/pic7208419.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 5,
@@ -13887,7 +14682,8 @@ window.KIZ_DATA = {
           "gameName": "拉密豪华版",
           "urlThumb": "https://cf.geekdo-images.com/jzhXRU3pYfzmmZAFw7oM7A__thumb/img/SnJL_C7V909VbRcUygLvRxPfSXY=/fit-in/200x150/filters:strip_icc()/pic3810997.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 6,
@@ -13917,7 +14713,8 @@ window.KIZ_DATA = {
           "gameName": "罪案疑云：天使之城",
           "urlThumb": "https://cf.geekdo-images.com/Y81DCwyfOYWCgbWNZbXabw__thumb/img/i03mK9f4Qg27p3fRnANOKq6_1wc=/fit-in/200x150/filters:strip_icc()/pic6231883.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 8,
@@ -13947,7 +14744,8 @@ window.KIZ_DATA = {
           "gameName": "战争之匣",
           "urlThumb": "https://cf.geekdo-images.com/6QAEf7IGGzHjhrVqA1KFVQ__thumb/img/-2P3eu1_NxEEv40piwb8gm27Tao=/fit-in/200x150/filters:strip_icc()/pic7434148.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 9,
@@ -13963,7 +14761,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/pPuOyAIrh6qYv0QvpfWP2A__original/img/m60WN2A92kPpdHkt7hSDQimbhp0=/0x0/filters:format(jpeg)/pic4860409.jpg",
       "urlThumb": "https://cf.geekdo-images.com/pPuOyAIrh6qYv0QvpfWP2A__thumb/img/dYqtsMygKr7AGcPc9Wnc2Q6W99E=/fit-in/200x150/filters:strip_icc()/pic4860409.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 2,
       "bggRank": null,
       "bggRating": 8.24272,
       "complexity": 2.3,
@@ -13977,7 +14775,8 @@ window.KIZ_DATA = {
           "gameName": "战争之匣：权贵",
           "urlThumb": "https://cf.geekdo-images.com/a5klYq02LW4dB54BRN6LaQ__previewthumb/img/lUd9cC_Qr6pUEZ--MwavGY6TS7U=/fit-in/300x320/filters:strip_icc()/pic7009220.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 10,
@@ -14007,7 +14806,8 @@ window.KIZ_DATA = {
           "gameName": "战争之匣：围城",
           "urlThumb": "https://cf.geekdo-images.com/fbeTp59ZQNth16re7p6fHA__thumb/img/RyT_kmF66WQLk6wDC9Nl6x1QHPc=/fit-in/200x150/filters:strip_icc()/pic7009222.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 11,
@@ -14037,7 +14837,8 @@ window.KIZ_DATA = {
           "gameName": "SCOUT",
           "urlThumb": "https://cf.geekdo-images.com/YHgZ2mKV9GvX1IgsZ0y5tg__thumb/img/9smGO-b_PN9xbcYqo1FyfVPESr4=/fit-in/200x150/filters:strip_icc()/pic7127142.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 12,
@@ -14067,7 +14868,8 @@ window.KIZ_DATA = {
           "gameName": "牛頭王",
           "urlThumb": "https://cf.geekdo-images.com/zEV3uaF1n4TdC9Sb8USrNQ__thumb/img/moUBd5jDofO88oGwSFPshp5mgko=/fit-in/200x150/filters:strip_icc()/pic5941093.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 13,
@@ -14097,7 +14899,8 @@ window.KIZ_DATA = {
           "gameName": "CABO (Second Edition)",
           "urlThumb": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__thumb/img/rDg9t7gP1iqNcy3NZxAWGVoWYok=/fit-in/200x150/filters:strip_icc()/pic4572408.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 14,
@@ -14127,7 +14930,8 @@ window.KIZ_DATA = {
           "gameName": "猩猩相惜",
           "urlThumb": "https://cf.geekdo-images.com/4l_h4ixyimOzHBqyB7_GKA__thumb/img/lgSaGPsRq0VkCY_2jeHej6OckTw=/fit-in/200x150/filters:strip_icc()/pic7707572.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 16,
@@ -14143,7 +14947,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__original/img/dcwvexXJ3-hZQRvbU24tZMMy_7E=/0x0/filters:format(png)/pic4806093.png",
       "urlThumb": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__thumb/img/qH4wf8jVQHZfF0dOFIF1CcB68xQ=/fit-in/200x150/filters:strip_icc()/pic4806093.png",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 8,
       "bggRank": null,
       "bggRating": 8.38283,
       "complexity": 2.9,
@@ -14157,7 +14961,8 @@ window.KIZ_DATA = {
           "gameName": "罪案疑云：好莱坞的枪声",
           "urlThumb": "https://cf.geekdo-images.com/mH58En-0uCSsSz7iw3eiOA__thumb/img/nBBFfijllWm2itYn_271IRKoOzk=/fit-in/200x150/filters:strip_icc()/pic8545711.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 17,
@@ -14187,7 +14992,8 @@ window.KIZ_DATA = {
           "gameName": "現代藝術",
           "urlThumb": "https://cf.geekdo-images.com/VrecaPljkx_LOgdKXJ5gNw__thumb/img/dZCW2IxVXb7Oio1raZVC3_MOqNY=/fit-in/200x150/filters:strip_icc()/pic7716896.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 18,
@@ -14203,7 +15009,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__original/img/rSXfW0NzjfzcuhOUJiAuaneIbMA=/0x0/filters:format(jpeg)/pic8382627.jpg",
       "urlThumb": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__thumb/img/owJK8ZyWOPvDLxxiSfieOUbyGfo=/fit-in/200x150/filters:strip_icc()/pic8382627.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 6,
       "bggRank": null,
       "bggRating": 8.58085,
       "complexity": 2.0,
@@ -14217,7 +15023,8 @@ window.KIZ_DATA = {
           "gameName": "罪案疑云：天使与恶魔",
           "urlThumb": "https://cf.geekdo-images.com/avlNLfd1v2iMnpic3sDTXA__thumb/img/lu91pqokrYm8bQ4I-8Ii5eegTow=/fit-in/200x150/filters:strip_icc()/pic8643342.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 19,
@@ -14233,7 +15040,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__original/img/1cX0pOz1e1DxMjRHhFYORBQb2LE=/0x0/filters:format(jpeg)/pic6653145.jpg",
       "urlThumb": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__thumb/img/_NxfExq2zQkZcobedKuPPwPk6mU=/fit-in/200x150/filters:strip_icc()/pic6653145.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 8,
       "bggRank": null,
       "bggRating": 8.46008,
       "complexity": 2.7,
@@ -14247,7 +15054,8 @@ window.KIZ_DATA = {
           "gameName": "罪案疑云：迷雾与幻影",
           "urlThumb": "https://cf.geekdo-images.com/3tz81pIHuULaeBuZ4ceoPw__thumb/img/e8cBIOS8W35sfzElncglFa6H_yA=/fit-in/200x150/filters:strip_icc()/pic8643341.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 20,
@@ -14277,7 +15085,8 @@ window.KIZ_DATA = {
           "gameName": "炸弹克星",
           "urlThumb": "https://cf.geekdo-images.com/nthnx3-8BIeG8kFs87VpNQ__thumb/img/Ug89bojQkxzAn-aaYKkmFZtg34Q=/fit-in/200x150/filters:strip_icc()/pic8406024.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 21,
@@ -14307,7 +15116,8 @@ window.KIZ_DATA = {
           "gameName": "天合小队",
           "urlThumb": "https://cf.geekdo-images.com/QJ8h4sL208PSSfTq4tG2OA__thumb/img/J2adZAjPI7Ta8VFw_pPLTDFJd4U=/fit-in/200x150/filters:strip_icc()/pic8340578.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 22,
@@ -14337,7 +15147,8 @@ window.KIZ_DATA = {
           "gameName": "遙遠之地",
           "urlThumb": "https://cf.geekdo-images.com/SH_mSWY9IiUiSqictLEx7w__previewthumb/img/WEz9pFLoFOwLtOYe-NGudDpZC_o=/fit-in/300x320/filters:strip_icc()/pic9149429.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 23,
@@ -14367,7 +15178,8 @@ window.KIZ_DATA = {
           "gameName": "卡斯卡迪亚之旅",
           "urlThumb": "https://cf.geekdo-images.com/tN67UGHd1ASWKbZZqfIxhg__thumb/img/zVq19ajWx83dvnsMk3Mm08tfTcE=/fit-in/200x150/filters:strip_icc()/pic6511062.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 24,
@@ -14397,7 +15209,8 @@ window.KIZ_DATA = {
           "gameName": "展翅翱翔：亚洲篇",
           "urlThumb": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__thumb/img/hPsEFlgh0b_JhtQmsJQv3vmq814=/fit-in/200x150/filters:strip_icc()/pic7107431.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 26,
@@ -14427,7 +15240,8 @@ window.KIZ_DATA = {
           "gameName": "一带一路 (Belt and Road)",
           "urlThumb": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__thumb/img/m_Nfq9nsvCDrCBdSIYXn2HbIiRQ=/fit-in/200x150/filters:strip_icc()/pic8782948.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 27,
@@ -14457,7 +15271,8 @@ window.KIZ_DATA = {
           "gameName": "花砖物语：巧夺天工",
           "urlThumb": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__thumb/img/ibEjwlnZixyeVXYcS_793Cgtrdw=/fit-in/200x150/filters:strip_icc()/pic6871709.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 28,
@@ -14487,7 +15302,8 @@ window.KIZ_DATA = {
           "gameName": "骸骨險境: 堅不可摧",
           "urlThumb": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__small/img/1vOvXQ6dCrBd5uzciGpc8-cbZuM=/fit-in/200x150/filters:strip_icc()/pic6459659.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 31,
@@ -14517,7 +15333,8 @@ window.KIZ_DATA = {
           "gameName": "傳情畫意",
           "urlThumb": "https://cf.geekdo-images.com/K46rzeRGC96r5PkARNfs5g__previewthumb/img/ytNXe8TvpphKZsG4DUKxnOvxOGM=/fit-in/300x320/filters:strip_icc()/pic2596628.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 32,
@@ -14547,7 +15364,8 @@ window.KIZ_DATA = {
           "gameName": "魔戒：中洲对决",
           "urlThumb": "https://cf.geekdo-images.com/6vBURiLzqrXzrs12z05rVQ__thumb/img/ArUAnJ4iF6f0YxMmjSUIp63EStA=/fit-in/200x150/filters:strip_icc()/pic8655582.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 33,
@@ -14577,7 +15395,8 @@ window.KIZ_DATA = {
           "gameName": "欢迎来到月球",
           "urlThumb": "https://cf.geekdo-images.com/YnPGHrSwqXkVoD4np9Hm7A__previewthumb/img/1qCVWuR_BfQnoZciYxio6Eg4OFk=/fit-in/300x320/filters:strip_icc()/pic9149688.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 34,
@@ -14607,7 +15426,8 @@ window.KIZ_DATA = {
           "gameName": "Challengers! Beach Cup",
           "urlThumb": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__thumb/img/jq8k_OtehrDmlr05OPXymlPM27Q=/fit-in/200x150/filters:strip_icc()/pic7683878.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 35,
@@ -14637,7 +15457,8 @@ window.KIZ_DATA = {
           "gameName": "谍报风云：5周年纪念版",
           "urlThumb": "https://cf.geekdo-images.com/-4zJqFsCgwk-LiF1TVV7Rw__thumb/img/hCUKPsNIUB2LZmLGU8s5kQRL3HQ=/fit-in/200x150/filters:strip_icc()/pic8739785.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 37,
@@ -14667,7 +15488,8 @@ window.KIZ_DATA = {
           "gameName": "三国杀：欢乐斗地主",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 43,
@@ -14697,7 +15519,8 @@ window.KIZ_DATA = {
           "gameName": "Flip 7",
           "urlThumb": "https://cf.geekdo-images.com/bGJlDiwrV7MCTBLB96W0EQ__thumb/img/2XVMkxuMogvqZzPePUXDQZEIBOA=/fit-in/200x150/filters:strip_icc()/pic8794481.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 45,
@@ -14713,7 +15536,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/IAm2HJ23ikP6ixbm3Cbcbw__original/img/gs8wZCRecDoc29xB8OJF8Cg-ROI=/0x0/filters:format(jpeg)/pic8557413.jpg",
       "urlThumb": "https://cf.geekdo-images.com/IAm2HJ23ikP6ixbm3Cbcbw__thumb/img/2y38Fpj1I2aKank6S-nTIhNQH-A=/fit-in/200x150/filters:strip_icc()/pic8557413.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 9,
       "bggRank": null,
       "bggRating": 7.82756,
       "complexity": 1.9,
@@ -14727,7 +15550,8 @@ window.KIZ_DATA = {
           "gameName": "遙遠之地：地下族群",
           "urlThumb": "https://cf.geekdo-images.com/rgbbrW3CnQ5G3sFgIF6Wfg__thumb/img/angSBd4pbmt8FGZLmaeVFxn3Z80=/fit-in/200x150/filters:strip_icc()/pic8624086.png"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 46,
@@ -14743,7 +15567,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/47svrIp_8WxJAMeyAvn6hA__original/img/Mey-_NmgPc4N1zyTgufxd6eroDo=/0x0/filters:format(png)/pic7522071.png",
       "urlThumb": "https://cf.geekdo-images.com/47svrIp_8WxJAMeyAvn6hA__thumb/img/WezQAGniiRqvyJQdSoBvyDhaw4E=/fit-in/200x150/filters:strip_icc()/pic7522071.png",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.34476,
       "complexity": 2.5,
@@ -14757,7 +15581,8 @@ window.KIZ_DATA = {
           "gameName": "战争之匣：夜幕",
           "urlThumb": "https://cf.geekdo-images.com/djvsKRLS6H1j1bIYMvDxpw__thumb/img/ScfI_XNOILWyNzJdbYKVFjrZRNs=/fit-in/200x150/filters:strip_icc()/pic8340459.png"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 49,
@@ -14787,7 +15612,8 @@ window.KIZ_DATA = {
           "gameName": "工業革命：伯明翰",
           "urlThumb": "https://cf.geekdo-images.com/9R-zfmWa3EjsPeFNWypmGA__small/img/iOC9MDdy9NgMQOSzPWM2L-nlGeU=/fit-in/200x150/filters:strip_icc()/pic5616885.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 50,
@@ -14817,7 +15643,8 @@ window.KIZ_DATA = {
           "gameName": "英雄止步",
           "urlThumb": "https://cf.geekdo-images.com/0nZ7DCfO8CyvbQpB06w_0A__previewthumb/img/Rdg0ZhgbpsLa5vvZyUVKkF-TppE=/fit-in/300x320/filters:strip_icc()/pic8514107.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 51,
@@ -14833,7 +15660,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ZC5y7zSkbNwKTIk-eHs1ww__original/img/xOla56xO6KDxuBbSz5B_yhn6vP8=/0x0/filters:format(jpeg)/pic6985340.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ZC5y7zSkbNwKTIk-eHs1ww__thumb/img/R6JyMhUW5uEEC1RoqzMOhWe84G0=/fit-in/200x150/filters:strip_icc()/pic6985340.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.14334,
       "complexity": 2.6,
@@ -14847,7 +15674,8 @@ window.KIZ_DATA = {
           "gameName": "英雄止步:會長的復仇",
           "urlThumb": "https://cf.geekdo-images.com/JmcK3Kj0ZkFoxtq_TBWqXw__previewthumb/img/Di_6Fcs5Nmd3bJQOVFYtRRdDfJA=/fit-in/300x320/filters:strip_icc()/pic8262479.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 52,
@@ -14877,7 +15705,8 @@ window.KIZ_DATA = {
           "gameName": "Keep the Heroes Out!: Boss Battles",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 53,
@@ -14893,7 +15722,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__original/img/FPBVNyv_zj3GJqqp8ZdkwNcREBA=/0x0/filters:format(png)/pic7062819.png",
       "urlThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__thumb/img/nI32TO4iNeOIcUM39y8AKVl9rwo=/fit-in/200x150/filters:strip_icc()/pic7062819.png",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.65326,
       "complexity": 3.6,
@@ -14907,7 +15736,8 @@ window.KIZ_DATA = {
           "gameName": "Too Many Bones: Riffle",
           "urlThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__previewthumb/img/Mpyljf7MoUXnSMdI4W9YBbKN-80=/fit-in/300x320/filters:strip_icc()/pic7062819.png"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 54,
@@ -14923,7 +15753,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__original/img/et_n56Ng35DPxOFW1CgH_-MjoGw=/0x0/filters:format(jpeg)/pic6478237.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__thumb/img/ogt_oWV3RJW6tcVO_jDVtvSp_MI=/fit-in/200x150/filters:strip_icc()/pic6478237.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.72186,
       "complexity": 3.3,
@@ -14937,7 +15767,8 @@ window.KIZ_DATA = {
           "gameName": "Too Many Bones: Carcass",
           "urlThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__previewthumb/img/2-5l3L-IfA-1ikOkXkXDEnlKz-U=/fit-in/300x320/filters:strip_icc()/pic6478237.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 55,
@@ -14953,7 +15784,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__original/img/5MwgvP_hBijNifRJGCuq9PS5po0=/0x0/filters:format(jpeg)/pic6478240.jpg",
       "urlThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__thumb/img/ScKhnZdxSfqUdJ8rm_2jDeoCFSE=/fit-in/200x150/filters:strip_icc()/pic6478240.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.67949,
       "complexity": 4.0,
@@ -14967,7 +15798,8 @@ window.KIZ_DATA = {
           "gameName": "Too Many Bones: Polaris",
           "urlThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__previewthumb/img/Hc8Q8wo_LU_67Lm39Y7wfeZzZQ8=/fit-in/300x320/filters:strip_icc()/pic6478240.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 56,
@@ -14983,7 +15815,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__original/img/pYNRPK2lsim_6vFJU0NwaN8WsTw=/0x0/filters:format(jpeg)/pic6478243.jpg",
       "urlThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__thumb/img/Ov6SSJ1nJ8XBE-we722E9cefEow=/fit-in/200x150/filters:strip_icc()/pic6478243.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.65165,
       "complexity": 4.0,
@@ -14997,7 +15829,8 @@ window.KIZ_DATA = {
           "gameName": "Too Many Bones: Static",
           "urlThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__previewthumb/img/3wScf3yy16lEWokH5D51aKJtFbY=/fit-in/300x320/filters:strip_icc()/pic6478243.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 57,
@@ -15027,7 +15860,8 @@ window.KIZ_DATA = {
           "gameName": "籤籤入扣 stick stack",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 59,
@@ -15043,7 +15877,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__original/img/NCo-ciQdI1kMRmlKqZx_wt3Tsiw=/0x0/filters:format(jpeg)/pic6985344.jpg",
       "urlThumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__thumb/img/aF7bXAy3Q3Z8d5kyoInyn4sQz3Q=/fit-in/200x150/filters:strip_icc()/pic6985344.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.24551,
       "complexity": 2.6,
@@ -15057,7 +15891,8 @@ window.KIZ_DATA = {
           "gameName": "Keep the Heroes Out!: The Great Dreamer Expansion",
           "urlThumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__previewthumb/img/bAZfl0Bxy2AtLuVu2KQ_2ESsrzI=/fit-in/300x320/filters:strip_icc()/pic6985344.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 60,
@@ -15087,7 +15922,8 @@ window.KIZ_DATA = {
           "gameName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
           "urlThumb": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__previewthumb/img/KNPGoAqUELYR1folBF96mXBPrpA=/fit-in/300x320/filters:strip_icc()/pic7998936.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 61,
@@ -15117,7 +15953,8 @@ window.KIZ_DATA = {
           "gameName": "城堡嘉年华",
           "urlThumb": "https://cf.geekdo-images.com/9qMP_oNH_zAcimmKAoVYeg__previewthumb/img/IW30layW3eLrR2Ij_wH9lvfBGgU=/fit-in/300x320/filters:strip_icc()/pic9270954.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 62,
@@ -15147,7 +15984,8 @@ window.KIZ_DATA = {
           "gameName": "沙丘：帝国 - 起义",
           "urlThumb": "https://cf.geekdo-images.com/HwkmQlfAxm_S0SPWpFg_3g__previewthumb/img/Vy7UpXcE-rM0aWs80WGiHxWqWUo=/fit-in/300x320/filters:strip_icc()/pic9215765.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 63,
@@ -15177,7 +16015,8 @@ window.KIZ_DATA = {
           "gameName": "Mahjong",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 65,
@@ -15207,7 +16046,8 @@ window.KIZ_DATA = {
           "gameName": "山中小屋",
           "urlThumb": "https://cf.geekdo-images.com/BhHcbQxd4pKyiQAbFqIifg__previewthumb/img/mzAaR3flHQLj87dBeY3REQGuC5E=/fit-in/300x320/filters:strip_icc()/pic9484581.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 66,
@@ -15237,7 +16077,8 @@ window.KIZ_DATA = {
           "gameName": "Gloomhaven: Buttons & Bugs",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 67,
@@ -15267,7 +16108,8 @@ window.KIZ_DATA = {
           "gameName": "方舟保护区",
           "urlThumb": "https://cf.geekdo-images.com/MfufLUGhAgDBgyXfSfYJqg__previewthumb/img/-S5azXOdPVUpLPHGyOnsrBjW78k=/fit-in/300x320/filters:strip_icc()/pic8932463.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 68,
@@ -15297,7 +16139,8 @@ window.KIZ_DATA = {
           "gameName": "無間風雲",
           "urlThumb": "https://cf.geekdo-images.com/LP1h4IwC3xvbxLf4r_Veeg__previewthumb/img/_NCOt86pbmcvQTTrYUrVPxh2_wg=/fit-in/300x320/filters:strip_icc()/pic3089192.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 74,
@@ -15327,7 +16170,8 @@ window.KIZ_DATA = {
           "gameName": "骰筑火星",
           "urlThumb": "https://cf.geekdo-images.com/HQAuMg6Go7twlgeTC69YRw__previewthumb/img/Aog5lR7lgH0plOXsD-Tt9I356Fo=/fit-in/300x320/filters:strip_icc()/pic7720272.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 76,
@@ -15343,7 +16187,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__original/img/P8jioOvt9CVRO6BoNRjk1pLv05Y=/0x0/filters:format(jpeg)/pic8350442.jpg",
       "urlThumb": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__small/img/niL2urMdy3ExhhQzbtMdsFUbSW4=/fit-in/200x150/filters:strip_icc()/pic8350442.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 4,
       "bggRank": null,
       "bggRating": 8.68079,
       "complexity": 3.6,
@@ -15357,7 +16201,8 @@ window.KIZ_DATA = {
           "gameName": "沙丘：帝國 血脈永續",
           "urlThumb": "https://cf.geekdo-images.com/sJZr-RQ6ZQOsUpOEXHlUWA__previewthumb/img/xFCY-zJc5tgKiFnkISe1DAA49vc=/fit-in/300x320/filters:strip_icc()/pic9230746.png"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 77,
@@ -15387,7 +16232,8 @@ window.KIZ_DATA = {
           "gameName": "波多黎各 1897 特別典藏版",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 79,
@@ -15403,7 +16249,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__original/img/QMm4IWF48v833dzB53JkFpxDRYc=/0x0/filters:format(png)/pic9155610.png",
       "urlThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 2,
       "bggRank": null,
       "bggRating": 7.71901,
       "complexity": 2.7,
@@ -15417,7 +16263,8 @@ window.KIZ_DATA = {
           "gameName": "Terraforming Mars: The Dice Game – Missions",
           "urlThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 81,
@@ -15433,7 +16280,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/AsuMGeaCnJrQ-6IhT559eQ__original/img/bcQJAn5a2WAGaXFJ8tkoFQuPV6E=/0x0/filters:format(png)/pic8448727.png",
       "urlThumb": "https://cf.geekdo-images.com/AsuMGeaCnJrQ-6IhT559eQ__small/img/9sj1HeAKXCtEZOpWPL46C2nivaY=/fit-in/200x150/filters:strip_icc()/pic8448727.png",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 11,
       "bggRank": null,
       "bggRating": 6.57546,
       "complexity": 2.0,
@@ -15447,7 +16294,8 @@ window.KIZ_DATA = {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
           "urlThumb": "https://cf.geekdo-images.com/ngqAhmcN-PPeoNvJC3eonQ__small/img/nQkfWnOr1BE7kn2MRKiHdkEMIjU=/fit-in/200x150/filters:strip_icc()/pic9109378.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 82,
@@ -15463,7 +16311,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__original/img/axHtAMNF0O8OPwM1RgAoR_tMle4=/0x0/filters:format(png)/pic8448726.png",
       "urlThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 11,
       "bggRank": null,
       "bggRating": 6.95997,
       "complexity": 1.7,
@@ -15477,7 +16325,8 @@ window.KIZ_DATA = {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
           "urlThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 83,
@@ -15507,7 +16356,8 @@ window.KIZ_DATA = {
           "gameName": "菲雅的沼泽",
           "urlThumb": "https://cf.geekdo-images.com/N3v9AO1HJuLBePRKr7X-nQ__previewthumb/img/e0RhqPUP6srk7uNIZ7d1-G6dLBw=/fit-in/300x320/filters:strip_icc()/pic8979494.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 84,
@@ -15537,7 +16387,8 @@ window.KIZ_DATA = {
           "gameName": "UNO Flip!",
           "urlThumb": "https://cf.geekdo-images.com/xKahlcAjb8x8ZTavBtQ4AQ__previewthumb/img/ofTgeTUV1t0GR0pAvFlWO94E-HE=/fit-in/300x320/filters:strip_icc()/pic8947326.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 85,
@@ -15553,7 +16404,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/JINa9Jb2y5cfRiT2jXojzg__original/img/e3ACVfu0m0q9KEKdnYHGcR-JMBU=/0x0/filters:format(png)/pic5792049.png",
       "urlThumb": "https://cf.geekdo-images.com/JINa9Jb2y5cfRiT2jXojzg__small/img/RIDNcfauf7aa0bcJcYn50Oomblc=/fit-in/200x150/filters:strip_icc()/pic5792049.png",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 3,
       "bggRank": null,
       "bggRating": 8.10678,
       "complexity": 3.0,
@@ -15567,7 +16418,8 @@ window.KIZ_DATA = {
           "gameName": "七大奇迹：舰队扩展",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 87,
@@ -15597,7 +16449,8 @@ window.KIZ_DATA = {
           "gameName": "七大奇蹟：第二版",
           "urlThumb": "https://cf.geekdo-images.com/X9f_3RutEwXds2M4RsWezw__previewthumb/img/p-lJVsTqz5cJKMY2WAeWGuM1yhY=/fit-in/300x320/filters:strip_icc()/pic5992528.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 88,
@@ -15627,7 +16480,8 @@ window.KIZ_DATA = {
           "gameName": "Poker",
           "urlThumb": "https://cf.geekdo-images.com/QhsvR9GY0LbTpj27fairWA__small/img/_Nvnav-rd4ckyC_lMKYu0AqC06I=/fit-in/200x150/filters:strip_icc()/pic186610.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 93,
@@ -15657,7 +16511,8 @@ window.KIZ_DATA = {
           "gameName": "拉斯維加斯豪華版",
           "urlThumb": "https://cf.geekdo-images.com/zExxxo_USNbuyU-hYK_CDw__previewthumb/img/eyGW2LRyfW15gj2VDWruUXbkfiA=/fit-in/300x320/filters:strip_icc()/pic5331496.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 94,
@@ -15687,7 +16542,8 @@ window.KIZ_DATA = {
           "gameName": "忍者之夜",
           "urlThumb": "https://cf.geekdo-images.com/BRCK7GyQ61RdrRPM5SVpXQ__previewthumb/img/uamI-mkh4_XqJW0npmY-jnb7i-4=/fit-in/300x320/filters:strip_icc()/pic6905758.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 96,
@@ -15703,7 +16559,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__original/img/1LJ61Stvb-t0gsF0jUS1JMSq1h8=/0x0/filters:format(jpeg)/pic8993092.jpg",
       "urlThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 4,
       "bggRank": null,
       "bggRating": 8.171,
       "complexity": 1.8,
@@ -15717,7 +16573,8 @@ window.KIZ_DATA = {
           "gameName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
           "urlThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 97,
@@ -15747,7 +16604,8 @@ window.KIZ_DATA = {
           "gameName": "星空觅迹：探寻地外文明计划",
           "urlThumb": "https://cf.geekdo-images.com/OGn3NoOqA5ff6bnhUJ54qg__previewthumb/img/kM1bYVhat68suBc0DUm0toH047o=/fit-in/300x320/filters:strip_icc()/pic9001481.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 98,
@@ -15777,7 +16635,8 @@ window.KIZ_DATA = {
           "gameName": "魔戒：命运同盟",
           "urlThumb": "https://cf.geekdo-images.com/nkClgOdfdO607xmqREwdOA__small/img/Z5sQN0e-rXbfaI3aZucv37yjPJ4=/fit-in/200x150/filters:strip_icc()/pic8920654.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 99,
@@ -15807,7 +16666,8 @@ window.KIZ_DATA = {
           "gameName": "瘟疫危機︰承傳",
           "urlThumb": "https://cf.geekdo-images.com/UCurv84wkB3RzFysLGvGaw__small/img/KNoAmeV9w3ssnCGVmBgzp11uUxE=/fit-in/200x150/filters:strip_icc()/pic3025181.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 100,
@@ -15837,7 +16697,8 @@ window.KIZ_DATA = {
           "gameName": "噤声寻宝记！地下墓穴",
           "urlThumb": "https://cf.geekdo-images.com/2l2V2TdKIVBJr_GO6MrZRQ__small/img/xSIsKec1dzExzqNGsLtYe4i8e1s=/fit-in/200x150/filters:strip_icc()/pic9509911.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 101,
@@ -15867,7 +16728,8 @@ window.KIZ_DATA = {
           "gameName": "Magical Athlete",
           "urlThumb": "https://cf.geekdo-images.com/1uW8t9AkuqOF0xjv_sXKgw__previewthumb/img/QqoKUAHbyhuKq6OfavjadqBREkI=/fit-in/300x320/filters:strip_icc()/pic9106864.png"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 104,
@@ -15897,7 +16759,8 @@ window.KIZ_DATA = {
           "gameName": "诡镇奇谈：洛夫克拉夫特情书",
           "urlThumb": "https://cf.geekdo-images.com/hAQl2dZ2E2vfSOJMvfctfQ__small/img/FaCfHLRDNvoxR4zDmj-SOsIA0OM=/fit-in/200x150/filters:strip_icc()/pic8715020.jpg"
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 105,
@@ -15927,7 +16790,8 @@ window.KIZ_DATA = {
           "gameName": "Clank!: Catacombs – Lairs and Lost Chambers",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 106,
@@ -15957,7 +16821,8 @@ window.KIZ_DATA = {
           "gameName": "Clank!: Catacombs – Underworld",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 110,
@@ -15973,7 +16838,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/dCc29ngMNPfMSgWDS2OcEw__original/img/8fKyeBbZa3guH9SHhXN005yOSuQ=/0x0/filters:format(jpeg)/pic9344596.jpg",
       "urlThumb": "https://cf.geekdo-images.com/dCc29ngMNPfMSgWDS2OcEw__small/img/rWWw3665gUkEmhJXWVYtaJPDhiU=/fit-in/200x150/filters:strip_icc()/pic9344596.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 7.77617,
       "complexity": 2.2,
@@ -15987,7 +16852,8 @@ window.KIZ_DATA = {
           "gameName": "Faraway: Under Starry Skies",
           "urlThumb": "https://cf.geekdo-images.com/dCc29ngMNPfMSgWDS2OcEw__previewthumb/img/Yf61J4GLA2mY7OavJ8lK8-h9vm0=/fit-in/300x320/filters:strip_icc()/pic9344596.jpg"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 112,
@@ -16017,7 +16883,8 @@ window.KIZ_DATA = {
           "gameName": "Urubamba Valley",
           "urlThumb": "https://cf.geekdo-images.com/YZAjTnlhqRJkXKiLsfR3XQ__previewthumb/img/Sgge5Idf26g31LMPiMJWPS9hs48=/fit-in/300x320/filters:strip_icc()/pic7556213.png"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 113,
@@ -16047,7 +16914,8 @@ window.KIZ_DATA = {
           "gameName": "暗諜魅影",
           "urlThumb": "https://cf.geekdo-images.com/lsgai4HneOslL0iDCOD39g__previewthumb/img/8d332VZyjG-F8Qk4_rTSYEZjLYw=/fit-in/300x320/filters:strip_icc()/pic9202025.png"
         }
-      ]
+      ],
+      "playedStandalone": false
     },
     {
       "id": 115,
@@ -16077,7 +16945,8 @@ window.KIZ_DATA = {
           "gameName": "矮人掘金：20週年紀念版",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": true
     },
     {
       "id": 116,
@@ -16107,7 +16976,8 @@ window.KIZ_DATA = {
           "gameName": "Durian",
           "urlThumb": ""
         }
-      ]
+      ],
+      "playedStandalone": true
     }
   ],
   "locations": [

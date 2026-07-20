@@ -261,8 +261,14 @@ function renderHotGames() {
   if (!container) return;
 
   var data = window.KIZ_DATA;
+  // 热门游戏只展示本体游戏，以及"既是本体又是扩展"的游戏（如沙丘：帝国-起义）；
+  // 纯扩展（isExpansion 且从未作为本体开过局）不展示
+  var hotPool = data.games.filter(function(g) {
+    if (!g.isExpansion) return true;
+    return !!g.playedStandalone;
+  });
   // Sort games by pre-computed playCount descending
-  var sorted = data.games.slice().sort(function(a, b) {
+  var sorted = hotPool.slice().sort(function(a, b) {
     return (b.playCount || 0) - (a.playCount || 0);
   }).slice(0, 16);
 

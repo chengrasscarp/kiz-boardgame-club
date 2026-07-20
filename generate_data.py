@@ -160,13 +160,22 @@ def filter_plays(raw_plays, player_ids):
             "playDate": p["playDate"],
             "durationMin": p.get("durationMin", 0),
             "playerScores": player_scores,
+            # 透传扩展引用，供 compute_play_counts 统计扩展游玩次数
+            "expansionPlays": [
+                {"bggId": ep.get("bggId", 0), "gameRefId": ep.get("gameRefId")}
+                for ep in (p.get("expansionPlays") or [])
+            ],
         })
 
     return plays
 
 
-def filter_games(raw_games, play_counts, bgg_collection):
-    """保留所有拥有的游戏，附带游玩次数和 BGG 详细信息。"""
+def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
+    """保留所有拥有的游戏，附带游玩次数和 BGG 详细信息。
+
+    base_play_counts: 仅按本体(gameRefId)统计的游玩次数，用于标记
+    playedStandalone（该扩展是否也作为本体被单独开过局）。
+    """
 
     games = []
     for g in raw_games:
@@ -222,6 +231,8 @@ def filter_games(raw_games, play_counts, bgg_collection):
                 "gameName": c.get("gameName", g["name"]),
                 "urlThumb": c.get("urlThumb", ""),
             } for c in g.get("copies", [])[:1]],
+            # 该游戏是否作为本体被单独开过局（用于区分"既是本体又是扩展"与"纯扩展"）
+            "playedStandalone": base_play_counts.get(g["id"], 0) > 0,
         })
     return games
 
@@ -247,9 +258,17 @@ def compute_play_counts(plays):
 
 def compute_stats(plays, players, games, play_counts):
     """计算常用统计数据。"""
-    # topGames 只统计拥有的游戏
+    # topGames 只统计拥有的游戏，且排除"纯扩展"（从未作为本体开过局的扩展）
     owned_ids = {g["id"] for g in games}
-    owned_play_counts = Counter({gid: c for gid, c in play_counts.items() if gid in owned_ids})
+    base_counts = Counter(p["gameRefId"] for p in plays)
+    pure_expansion_ids = {
+        g["id"] for g in games
+        if g.get("isExpansion") and base_counts.get(g["id"], 0) == 0
+    }
+    owned_play_counts = Counter({
+        gid: c for gid, c in play_counts.items()
+        if gid in owned_ids and gid not in pure_expansion_ids
+    })
     top_games = [
         {"gameRefId": gid, "count": count}
         for gid, count in owned_play_counts.most_common(10)
@@ -293,12 +312,14 @@ def main():
 
     print("计算游玩次数（含扩展）...")
     play_counts = compute_play_counts(plays)
+    print("计算本体游玩次数（仅 gameRefId，用于标记 playedStandalone）...")
+    base_play_counts = Counter(p["gameRefId"] for p in plays)
 
     print("加载 BGG 收藏信息...")
     bgg_collection = load_bgg_collection()
 
     print("筛选游戏...")
-    games = filter_games(data.get("games", []), play_counts, bgg_collection)
+    games = filter_games(data.get("games", []), play_counts, bgg_collection, base_play_counts)
 
     print("筛选地点...")
     locations = filter_locations(data.get("locations", []))
