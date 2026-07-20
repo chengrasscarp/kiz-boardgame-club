@@ -114,9 +114,9 @@ function getPlayerBestGame(pid, maps) {
     var wc = maps.wins[key] || 0;
     var rate = Math.round(wc / pc * 100);
     var gid = Number(parts[1]);
-    // 跳过已下架/不在游戏库中的对局（gameRefId 在 games 里找不到），避免渲染出 "null"
+    // 跳过已下架/不在游戏库中的对局（gameRefId 在 games 里找不到，getGameNameById 返回 "Unknown"）
     var gameName = getGameNameById(gid);
-    if (gameName === null) continue;
+    if (gameName === null || gameName === 'Unknown') continue;
     if (!best || rate > best.rate || (rate === best.rate && wc > best.wins)) {
       best = { gameId: gid, gameName: gameName, rate: rate, wins: wc, plays: pc };
     }
