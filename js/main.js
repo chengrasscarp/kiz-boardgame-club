@@ -52,8 +52,8 @@ function renderComplexity(weight) {
 }
 
 function getGameThumb(game) {
-  // Prefer game thumb, fallback to copy thumb (skip preview thumbs)
-  var thumb = game.urlThumb || '';
+  // 优先用"拥有版本"专属封面（如简中/繁中版），其次游戏默认图，再退回副本图
+  var thumb = game.ownedThumb || game.urlThumb || '';
   if ((!thumb || thumb.indexOf('previewthumb') !== -1) && game.copies && game.copies.length > 0) {
     var copyThumb = game.copies[0].urlThumb || '';
     if (copyThumb && copyThumb.indexOf('previewthumb') === -1) {
@@ -382,10 +382,12 @@ function renderGameLibrary() {
     var complexityHtml = g.complexity ? '<span class="complexity" title="复杂度 ' + g.complexity.toFixed(1) + '/5">' + renderComplexity(g.complexity) + ' ' + g.complexity.toFixed(1) + '</span>' : '';
     var gp = getGameBestPlayer(g.id, winMaps);
     var gpHtml = gp ? '<div class="winrate-line">👑 胜率王：' + gp.name + '（' + gp.rate + '%）</div>' : '';
+    var verBadge = g.ownedVersionLabel ? '<span class="version-badge">' + g.ownedVersionLabel + '</span>' : '';
     return '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
       '<div class="game-card-image">' +
         (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
         rankBadge +
+        verBadge +
       '</div>' +
       '<div class="game-card-body">' +
         '<div class="game-card-title">' + g.name + '</div>' +

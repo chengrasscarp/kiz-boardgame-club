@@ -170,6 +170,63 @@ def filter_plays(raw_plays, player_ids):
     return plays
 
 
+import re
+
+
+def _copy_image(c):
+    """返回副本的有效 BGG CDN 图片 URL，否则空串。"""
+    t = c.get("urlThumb", "") or c.get("urlImage", "")
+    return t if (t and "cf.geekdo-images.com" in t) else ""
+
+
+def pick_primary_copy(copies):
+    """挑选一款游戏的"主要拥有副本"：优先 statusOwned 且带有效图片者，
+    其次任意拥有副本，最后回退到第一份副本。"""
+    owned = [c for c in copies if c.get("statusOwned") == 1]
+    pool = owned if owned else copies
+    for c in pool:
+        if _copy_image(c):
+            return c
+    return pool[0] if pool else None
+
+
+def version_label(version_name, version_languages):
+    """把 versionName + VersionLanguages 规范化成中文版本徽章文案。
+    简繁只有在 versionName 明确写了 Simplified/Traditional 时才能确定。"""
+    vn = version_name or ""
+    langs = [x.strip() for x in (version_languages or "").split(",") if x.strip()]
+    has_ch = ("Chinese" in langs) or ("Chinese" in vn)
+    has_en = ("English" in langs) or ("English" in vn)
+    if "Simplified" in vn or "Simplied" in vn:  # 兼容导出里的拼写笔误
+        return "简体中文版"
+    if "Traditional" in vn:
+        return "繁体中文版"
+    if has_ch and has_en and len(langs) == 2:
+        return "中英双语版"
+    if has_ch and len(langs) > 1:
+        return "多语言版(含中文)"
+    if has_ch:
+        return "中文版"
+    if has_en and not has_ch:
+        return "英文版"
+    if langs:
+        return "多语言版"
+    return ""
+
+
+def _owned_version_fields(copies):
+    """返回 (ownedThumb, ownedVersionLabel)。"""
+    primary = pick_primary_copy(copies)
+    if not primary:
+        return "", ""
+    owned_thumb = _copy_image(primary)
+    vl = ""
+    m = re.search(r'"VersionLanguages":"([^"]*)"', primary.get("metaData", ""))
+    if m:
+        vl = m.group(1)
+    return owned_thumb, version_label(primary.get("versionName", ""), vl)
+
+
 def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
     """保留所有拥有的游戏，附带游玩次数和 BGG 详细信息。
 
@@ -188,6 +245,8 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
 
         bgg_id = str(g.get("bggId", 0))
         bgg = bgg_collection.get(bgg_id, {})
+
+        owned_thumb, owned_version_label = _owned_version_fields(g.get("copies", []))
 
         # 用 CSV 中的玩家数/时长覆盖 BGStats 数据（更准确）
         min_p = bgg.get("minPlayers") or g.get("minPlayerCount", 1)
@@ -231,6 +290,9 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
                 "gameName": c.get("gameName", g["name"]),
                 "urlThumb": c.get("urlThumb", ""),
             } for c in g.get("copies", [])[:1]],
+            # 版本专属封面（主要拥有副本的图）+ 规范化版本徽章文案
+            "ownedThumb": owned_thumb,
+            "ownedVersionLabel": owned_version_label,
             # 该游戏是否作为本体被单独开过局（用于区分"既是本体又是扩展"与"纯扩展"）
             "playedStandalone": base_play_counts.get(g["id"], 0) > 0,
         })

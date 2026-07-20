@@ -14559,6 +14559,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/C782V4VtaEZpP7MF6nJ0xw__thumb/img/bq366wA-qrkxvwk0aXz4D23YWYI=/fit-in/200x150/filters:strip_icc()/pic5697468.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/C782V4VtaEZpP7MF6nJ0xw__thumb/img/bq366wA-qrkxvwk0aXz4D23YWYI=/fit-in/200x150/filters:strip_icc()/pic5697468.png",
+      "ownedVersionLabel": "中英双语版",
       "playedStandalone": true
     },
     {
@@ -14590,6 +14592,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/6fPq2SuzGH4W3eWH9aIEcA__thumb/img/Rgm_o332-MfmhW7p6K3ClCJ62Rw=/fit-in/200x150/filters:strip_icc()/pic8299356.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/6fPq2SuzGH4W3eWH9aIEcA__thumb/img/Rgm_o332-MfmhW7p6K3ClCJ62Rw=/fit-in/200x150/filters:strip_icc()/pic8299356.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -14621,6 +14625,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/IuEvupnLgQWOmL4NrsawLw__thumb/img/XqTJpIjae9kRHPevrx2hMhdwT2E=/fit-in/200x150/filters:strip_icc()/pic6098467.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/IuEvupnLgQWOmL4NrsawLw__thumb/img/XqTJpIjae9kRHPevrx2hMhdwT2E=/fit-in/200x150/filters:strip_icc()/pic6098467.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -14652,6 +14658,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/hJWRlZYEcf5tb_MLlxhR-g__thumb/img/X4GYI4OAuQpmP7vjlEelw9JQRmo=/fit-in/200x150/filters:strip_icc()/pic7208419.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/hJWRlZYEcf5tb_MLlxhR-g__thumb/img/X4GYI4OAuQpmP7vjlEelw9JQRmo=/fit-in/200x150/filters:strip_icc()/pic7208419.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -14683,6 +14691,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/jzhXRU3pYfzmmZAFw7oM7A__thumb/img/SnJL_C7V909VbRcUygLvRxPfSXY=/fit-in/200x150/filters:strip_icc()/pic3810997.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/jzhXRU3pYfzmmZAFw7oM7A__thumb/img/SnJL_C7V909VbRcUygLvRxPfSXY=/fit-in/200x150/filters:strip_icc()/pic3810997.jpg",
+      "ownedVersionLabel": "",
       "playedStandalone": true
     },
     {
@@ -14714,6 +14724,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/Y81DCwyfOYWCgbWNZbXabw__thumb/img/i03mK9f4Qg27p3fRnANOKq6_1wc=/fit-in/200x150/filters:strip_icc()/pic6231883.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/Y81DCwyfOYWCgbWNZbXabw__thumb/img/i03mK9f4Qg27p3fRnANOKq6_1wc=/fit-in/200x150/filters:strip_icc()/pic6231883.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -14745,6 +14757,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/6QAEf7IGGzHjhrVqA1KFVQ__thumb/img/-2P3eu1_NxEEv40piwb8gm27Tao=/fit-in/200x150/filters:strip_icc()/pic7434148.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/6QAEf7IGGzHjhrVqA1KFVQ__thumb/img/-2P3eu1_NxEEv40piwb8gm27Tao=/fit-in/200x150/filters:strip_icc()/pic7434148.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -14776,6 +14790,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/a5klYq02LW4dB54BRN6LaQ__previewthumb/img/lUd9cC_Qr6pUEZ--MwavGY6TS7U=/fit-in/300x320/filters:strip_icc()/pic7009220.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/a5klYq02LW4dB54BRN6LaQ__previewthumb/img/lUd9cC_Qr6pUEZ--MwavGY6TS7U=/fit-in/300x320/filters:strip_icc()/pic7009220.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -14807,6 +14823,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/fbeTp59ZQNth16re7p6fHA__thumb/img/RyT_kmF66WQLk6wDC9Nl6x1QHPc=/fit-in/200x150/filters:strip_icc()/pic7009222.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/fbeTp59ZQNth16re7p6fHA__thumb/img/RyT_kmF66WQLk6wDC9Nl6x1QHPc=/fit-in/200x150/filters:strip_icc()/pic7009222.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -14838,6 +14856,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/YHgZ2mKV9GvX1IgsZ0y5tg__thumb/img/9smGO-b_PN9xbcYqo1FyfVPESr4=/fit-in/200x150/filters:strip_icc()/pic7127142.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/YHgZ2mKV9GvX1IgsZ0y5tg__thumb/img/9smGO-b_PN9xbcYqo1FyfVPESr4=/fit-in/200x150/filters:strip_icc()/pic7127142.jpg",
+      "ownedVersionLabel": "多语言版(含中文)",
       "playedStandalone": true
     },
     {
@@ -14869,6 +14889,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/zEV3uaF1n4TdC9Sb8USrNQ__thumb/img/moUBd5jDofO88oGwSFPshp5mgko=/fit-in/200x150/filters:strip_icc()/pic5941093.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/zEV3uaF1n4TdC9Sb8USrNQ__thumb/img/moUBd5jDofO88oGwSFPshp5mgko=/fit-in/200x150/filters:strip_icc()/pic5941093.png",
+      "ownedVersionLabel": "中英双语版",
       "playedStandalone": true
     },
     {
@@ -14900,6 +14922,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__thumb/img/rDg9t7gP1iqNcy3NZxAWGVoWYok=/fit-in/200x150/filters:strip_icc()/pic4572408.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__thumb/img/rDg9t7gP1iqNcy3NZxAWGVoWYok=/fit-in/200x150/filters:strip_icc()/pic4572408.jpg",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": true
     },
     {
@@ -14931,6 +14955,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/4l_h4ixyimOzHBqyB7_GKA__thumb/img/lgSaGPsRq0VkCY_2jeHej6OckTw=/fit-in/200x150/filters:strip_icc()/pic7707572.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/4l_h4ixyimOzHBqyB7_GKA__thumb/img/lgSaGPsRq0VkCY_2jeHej6OckTw=/fit-in/200x150/filters:strip_icc()/pic7707572.png",
+      "ownedVersionLabel": "简体中文版",
       "playedStandalone": true
     },
     {
@@ -14962,6 +14988,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/mH58En-0uCSsSz7iw3eiOA__thumb/img/nBBFfijllWm2itYn_271IRKoOzk=/fit-in/200x150/filters:strip_icc()/pic8545711.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/mH58En-0uCSsSz7iw3eiOA__thumb/img/nBBFfijllWm2itYn_271IRKoOzk=/fit-in/200x150/filters:strip_icc()/pic8545711.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -14993,6 +15021,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/VrecaPljkx_LOgdKXJ5gNw__thumb/img/dZCW2IxVXb7Oio1raZVC3_MOqNY=/fit-in/200x150/filters:strip_icc()/pic7716896.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/VrecaPljkx_LOgdKXJ5gNw__thumb/img/dZCW2IxVXb7Oio1raZVC3_MOqNY=/fit-in/200x150/filters:strip_icc()/pic7716896.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15024,6 +15054,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/avlNLfd1v2iMnpic3sDTXA__thumb/img/lu91pqokrYm8bQ4I-8Ii5eegTow=/fit-in/200x150/filters:strip_icc()/pic8643342.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/avlNLfd1v2iMnpic3sDTXA__thumb/img/lu91pqokrYm8bQ4I-8Ii5eegTow=/fit-in/200x150/filters:strip_icc()/pic8643342.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -15055,6 +15087,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/3tz81pIHuULaeBuZ4ceoPw__thumb/img/e8cBIOS8W35sfzElncglFa6H_yA=/fit-in/200x150/filters:strip_icc()/pic8643341.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/3tz81pIHuULaeBuZ4ceoPw__thumb/img/e8cBIOS8W35sfzElncglFa6H_yA=/fit-in/200x150/filters:strip_icc()/pic8643341.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -15086,6 +15120,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/nthnx3-8BIeG8kFs87VpNQ__thumb/img/Ug89bojQkxzAn-aaYKkmFZtg34Q=/fit-in/200x150/filters:strip_icc()/pic8406024.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/nthnx3-8BIeG8kFs87VpNQ__thumb/img/Ug89bojQkxzAn-aaYKkmFZtg34Q=/fit-in/200x150/filters:strip_icc()/pic8406024.png",
+      "ownedVersionLabel": "简体中文版",
       "playedStandalone": true
     },
     {
@@ -15117,6 +15153,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/QJ8h4sL208PSSfTq4tG2OA__thumb/img/J2adZAjPI7Ta8VFw_pPLTDFJd4U=/fit-in/200x150/filters:strip_icc()/pic8340578.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/QJ8h4sL208PSSfTq4tG2OA__thumb/img/J2adZAjPI7Ta8VFw_pPLTDFJd4U=/fit-in/200x150/filters:strip_icc()/pic8340578.png",
+      "ownedVersionLabel": "简体中文版",
       "playedStandalone": true
     },
     {
@@ -15148,6 +15186,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/SH_mSWY9IiUiSqictLEx7w__previewthumb/img/WEz9pFLoFOwLtOYe-NGudDpZC_o=/fit-in/300x320/filters:strip_icc()/pic9149429.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/SH_mSWY9IiUiSqictLEx7w__previewthumb/img/WEz9pFLoFOwLtOYe-NGudDpZC_o=/fit-in/300x320/filters:strip_icc()/pic9149429.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15179,6 +15219,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/tN67UGHd1ASWKbZZqfIxhg__thumb/img/zVq19ajWx83dvnsMk3Mm08tfTcE=/fit-in/200x150/filters:strip_icc()/pic6511062.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/tN67UGHd1ASWKbZZqfIxhg__thumb/img/zVq19ajWx83dvnsMk3Mm08tfTcE=/fit-in/200x150/filters:strip_icc()/pic6511062.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15210,6 +15252,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__thumb/img/hPsEFlgh0b_JhtQmsJQv3vmq814=/fit-in/200x150/filters:strip_icc()/pic7107431.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__thumb/img/hPsEFlgh0b_JhtQmsJQv3vmq814=/fit-in/200x150/filters:strip_icc()/pic7107431.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15241,6 +15285,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__thumb/img/m_Nfq9nsvCDrCBdSIYXn2HbIiRQ=/fit-in/200x150/filters:strip_icc()/pic8782948.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__thumb/img/m_Nfq9nsvCDrCBdSIYXn2HbIiRQ=/fit-in/200x150/filters:strip_icc()/pic8782948.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -15272,6 +15318,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__thumb/img/ibEjwlnZixyeVXYcS_793Cgtrdw=/fit-in/200x150/filters:strip_icc()/pic6871709.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__thumb/img/ibEjwlnZixyeVXYcS_793Cgtrdw=/fit-in/200x150/filters:strip_icc()/pic6871709.png",
+      "ownedVersionLabel": "简体中文版",
       "playedStandalone": true
     },
     {
@@ -15303,6 +15351,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__small/img/1vOvXQ6dCrBd5uzciGpc8-cbZuM=/fit-in/200x150/filters:strip_icc()/pic6459659.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__small/img/1vOvXQ6dCrBd5uzciGpc8-cbZuM=/fit-in/200x150/filters:strip_icc()/pic6459659.jpg",
+      "ownedVersionLabel": "繁体中文版",
       "playedStandalone": true
     },
     {
@@ -15334,6 +15384,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/K46rzeRGC96r5PkARNfs5g__previewthumb/img/ytNXe8TvpphKZsG4DUKxnOvxOGM=/fit-in/300x320/filters:strip_icc()/pic2596628.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/K46rzeRGC96r5PkARNfs5g__previewthumb/img/ytNXe8TvpphKZsG4DUKxnOvxOGM=/fit-in/300x320/filters:strip_icc()/pic2596628.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15365,6 +15417,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/6vBURiLzqrXzrs12z05rVQ__thumb/img/ArUAnJ4iF6f0YxMmjSUIp63EStA=/fit-in/200x150/filters:strip_icc()/pic8655582.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/6vBURiLzqrXzrs12z05rVQ__thumb/img/ArUAnJ4iF6f0YxMmjSUIp63EStA=/fit-in/200x150/filters:strip_icc()/pic8655582.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15396,6 +15450,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/YnPGHrSwqXkVoD4np9Hm7A__previewthumb/img/1qCVWuR_BfQnoZciYxio6Eg4OFk=/fit-in/300x320/filters:strip_icc()/pic9149688.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/YnPGHrSwqXkVoD4np9Hm7A__previewthumb/img/1qCVWuR_BfQnoZciYxio6Eg4OFk=/fit-in/300x320/filters:strip_icc()/pic9149688.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15427,6 +15483,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__thumb/img/jq8k_OtehrDmlr05OPXymlPM27Q=/fit-in/200x150/filters:strip_icc()/pic7683878.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__thumb/img/jq8k_OtehrDmlr05OPXymlPM27Q=/fit-in/200x150/filters:strip_icc()/pic7683878.png",
+      "ownedVersionLabel": "",
       "playedStandalone": true
     },
     {
@@ -15458,6 +15516,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/-4zJqFsCgwk-LiF1TVV7Rw__thumb/img/hCUKPsNIUB2LZmLGU8s5kQRL3HQ=/fit-in/200x150/filters:strip_icc()/pic8739785.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/-4zJqFsCgwk-LiF1TVV7Rw__thumb/img/hCUKPsNIUB2LZmLGU8s5kQRL3HQ=/fit-in/200x150/filters:strip_icc()/pic8739785.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15489,6 +15549,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "",
       "playedStandalone": true
     },
     {
@@ -15520,6 +15582,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/bGJlDiwrV7MCTBLB96W0EQ__thumb/img/2XVMkxuMogvqZzPePUXDQZEIBOA=/fit-in/200x150/filters:strip_icc()/pic8794481.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/bGJlDiwrV7MCTBLB96W0EQ__thumb/img/2XVMkxuMogvqZzPePUXDQZEIBOA=/fit-in/200x150/filters:strip_icc()/pic8794481.jpg",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": true
     },
     {
@@ -15551,6 +15615,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/rgbbrW3CnQ5G3sFgIF6Wfg__thumb/img/angSBd4pbmt8FGZLmaeVFxn3Z80=/fit-in/200x150/filters:strip_icc()/pic8624086.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/rgbbrW3CnQ5G3sFgIF6Wfg__thumb/img/angSBd4pbmt8FGZLmaeVFxn3Z80=/fit-in/200x150/filters:strip_icc()/pic8624086.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -15582,6 +15648,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/djvsKRLS6H1j1bIYMvDxpw__thumb/img/ScfI_XNOILWyNzJdbYKVFjrZRNs=/fit-in/200x150/filters:strip_icc()/pic8340459.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/djvsKRLS6H1j1bIYMvDxpw__thumb/img/ScfI_XNOILWyNzJdbYKVFjrZRNs=/fit-in/200x150/filters:strip_icc()/pic8340459.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -15613,6 +15681,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/9R-zfmWa3EjsPeFNWypmGA__small/img/iOC9MDdy9NgMQOSzPWM2L-nlGeU=/fit-in/200x150/filters:strip_icc()/pic5616885.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/9R-zfmWa3EjsPeFNWypmGA__small/img/iOC9MDdy9NgMQOSzPWM2L-nlGeU=/fit-in/200x150/filters:strip_icc()/pic5616885.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15644,6 +15714,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/0nZ7DCfO8CyvbQpB06w_0A__previewthumb/img/Rdg0ZhgbpsLa5vvZyUVKkF-TppE=/fit-in/300x320/filters:strip_icc()/pic8514107.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/0nZ7DCfO8CyvbQpB06w_0A__previewthumb/img/Rdg0ZhgbpsLa5vvZyUVKkF-TppE=/fit-in/300x320/filters:strip_icc()/pic8514107.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15675,6 +15747,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/JmcK3Kj0ZkFoxtq_TBWqXw__previewthumb/img/Di_6Fcs5Nmd3bJQOVFYtRRdDfJA=/fit-in/300x320/filters:strip_icc()/pic8262479.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/JmcK3Kj0ZkFoxtq_TBWqXw__previewthumb/img/Di_6Fcs5Nmd3bJQOVFYtRRdDfJA=/fit-in/300x320/filters:strip_icc()/pic8262479.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -15706,6 +15780,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "",
       "playedStandalone": false
     },
     {
@@ -15737,6 +15813,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__previewthumb/img/Mpyljf7MoUXnSMdI4W9YBbKN-80=/fit-in/300x320/filters:strip_icc()/pic7062819.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__previewthumb/img/Mpyljf7MoUXnSMdI4W9YBbKN-80=/fit-in/300x320/filters:strip_icc()/pic7062819.png",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": false
     },
     {
@@ -15768,6 +15846,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__previewthumb/img/2-5l3L-IfA-1ikOkXkXDEnlKz-U=/fit-in/300x320/filters:strip_icc()/pic6478237.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__previewthumb/img/2-5l3L-IfA-1ikOkXkXDEnlKz-U=/fit-in/300x320/filters:strip_icc()/pic6478237.jpg",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": false
     },
     {
@@ -15799,6 +15879,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__previewthumb/img/Hc8Q8wo_LU_67Lm39Y7wfeZzZQ8=/fit-in/300x320/filters:strip_icc()/pic6478240.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__previewthumb/img/Hc8Q8wo_LU_67Lm39Y7wfeZzZQ8=/fit-in/300x320/filters:strip_icc()/pic6478240.jpg",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": false
     },
     {
@@ -15830,6 +15912,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__previewthumb/img/3wScf3yy16lEWokH5D51aKJtFbY=/fit-in/300x320/filters:strip_icc()/pic6478243.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__previewthumb/img/3wScf3yy16lEWokH5D51aKJtFbY=/fit-in/300x320/filters:strip_icc()/pic6478243.jpg",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": false
     },
     {
@@ -15861,6 +15945,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15892,6 +15978,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__previewthumb/img/bAZfl0Bxy2AtLuVu2KQ_2ESsrzI=/fit-in/300x320/filters:strip_icc()/pic6985344.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__previewthumb/img/bAZfl0Bxy2AtLuVu2KQ_2ESsrzI=/fit-in/300x320/filters:strip_icc()/pic6985344.jpg",
+      "ownedVersionLabel": "多语言版(含中文)",
       "playedStandalone": false
     },
     {
@@ -15923,6 +16011,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__previewthumb/img/KNPGoAqUELYR1folBF96mXBPrpA=/fit-in/300x320/filters:strip_icc()/pic7998936.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/Wc8AZj2TKP4lPupQkRwYIQ__previewthumb/img/KNPGoAqUELYR1folBF96mXBPrpA=/fit-in/300x320/filters:strip_icc()/pic7998936.jpg",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": false
     },
     {
@@ -15954,6 +16044,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/9qMP_oNH_zAcimmKAoVYeg__previewthumb/img/IW30layW3eLrR2Ij_wH9lvfBGgU=/fit-in/300x320/filters:strip_icc()/pic9270954.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/9qMP_oNH_zAcimmKAoVYeg__previewthumb/img/IW30layW3eLrR2Ij_wH9lvfBGgU=/fit-in/300x320/filters:strip_icc()/pic9270954.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -15985,6 +16077,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/HwkmQlfAxm_S0SPWpFg_3g__previewthumb/img/Vy7UpXcE-rM0aWs80WGiHxWqWUo=/fit-in/300x320/filters:strip_icc()/pic9215765.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/HwkmQlfAxm_S0SPWpFg_3g__previewthumb/img/Vy7UpXcE-rM0aWs80WGiHxWqWUo=/fit-in/300x320/filters:strip_icc()/pic9215765.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16016,6 +16110,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "",
       "playedStandalone": true
     },
     {
@@ -16047,6 +16143,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/BhHcbQxd4pKyiQAbFqIifg__previewthumb/img/mzAaR3flHQLj87dBeY3REQGuC5E=/fit-in/300x320/filters:strip_icc()/pic9484581.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/BhHcbQxd4pKyiQAbFqIifg__previewthumb/img/mzAaR3flHQLj87dBeY3REQGuC5E=/fit-in/300x320/filters:strip_icc()/pic9484581.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16078,6 +16176,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "",
       "playedStandalone": true
     },
     {
@@ -16109,6 +16209,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/MfufLUGhAgDBgyXfSfYJqg__previewthumb/img/-S5azXOdPVUpLPHGyOnsrBjW78k=/fit-in/300x320/filters:strip_icc()/pic8932463.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/MfufLUGhAgDBgyXfSfYJqg__previewthumb/img/-S5azXOdPVUpLPHGyOnsrBjW78k=/fit-in/300x320/filters:strip_icc()/pic8932463.jpg",
+      "ownedVersionLabel": "简体中文版",
       "playedStandalone": true
     },
     {
@@ -16140,6 +16242,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/LP1h4IwC3xvbxLf4r_Veeg__previewthumb/img/_NCOt86pbmcvQTTrYUrVPxh2_wg=/fit-in/300x320/filters:strip_icc()/pic3089192.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/LP1h4IwC3xvbxLf4r_Veeg__previewthumb/img/_NCOt86pbmcvQTTrYUrVPxh2_wg=/fit-in/300x320/filters:strip_icc()/pic3089192.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16171,6 +16275,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/HQAuMg6Go7twlgeTC69YRw__previewthumb/img/Aog5lR7lgH0plOXsD-Tt9I356Fo=/fit-in/300x320/filters:strip_icc()/pic7720272.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/HQAuMg6Go7twlgeTC69YRw__previewthumb/img/Aog5lR7lgH0plOXsD-Tt9I356Fo=/fit-in/300x320/filters:strip_icc()/pic7720272.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16202,6 +16308,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/sJZr-RQ6ZQOsUpOEXHlUWA__previewthumb/img/xFCY-zJc5tgKiFnkISe1DAA49vc=/fit-in/300x320/filters:strip_icc()/pic9230746.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/sJZr-RQ6ZQOsUpOEXHlUWA__previewthumb/img/xFCY-zJc5tgKiFnkISe1DAA49vc=/fit-in/300x320/filters:strip_icc()/pic9230746.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -16233,6 +16341,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16264,6 +16374,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": false
     },
     {
@@ -16295,6 +16407,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/ngqAhmcN-PPeoNvJC3eonQ__small/img/nQkfWnOr1BE7kn2MRKiHdkEMIjU=/fit-in/200x150/filters:strip_icc()/pic9109378.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/ngqAhmcN-PPeoNvJC3eonQ__small/img/nQkfWnOr1BE7kn2MRKiHdkEMIjU=/fit-in/200x150/filters:strip_icc()/pic9109378.jpg",
+      "ownedVersionLabel": "",
       "playedStandalone": false
     },
     {
@@ -16326,6 +16440,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png",
+      "ownedVersionLabel": "",
       "playedStandalone": false
     },
     {
@@ -16357,6 +16473,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/N3v9AO1HJuLBePRKr7X-nQ__previewthumb/img/e0RhqPUP6srk7uNIZ7d1-G6dLBw=/fit-in/300x320/filters:strip_icc()/pic8979494.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/N3v9AO1HJuLBePRKr7X-nQ__previewthumb/img/e0RhqPUP6srk7uNIZ7d1-G6dLBw=/fit-in/300x320/filters:strip_icc()/pic8979494.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -16388,6 +16506,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/xKahlcAjb8x8ZTavBtQ4AQ__previewthumb/img/ofTgeTUV1t0GR0pAvFlWO94E-HE=/fit-in/300x320/filters:strip_icc()/pic8947326.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/xKahlcAjb8x8ZTavBtQ4AQ__previewthumb/img/ofTgeTUV1t0GR0pAvFlWO94E-HE=/fit-in/300x320/filters:strip_icc()/pic8947326.jpg",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": false
     },
     {
@@ -16419,6 +16539,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -16450,6 +16572,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/X9f_3RutEwXds2M4RsWezw__previewthumb/img/p-lJVsTqz5cJKMY2WAeWGuM1yhY=/fit-in/300x320/filters:strip_icc()/pic5992528.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/X9f_3RutEwXds2M4RsWezw__previewthumb/img/p-lJVsTqz5cJKMY2WAeWGuM1yhY=/fit-in/300x320/filters:strip_icc()/pic5992528.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16481,6 +16605,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/QhsvR9GY0LbTpj27fairWA__small/img/_Nvnav-rd4ckyC_lMKYu0AqC06I=/fit-in/200x150/filters:strip_icc()/pic186610.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/QhsvR9GY0LbTpj27fairWA__small/img/_Nvnav-rd4ckyC_lMKYu0AqC06I=/fit-in/200x150/filters:strip_icc()/pic186610.jpg",
+      "ownedVersionLabel": "",
       "playedStandalone": true
     },
     {
@@ -16512,6 +16638,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/zExxxo_USNbuyU-hYK_CDw__previewthumb/img/eyGW2LRyfW15gj2VDWruUXbkfiA=/fit-in/300x320/filters:strip_icc()/pic5331496.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/zExxxo_USNbuyU-hYK_CDw__previewthumb/img/eyGW2LRyfW15gj2VDWruUXbkfiA=/fit-in/300x320/filters:strip_icc()/pic5331496.png",
+      "ownedVersionLabel": "中英双语版",
       "playedStandalone": true
     },
     {
@@ -16543,6 +16671,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/BRCK7GyQ61RdrRPM5SVpXQ__previewthumb/img/uamI-mkh4_XqJW0npmY-jnb7i-4=/fit-in/300x320/filters:strip_icc()/pic6905758.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/BRCK7GyQ61RdrRPM5SVpXQ__previewthumb/img/uamI-mkh4_XqJW0npmY-jnb7i-4=/fit-in/300x320/filters:strip_icc()/pic6905758.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16574,6 +16704,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg",
+      "ownedVersionLabel": "",
       "playedStandalone": false
     },
     {
@@ -16605,6 +16737,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/OGn3NoOqA5ff6bnhUJ54qg__previewthumb/img/kM1bYVhat68suBc0DUm0toH047o=/fit-in/300x320/filters:strip_icc()/pic9001481.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/OGn3NoOqA5ff6bnhUJ54qg__previewthumb/img/kM1bYVhat68suBc0DUm0toH047o=/fit-in/300x320/filters:strip_icc()/pic9001481.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -16636,6 +16770,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/nkClgOdfdO607xmqREwdOA__small/img/Z5sQN0e-rXbfaI3aZucv37yjPJ4=/fit-in/200x150/filters:strip_icc()/pic8920654.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/nkClgOdfdO607xmqREwdOA__small/img/Z5sQN0e-rXbfaI3aZucv37yjPJ4=/fit-in/200x150/filters:strip_icc()/pic8920654.png",
+      "ownedVersionLabel": "简体中文版",
       "playedStandalone": true
     },
     {
@@ -16667,6 +16803,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/UCurv84wkB3RzFysLGvGaw__small/img/KNoAmeV9w3ssnCGVmBgzp11uUxE=/fit-in/200x150/filters:strip_icc()/pic3025181.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/UCurv84wkB3RzFysLGvGaw__small/img/KNoAmeV9w3ssnCGVmBgzp11uUxE=/fit-in/200x150/filters:strip_icc()/pic3025181.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16698,6 +16836,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/2l2V2TdKIVBJr_GO6MrZRQ__small/img/xSIsKec1dzExzqNGsLtYe4i8e1s=/fit-in/200x150/filters:strip_icc()/pic9509911.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/2l2V2TdKIVBJr_GO6MrZRQ__small/img/xSIsKec1dzExzqNGsLtYe4i8e1s=/fit-in/200x150/filters:strip_icc()/pic9509911.jpg",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": true
     },
     {
@@ -16729,6 +16869,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/1uW8t9AkuqOF0xjv_sXKgw__previewthumb/img/QqoKUAHbyhuKq6OfavjadqBREkI=/fit-in/300x320/filters:strip_icc()/pic9106864.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/1uW8t9AkuqOF0xjv_sXKgw__previewthumb/img/QqoKUAHbyhuKq6OfavjadqBREkI=/fit-in/300x320/filters:strip_icc()/pic9106864.png",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": true
     },
     {
@@ -16760,6 +16902,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/hAQl2dZ2E2vfSOJMvfctfQ__small/img/FaCfHLRDNvoxR4zDmj-SOsIA0OM=/fit-in/200x150/filters:strip_icc()/pic8715020.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/hAQl2dZ2E2vfSOJMvfctfQ__small/img/FaCfHLRDNvoxR4zDmj-SOsIA0OM=/fit-in/200x150/filters:strip_icc()/pic8715020.jpg",
+      "ownedVersionLabel": "简体中文版",
       "playedStandalone": true
     },
     {
@@ -16791,6 +16935,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "",
       "playedStandalone": false
     },
     {
@@ -16822,6 +16968,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "",
       "playedStandalone": false
     },
     {
@@ -16853,6 +17001,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/dCc29ngMNPfMSgWDS2OcEw__previewthumb/img/Yf61J4GLA2mY7OavJ8lK8-h9vm0=/fit-in/300x320/filters:strip_icc()/pic9344596.jpg"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/dCc29ngMNPfMSgWDS2OcEw__previewthumb/img/Yf61J4GLA2mY7OavJ8lK8-h9vm0=/fit-in/300x320/filters:strip_icc()/pic9344596.jpg",
+      "ownedVersionLabel": "英文版",
       "playedStandalone": false
     },
     {
@@ -16884,6 +17034,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/YZAjTnlhqRJkXKiLsfR3XQ__previewthumb/img/Sgge5Idf26g31LMPiMJWPS9hs48=/fit-in/300x320/filters:strip_icc()/pic7556213.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/YZAjTnlhqRJkXKiLsfR3XQ__previewthumb/img/Sgge5Idf26g31LMPiMJWPS9hs48=/fit-in/300x320/filters:strip_icc()/pic7556213.png",
+      "ownedVersionLabel": "中英双语版",
       "playedStandalone": false
     },
     {
@@ -16915,6 +17067,8 @@ window.KIZ_DATA = {
           "urlThumb": "https://cf.geekdo-images.com/lsgai4HneOslL0iDCOD39g__previewthumb/img/8d332VZyjG-F8Qk4_rTSYEZjLYw=/fit-in/300x320/filters:strip_icc()/pic9202025.png"
         }
       ],
+      "ownedThumb": "https://cf.geekdo-images.com/lsgai4HneOslL0iDCOD39g__previewthumb/img/8d332VZyjG-F8Qk4_rTSYEZjLYw=/fit-in/300x320/filters:strip_icc()/pic9202025.png",
+      "ownedVersionLabel": "中文版",
       "playedStandalone": false
     },
     {
@@ -16946,6 +17100,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "",
       "playedStandalone": true
     },
     {
@@ -16977,6 +17133,8 @@ window.KIZ_DATA = {
           "urlThumb": ""
         }
       ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "",
       "playedStandalone": true
     }
   ],
