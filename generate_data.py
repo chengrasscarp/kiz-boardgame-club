@@ -174,9 +174,17 @@ import re
 
 
 def _copy_image(c):
-    """返回副本的有效 BGG CDN 图片 URL，否则空串。"""
+    """返回副本的有效 BGG CDN 图片 URL（排除 previewthumb 预览图），否则空串。
+
+    previewthumb 是 BGG 的极小占位图，不能作为游戏卡封面；若副本只有
+    previewthumb，应返回空串，让游戏回退到 BGStats 自带的 urlThumb。
+    """
     t = c.get("urlThumb", "") or c.get("urlImage", "")
-    return t if (t and "cf.geekdo-images.com" in t) else ""
+    if not t or "cf.geekdo-images.com" not in t:
+        return ""
+    if "previewthumb" in t:
+        return ""
+    return t
 
 
 def pick_primary_copy(copies):

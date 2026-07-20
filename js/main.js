@@ -52,18 +52,15 @@ function renderComplexity(weight) {
 }
 
 function getGameThumb(game) {
-  // 优先用"拥有版本"专属封面（如简中/繁中版），其次游戏默认图，再退回副本图
-  var thumb = game.ownedThumb || game.urlThumb || '';
-  if ((!thumb || thumb.indexOf('previewthumb') !== -1) && game.copies && game.copies.length > 0) {
-    var copyThumb = game.copies[0].urlThumb || '';
-    if (copyThumb && copyThumb.indexOf('previewthumb') === -1) {
-      thumb = copyThumb;
-    }
+  // 候选优先级：拥有版本专属图(需为真实 BGG CDN 封面) -> 游戏默认图 -> 副本图
+  function valid(u) {
+    return u && u.indexOf('https://cf.geekdo-images.com/') === 0 && u.indexOf('previewthumb') === -1;
   }
-  // Only allow BGG CDN URLs (not preview thumbs)
-  if (thumb && thumb.indexOf('https://cf.geekdo-images.com/') === 0 && thumb.indexOf('previewthumb') === -1) {
-    return thumb;
-  }
+  var owned = game.ownedThumb || '';
+  var copyThumb = (game.copies && game.copies.length > 0) ? (game.copies[0].urlThumb || '') : '';
+  if (valid(owned)) return owned;
+  if (valid(game.urlThumb)) return game.urlThumb;
+  if (valid(copyThumb)) return copyThumb;
   return '';
 }
 
