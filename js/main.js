@@ -382,6 +382,12 @@ function renderGameLibrary() {
     var gp = getGameBestPlayer(g.id, winMaps);
     var gpHtml = gp ? '<div class="winrate-line">👑 胜率王：' + gp.name + '（' + gp.rate + '%）</div>' : '';
     var verBadge = g.ownedVersionLabel ? '<span class="version-badge">' + g.ownedVersionLabel + '</span>' : '';
+    var rec = g.recordHolder;
+    var recHtml = '';
+    if (rec) {
+      var recTitle = rec.date ? ' title="' + rec.date.slice(0,4) + '-' + rec.date.slice(4,6) + '-' + rec.date.slice(6,8) + ' 创下"' : '';
+      recHtml = '<div class="record-line"' + recTitle + '>🏅 记录：' + rec.name + ' ' + rec.score + '分</div>';
+    }
     return '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
       '<div class="game-card-image">' +
         (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
@@ -396,6 +402,7 @@ function renderGameLibrary() {
         '</div>' +
         '<div class="game-card-plays">🏆 ' + count + '次游玩</div>' +
         gpHtml +
+        recHtml +
         '<div class="game-card-tags">' +
           '<span class="tag tag-primary">👥 ' + g.minPlayers + '-' + g.maxPlayers + '人</span>' +
           (g.bestPlayers ? '<span class="tag tag-accent">👍 ' + g.bestPlayers + '人</span>' : '') +

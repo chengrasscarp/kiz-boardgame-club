@@ -161,6 +161,7 @@ def filter_plays(raw_plays, player_ids):
             "playDateYmd": p["playDateYmd"],
             "playDate": p["playDate"],
             "durationMin": p.get("durationMin", 0),
+            "scoringSetting": p.get("scoringSetting"),
             "playerScores": player_scores,
             # 透传扩展引用，供 compute_play_counts 统计扩展游玩次数
             "expansionPlays": [
@@ -360,6 +361,61 @@ def compute_stats(plays, players, games, play_counts):
     }
 
 
+def compute_record_holders(plays, games, player_id_to_name, no_points_map):
+    """为每款"需要记分"的游戏计算最佳单局分数保持者，回填 recordHolder。
+
+    - 仅 noPoints=False 的游戏参与（合作/推理等不计分游戏不展示）
+    - scoringSetting == 2 表示低分胜，否则高分胜
+    - 0 分视为未记分跳过；平局时取最近一次创下的记录
+    """
+    # 汇总每款游戏 (分数值, 玩家id, 日期, 低分胜?) 列表
+    by_game = {}
+    for p in plays:
+        gid = p["gameRefId"]
+        lower_better = (p.get("scoringSetting") == 2)
+        for ps in p.get("playerScores", []):
+            raw = ps.get("score")
+            if raw in (None, ""):
+                continue
+            try:
+                val = float(raw)
+            except (TypeError, ValueError):
+                continue
+            if val == 0:  # 0 分通常代表未记分，跳过
+                continue
+            by_game.setdefault(gid, []).append(
+                (val, ps.get("playerRefId"), p.get("playDateYmd", ""), lower_better)
+            )
+
+    for g in games:
+        gid = g["id"]
+        if no_points_map.get(gid, False):
+            g["recordHolder"] = None
+            continue
+        recs = by_game.get(gid)
+        if not recs:
+            g["recordHolder"] = None
+            continue
+        lower_better = recs[0][3]
+
+        def key(t):
+            val, _pid, date, _lb = t
+            s = -val if not lower_better else val
+            date_num = -int(date) if str(date).isdigit() else 0
+            return (s, date_num)
+
+        best = sorted(recs, key=key)[0]
+        val, pid, date, _ = best
+        name = player_id_to_name.get(pid, "未知玩家")
+        score_disp = str(int(val)) if val == int(val) else str(val)
+        g["recordHolder"] = {
+            "name": name,
+            "score": score_disp,
+            "date": str(date),
+            "lowerBetter": lower_better,
+        }
+
+
 def main():
     print(f"读取 {INPUT_FILE} ...")
     data = load_data()
@@ -389,6 +445,11 @@ def main():
 
     print("计算统计数据...")
     stats = compute_stats(plays, players, games, play_counts)
+
+    print("计算各游戏的记分记录保持者...")
+    player_id_to_name = {p["id"]: p["name"] for p in players}
+    no_points_map = {g["id"]: bool(g.get("noPoints")) for g in data.get("games", [])}
+    compute_record_holders(plays, games, player_id_to_name, no_points_map)
 
     print(f"\n=== 筛选结果 ===")
     print(f"  玩家: {len(players)} 人")
