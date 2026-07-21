@@ -162,6 +162,7 @@ def filter_plays(raw_plays, player_ids):
             "playDate": p["playDate"],
             "durationMin": p.get("durationMin", 0),
             "scoringSetting": p.get("scoringSetting"),
+            "board": p.get("board"),
             "playerScores": player_scores,
             # 透传扩展引用，供 compute_play_counts 统计扩展游玩次数
             "expansionPlays": [
@@ -366,12 +367,18 @@ def compute_record_holders(plays, games, player_id_to_name, no_points_map):
 
     - 仅 noPoints=False 的游戏参与（合作/推理等不计分游戏不展示）
     - scoringSetting == 2 表示低分胜，否则高分胜
-    - 0 分视为未记分跳过；平局时取最近一次创下的记录
+    - 低分胜游戏里 0 分是合法最低分（如某些游戏 0 即最佳），需计入；
+      高分胜游戏里 0 通常代表未记分，跳过
+    - 含"双人版图"的对局分数为两人之和，不可比，排除（勃艮第城堡等）
+    - 同分的所有玩家并列展示
     """
     # 汇总每款游戏 (分数值, 玩家id, 日期, 低分胜?) 列表
     by_game = {}
     for p in plays:
         gid = p["gameRefId"]
+        board = p.get("board") or ""
+        if "双人版图" in board:  # 两人分数相加，不可比，排除
+            continue
         lower_better = (p.get("scoringSetting") == 2)
         for ps in p.get("playerScores", []):
             raw = ps.get("score")
@@ -381,7 +388,7 @@ def compute_record_holders(plays, games, player_id_to_name, no_points_map):
                 val = float(raw)
             except (TypeError, ValueError):
                 continue
-            if val == 0:  # 0 分通常代表未记分，跳过
+            if val == 0 and not lower_better:  # 高分胜的 0 视为未记分
                 continue
             by_game.setdefault(gid, []).append(
                 (val, ps.get("playerRefId"), p.get("playDateYmd", ""), lower_better)
@@ -397,21 +404,29 @@ def compute_record_holders(plays, games, player_id_to_name, no_points_map):
             g["recordHolder"] = None
             continue
         lower_better = recs[0][3]
-
-        def key(t):
-            val, _pid, date, _lb = t
-            s = -val if not lower_better else val
-            date_num = -int(date) if str(date).isdigit() else 0
-            return (s, date_num)
-
-        best = sorted(recs, key=key)[0]
-        val, pid, date, _ = best
-        name = player_id_to_name.get(pid, "未知玩家")
-        score_disp = str(int(val)) if val == int(val) else str(val)
+        if lower_better:
+            best_val = min(r[0] for r in recs)
+        else:
+            best_val = max(r[0] for r in recs)
+        holders = [r for r in recs if r[0] == best_val]
+        # 同分保持者按创纪录日期倒序排列，便于展示与取代表日期
+        holders.sort(key=lambda r: -int(r[2]) if str(r[2]).isdigit() else 0)
+        # 按玩家去重：同一玩家在多局均达最佳分时只列一次
+        seen = set()
+        deduped = []
+        for r in holders:
+            if r[1] in seen:
+                continue
+            seen.add(r[1])
+            deduped.append(r)
+        holders = deduped
+        names = [player_id_to_name.get(r[1], "未知玩家") for r in holders]
+        dates = [str(r[2]) for r in holders]
+        score_disp = str(int(best_val)) if best_val == int(best_val) else str(best_val)
         g["recordHolder"] = {
-            "name": name,
+            "names": names,
             "score": score_disp,
-            "date": str(date),
+            "dates": dates,
             "lowerBetter": lower_better,
         }
 

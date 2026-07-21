@@ -384,9 +384,16 @@ function renderGameLibrary() {
     var verBadge = g.ownedVersionLabel ? '<span class="version-badge">' + g.ownedVersionLabel + '</span>' : '';
     var rec = g.recordHolder;
     var recHtml = '';
-    if (rec) {
-      var recTitle = rec.date ? ' title="' + rec.date.slice(0,4) + '-' + rec.date.slice(4,6) + '-' + rec.date.slice(6,8) + ' 创下"' : '';
-      recHtml = '<div class="record-line"' + recTitle + '>🏅 记录：' + rec.name + ' ' + rec.score + '分</div>';
+    if (rec && rec.names && rec.names.length) {
+      var names = rec.names.join('、');
+      var titleParts = [];
+      for (var ri = 0; ri < rec.names.length; ri++) {
+        var rd = (rec.dates && rec.dates[ri]) ? rec.dates[ri] : '';
+        var rpd = (rd.length === 8) ? rd.slice(0,4) + '-' + rd.slice(4,6) + '-' + rd.slice(6,8) : rd;
+        titleParts.push(rec.names[ri] + (rpd ? ' ' + rpd : ''));
+      }
+      var recTitle = titleParts.length ? ' title="记录保持者：' + titleParts.join('、') + '"' : '';
+      recHtml = '<div class="record-line"' + recTitle + '>🏅 记录：' + names + ' ' + rec.score + '分</div>';
     }
     return '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
       '<div class="game-card-image">' +

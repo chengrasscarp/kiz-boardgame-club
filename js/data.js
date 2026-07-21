@@ -335,6 +335,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-11 12:30:48",
       "durationMin": 120,
       "scoringSetting": 1,
+      "board": "2号版图",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -371,6 +372,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-29 13:13:36",
       "durationMin": 120,
       "scoringSetting": 1,
+      "board": "1号版图",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -407,6 +409,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-07 13:17:40",
       "durationMin": 120,
       "scoringSetting": 1,
+      "board": "1号版图",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -437,6 +440,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-24 13:24:57",
       "durationMin": 60,
       "scoringSetting": 3,
+      "board": "13a",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -455,6 +459,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-16 15:49:48",
       "durationMin": 90,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 13,
@@ -479,6 +484,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-09 15:52:26",
       "durationMin": 150,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 13,
@@ -503,6 +509,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-12 00:50:52",
       "durationMin": 15,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 5,
@@ -539,6 +546,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-01 12:40:35",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 15,
@@ -569,6 +577,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-01 12:43:21",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 14,
@@ -599,6 +608,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-14 12:45:56",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -641,6 +651,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-14 12:47:14",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -683,6 +694,7 @@ window.KIZ_DATA = {
       "playDate": "2025-02-16 12:50:12",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -707,6 +719,7 @@ window.KIZ_DATA = {
       "playDate": "2025-03-18 16:28:21",
       "durationMin": 240,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -725,6 +738,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-12 16:46:03",
       "durationMin": 90,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 5,
@@ -761,6 +775,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-19 14:11:34",
       "durationMin": 171,
       "scoringSetting": 4,
+      "board": "双人版图",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -797,6 +812,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-19 17:33:11",
       "durationMin": 60,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 22,
@@ -833,6 +849,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-19 19:50:20",
       "durationMin": 81,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 21,
@@ -875,6 +892,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-19 20:44:11",
       "durationMin": 37,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -917,6 +935,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-19 21:50:02",
       "durationMin": 56,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -959,6 +978,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-20 18:51:17",
       "durationMin": 32,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -983,6 +1003,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-20 19:28:25",
       "durationMin": 41,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 23,
@@ -1007,6 +1028,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-20 20:10:03",
       "durationMin": 25,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 23,
@@ -1031,6 +1053,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-20 20:11:03",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1055,6 +1078,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-24 22:54:07",
       "durationMin": 120,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 22,
@@ -1085,6 +1109,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-25 19:55:40",
       "durationMin": 28,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 23,
@@ -1109,6 +1134,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-25 20:25:29",
       "durationMin": 20,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 23,
@@ -1133,6 +1159,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-09 20:06:35",
       "durationMin": 6,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -1175,6 +1202,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-09 20:14:46",
       "durationMin": 29,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -1223,6 +1251,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-09 20:51:48",
       "durationMin": 65,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 5,
@@ -1271,6 +1300,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-09 22:53:44",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1301,6 +1331,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-09 23:16:01",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -1337,6 +1368,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-11 12:35:22",
       "durationMin": 120,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -1379,6 +1411,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-11 17:59:00",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -1421,6 +1454,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-11 18:00:31",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -1463,6 +1497,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-16 20:14:32",
       "durationMin": 32,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -1517,6 +1552,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-16 20:51:01",
       "durationMin": 18,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1552,6 +1588,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-16 21:20:14",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -1587,6 +1624,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-16 21:32:14",
       "durationMin": 55,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1617,6 +1655,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-16 22:27:30",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1647,6 +1686,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-16 22:49:27",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 11,
@@ -1688,6 +1728,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-18 19:53:14",
       "durationMin": 22,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 14,
@@ -1718,6 +1759,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-18 20:17:42",
       "durationMin": 39,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1748,6 +1790,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-18 21:14:16",
       "durationMin": 34,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1778,6 +1821,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-23 20:16:29",
       "durationMin": 73,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -1823,6 +1867,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-23 21:53:39",
       "durationMin": 26,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -1865,6 +1910,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-23 22:20:40",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -1907,6 +1953,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-23 22:20:55",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 8,
@@ -1949,6 +1996,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-23 22:21:53",
       "durationMin": 7,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 8,
@@ -1991,6 +2039,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-23 22:33:54",
       "durationMin": 44,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -2033,6 +2082,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-25 15:44:16",
       "durationMin": 35,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2057,6 +2107,7 @@ window.KIZ_DATA = {
       "playDate": "2025-05-25 16:50:36",
       "durationMin": 22,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 5,
@@ -2090,6 +2141,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-13 12:10:41",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 20,
@@ -2144,6 +2196,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-13 19:57:58",
       "durationMin": 58,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 14,
@@ -2180,6 +2233,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-13 20:59:11",
       "durationMin": 42,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2216,6 +2270,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-15 14:59:41",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2240,6 +2295,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-15 14:58:41",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2264,6 +2320,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-20 20:12:46",
       "durationMin": 44,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -2312,6 +2369,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-20 21:05:04",
       "durationMin": 18,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2360,6 +2418,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-20 22:58:32",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 27,
@@ -2393,6 +2452,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-20 22:58:57",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 27,
@@ -2417,6 +2477,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-20 23:00:20",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 5,
@@ -2453,6 +2514,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-20 23:00:50",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 5,
@@ -2489,6 +2551,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-20 23:01:22",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -2525,6 +2588,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-13 21:00:11",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2549,6 +2613,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-13 21:01:11",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2573,6 +2638,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-27 20:05:45",
       "durationMin": 64,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -2621,6 +2687,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-27 21:35:10",
       "durationMin": 69,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -2669,6 +2736,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-27 22:16:34",
       "durationMin": 21,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2693,6 +2761,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-27 22:49:44",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -2729,6 +2798,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-29 11:04:13",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -2771,6 +2841,7 @@ window.KIZ_DATA = {
       "playDate": "2025-06-29 11:17:25",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2794,6 +2865,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-02 09:27:43",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2818,6 +2890,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-03 09:19:56",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 20,
@@ -2842,6 +2915,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 20:09:09",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2896,6 +2970,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 21:17:07",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2926,6 +3001,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 21:17:52",
       "durationMin": 23,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -2956,6 +3032,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 21:40:52",
       "durationMin": 31,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2986,6 +3063,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 22:13:05",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -3022,6 +3100,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 22:14:50",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 5,
@@ -3058,6 +3137,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 22:32:54",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3082,6 +3162,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 22:36:05",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3106,6 +3187,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 23:12:23",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 5,
@@ -3148,6 +3230,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-04 23:13:00",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3190,6 +3273,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-05 18:52:09",
       "durationMin": 150,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -3232,6 +3316,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-11 20:03:12",
       "durationMin": 92,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 27,
@@ -3280,6 +3365,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-11 21:36:36",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3328,6 +3414,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-11 22:20:06",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 31,
@@ -3376,6 +3463,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-11 22:25:23",
       "durationMin": 17,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3424,6 +3512,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-13 15:05:19",
       "durationMin": 159,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3471,6 +3560,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-12 19:45:46",
       "durationMin": 60,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3495,6 +3585,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-12 19:46:20",
       "durationMin": 60,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3519,6 +3610,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-13 19:47:01",
       "durationMin": 60,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3561,6 +3653,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-17 12:29:14",
       "durationMin": 16,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 27,
@@ -3591,6 +3684,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-17 23:56:51",
       "durationMin": 40,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3615,6 +3709,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-18 20:02:30",
       "durationMin": 16,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -3663,6 +3758,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-18 21:04:17",
       "durationMin": 22,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3711,6 +3807,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-18 21:44:16",
       "durationMin": 28,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3741,6 +3838,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-18 22:22:39",
       "durationMin": 29,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3771,6 +3869,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-19 20:12:33",
       "durationMin": 26,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -3812,6 +3911,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-19 20:42:57",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -3848,6 +3948,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-19 20:57:53",
       "durationMin": 24,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -3884,6 +3985,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-19 21:22:06",
       "durationMin": 21,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -3920,6 +4022,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-19 21:46:18",
       "durationMin": 17,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -3956,6 +4059,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-19 22:19:48",
       "durationMin": 19,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -3992,6 +4096,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-19 22:20:23",
       "durationMin": 22,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4028,6 +4133,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-19 22:51:05",
       "durationMin": 19,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -4064,6 +4170,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-18 22:40:55",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 31,
@@ -4094,6 +4201,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-18 22:41:44",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 31,
@@ -4124,6 +4232,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-20 22:44:11",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 27,
@@ -4148,6 +4257,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-21 00:03:49",
       "durationMin": 40,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4172,6 +4282,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-22 00:25:28",
       "durationMin": 50,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4196,6 +4307,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-23 13:58:35",
       "durationMin": 30,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -4220,6 +4332,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-23 23:16:41",
       "durationMin": 57,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 20,
@@ -4244,6 +4357,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-24 23:27:55",
       "durationMin": 59,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4268,6 +4382,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-25 20:16:40",
       "durationMin": 57,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 31,
@@ -4322,6 +4437,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-25 21:40:54",
       "durationMin": 27,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -4352,6 +4468,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-25 22:09:24",
       "durationMin": 43,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4382,6 +4499,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-25 22:32:49",
       "durationMin": 30,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4418,6 +4536,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-25 22:39:03",
       "durationMin": 27,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 27,
@@ -4460,6 +4579,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-25 23:05:56",
       "durationMin": 16,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 27,
@@ -4502,6 +4622,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-25 23:47:04",
       "durationMin": 30,
       "scoringSetting": 11,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4538,6 +4659,7 @@ window.KIZ_DATA = {
       "playDate": "2025-07-27 20:07:51",
       "durationMin": 171,
       "scoringSetting": 1,
+      "board": "2号版图",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -4574,6 +4696,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-01 21:01:30",
       "durationMin": 0,
       "scoringSetting": 11,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -4628,6 +4751,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-01 21:02:47",
       "durationMin": 48,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -4682,6 +4806,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-01 22:15:17",
       "durationMin": 34,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4730,6 +4855,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-08 20:30:25",
       "durationMin": 62,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4772,6 +4898,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-08 21:35:50",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4814,6 +4941,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-08 21:50:01",
       "durationMin": 25,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -4856,6 +4984,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-08 23:39:59",
       "durationMin": 20,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4898,6 +5027,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-08 23:40:11",
       "durationMin": 20,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4940,6 +5070,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-08 23:57:17",
       "durationMin": 20,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -4982,6 +5113,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-15 20:15:08",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 33,
@@ -5012,6 +5144,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-15 20:20:48",
       "durationMin": 39,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5054,6 +5187,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-15 20:59:50",
       "durationMin": 29,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 27,
@@ -5096,6 +5230,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-15 21:28:57",
       "durationMin": 15,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5138,6 +5273,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-15 21:44:24",
       "durationMin": 39,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5174,6 +5310,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-15 22:23:22",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5216,6 +5353,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-15 22:36:08",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 34,
@@ -5246,6 +5384,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-15 22:38:05",
       "durationMin": 20,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5270,6 +5409,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-16 15:15:00",
       "durationMin": 56,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 22,
@@ -5312,6 +5452,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-17 19:21:43",
       "durationMin": 140,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5359,6 +5500,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-17 23:37:51",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -5401,6 +5543,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-17 23:38:31",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5437,6 +5580,7 @@ window.KIZ_DATA = {
       "playDate": "2025-01-01 15:11:17",
       "durationMin": 180,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5461,6 +5605,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-19 14:16:47",
       "durationMin": 31,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -5485,6 +5630,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-21 12:20:59",
       "durationMin": 22,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -5509,6 +5655,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-22 00:07:56",
       "durationMin": 180,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5527,6 +5674,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-22 20:19:03",
       "durationMin": 26,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 33,
@@ -5557,6 +5705,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-22 20:56:31",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 33,
@@ -5593,6 +5742,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-22 21:13:24",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 33,
@@ -5635,6 +5785,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-22 22:07:57",
       "durationMin": 39,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -5677,6 +5828,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-23 20:59:44",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5713,6 +5865,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-24 00:04:44",
       "durationMin": 180,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -5749,6 +5902,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-24 00:32:27",
       "durationMin": 180,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5767,6 +5921,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-26 23:32:53",
       "durationMin": 180,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5785,6 +5940,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-29 21:22:49",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 34,
@@ -5833,6 +5989,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-29 21:38:17",
       "durationMin": 39,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 34,
@@ -5881,6 +6038,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-29 22:31:11",
       "durationMin": 19,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 36,
@@ -5923,6 +6081,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-29 22:50:27",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -5965,6 +6124,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-29 22:56:47",
       "durationMin": 22,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -6007,6 +6167,7 @@ window.KIZ_DATA = {
       "playDate": "2025-08-31 14:48:25",
       "durationMin": 200,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -6043,6 +6204,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-05 20:20:34",
       "durationMin": 38,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 38,
@@ -6085,6 +6247,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-05 21:05:15",
       "durationMin": 44,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 37,
@@ -6127,6 +6290,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-06 17:14:44",
       "durationMin": 132,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -6174,6 +6338,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-06 20:10:30",
       "durationMin": 116,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -6216,6 +6381,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-05 23:15:52",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6234,6 +6400,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-14 16:19:48",
       "durationMin": 78,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -6285,6 +6452,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-14 17:41:26",
       "durationMin": 50,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -6327,6 +6495,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-17 12:20:13",
       "durationMin": 18,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6351,6 +6520,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-18 12:14:11",
       "durationMin": 39,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -6375,6 +6545,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-19 20:16:40",
       "durationMin": 114,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -6405,6 +6576,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-27 11:19:57",
       "durationMin": 63,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6428,6 +6600,7 @@ window.KIZ_DATA = {
       "playDate": "2025-09-27 11:20:57",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6446,6 +6619,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-01 15:32:23",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6464,6 +6638,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-01 15:32:50",
       "durationMin": 26,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6482,6 +6657,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-01 16:03:04",
       "durationMin": 27,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6500,6 +6676,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-02 01:30:19",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6548,6 +6725,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-02 01:38:49",
       "durationMin": 11,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 42,
@@ -6596,6 +6774,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-02 15:58:07",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 42,
@@ -6644,6 +6823,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-02 21:01:32",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 42,
@@ -6686,6 +6866,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-02 21:02:32",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6728,6 +6909,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-11 18:52:42",
       "durationMin": 23,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6752,6 +6934,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-11 19:16:46",
       "durationMin": 14,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6776,6 +6959,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-11 19:32:31",
       "durationMin": 13,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6800,6 +6984,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-11 20:13:55",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6824,6 +7009,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-11 20:57:07",
       "durationMin": 38,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -6848,6 +7034,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 15:09:56",
       "durationMin": 18,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6884,6 +7071,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 15:49:10",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -6926,6 +7114,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 15:49:35",
       "durationMin": 12,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6968,6 +7157,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 16:01:27",
       "durationMin": 44,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -7010,6 +7200,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 16:57:11",
       "durationMin": 11,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7052,6 +7243,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 17:07:52",
       "durationMin": 24,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7094,6 +7286,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 17:31:40",
       "durationMin": 19,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7136,6 +7329,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 18:01:06",
       "durationMin": 18,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7178,6 +7372,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 18:58:44",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -7220,6 +7415,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 19:02:07",
       "durationMin": 22,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7262,6 +7458,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 23:33:51",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -7304,6 +7501,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 23:34:09",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -7346,6 +7544,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 23:34:40",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7388,6 +7587,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 23:36:28",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -7430,6 +7630,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-12 23:37:28",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -7460,6 +7661,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-05 09:39:05",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7478,6 +7680,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-05 09:39:17",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7496,6 +7699,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-13 12:29:08",
       "durationMin": 21,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7514,6 +7718,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-15 12:57:37",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7532,6 +7737,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-17 19:19:08",
       "durationMin": 25,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7556,6 +7762,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-17 19:44:21",
       "durationMin": 17,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7580,6 +7787,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-17 20:02:09",
       "durationMin": 19,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7604,6 +7812,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-17 20:31:54",
       "durationMin": 11,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7633,6 +7842,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-17 20:52:41",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7662,6 +7872,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-17 21:02:27",
       "durationMin": 39,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7686,6 +7897,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-18 10:12:19",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7704,6 +7916,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-18 10:12:26",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7722,6 +7935,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-18 10:12:34",
       "durationMin": 14,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7740,6 +7954,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-18 10:13:34",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7758,6 +7973,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-19 14:12:29",
       "durationMin": 204,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7794,6 +8010,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-19 18:49:27",
       "durationMin": 37,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -7830,6 +8047,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-23 23:14:06",
       "durationMin": 13,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7848,6 +8066,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-24 12:30:39",
       "durationMin": 36,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -7881,6 +8100,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-25 00:41:02",
       "durationMin": 70,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7899,6 +8119,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-25 22:44:18",
       "durationMin": 18,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7917,6 +8138,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-26 14:27:05",
       "durationMin": 208,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -7953,6 +8175,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-26 19:52:03",
       "durationMin": 79,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -7983,6 +8206,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-30 12:36:58",
       "durationMin": 25,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 35,
@@ -8007,6 +8231,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-30 13:03:07",
       "durationMin": 16,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 35,
@@ -8031,6 +8256,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-30 13:20:24",
       "durationMin": 16,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8055,6 +8281,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-31 21:21:12",
       "durationMin": 52,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8091,6 +8318,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-31 21:22:12",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8127,6 +8355,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-31 21:23:12",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -8163,6 +8392,7 @@ window.KIZ_DATA = {
       "playDate": "2025-10-31 21:24:12",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8199,6 +8429,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-08 15:46:08",
       "durationMin": 26,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 46,
@@ -8229,6 +8460,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-08 16:21:28",
       "durationMin": 46,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8265,6 +8497,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-08 17:36:42",
       "durationMin": 14,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 14,
@@ -8301,6 +8534,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-09 14:53:11",
       "durationMin": 196,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -8348,6 +8582,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-12 12:22:58",
       "durationMin": 27,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8381,6 +8616,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-14 20:04:58",
       "durationMin": 96,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8411,6 +8647,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-14 21:52:40",
       "durationMin": 76,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8441,6 +8678,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-16 14:36:47",
       "durationMin": 151,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8471,6 +8709,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-16 17:18:17",
       "durationMin": 56,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8501,6 +8740,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-20 12:05:41",
       "durationMin": 45,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8525,6 +8765,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-23 14:19:12",
       "durationMin": 114,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8564,6 +8805,7 @@ window.KIZ_DATA = {
       "playDate": "2025-11-23 16:22:34",
       "durationMin": 84,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8594,6 +8836,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-02 23:13:28",
       "durationMin": 30,
       "scoringSetting": 1,
+      "board": "1",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8612,6 +8855,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-03 12:26:42",
       "durationMin": 38,
       "scoringSetting": 1,
+      "board": "2",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8630,6 +8874,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-12 20:12:06",
       "durationMin": 40,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -8666,6 +8911,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-12 21:27:02",
       "durationMin": 74,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -8702,6 +8948,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-14 14:24:35",
       "durationMin": 22,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8744,6 +8991,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-14 14:57:19",
       "durationMin": 82,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -8786,6 +9034,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-14 16:30:55",
       "durationMin": 37,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -8828,6 +9077,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-14 17:18:48",
       "durationMin": 43,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -8870,6 +9120,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-14 19:21:34",
       "durationMin": 50,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -8912,6 +9163,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-14 20:17:34",
       "durationMin": 43,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8954,6 +9206,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-19 20:21:47",
       "durationMin": 60,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -8990,6 +9243,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-19 21:26:52",
       "durationMin": 35,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -9032,6 +9286,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-19 22:52:10",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -9074,6 +9329,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-20 14:20:50",
       "durationMin": 200,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -9115,6 +9371,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-20 20:04:30",
       "durationMin": 53,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9151,6 +9408,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-20 21:05:11",
       "durationMin": 28,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9187,6 +9445,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-20 21:34:47",
       "durationMin": 29,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -9223,6 +9482,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-21 21:37:54",
       "durationMin": 180,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9250,6 +9510,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-13 21:39:34",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 14,
@@ -9274,6 +9535,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-26 21:42:49",
       "durationMin": 210,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9301,6 +9563,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-23 12:15:00",
       "durationMin": 36,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -9334,6 +9597,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-26 20:13:50",
       "durationMin": 17,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9358,6 +9622,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-26 20:43:21",
       "durationMin": 32,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9382,6 +9647,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-26 21:30:01",
       "durationMin": 36,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9415,6 +9681,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-28 14:16:30",
       "durationMin": 115,
       "scoringSetting": 1,
+      "board": "2",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9445,6 +9712,7 @@ window.KIZ_DATA = {
       "playDate": "2025-12-28 16:28:47",
       "durationMin": 112,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9484,6 +9752,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-02 14:05:39",
       "durationMin": 195,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 49,
@@ -9520,6 +9789,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-02 19:44:09",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -9556,6 +9826,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-02 20:50:01",
       "durationMin": 99,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 48,
@@ -9598,6 +9869,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-07 23:47:26",
       "durationMin": 270,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9616,6 +9888,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-09 20:34:24",
       "durationMin": 124,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9658,6 +9931,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-14 19:09:27",
       "durationMin": 25,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9676,6 +9950,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-15 23:59:19",
       "durationMin": 60,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9694,6 +9969,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-16 12:22:38",
       "durationMin": 39,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9727,6 +10003,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-16 20:03:52",
       "durationMin": 30,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9757,6 +10034,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-16 20:45:42",
       "durationMin": 36,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -9792,6 +10070,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-16 21:43:29",
       "durationMin": 69,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -9822,6 +10101,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-17 14:51:50",
       "durationMin": 34,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 49,
@@ -9852,6 +10132,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-17 15:58:18",
       "durationMin": 162,
       "scoringSetting": 1,
+      "board": "工厂学校价格对换／玉米削弱／走私者／节日",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -9894,6 +10175,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-17 22:39:03",
       "durationMin": 28,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -9936,6 +10218,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-17 22:40:03",
       "durationMin": 29,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9978,6 +10261,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-17 22:41:03",
       "durationMin": 57,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10025,6 +10309,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-23 20:40:13",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10055,6 +10340,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-23 20:53:46",
       "durationMin": 51,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -10103,6 +10389,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-23 22:25:49",
       "durationMin": 32,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -10151,6 +10438,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-23 23:21:26",
       "durationMin": 69,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10204,6 +10492,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-25 15:25:54",
       "durationMin": 91,
       "scoringSetting": 1,
+      "board": "2",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10234,6 +10523,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-25 17:05:31",
       "durationMin": 31,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -10264,6 +10554,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-25 17:38:00",
       "durationMin": 30,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10294,6 +10585,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-25 20:06:53",
       "durationMin": 106,
       "scoringSetting": 1,
+      "board": "工厂学校价格对换／玉米削弱／走私者／节日活动／成就／建筑扩",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10330,6 +10622,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-25 22:04:39",
       "durationMin": 30,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10366,6 +10659,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-25 22:36:10",
       "durationMin": 33,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -10402,6 +10696,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-30 20:04:35",
       "durationMin": 67,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10426,6 +10721,7 @@ window.KIZ_DATA = {
       "playDate": "2026-01-30 21:24:59",
       "durationMin": 21,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10450,6 +10746,7 @@ window.KIZ_DATA = {
       "playDate": "2026-02-01 14:29:40",
       "durationMin": 179,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10486,6 +10783,7 @@ window.KIZ_DATA = {
       "playDate": "2026-02-01 20:37:00",
       "durationMin": 112,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -10533,6 +10831,7 @@ window.KIZ_DATA = {
       "playDate": "2026-02-06 20:45:04",
       "durationMin": 224,
       "scoringSetting": 1,
+      "board": "2号版图／商路扩展",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -10569,6 +10868,7 @@ window.KIZ_DATA = {
       "playDate": "2026-02-22 16:38:44",
       "durationMin": 31,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 58,
@@ -10611,6 +10911,7 @@ window.KIZ_DATA = {
       "playDate": "2026-02-22 17:20:01",
       "durationMin": 45,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 43,
@@ -10653,6 +10954,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-04 12:17:20",
       "durationMin": 38,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10690,6 +10992,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-06 20:13:58",
       "durationMin": 48,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -10727,6 +11030,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-06 21:49:46",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -10764,6 +11068,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-06 21:56:02",
       "durationMin": 54,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10788,6 +11093,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-07 16:37:41",
       "durationMin": 62,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10812,6 +11118,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-07 20:07:56",
       "durationMin": 155,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -10859,6 +11166,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-08 16:10:27",
       "durationMin": 114,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10882,6 +11190,7 @@ window.KIZ_DATA = {
       "playDate": "2024-08-10 10:51:51",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -10924,6 +11233,7 @@ window.KIZ_DATA = {
       "playDate": "2024-09-10 10:53:48",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -10966,6 +11276,7 @@ window.KIZ_DATA = {
       "playDate": "2024-10-10 10:54:20",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11002,6 +11313,7 @@ window.KIZ_DATA = {
       "playDate": "2024-11-10 10:54:53",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -11038,6 +11350,7 @@ window.KIZ_DATA = {
       "playDate": "2025-04-10 10:55:26",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -11074,6 +11387,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 16:31:39",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11092,6 +11406,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 16:44:04",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11110,6 +11425,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:37:38",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11128,6 +11444,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:37:56",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11146,6 +11463,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:38:09",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11164,6 +11482,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:38:20",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11182,6 +11501,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:38:43",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11200,6 +11520,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:39:14",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11218,6 +11539,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:39:35",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11236,6 +11558,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:39:51",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11259,6 +11582,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:40:15",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11282,6 +11606,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:40:26",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11305,6 +11630,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:40:49",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11328,6 +11654,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:41:15",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11351,6 +11678,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-10 20:41:39",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11374,6 +11702,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-14 16:55:53",
       "durationMin": 34,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11410,6 +11739,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-14 20:20:05",
       "durationMin": 114,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -11457,6 +11787,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-15 14:27:48",
       "durationMin": 228,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11498,6 +11829,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-20 20:18:41",
       "durationMin": 154,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -11533,6 +11865,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-21 19:54:34",
       "durationMin": 232,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11580,6 +11913,7 @@ window.KIZ_DATA = {
       "playDate": "2026-03-26 12:23:01",
       "durationMin": 20,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 29,
@@ -11617,6 +11951,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-06 14:45:09",
       "durationMin": 194,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11653,6 +11988,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-10 20:47:14",
       "durationMin": 104,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -11689,6 +12025,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-11 16:05:39",
       "durationMin": 28,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11713,6 +12050,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-11 16:37:53",
       "durationMin": 24,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11737,6 +12075,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-11 17:09:43",
       "durationMin": 13,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11766,6 +12105,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-11 19:40:57",
       "durationMin": 117,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11813,6 +12153,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-11 21:59:23",
       "durationMin": 63,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -11855,6 +12196,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-17 20:12:19",
       "durationMin": 150,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -11885,6 +12227,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-18 14:18:10",
       "durationMin": 160,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -11926,6 +12269,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-18 17:12:00",
       "durationMin": 42,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11962,6 +12306,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-26 15:01:03",
       "durationMin": 136,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 15,
@@ -11998,6 +12343,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-26 17:30:48",
       "durationMin": 34,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12034,6 +12380,7 @@ window.KIZ_DATA = {
       "playDate": "2026-04-30 20:12:12",
       "durationMin": 119,
       "scoringSetting": 1,
+      "board": "1",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -12064,6 +12411,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-15 20:46:41",
       "durationMin": 38,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 60,
@@ -12094,6 +12442,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-15 21:35:03",
       "durationMin": 61,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12124,6 +12473,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 14:09:41",
       "durationMin": 39,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12160,6 +12510,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 14:49:51",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -12196,6 +12547,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 15:00:24",
       "durationMin": 19,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12232,6 +12584,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 15:42:57",
       "durationMin": 0,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12268,6 +12621,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 15:48:17",
       "durationMin": 51,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12304,6 +12658,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 17:36:10",
       "durationMin": 111,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12334,6 +12689,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 20:38:56",
       "durationMin": 15,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12370,6 +12726,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 20:54:17",
       "durationMin": 49,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12406,6 +12763,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 21:46:12",
       "durationMin": 35,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12442,6 +12800,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-16 22:25:31",
       "durationMin": 66,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12478,6 +12837,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-23 10:10:51",
       "durationMin": 141,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12501,6 +12861,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-24 15:02:36",
       "durationMin": 77,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12537,6 +12898,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-24 16:53:24",
       "durationMin": 65,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12584,6 +12946,7 @@ window.KIZ_DATA = {
       "playDate": "2026-05-24 20:06:19",
       "durationMin": 205,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12631,6 +12994,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-06 10:44:24",
       "durationMin": 71,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12654,6 +13018,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-06 14:10:22",
       "durationMin": 21,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -12684,6 +13049,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-06 14:32:15",
       "durationMin": 15,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -12714,6 +13080,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-06 14:56:08",
       "durationMin": 32,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 61,
@@ -12744,6 +13111,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-06 15:40:00",
       "durationMin": 70,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12774,6 +13142,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-06 16:55:17",
       "durationMin": 35,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 61,
@@ -12804,6 +13173,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-07 14:45:00",
       "durationMin": 13,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12833,6 +13203,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-07 15:21:17",
       "durationMin": 120,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 4,
@@ -12863,6 +13234,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-07 21:05:46",
       "durationMin": 189,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 2,
@@ -12910,6 +13282,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-12 20:08:27",
       "durationMin": 38,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 64,
@@ -12958,6 +13331,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-12 20:55:59",
       "durationMin": 57,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -13018,6 +13392,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-12 22:05:37",
       "durationMin": 35,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 36,
@@ -13078,6 +13453,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-13 14:07:37",
       "durationMin": 65,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 67,
@@ -13114,6 +13490,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-13 15:16:52",
       "durationMin": 83,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13150,6 +13527,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:10:04",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13186,6 +13564,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:12:06",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 73,
@@ -13222,6 +13601,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:12:43",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13258,6 +13638,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:13:09",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 71,
@@ -13294,6 +13675,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:13:49",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 71,
@@ -13330,6 +13712,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:14:27",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 73,
@@ -13366,6 +13749,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:15:27",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 71,
@@ -13402,6 +13786,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:15:56",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13438,6 +13823,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-19 22:16:32",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 73,
@@ -13474,6 +13860,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-26 18:59:07",
       "durationMin": 0,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13510,6 +13897,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-27 13:36:36",
       "durationMin": 40,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 67,
@@ -13546,6 +13934,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-27 14:39:08",
       "durationMin": 110,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -13582,6 +13971,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-27 16:44:59",
       "durationMin": 15,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 67,
@@ -13618,6 +14008,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-27 17:00:30",
       "durationMin": 19,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -13654,6 +14045,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-28 15:14:02",
       "durationMin": 77,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -13690,6 +14082,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-28 16:36:58",
       "durationMin": 60,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -13726,6 +14119,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-28 19:48:56",
       "durationMin": 42,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 62,
@@ -13780,6 +14174,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-28 20:40:12",
       "durationMin": 29,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -13834,6 +14229,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-28 21:19:51",
       "durationMin": 25,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 62,
@@ -13888,6 +14284,7 @@ window.KIZ_DATA = {
       "playDate": "2026-06-28 21:47:17",
       "durationMin": 14,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -13942,6 +14339,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-04 14:15:20",
       "durationMin": 11,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -13972,6 +14370,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-04 14:47:12",
       "durationMin": 88,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 46,
@@ -14014,6 +14413,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-04 16:23:23",
       "durationMin": 72,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14056,6 +14456,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-05 14:39:22",
       "durationMin": 100,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 61,
@@ -14092,6 +14493,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-05 20:32:59",
       "durationMin": 14,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14128,6 +14530,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-05 20:47:55",
       "durationMin": 22,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -14164,6 +14567,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-05 21:27:32",
       "durationMin": 28,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 7,
@@ -14206,6 +14610,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-05 22:19:00",
       "durationMin": 0,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14248,6 +14653,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-05 22:20:40",
       "durationMin": 14,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14290,6 +14696,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-11 13:36:57",
       "durationMin": 90,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 61,
@@ -14326,6 +14733,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-11 15:22:46",
       "durationMin": 97,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 30,
@@ -14362,6 +14770,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-11 17:15:47",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14398,6 +14807,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-11 17:22:39",
       "durationMin": 25,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 61,
@@ -14434,6 +14844,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-12 14:35:04",
       "durationMin": 86,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -14470,6 +14881,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-12 16:06:04",
       "durationMin": 71,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 28,
@@ -14506,6 +14918,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-12 19:07:01",
       "durationMin": 17,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14545,6 +14958,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-12 20:22:23",
       "durationMin": 84,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 17,
@@ -14593,6 +15007,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-12 21:52:05",
       "durationMin": 16,
       "scoringSetting": 2,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -14641,6 +15056,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-12 22:14:39",
       "durationMin": 0,
       "scoringSetting": 6,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14689,6 +15105,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-18 14:11:23",
       "durationMin": 111,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 67,
@@ -14725,6 +15142,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-18 16:03:18",
       "durationMin": 22,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14761,6 +15179,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-19 15:37:47",
       "durationMin": 95,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -14797,6 +15216,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-19 15:41:29",
       "durationMin": 100,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 3,
@@ -14833,6 +15253,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-19 19:41:48",
       "durationMin": 63,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14875,6 +15296,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-19 20:50:07",
       "durationMin": 53,
       "scoringSetting": 3,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14917,6 +15339,7 @@ window.KIZ_DATA = {
       "playDate": "2026-07-19 21:52:08",
       "durationMin": 43,
       "scoringSetting": 1,
+      "board": null,
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14983,9 +15406,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中英双语版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友36",
-        "score": "476",
-        "date": "20250419",
+        "names": [
+          "陈勇杰"
+        ],
+        "score": "281",
+        "dates": [
+          "20260206"
+        ],
         "lowerBetter": false
       }
     },
@@ -15019,9 +15446,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "王乐桐",
+        "names": [
+          "王乐桐"
+        ],
         "score": "21",
-        "date": "20251219",
+        "dates": [
+          "20251219"
+        ],
         "lowerBetter": false
       }
     },
@@ -15055,9 +15486,15 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰",
+          "桌友32"
+        ],
         "score": "16",
-        "date": "20250718",
+        "dates": [
+          "20250718",
+          "20250718"
+        ],
         "lowerBetter": false
       }
     },
@@ -15091,9 +15528,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "21",
-        "date": "20251017",
+        "dates": [
+          "20251017"
+        ],
         "lowerBetter": false
       }
     },
@@ -15127,9 +15568,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "108",
-        "date": "20250412",
+        "dates": [
+          "20250412"
+        ],
         "lowerBetter": false
       }
     },
@@ -15287,9 +15732,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "多语言版(含中文)",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友16",
+        "names": [
+          "桌友16"
+        ],
         "score": "38",
-        "date": "20250613",
+        "dates": [
+          "20250613"
+        ],
         "lowerBetter": false
       }
     },
@@ -15323,9 +15772,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中英双语版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "王乐桐",
+        "names": [
+          "王乐桐"
+        ],
         "score": "12",
-        "date": "20250801",
+        "dates": [
+          "20250801"
+        ],
         "lowerBetter": true
       }
     },
@@ -15359,9 +15812,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "英文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "5",
-        "date": "20260123",
+        "dates": [
+          "20260123"
+        ],
         "lowerBetter": true
       }
     },
@@ -15457,9 +15914,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "朱晨阳",
+        "names": [
+          "朱晨阳"
+        ],
         "score": "587",
-        "date": "20250808",
+        "dates": [
+          "20250808"
+        ],
         "lowerBetter": false
       }
     },
@@ -15617,9 +16078,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友36",
+        "names": [
+          "桌友36"
+        ],
         "score": "98",
-        "date": "20250516",
+        "dates": [
+          "20250516"
+        ],
         "lowerBetter": false
       }
     },
@@ -15653,9 +16118,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "王乐桐",
+        "names": [
+          "王乐桐"
+        ],
         "score": "102",
-        "date": "20260515",
+        "dates": [
+          "20260515"
+        ],
         "lowerBetter": false
       }
     },
@@ -15689,9 +16158,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友09",
+        "names": [
+          "桌友09"
+        ],
         "score": "96",
-        "date": "20250216",
+        "dates": [
+          "20250216"
+        ],
         "lowerBetter": false
       }
     },
@@ -15756,9 +16229,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友32",
+        "names": [
+          "桌友32"
+        ],
         "score": "133",
-        "date": "20250815",
+        "dates": [
+          "20250815"
+        ],
         "lowerBetter": false
       }
     },
@@ -15885,9 +16362,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "153",
-        "date": "20251011",
+        "dates": [
+          "20251011"
+        ],
         "lowerBetter": false
       }
     },
@@ -15921,9 +16402,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友32",
+        "names": [
+          "桌友32"
+        ],
         "score": "30",
-        "date": "20250718",
+        "dates": [
+          "20250718"
+        ],
         "lowerBetter": false
       }
     },
@@ -15988,9 +16473,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "24",
-        "date": "20251123",
+        "dates": [
+          "20251123"
+        ],
         "lowerBetter": false
       }
     },
@@ -16024,9 +16513,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "英文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "244",
-        "date": "20251214",
+        "dates": [
+          "20251214"
+        ],
         "lowerBetter": false
       }
     },
@@ -16122,9 +16615,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "白如",
+        "names": [
+          "白如"
+        ],
         "score": "155",
-        "date": "20251116",
+        "dates": [
+          "20251116"
+        ],
         "lowerBetter": false
       }
     },
@@ -16375,9 +16872,15 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
-        "score": "5",
-        "date": "20250816",
+        "names": [
+          "桌友16",
+          "桌友13"
+        ],
+        "score": "0",
+        "dates": [
+          "20250816",
+          "20250816"
+        ],
         "lowerBetter": true
       }
     },
@@ -16473,9 +16976,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "白如",
+        "names": [
+          "白如"
+        ],
         "score": "99",
-        "date": "20260125",
+        "dates": [
+          "20260125"
+        ],
         "lowerBetter": false
       }
     },
@@ -16509,9 +17016,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "13",
-        "date": "20251220",
+        "dates": [
+          "20251220"
+        ],
         "lowerBetter": false
       }
     },
@@ -16545,9 +17056,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "104",
-        "date": "20250824",
+        "dates": [
+          "20250824"
+        ],
         "lowerBetter": false
       }
     },
@@ -16643,9 +17158,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "186",
-        "date": "20251203",
+        "dates": [
+          "20251203"
+        ],
         "lowerBetter": false
       }
     },
@@ -16710,9 +17229,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友09",
+        "names": [
+          "桌友09"
+        ],
         "score": "80",
-        "date": "20251123",
+        "dates": [
+          "20251123"
+        ],
         "lowerBetter": false
       }
     },
@@ -16777,9 +17300,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "65",
-        "date": "20260426",
+        "dates": [
+          "20260426"
+        ],
         "lowerBetter": false
       }
     },
@@ -16999,9 +17526,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友43",
+        "names": [
+          "桌友43"
+        ],
         "score": "84",
-        "date": "20260123",
+        "dates": [
+          "20260123"
+        ],
         "lowerBetter": false
       }
     },
@@ -17066,9 +17597,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中英双语版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "陈勇杰",
+        "names": [
+          "陈勇杰"
+        ],
         "score": "72",
-        "date": "20260524",
+        "dates": [
+          "20260524"
+        ],
         "lowerBetter": false
       }
     },
@@ -17102,9 +17637,15 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "白如",
+        "names": [
+          "白如",
+          "桌友01"
+        ],
         "score": "10",
-        "date": "20260628",
+        "dates": [
+          "20260628",
+          "20260612"
+        ],
         "lowerBetter": false
       }
     },
@@ -17262,9 +17803,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "朱晨阳",
+        "names": [
+          "朱晨阳"
+        ],
         "score": "112",
-        "date": "20260516",
+        "dates": [
+          "20260516"
+        ],
         "lowerBetter": false
       }
     },
@@ -17298,9 +17843,13 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "英文版",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "朱晨阳",
+        "names": [
+          "朱晨阳"
+        ],
         "score": "15",
-        "date": "20260516",
+        "dates": [
+          "20260516"
+        ],
         "lowerBetter": false
       }
     },
@@ -17520,9 +18069,15 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "桌友32",
+        "names": [
+          "桌友32",
+          "王乐桐"
+        ],
         "score": "5",
-        "date": "20260712",
+        "dates": [
+          "20260712",
+          "20260712"
+        ],
         "lowerBetter": false
       }
     },
@@ -17556,9 +18111,23 @@ window.KIZ_DATA = {
       "ownedVersionLabel": "",
       "playedStandalone": true,
       "recordHolder": {
-        "name": "白如",
-        "score": "1",
-        "date": "20260705",
+        "names": [
+          "白如",
+          "朱晨阳",
+          "陈勇杰",
+          "桌友32",
+          "桌友34",
+          "王乐桐"
+        ],
+        "score": "0",
+        "dates": [
+          "20260712",
+          "20260712",
+          "20260712",
+          "20260712",
+          "20260705",
+          "20260705"
+        ],
         "lowerBetter": true
       }
     }
