@@ -22,6 +22,13 @@ VALID_LOCATION_IDS = {1, 2, 18}    # 茨坝405, 茨坝104, 茨坝205
 GRAD_STUDENT_TAG_ID = 3           # 研究生标签
 DEANONYMIZE_IDS = {1, 3, 4, 7, 28}   # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、王乐桐
 
+# 本地游戏封面覆盖：游戏名 -> 站点内相对路径。
+# 用于 BGStats 导出里缺失封面的游戏（如三国杀：欢乐斗地主）。
+# 注意：图片必须放在被 git 跟踪的 img/ 下（网站素材/ 已被 .gitignore 忽略，不会被部署）。
+LOCAL_GAME_IMAGES = {
+    "三国杀：欢乐斗地主": "img/三国杀欢乐斗地主.jpg",
+}
+
 
 def load_data():
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
@@ -251,6 +258,10 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
 
         owned_thumb, owned_version_label = _owned_version_fields(g.get("copies", []))
 
+        # 本地封面覆盖（BGStats 缺失封面时使用），否则用 BGStats 默认图
+        local_img = LOCAL_GAME_IMAGES.get(g["name"], "")
+        thumb_url = local_img or g.get("urlThumb", "")
+
         games.append({
             "id": g["id"],
             "name": g["name"],
@@ -264,7 +275,7 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
             "maxPlayTime": g.get("maxPlayTime", 0),
             "designers": g.get("designers", ""),
             "urlImage": g.get("urlImage", ""),
-            "urlThumb": g.get("urlThumb", ""),
+            "urlThumb": thumb_url,
             "isExpansion": g.get("isExpansion", 0),
             "playCount": play_counts.get(g["id"], 0),
             # 以下 BGG 社区信息来自 collection.csv（排名/社区评分/复杂度/年份/推荐人数）

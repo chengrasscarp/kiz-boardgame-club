@@ -52,9 +52,11 @@ function renderComplexity(weight) {
 }
 
 function getGameThumb(game) {
-  // 候选优先级：拥有版本专属图(需为真实 BGG CDN 封面) -> 游戏默认图 -> 副本图
+  // 候选优先级：拥有版本专属图(需为真实 BGG CDN 封面) -> 游戏默认图(可为本地相对路径) -> 副本图
   function valid(u) {
-    return u && u.indexOf('https://cf.geekdo-images.com/') === 0 && u.indexOf('previewthumb') === -1;
+    if (!u || u.indexOf('previewthumb') !== -1) return false;
+    // 允许 BGG CDN 图，或本地相对路径(如 img/xxx.jpg)
+    return u.indexOf('https://cf.geekdo-images.com/') === 0 || u.indexOf('http') !== 0;
   }
   var owned = game.ownedThumb || '';
   var copyThumb = (game.copies && game.copies.length > 0) ? (game.copies[0].urlThumb || '') : '';

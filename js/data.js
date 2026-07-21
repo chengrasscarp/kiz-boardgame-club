@@ -15442,7 +15442,7 @@ window.KIZ_DATA = {
       "maxPlayTime": 0,
       "designers": "",
       "urlImage": "",
-      "urlThumb": "",
+      "urlThumb": "img/三国杀欢乐斗地主.jpg",
       "isExpansion": 0,
       "playCount": 5,
       "bggRank": null,
