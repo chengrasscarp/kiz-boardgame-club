@@ -14550,9 +14550,6 @@ window.KIZ_DATA = {
       "complexity": 2.9,
       "yearPublished": 2020,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese/English edition",
       "copies": [
         {
           "gameName": "勃根地城堡豪華版",
@@ -14583,9 +14580,6 @@ window.KIZ_DATA = {
       "complexity": 1.8,
       "yearPublished": 2024,
       "bestPlayers": "3",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "璀璨宝石：宝可梦",
@@ -14616,9 +14610,6 @@ window.KIZ_DATA = {
       "complexity": 1.8,
       "yearPublished": 2016,
       "bestPlayers": "3",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "璀璨寶石",
@@ -14649,9 +14640,6 @@ window.KIZ_DATA = {
       "complexity": 2.0,
       "yearPublished": 2022,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "璀璨宝石：对决",
@@ -14682,9 +14670,6 @@ window.KIZ_DATA = {
       "complexity": 2.0,
       "yearPublished": 2016,
       "bestPlayers": "3,4",
-      "languageDependence": "",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "拉密豪华版",
@@ -14715,9 +14700,6 @@ window.KIZ_DATA = {
       "complexity": 2.4,
       "yearPublished": 2021,
       "bestPlayers": "3,4",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "罪案疑云：天使之城",
@@ -14748,9 +14730,6 @@ window.KIZ_DATA = {
       "complexity": 2.3,
       "yearPublished": 2020,
       "bestPlayers": "2",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "战争之匣",
@@ -14781,9 +14760,6 @@ window.KIZ_DATA = {
       "complexity": 2.3,
       "yearPublished": 2020,
       "bestPlayers": "2",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "战争之匣：权贵",
@@ -14814,9 +14790,6 @@ window.KIZ_DATA = {
       "complexity": 2.4,
       "yearPublished": 2021,
       "bestPlayers": "2,4",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "战争之匣：围城",
@@ -14847,9 +14820,6 @@ window.KIZ_DATA = {
       "complexity": 1.4,
       "yearPublished": 2021,
       "bestPlayers": "4",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Japanese/Chinese/English edition",
       "copies": [
         {
           "gameName": "SCOUT",
@@ -14880,9 +14850,6 @@ window.KIZ_DATA = {
       "complexity": 1.2,
       "yearPublished": 1994,
       "bestPlayers": "5,6",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese/English edition",
       "copies": [
         {
           "gameName": "牛頭王",
@@ -14913,9 +14880,6 @@ window.KIZ_DATA = {
       "complexity": 1.2,
       "yearPublished": 2019,
       "bestPlayers": "3,4",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "English standard edition",
       "copies": [
         {
           "gameName": "CABO (Second Edition)",
@@ -14946,9 +14910,6 @@ window.KIZ_DATA = {
       "complexity": 1.0,
       "yearPublished": 2023,
       "bestPlayers": "",
-      "languageDependence": "",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "猩猩相惜",
@@ -14979,9 +14940,6 @@ window.KIZ_DATA = {
       "complexity": 2.9,
       "yearPublished": 2022,
       "bestPlayers": "2",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "罪案疑云：好莱坞的枪声",
@@ -15012,9 +14970,6 @@ window.KIZ_DATA = {
       "complexity": 2.3,
       "yearPublished": 2017,
       "bestPlayers": "4,5",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "CMON Chinese edition 2017",
       "copies": [
         {
           "gameName": "現代藝術",
@@ -15045,9 +15000,6 @@ window.KIZ_DATA = {
       "complexity": 2.0,
       "yearPublished": 2025,
       "bestPlayers": "1",
-      "languageDependence": "Unplayable in another language",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "罪案疑云：天使与恶魔",
@@ -15078,9 +15030,6 @@ window.KIZ_DATA = {
       "complexity": 2.7,
       "yearPublished": 2025,
       "bestPlayers": "1",
-      "languageDependence": "Unplayable in another language",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "罪案疑云：迷雾与幻影",
@@ -15111,9 +15060,6 @@ window.KIZ_DATA = {
       "complexity": 2.0,
       "yearPublished": 2024,
       "bestPlayers": "4",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "炸弹克星",
@@ -15144,9 +15090,6 @@ window.KIZ_DATA = {
       "complexity": 2.0,
       "yearPublished": 2024,
       "bestPlayers": "2",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "天合小队",
@@ -15177,9 +15120,6 @@ window.KIZ_DATA = {
       "complexity": 1.9,
       "yearPublished": 2024,
       "bestPlayers": "3",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "摩点",
-      "versionNickname": "Chinese edition with Endless River cover",
       "copies": [
         {
           "gameName": "遙遠之地",
@@ -15210,9 +15150,6 @@ window.KIZ_DATA = {
       "complexity": 1.8,
       "yearPublished": 2021,
       "bestPlayers": "2,3",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "卡斯卡迪亚之旅",
@@ -15243,9 +15180,6 @@ window.KIZ_DATA = {
       "complexity": 2.7,
       "yearPublished": 2022,
       "bestPlayers": "2",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "展翅翱翔：亚洲篇",
@@ -15276,9 +15210,6 @@ window.KIZ_DATA = {
       "complexity": 0.0,
       "yearPublished": 2024,
       "bestPlayers": "",
-      "languageDependence": "",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "一带一路 (Belt and Road)",
@@ -15309,9 +15240,6 @@ window.KIZ_DATA = {
       "complexity": 1.8,
       "yearPublished": 2024,
       "bestPlayers": "2,3",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "花砖物语：巧夺天工",
@@ -15342,9 +15270,6 @@ window.KIZ_DATA = {
       "complexity": 3.9,
       "yearPublished": 2023,
       "bestPlayers": "1,2",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Traditional Chinese edition",
       "copies": [
         {
           "gameName": "骸骨險境: 堅不可摧",
@@ -15375,9 +15300,6 @@ window.KIZ_DATA = {
       "complexity": 1.1,
       "yearPublished": 2009,
       "bestPlayers": "8",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "",
-      "versionNickname": "Broadway Chinese edition",
       "copies": [
         {
           "gameName": "傳情畫意",
@@ -15408,9 +15330,6 @@ window.KIZ_DATA = {
       "complexity": 2.1,
       "yearPublished": 2024,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "魔戒：中洲对决",
@@ -15441,9 +15360,6 @@ window.KIZ_DATA = {
       "complexity": 2.5,
       "yearPublished": 2024,
       "bestPlayers": "2,3,4",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "欢迎来到月球",
@@ -15474,9 +15390,6 @@ window.KIZ_DATA = {
       "complexity": 2.1,
       "yearPublished": 2023,
       "bestPlayers": "4,6,8",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "Challengers! Beach Cup",
@@ -15507,9 +15420,6 @@ window.KIZ_DATA = {
       "complexity": 1.8,
       "yearPublished": 2023,
       "bestPlayers": "4,6",
-      "languageDependence": "Unplayable in another language",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese 5th Anniversary edition",
       "copies": [
         {
           "gameName": "谍报风云：5周年纪念版",
@@ -15540,9 +15450,6 @@ window.KIZ_DATA = {
       "complexity": 0,
       "yearPublished": 0,
       "bestPlayers": "",
-      "languageDependence": "",
-      "acquiredFrom": "",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "三国杀：欢乐斗地主",
@@ -15573,9 +15480,6 @@ window.KIZ_DATA = {
       "complexity": 1.0,
       "yearPublished": 2025,
       "bestPlayers": "5,6",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "English second edition",
       "copies": [
         {
           "gameName": "Flip 7",
@@ -15606,9 +15510,6 @@ window.KIZ_DATA = {
       "complexity": 1.9,
       "yearPublished": 2025,
       "bestPlayers": "2,4",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "遙遠之地：地下族群",
@@ -15639,9 +15540,6 @@ window.KIZ_DATA = {
       "complexity": 2.5,
       "yearPublished": 2024,
       "bestPlayers": "2",
-      "languageDependence": "",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "战争之匣：夜幕",
@@ -15672,9 +15570,6 @@ window.KIZ_DATA = {
       "complexity": 3.9,
       "yearPublished": 2020,
       "bestPlayers": "3,4",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "工業革命：伯明翰",
@@ -15705,9 +15600,6 @@ window.KIZ_DATA = {
       "complexity": 2.5,
       "yearPublished": 2022,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "英雄止步",
@@ -15738,9 +15630,6 @@ window.KIZ_DATA = {
       "complexity": 2.6,
       "yearPublished": 2022,
       "bestPlayers": "3",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "英雄止步:會長的復仇",
@@ -15771,9 +15660,6 @@ window.KIZ_DATA = {
       "complexity": 2.9,
       "yearPublished": 2024,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: Boss Battles",
@@ -15804,9 +15690,6 @@ window.KIZ_DATA = {
       "complexity": 3.6,
       "yearPublished": 2022,
       "bestPlayers": "",
-      "languageDependence": "",
-      "acquiredFrom": "",
-      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Too Many Bones: Riffle",
@@ -15837,9 +15720,6 @@ window.KIZ_DATA = {
       "complexity": 3.3,
       "yearPublished": 2023,
       "bestPlayers": "",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "",
-      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Too Many Bones: Carcass",
@@ -15870,9 +15750,6 @@ window.KIZ_DATA = {
       "complexity": 4.0,
       "yearPublished": 2023,
       "bestPlayers": "",
-      "languageDependence": "",
-      "acquiredFrom": "",
-      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Too Many Bones: Polaris",
@@ -15903,9 +15780,6 @@ window.KIZ_DATA = {
       "complexity": 4.0,
       "yearPublished": 2023,
       "bestPlayers": "",
-      "languageDependence": "",
-      "acquiredFrom": "",
-      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Too Many Bones: Static",
@@ -15936,9 +15810,6 @@ window.KIZ_DATA = {
       "complexity": 1.0,
       "yearPublished": 2016,
       "bestPlayers": "6",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "籤籤入扣 stick stack",
@@ -15969,9 +15840,6 @@ window.KIZ_DATA = {
       "complexity": 2.6,
       "yearPublished": 2022,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "English/Portuguese/Chinese edition",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Great Dreamer Expansion",
@@ -16002,9 +15870,6 @@ window.KIZ_DATA = {
       "complexity": 2.7,
       "yearPublished": 2024,
       "bestPlayers": "2",
-      "languageDependence": "",
-      "acquiredFrom": "",
-      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
@@ -16035,9 +15900,6 @@ window.KIZ_DATA = {
       "complexity": 1.7,
       "yearPublished": 2025,
       "bestPlayers": "2",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "城堡嘉年华",
@@ -16068,9 +15930,6 @@ window.KIZ_DATA = {
       "complexity": 3.5,
       "yearPublished": 2025,
       "bestPlayers": "4",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "沙丘：帝国 - 起义",
@@ -16101,9 +15960,6 @@ window.KIZ_DATA = {
       "complexity": 2.6,
       "yearPublished": 1850,
       "bestPlayers": "4",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "Mahjong",
@@ -16134,9 +15990,6 @@ window.KIZ_DATA = {
       "complexity": 2.4,
       "yearPublished": 2025,
       "bestPlayers": "5",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "山中小屋",
@@ -16167,9 +16020,6 @@ window.KIZ_DATA = {
       "complexity": 3.3,
       "yearPublished": 2024,
       "bestPlayers": "1",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "咸鱼",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "Gloomhaven: Buttons & Bugs",
@@ -16200,9 +16050,6 @@ window.KIZ_DATA = {
       "complexity": 2.8,
       "yearPublished": 2025,
       "bestPlayers": "2,3",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "淘宝造点",
-      "versionNickname": "Simplied Chinese edition",
       "copies": [
         {
           "gameName": "方舟保护区",
@@ -16233,9 +16080,6 @@ window.KIZ_DATA = {
       "complexity": 1.3,
       "yearPublished": 2014,
       "bestPlayers": "6,8",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "無間風雲",
@@ -16266,9 +16110,6 @@ window.KIZ_DATA = {
       "complexity": 2.4,
       "yearPublished": 2023,
       "bestPlayers": "2",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "骰筑火星",
@@ -16299,9 +16140,6 @@ window.KIZ_DATA = {
       "complexity": 3.6,
       "yearPublished": 2025,
       "bestPlayers": "4",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "淘宝aa桌游",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "沙丘：帝國 血脈永續",
@@ -16332,9 +16170,6 @@ window.KIZ_DATA = {
       "complexity": 3.0,
       "yearPublished": 2025,
       "bestPlayers": "4",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "新物集",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "波多黎各 1897 特別典藏版",
@@ -16365,9 +16200,6 @@ window.KIZ_DATA = {
       "complexity": 2.7,
       "yearPublished": 2025,
       "bestPlayers": "3",
-      "languageDependence": "",
-      "acquiredFrom": "",
-      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Terraforming Mars: The Dice Game – Missions",
@@ -16398,9 +16230,6 @@ window.KIZ_DATA = {
       "complexity": 2.0,
       "yearPublished": 2025,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "Multilingual edition, second printing",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
@@ -16431,9 +16260,6 @@ window.KIZ_DATA = {
       "complexity": 1.7,
       "yearPublished": 2025,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "Multilingual edition, second printing",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
@@ -16464,9 +16290,6 @@ window.KIZ_DATA = {
       "complexity": 3.2,
       "yearPublished": 2025,
       "bestPlayers": "4",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "菲雅的沼泽",
@@ -16497,9 +16320,6 @@ window.KIZ_DATA = {
       "complexity": 1.2,
       "yearPublished": 2024,
       "bestPlayers": "4",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "EN/FR/DE/NL/IT edition",
       "copies": [
         {
           "gameName": "UNO Flip!",
@@ -16530,9 +16350,6 @@ window.KIZ_DATA = {
       "complexity": 3.0,
       "yearPublished": 2021,
       "bestPlayers": "5",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "七大奇迹：舰队扩展",
@@ -16563,9 +16380,6 @@ window.KIZ_DATA = {
       "complexity": 2.3,
       "yearPublished": 2020,
       "bestPlayers": "4,5",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "七大奇蹟：第二版",
@@ -16596,9 +16410,6 @@ window.KIZ_DATA = {
       "complexity": 2.4,
       "yearPublished": 1810,
       "bestPlayers": "5,6",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "Poker",
@@ -16629,9 +16440,6 @@ window.KIZ_DATA = {
       "complexity": 1.4,
       "yearPublished": 2020,
       "bestPlayers": "4,5",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "English/Chinese edition",
       "copies": [
         {
           "gameName": "拉斯維加斯豪華版",
@@ -16662,9 +16470,6 @@ window.KIZ_DATA = {
       "complexity": 1.8,
       "yearPublished": 2022,
       "bestPlayers": "6,7,8",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "忍者之夜",
@@ -16695,9 +16500,6 @@ window.KIZ_DATA = {
       "complexity": 1.8,
       "yearPublished": 2025,
       "bestPlayers": "2",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "淘宝",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
@@ -16728,9 +16530,6 @@ window.KIZ_DATA = {
       "complexity": 3.8,
       "yearPublished": 2025,
       "bestPlayers": "3",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "",
-      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "星空觅迹：探寻地外文明计划",
@@ -16761,9 +16560,6 @@ window.KIZ_DATA = {
       "complexity": 3.1,
       "yearPublished": 2025,
       "bestPlayers": "3",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "",
-      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "魔戒：命运同盟",
@@ -16794,9 +16590,6 @@ window.KIZ_DATA = {
       "complexity": 2.8,
       "yearPublished": 2016,
       "bestPlayers": "4",
-      "languageDependence": "Extensive use of text - massive conversion needed to be playable",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese blue edition",
       "copies": [
         {
           "gameName": "瘟疫危機︰承傳",
@@ -16827,9 +16620,6 @@ window.KIZ_DATA = {
       "complexity": 2.5,
       "yearPublished": 2025,
       "bestPlayers": "3",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "噤声寻宝记！地下墓穴",
@@ -16860,9 +16650,6 @@ window.KIZ_DATA = {
       "complexity": 1.2,
       "yearPublished": 2025,
       "bestPlayers": "5,6",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "",
-      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Magical Athlete",
@@ -16893,9 +16680,6 @@ window.KIZ_DATA = {
       "complexity": 1.4,
       "yearPublished": 2025,
       "bestPlayers": "4",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "",
-      "versionNickname": "Simplified Chinese edition",
       "copies": [
         {
           "gameName": "诡镇奇谈：洛夫克拉夫特情书",
@@ -16926,9 +16710,6 @@ window.KIZ_DATA = {
       "complexity": 2.5,
       "yearPublished": 2024,
       "bestPlayers": "3",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "Clank!: Catacombs – Lairs and Lost Chambers",
@@ -16959,9 +16740,6 @@ window.KIZ_DATA = {
       "complexity": 2.9,
       "yearPublished": 2025,
       "bestPlayers": "3",
-      "languageDependence": "Unplayable in another language",
-      "acquiredFrom": "",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "Clank!: Catacombs – Underworld",
@@ -16992,9 +16770,6 @@ window.KIZ_DATA = {
       "complexity": 2.2,
       "yearPublished": 2026,
       "bestPlayers": "2,3,5",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "English edition",
       "copies": [
         {
           "gameName": "Faraway: Under Starry Skies",
@@ -17025,9 +16800,6 @@ window.KIZ_DATA = {
       "complexity": 2.0,
       "yearPublished": 2023,
       "bestPlayers": "4",
-      "languageDependence": "Some necessary text - easily memorized or small crib sheet",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese/English edition",
       "copies": [
         {
           "gameName": "Urubamba Valley",
@@ -17058,9 +16830,6 @@ window.KIZ_DATA = {
       "complexity": 1.7,
       "yearPublished": 2024,
       "bestPlayers": "4,5",
-      "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
-      "acquiredFrom": "",
-      "versionNickname": "Chinese edition",
       "copies": [
         {
           "gameName": "暗諜魅影",
@@ -17091,9 +16860,6 @@ window.KIZ_DATA = {
       "complexity": 1.9,
       "yearPublished": 2024,
       "bestPlayers": "7",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "矮人掘金：20週年紀念版",
@@ -17124,9 +16890,6 @@ window.KIZ_DATA = {
       "complexity": 1.1,
       "yearPublished": 2020,
       "bestPlayers": "5,6,7",
-      "languageDependence": "No necessary in-game text",
-      "acquiredFrom": "",
-      "versionNickname": "",
       "copies": [
         {
           "gameName": "Durian",

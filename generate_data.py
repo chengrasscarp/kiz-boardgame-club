@@ -53,20 +53,15 @@ def load_bgg_collection():
                 try: return float(v) if v else default
                 except: return default
 
+            # 仅保留前端真正渲染的 BGG 社区字段；其余（语言依赖/购入来源/
+            # 版本昵称/拥有数/价格/玩家数/时长）要么从未渲染，要么与 BGStats
+            # 重复且被后者覆盖，属死代码，不再加载。
             bgg_info[oid] = {
                 "bggRank": safe_int(row.get("rank"), None) or None,
                 "bggRating": safe_float(row.get("average"), 0),
                 "complexity": round(safe_float(row.get("avgweight"), 0), 1),
                 "yearPublished": safe_int(row.get("yearpublished"), 0),
                 "bestPlayers": row.get("bggbestplayers", ""),
-                "playingTime": safe_int(row.get("playingtime"), 0),
-                "minPlayers": safe_int(row.get("minplayers"), 0),
-                "maxPlayers": safe_int(row.get("maxplayers"), 0),
-                "languageDependence": row.get("bgglanguagedependence", ""),
-                "numOwned": safe_int(row.get("numowned"), 0),
-                "acquiredFrom": row.get("acquiredfrom", ""),
-                "pricePaid": row.get("pricepaid", ""),
-                "versionNickname": row.get("version_nickname", ""),
             }
 
     print(f"加载 BGG 收藏: {len(bgg_info)} 款游戏")
@@ -256,35 +251,13 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
 
         owned_thumb, owned_version_label = _owned_version_fields(g.get("copies", []))
 
-        # 用 CSV 中的玩家数/时长覆盖 BGStats 数据（更准确）
-        min_p = bgg.get("minPlayers") or g.get("minPlayerCount", 1)
-        max_p = bgg.get("maxPlayers") or g.get("maxPlayerCount", 99)
-        play_time = bgg.get("playingTime") or g.get("minPlayTime", 0)
-
         games.append({
             "id": g["id"],
             "name": g["name"],
             "bggId": g.get("bggId", 0),
             "bggName": g.get("bggName", ""),
             "rating": g.get("rating", 0),
-            "minPlayers": min_p,
-            "maxPlayers": max_p,
-            "minPlayTime": play_time,
-            "maxPlayTime": g.get("maxPlayTime", 0) or play_time,
-            "designers": g.get("designers", ""),
-            "urlImage": g.get("urlImage", ""),
-            "urlThumb": g.get("urlThumb", ""),
-            "isExpansion": g.get("isExpansion", 0),
-            "playCount": play_counts.get(g["id"], 0),
-            # BGG 收藏信息
-            "bggRank": bgg.get("bggRank"),
-            "bggRating": bgg.get("bggRating", 0),
-            "complexity": bgg.get("complexity", 0),
-            "yearPublished": bgg.get("yearPublished", 0),
-            "bestPlayers": bgg.get("bestPlayers", ""),
-            "languageDependence": bgg.get("languageDependence", ""),
-            "acquiredFrom": bgg.get("acquiredFrom", ""),
-            "versionNickname": bgg.get("versionNickname", ""),
+            # 玩家数/时长等以 BGStats 实际记录为准
             "minPlayers": g.get("minPlayerCount", 1),
             "maxPlayers": g.get("maxPlayerCount", 99),
             "minPlayTime": g.get("minPlayTime", 0),
@@ -294,6 +267,12 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
             "urlThumb": g.get("urlThumb", ""),
             "isExpansion": g.get("isExpansion", 0),
             "playCount": play_counts.get(g["id"], 0),
+            # 以下 BGG 社区信息来自 collection.csv（排名/社区评分/复杂度/年份/推荐人数）
+            "bggRank": bgg.get("bggRank"),
+            "bggRating": bgg.get("bggRating", 0),
+            "complexity": bgg.get("complexity", 0),
+            "yearPublished": bgg.get("yearPublished", 0),
+            "bestPlayers": bgg.get("bestPlayers", ""),
             "copies": [{
                 "gameName": c.get("gameName", g["name"]),
                 "urlThumb": c.get("urlThumb", ""),
