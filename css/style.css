@@ -562,6 +562,41 @@ input, select { font-family: inherit; }
   border-color: var(--color-primary);
 }
 
+.filter-bar input[type="date"] {
+  flex: 0 1 auto;
+  min-width: 150px;
+}
+
+.filter-date {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filter-date-label,
+.filter-date-sep {
+  font-size: 14px;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+.filter-clear-btn {
+  padding: 8px 14px;
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
+  color: var(--color-text);
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color .15s, color .15s;
+}
+
+.filter-clear-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
 /* ===== Leaderboard Table ===== */
 .leaderboard-grid {
   display: grid;

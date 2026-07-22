@@ -33,6 +33,13 @@
     <select id="playLocationFilter">
       <option value="">全部地点</option>
     </select>
+    <div class="filter-date">
+      <span class="filter-date-label">日期</span>
+      <input type="date" id="playFromDate" title="开始日期">
+      <span class="filter-date-sep">至</span>
+      <input type="date" id="playToDate" title="结束日期">
+      <button type="button" id="playDateClear" class="filter-clear-btn">清除</button>
+    </div>
   </div>
   <div class="timeline" id="playTimeline"></div>
   <div class="load-more" id="loadMoreContainer">

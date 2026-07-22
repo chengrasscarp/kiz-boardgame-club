@@ -521,13 +521,22 @@ function renderPlayRecords() {
   function filterAndRender() {
     var gameId = gameFilter ? gameFilter.value : '';
     var locId = locFilter ? locFilter.value : '';
+    var fromEl = document.getElementById('playFromDate');
+    var toEl = document.getElementById('playToDate');
+    var from = fromEl ? fromEl.value.replace(/-/g, '') : '';
+    var to = toEl ? toEl.value.replace(/-/g, '') : '';
 
     var filtered = sortedPlays.filter(function(p) {
       if (gameId && String(p.gameRefId) !== gameId) return false;
       if (locId && String(p.locationRefId) !== locId) return false;
+      // 日期范围（playDateYmd 为 YYYYMMDD 数字，统一转字符串比较）
+      var ymd = String(p.playDateYmd || '');
+      if (from && (!ymd || ymd < from)) return false;
+      if (to && (!ymd || ymd > to)) return false;
       return true;
     });
 
+    if (countEl) countEl.textContent = filtered.length + '场线下对局';
     playsPageConfig.filteredPlays = filtered;
     playsPageConfig.currentPage = 0;
     renderTimelinePage();
@@ -589,6 +598,17 @@ function renderPlayRecords() {
   // Filters
   if (gameFilter) gameFilter.addEventListener('change', filterAndRender);
   if (locFilter) locFilter.addEventListener('change', filterAndRender);
+
+  var fromEl = document.getElementById('playFromDate');
+  var toEl = document.getElementById('playToDate');
+  var clearBtn = document.getElementById('playDateClear');
+  if (fromEl) fromEl.addEventListener('change', filterAndRender);
+  if (toEl) toEl.addEventListener('change', filterAndRender);
+  if (clearBtn) clearBtn.addEventListener('click', function() {
+    if (fromEl) fromEl.value = '';
+    if (toEl) toEl.value = '';
+    filterAndRender();
+  });
 
   filterAndRender();
 }
