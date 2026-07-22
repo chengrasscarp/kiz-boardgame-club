@@ -11,6 +11,16 @@ import csv
 import json
 import os
 from collections import Counter
+from opencc import OpenCC
+
+# 简繁转换（用于游戏名搜索时简繁通用匹配，预计算无需前端依赖）
+_CC_S2T = OpenCC('s2t')  # 简 -> 繁
+_CC_T2S = OpenCC('t2s')  # 繁 -> 简
+
+
+def _name_variants(name):
+    """返回游戏名的 (简体版, 繁体版)，供搜索时双向匹配。"""
+    return _CC_T2S.convert(name), _CC_S2T.convert(name)
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_FILE = os.path.join(SCRIPT_DIR, "BGStatsExport.json")
@@ -267,6 +277,8 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
         games.append({
             "id": g["id"],
             "name": g["name"],
+            "nameSim": _name_variants(g["name"])[0],   # 简体版（搜索简繁通用）
+            "nameTrad": _name_variants(g["name"])[1],  # 繁体版
             "bggId": g.get("bggId", 0),
             "bggName": g.get("bggName", ""),
             "rating": g.get("rating", 0),

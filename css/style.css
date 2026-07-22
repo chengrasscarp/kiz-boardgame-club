@@ -597,6 +597,22 @@ input, select { font-family: inherit; }
   color: var(--color-primary);
 }
 
+.filter-search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filter-search {
+  flex: 0 1 240px;
+  min-width: 160px;
+}
+
+.filter-search-wrap .filter-clear-btn {
+  padding: 8px 10px;
+  line-height: 1;
+}
+
 /* ===== Leaderboard Table ===== */
 .leaderboard-grid {
   display: grid;

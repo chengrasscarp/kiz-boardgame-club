@@ -15379,6 +15379,8 @@ window.KIZ_DATA = {
     {
       "id": 1,
       "name": "勃根地城堡豪華版",
+      "nameSim": "勃根地城堡豪华版",
+      "nameTrad": "勃根地城堡豪華版",
       "bggId": 271320,
       "bggName": "The Castles of Burgundy",
       "rating": 84,
@@ -15419,6 +15421,8 @@ window.KIZ_DATA = {
     {
       "id": 2,
       "name": "璀璨宝石：宝可梦",
+      "nameSim": "璀璨宝石：宝可梦",
+      "nameTrad": "璀璨寶石：寶可夢",
       "bggId": 406291,
       "bggName": "스플렌더: Pokémon Splendor: Pokémon",
       "rating": 80,
@@ -15459,6 +15463,8 @@ window.KIZ_DATA = {
     {
       "id": 3,
       "name": "璀璨寶石",
+      "nameSim": "璀璨宝石",
+      "nameTrad": "璀璨寶石",
       "bggId": 148228,
       "bggName": "Splendor",
       "rating": 74,
@@ -15501,6 +15507,8 @@ window.KIZ_DATA = {
     {
       "id": 4,
       "name": "璀璨宝石：对决",
+      "nameSim": "璀璨宝石：对决",
+      "nameTrad": "璀璨寶石：對決",
       "bggId": 364073,
       "bggName": "Splendor Duel",
       "rating": 79,
@@ -15541,6 +15549,8 @@ window.KIZ_DATA = {
     {
       "id": 5,
       "name": "拉密豪华版",
+      "nameSim": "拉密豪华版",
+      "nameTrad": "拉密豪華版",
       "bggId": 237792,
       "bggName": "Rummikub Twist",
       "rating": 73,
@@ -15581,6 +15591,8 @@ window.KIZ_DATA = {
     {
       "id": 6,
       "name": "罪案疑云：天使之城",
+      "nameSim": "罪案疑云：天使之城",
+      "nameTrad": "罪案疑雲：天使之城",
       "bggId": 218074,
       "bggName": "Detective: City of Angels",
       "rating": 79,
@@ -15612,6 +15624,8 @@ window.KIZ_DATA = {
     {
       "id": 8,
       "name": "战争之匣",
+      "nameSim": "战争之匣",
+      "nameTrad": "戰爭之匣",
       "bggId": 249259,
       "bggName": "War Chest",
       "rating": 78,
@@ -15643,6 +15657,8 @@ window.KIZ_DATA = {
     {
       "id": 9,
       "name": "战争之匣：权贵",
+      "nameSim": "战争之匣：权贵",
+      "nameTrad": "戰爭之匣：權貴",
       "bggId": 284444,
       "bggName": "War Chest: Nobility",
       "rating": 82,
@@ -15674,6 +15690,8 @@ window.KIZ_DATA = {
     {
       "id": 10,
       "name": "战争之匣：围城",
+      "nameSim": "战争之匣：围城",
+      "nameTrad": "戰爭之匣：圍城",
       "bggId": 324656,
       "bggName": "War Chest: Siege",
       "rating": 82,
@@ -15705,6 +15723,8 @@ window.KIZ_DATA = {
     {
       "id": 11,
       "name": "SCOUT",
+      "nameSim": "SCOUT",
+      "nameTrad": "SCOUT",
       "bggId": 291453,
       "bggName": "SCOUT",
       "rating": 78,
@@ -15745,6 +15765,8 @@ window.KIZ_DATA = {
     {
       "id": 12,
       "name": "牛頭王",
+      "nameSim": "牛头王",
+      "nameTrad": "牛頭王",
       "bggId": 432,
       "bggName": "Take 5",
       "rating": 70,
@@ -15785,6 +15807,8 @@ window.KIZ_DATA = {
     {
       "id": 13,
       "name": "CABO (Second Edition)",
+      "nameSim": "CABO (Second Edition)",
+      "nameTrad": "CABO (Second Edition)",
       "bggId": 271321,
       "bggName": "CABO (Second Edition)",
       "rating": 73,
@@ -15825,6 +15849,8 @@ window.KIZ_DATA = {
     {
       "id": 14,
       "name": "猩猩相惜 (Orangutan Love)",
+      "nameSim": "猩猩相惜 (Orangutan Love)",
+      "nameTrad": "猩猩相惜 (Orangutan Love)",
       "bggId": 400348,
       "bggName": "猩猩相惜 (Orangutan Love)",
       "rating": 57,
@@ -15856,6 +15882,8 @@ window.KIZ_DATA = {
     {
       "id": 16,
       "name": "罪案疑云：好莱坞的枪声",
+      "nameSim": "罪案疑云：好莱坞的枪声",
+      "nameTrad": "罪案疑雲：好萊塢的槍聲",
       "bggId": 237900,
       "bggName": "Detective: Bullets over Hollywood",
       "rating": 84,
@@ -15887,6 +15915,8 @@ window.KIZ_DATA = {
     {
       "id": 17,
       "name": "現代藝術",
+      "nameSim": "现代艺术",
+      "nameTrad": "現代藝術",
       "bggId": 118,
       "bggName": "Modern Art",
       "rating": 75,
@@ -15927,6 +15957,8 @@ window.KIZ_DATA = {
     {
       "id": 18,
       "name": "罪案疑云：天使与恶魔",
+      "nameSim": "罪案疑云：天使与恶魔",
+      "nameTrad": "罪案疑雲：天使與惡魔",
       "bggId": 388374,
       "bggName": "Detective: Saints & Sinners",
       "rating": 87,
@@ -15958,6 +15990,8 @@ window.KIZ_DATA = {
     {
       "id": 19,
       "name": "罪案疑云：迷雾与幻影",
+      "nameSim": "罪案疑云：迷雾与幻影",
+      "nameTrad": "罪案疑雲：迷霧與幻影",
       "bggId": 287075,
       "bggName": "Detective: Smoke and Mirrors",
       "rating": 85,
@@ -15989,6 +16023,8 @@ window.KIZ_DATA = {
     {
       "id": 20,
       "name": "炸弹克星",
+      "nameSim": "炸弹克星",
+      "nameTrad": "炸彈剋星",
       "bggId": 413246,
       "bggName": "Bomb Busters",
       "rating": 80,
@@ -16020,6 +16056,8 @@ window.KIZ_DATA = {
     {
       "id": 21,
       "name": "天合小队",
+      "nameSim": "天合小队",
+      "nameTrad": "天合小隊",
       "bggId": 373106,
       "bggName": "Sky Team",
       "rating": 82,
@@ -16051,6 +16089,8 @@ window.KIZ_DATA = {
     {
       "id": 22,
       "name": "遙遠之地",
+      "nameSim": "遥远之地",
+      "nameTrad": "遙遠之地",
       "bggId": 385761,
       "bggName": "Faraway",
       "rating": 76,
@@ -16091,6 +16131,8 @@ window.KIZ_DATA = {
     {
       "id": 23,
       "name": "卡斯卡迪亚之旅",
+      "nameSim": "卡斯卡迪亚之旅",
+      "nameTrad": "卡斯卡迪亞之旅",
       "bggId": 295947,
       "bggName": "Cascadia",
       "rating": 79,
@@ -16131,6 +16173,8 @@ window.KIZ_DATA = {
     {
       "id": 24,
       "name": "展翅翱翔：亚洲篇",
+      "nameSim": "展翅翱翔：亚洲篇",
+      "nameTrad": "展翅翱翔：亞洲篇",
       "bggId": 366161,
       "bggName": "Wingspan Asia",
       "rating": 82,
@@ -16171,6 +16215,8 @@ window.KIZ_DATA = {
     {
       "id": 26,
       "name": "一带一路 (Belt and Road)",
+      "nameSim": "一带一路 (Belt and Road)",
+      "nameTrad": "一帶一路 (Belt and Road)",
       "bggId": 441743,
       "bggName": "一带一路 (Belt and Road)",
       "rating": 0,
@@ -16202,6 +16248,8 @@ window.KIZ_DATA = {
     {
       "id": 27,
       "name": "花砖物语：巧夺天工",
+      "nameSim": "花砖物语：巧夺天工",
+      "nameTrad": "花磚物語：巧奪天工",
       "bggId": 363247,
       "bggName": "Azul: Master Chocolatier",
       "rating": 79,
@@ -16242,6 +16290,8 @@ window.KIZ_DATA = {
     {
       "id": 28,
       "name": "骸骨險境: 堅不可摧",
+      "nameSim": "骸骨险境: 坚不可摧",
+      "nameTrad": "骸骨險境: 堅不可摧",
       "bggId": 347811,
       "bggName": "Too Many Bones: Unbreakable",
       "rating": 88,
@@ -16273,6 +16323,8 @@ window.KIZ_DATA = {
     {
       "id": 31,
       "name": "傳情畫意",
+      "nameSim": "传情画意",
+      "nameTrad": "傳情畫意",
       "bggId": 46213,
       "bggName": "Telestrations",
       "rating": 74,
@@ -16304,6 +16356,8 @@ window.KIZ_DATA = {
     {
       "id": 32,
       "name": "魔戒：中洲对决",
+      "nameSim": "魔戒：中洲对决",
+      "nameTrad": "魔戒：中洲對決",
       "bggId": 421006,
       "bggName": "The Lord of the Rings: Duel for Middle-earth",
       "rating": 84,
@@ -16335,6 +16389,8 @@ window.KIZ_DATA = {
     {
       "id": 33,
       "name": "欢迎来到月球",
+      "nameSim": "欢迎来到月球",
+      "nameTrad": "歡迎來到月球",
       "bggId": 339789,
       "bggName": "Welcome to the Moon",
       "rating": 79,
@@ -16375,6 +16431,8 @@ window.KIZ_DATA = {
     {
       "id": 34,
       "name": "Challengers! Beach Cup",
+      "nameSim": "Challengers! Beach Cup",
+      "nameTrad": "Challengers! Beach Cup",
       "bggId": 390340,
       "bggName": "Challengers! Beach Cup",
       "rating": 78,
@@ -16415,6 +16473,8 @@ window.KIZ_DATA = {
     {
       "id": 35,
       "name": "谍报风云：5周年纪念版",
+      "nameSim": "谍报风云：5周年纪念版",
+      "nameTrad": "諜報風雲：5週年紀念版",
       "bggId": 225694,
       "bggName": "Decrypto",
       "rating": 78,
@@ -16446,6 +16506,8 @@ window.KIZ_DATA = {
     {
       "id": 37,
       "name": "三国杀：欢乐斗地主",
+      "nameSim": "三国杀：欢乐斗地主",
+      "nameTrad": "三國殺：歡樂鬥地主",
       "bggId": 0,
       "bggName": "",
       "rating": 0,
@@ -16486,6 +16548,8 @@ window.KIZ_DATA = {
     {
       "id": 43,
       "name": "Flip 7",
+      "nameSim": "Flip 7",
+      "nameTrad": "Flip 7",
       "bggId": 420087,
       "bggName": "Flip 7",
       "rating": 72,
@@ -16526,6 +16590,8 @@ window.KIZ_DATA = {
     {
       "id": 45,
       "name": "遙遠之地：地下族群",
+      "nameSim": "遥远之地：地下族群",
+      "nameTrad": "遙遠之地：地下族羣",
       "bggId": 425029,
       "bggName": "Faraway: People From Below",
       "rating": 77,
@@ -16557,6 +16623,8 @@ window.KIZ_DATA = {
     {
       "id": 46,
       "name": "战争之匣：夜幕",
+      "nameSim": "战争之匣：夜幕",
+      "nameTrad": "戰爭之匣：夜幕",
       "bggId": 388565,
       "bggName": "War Chest: Nightfall",
       "rating": 83,
@@ -16588,6 +16656,8 @@ window.KIZ_DATA = {
     {
       "id": 49,
       "name": "工業革命：伯明翰",
+      "nameSim": "工业革命：伯明翰",
+      "nameTrad": "工業革命：伯明翰",
       "bggId": 224517,
       "bggName": "Brass: Birmingham",
       "rating": 86,
@@ -16628,6 +16698,8 @@ window.KIZ_DATA = {
     {
       "id": 50,
       "name": "英雄止步",
+      "nameSim": "英雄止步",
+      "nameTrad": "英雄止步",
       "bggId": 333255,
       "bggName": "Keep the Heroes Out!",
       "rating": 79,
@@ -16659,6 +16731,8 @@ window.KIZ_DATA = {
     {
       "id": 51,
       "name": "英雄止步:會長的復仇",
+      "nameSim": "英雄止步:会长的复仇",
+      "nameTrad": "英雄止步:會長的復仇",
       "bggId": 351550,
       "bggName": "Keep the Heroes Out!: Guild Master's Revenge Expansion",
       "rating": 81,
@@ -16690,6 +16764,8 @@ window.KIZ_DATA = {
     {
       "id": 52,
       "name": "Keep the Heroes Out!: Boss Battles",
+      "nameSim": "Keep the Heroes Out!: Boss Battles",
+      "nameTrad": "Keep the Heroes Out!: Boss Battles",
       "bggId": 394150,
       "bggName": "Keep the Heroes Out!: Boss Battles",
       "rating": 86,
@@ -16721,6 +16797,8 @@ window.KIZ_DATA = {
     {
       "id": 53,
       "name": "Too Many Bones: Riffle",
+      "nameSim": "Too Many Bones: Riffle",
+      "nameTrad": "Too Many Bones: Riffle",
       "bggId": 370264,
       "bggName": "Too Many Bones: Riffle",
       "rating": 87,
@@ -16752,6 +16830,8 @@ window.KIZ_DATA = {
     {
       "id": 54,
       "name": "Too Many Bones: Carcass",
+      "nameSim": "Too Many Bones: Carcass",
+      "nameTrad": "Too Many Bones: Carcass",
       "bggId": 349581,
       "bggName": "Too Many Bones: Carcass",
       "rating": 87,
@@ -16783,6 +16863,8 @@ window.KIZ_DATA = {
     {
       "id": 55,
       "name": "Too Many Bones: Polaris",
+      "nameSim": "Too Many Bones: Polaris",
+      "nameTrad": "Too Many Bones: Polaris",
       "bggId": 349579,
       "bggName": "Too Many Bones: Polaris",
       "rating": 87,
@@ -16814,6 +16896,8 @@ window.KIZ_DATA = {
     {
       "id": 56,
       "name": "Too Many Bones: Static",
+      "nameSim": "Too Many Bones: Static",
+      "nameTrad": "Too Many Bones: Static",
       "bggId": 349580,
       "bggName": "Too Many Bones: Static",
       "rating": 87,
@@ -16845,6 +16929,8 @@ window.KIZ_DATA = {
     {
       "id": 57,
       "name": "籤籤入扣 stick stack",
+      "nameSim": "签签入扣 stick stack",
+      "nameTrad": "籤籤入扣 stick stack",
       "bggId": 204734,
       "bggName": "籤籤入扣 stick stack",
       "rating": 65,
@@ -16887,6 +16973,8 @@ window.KIZ_DATA = {
     {
       "id": 59,
       "name": "Keep the Heroes Out!: The Great Dreamer Expansion",
+      "nameSim": "Keep the Heroes Out!: The Great Dreamer Expansion",
+      "nameTrad": "Keep the Heroes Out!: The Great Dreamer Expansion",
       "bggId": 351549,
       "bggName": "Keep the Heroes Out!: The Great Dreamer Expansion",
       "rating": 82,
@@ -16918,6 +17006,8 @@ window.KIZ_DATA = {
     {
       "id": 60,
       "name": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
+      "nameSim": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
+      "nameTrad": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
       "bggId": 404357,
       "bggName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
       "rating": 80,
@@ -16949,6 +17039,8 @@ window.KIZ_DATA = {
     {
       "id": 61,
       "name": "城堡嘉年华",
+      "nameSim": "城堡嘉年华",
+      "nameTrad": "城堡嘉年華",
       "bggId": 416851,
       "bggName": "Castle Combo",
       "rating": 76,
@@ -16989,6 +17081,8 @@ window.KIZ_DATA = {
     {
       "id": 62,
       "name": "沙丘：帝国 - 起义",
+      "nameSim": "沙丘：帝国 - 起义",
+      "nameTrad": "沙丘：帝國 - 起義",
       "bggId": 397598,
       "bggName": "Dune: Imperium – Uprising",
       "rating": 87,
@@ -17029,6 +17123,8 @@ window.KIZ_DATA = {
     {
       "id": 63,
       "name": "Mahjong",
+      "nameSim": "Mahjong",
+      "nameTrad": "Mahjong",
       "bggId": 2093,
       "bggName": "Mahjong",
       "rating": 71,
@@ -17069,6 +17165,8 @@ window.KIZ_DATA = {
     {
       "id": 65,
       "name": "山中小屋",
+      "nameSim": "山中小屋",
+      "nameTrad": "山中小屋",
       "bggId": 358504,
       "bggName": "Betrayal at House on the Hill: 3rd Edition",
       "rating": 73,
@@ -17100,6 +17198,8 @@ window.KIZ_DATA = {
     {
       "id": 66,
       "name": "Gloomhaven: Buttons & Bugs",
+      "nameSim": "Gloomhaven: Buttons & Bugs",
+      "nameTrad": "Gloomhaven: Buttons & Bugs",
       "bggId": 393672,
       "bggName": "Gloomhaven: Buttons & Bugs",
       "rating": 75,
@@ -17131,6 +17231,8 @@ window.KIZ_DATA = {
     {
       "id": 67,
       "name": "方舟保护区",
+      "nameSim": "方舟保护区",
+      "nameTrad": "方舟保護區",
       "bggId": 441696,
       "bggName": "Sanctuary",
       "rating": 73,
@@ -17171,6 +17273,8 @@ window.KIZ_DATA = {
     {
       "id": 68,
       "name": "無間風雲",
+      "nameSim": "无间风云",
+      "nameTrad": "無間風雲",
       "bggId": 153064,
       "bggName": "Good Cop Bad Cop",
       "rating": 65,
@@ -17202,6 +17306,8 @@ window.KIZ_DATA = {
     {
       "id": 74,
       "name": "骰筑火星",
+      "nameSim": "骰筑火星",
+      "nameTrad": "骰築火星",
       "bggId": 296108,
       "bggName": "Terraforming Mars: The Dice Game",
       "rating": 73,
@@ -17242,6 +17348,8 @@ window.KIZ_DATA = {
     {
       "id": 76,
       "name": "沙丘：帝國 血脈永續",
+      "nameSim": "沙丘：帝国 血脉永续",
+      "nameTrad": "沙丘：帝國 血脈永續",
       "bggId": 426129,
       "bggName": "Dune: Imperium – Bloodlines",
       "rating": 87,
@@ -17273,6 +17381,8 @@ window.KIZ_DATA = {
     {
       "id": 77,
       "name": "波多黎各 1897 特別典藏版",
+      "nameSim": "波多黎各 1897 特别典藏版",
+      "nameTrad": "波多黎各 1897 特別典藏版",
       "bggId": 415843,
       "bggName": "Puerto Rico 1897: Special Edition",
       "rating": 79,
@@ -17313,6 +17423,8 @@ window.KIZ_DATA = {
     {
       "id": 79,
       "name": "Terraforming Mars: The Dice Game – Missions",
+      "nameSim": "Terraforming Mars: The Dice Game – Missions",
+      "nameTrad": "Terraforming Mars: The Dice Game – Missions",
       "bggId": 453392,
       "bggName": "Terraforming Mars: The Dice Game – Missions",
       "rating": 93,
@@ -17344,6 +17456,8 @@ window.KIZ_DATA = {
     {
       "id": 81,
       "name": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
+      "nameSim": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
+      "nameTrad": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
       "bggId": 430036,
       "bggName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
       "rating": 61,
@@ -17375,6 +17489,8 @@ window.KIZ_DATA = {
     {
       "id": 82,
       "name": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
+      "nameSim": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
+      "nameTrad": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
       "bggId": 428620,
       "bggName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
       "rating": 68,
@@ -17406,6 +17522,8 @@ window.KIZ_DATA = {
     {
       "id": 83,
       "name": "菲雅的沼泽",
+      "nameSim": "菲雅的沼泽",
+      "nameTrad": "菲雅的沼澤",
       "bggId": 438442,
       "bggName": "Feya's Swamp",
       "rating": 76,
@@ -17437,6 +17555,8 @@ window.KIZ_DATA = {
     {
       "id": 84,
       "name": "UNO Flip!",
+      "nameSim": "UNO Flip!",
+      "nameTrad": "UNO Flip!",
       "bggId": 271460,
       "bggName": "UNO Flip!",
       "rating": 63,
@@ -17468,6 +17588,8 @@ window.KIZ_DATA = {
     {
       "id": 85,
       "name": "七大奇迹：舰队扩展",
+      "nameSim": "七大奇迹：舰队扩展",
+      "nameTrad": "七大奇蹟：艦隊擴展",
       "bggId": 316382,
       "bggName": "7 Wonders Second Edition: Armada",
       "rating": 81,
@@ -17499,6 +17621,8 @@ window.KIZ_DATA = {
     {
       "id": 87,
       "name": "七大奇蹟：第二版",
+      "nameSim": "七大奇迹：第二版",
+      "nameTrad": "七大奇蹟：第二版",
       "bggId": 316377,
       "bggName": "7 Wonders (Second Edition)",
       "rating": 78,
@@ -17539,6 +17663,8 @@ window.KIZ_DATA = {
     {
       "id": 88,
       "name": "Poker",
+      "nameSim": "Poker",
+      "nameTrad": "Poker",
       "bggId": 1115,
       "bggName": "Poker",
       "rating": 67,
@@ -17570,6 +17696,8 @@ window.KIZ_DATA = {
     {
       "id": 93,
       "name": "拉斯維加斯豪華版",
+      "nameSim": "拉斯维加斯豪华版",
+      "nameTrad": "拉斯維加斯豪華版",
       "bggId": 271319,
       "bggName": "Las Vegas Royale",
       "rating": 75,
@@ -17610,6 +17738,8 @@ window.KIZ_DATA = {
     {
       "id": 94,
       "name": "忍者之夜",
+      "nameSim": "忍者之夜",
+      "nameTrad": "忍者之夜",
       "bggId": 306321,
       "bggName": "Night of the Ninja",
       "rating": 72,
@@ -17652,6 +17782,8 @@ window.KIZ_DATA = {
     {
       "id": 96,
       "name": "The Lord of the Rings: Duel for Middle-Earth – Allies",
+      "nameSim": "The Lord of the Rings: Duel for Middle-Earth – Allies",
+      "nameTrad": "The Lord of the Rings: Duel for Middle-Earth – Allies",
       "bggId": 450429,
       "bggName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
       "rating": 81,
@@ -17683,6 +17815,8 @@ window.KIZ_DATA = {
     {
       "id": 97,
       "name": "星空觅迹：探寻地外文明计划",
+      "nameSim": "星空觅迹：探寻地外文明计划",
+      "nameTrad": "星空覓跡：探尋地外文明計劃",
       "bggId": 418059,
       "bggName": "SETI: Search for Extraterrestrial Intelligence",
       "rating": 84,
@@ -17714,6 +17848,8 @@ window.KIZ_DATA = {
     {
       "id": 98,
       "name": "魔戒：命运同盟",
+      "nameSim": "魔戒：命运同盟",
+      "nameTrad": "魔戒：命運同盟",
       "bggId": 436217,
       "bggName": "The Lord of the Rings: Fate of the Fellowship",
       "rating": 83,
@@ -17745,6 +17881,8 @@ window.KIZ_DATA = {
     {
       "id": 99,
       "name": "瘟疫危機︰承傳",
+      "nameSim": "瘟疫危机︰承传",
+      "nameTrad": "瘟疫危機︰承傳",
       "bggId": 161936,
       "bggName": "Pandemic Legacy: Season 1",
       "rating": 85,
@@ -17776,6 +17914,8 @@ window.KIZ_DATA = {
     {
       "id": 100,
       "name": "噤声寻宝记！地下墓穴",
+      "nameSim": "噤声寻宝记！地下墓穴",
+      "nameTrad": "噤聲尋寶記！地下墓穴",
       "bggId": 365717,
       "bggName": "噤声寻宝记！地下墓穴",
       "rating": 82,
@@ -17816,6 +17956,8 @@ window.KIZ_DATA = {
     {
       "id": 101,
       "name": "Magical Athlete",
+      "nameSim": "Magical Athlete",
+      "nameTrad": "Magical Athlete",
       "bggId": 454103,
       "bggName": "Magical Athlete",
       "rating": 79,
@@ -17856,6 +17998,8 @@ window.KIZ_DATA = {
     {
       "id": 104,
       "name": "诡镇奇谈：洛夫克拉夫特情书",
+      "nameSim": "诡镇奇谈：洛夫克拉夫特情书",
+      "nameTrad": "詭鎮奇談：洛夫克拉夫特情書",
       "bggId": 424784,
       "bggName": "Arkham Horror: Lovecraft Letter",
       "rating": 75,
@@ -17887,6 +18031,8 @@ window.KIZ_DATA = {
     {
       "id": 105,
       "name": "Clank!: Catacombs – Lairs and Lost Chambers",
+      "nameSim": "Clank!: Catacombs – Lairs and Lost Chambers",
+      "nameTrad": "Clank!: Catacombs – Lairs and Lost Chambers",
       "bggId": 422869,
       "bggName": "Clank!: Catacombs – Lairs and Lost Chambers",
       "rating": 83,
@@ -17918,6 +18064,8 @@ window.KIZ_DATA = {
     {
       "id": 106,
       "name": "Clank!: Catacombs – Underworld",
+      "nameSim": "Clank!: Catacombs – Underworld",
+      "nameTrad": "Clank!: Catacombs – Underworld",
       "bggId": 447586,
       "bggName": "Clank!: Catacombs – Underworld",
       "rating": 83,
@@ -17949,6 +18097,8 @@ window.KIZ_DATA = {
     {
       "id": 110,
       "name": "Faraway: Under Starry Skies",
+      "nameSim": "Faraway: Under Starry Skies",
+      "nameTrad": "Faraway: Under Starry Skies",
       "bggId": 451708,
       "bggName": "Faraway: Under Starry Skies",
       "rating": 78,
@@ -17980,6 +18130,8 @@ window.KIZ_DATA = {
     {
       "id": 112,
       "name": "Urubamba Valley",
+      "nameSim": "Urubamba Valley",
+      "nameTrad": "Urubamba Valley",
       "bggId": 391162,
       "bggName": "Sacred Valley",
       "rating": 67,
@@ -18011,6 +18163,8 @@ window.KIZ_DATA = {
     {
       "id": 113,
       "name": "暗諜魅影",
+      "nameSim": "暗谍魅影",
+      "nameTrad": "暗諜魅影",
       "bggId": 324914,
       "bggName": "Inside Job",
       "rating": 70,
@@ -18042,6 +18196,8 @@ window.KIZ_DATA = {
     {
       "id": 115,
       "name": "矮人掘金：20週年紀念版",
+      "nameSim": "矮人掘金：20周年纪念版",
+      "nameTrad": "矮人掘金：20週年紀念版",
       "bggId": 406322,
       "bggName": "Saboteur: 20th Anniversary Edition",
       "rating": 77,
@@ -18084,6 +18240,8 @@ window.KIZ_DATA = {
     {
       "id": 116,
       "name": "Durian",
+      "nameSim": "Durian",
+      "nameTrad": "Durian",
       "bggId": 307963,
       "bggName": "Durian",
       "rating": 69,

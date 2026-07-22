@@ -489,6 +489,12 @@ function renderPlayRecords() {
     return b.playDate.localeCompare(a.playDate);
   });
 
+  // 游戏 id -> 游戏对象（含简繁名，供名称搜索双向匹配）
+  var gameById = {};
+  for (var gi = 0; gi < data.games.length; gi++) {
+    gameById[data.games[gi].id] = data.games[gi];
+  }
+
   // Fill game filter
   var gameFilter = document.getElementById('playGameFilter');
   if (gameFilter) {
@@ -525,6 +531,9 @@ function renderPlayRecords() {
     var toEl = document.getElementById('playToDate');
     var from = fromEl ? fromEl.value.replace(/-/g, '') : '';
     var to = toEl ? toEl.value.replace(/-/g, '') : '';
+    // 游戏名搜索（简繁通用：与 原名/简体版/繁体版 任一匹配即命中）
+    var searchEl = document.getElementById('playSearch');
+    var term = (searchEl ? searchEl.value : '').trim().toLowerCase();
 
     var filtered = sortedPlays.filter(function(p) {
       if (gameId && String(p.gameRefId) !== gameId) return false;
@@ -533,6 +542,13 @@ function renderPlayRecords() {
       var ymd = String(p.playDateYmd || '');
       if (from && (!ymd || ymd < from)) return false;
       if (to && (!ymd || ymd > to)) return false;
+      // 名称搜索（简繁双向匹配）
+      if (term) {
+        var gm = gameById[p.gameRefId];
+        if (!gm) return false;
+        var hay = (gm.name + ' ' + gm.nameSim + ' ' + gm.nameTrad).toLowerCase();
+        if (hay.indexOf(term) === -1) return false;
+      }
       return true;
     });
 
@@ -608,6 +624,16 @@ function renderPlayRecords() {
     if (fromEl) fromEl.value = '';
     if (toEl) toEl.value = '';
     filterAndRender();
+  });
+
+  // 游戏名搜索（输入即筛选）
+  var searchEl = document.getElementById('playSearch');
+  var searchClear = document.getElementById('playSearchClear');
+  if (searchEl) searchEl.addEventListener('input', filterAndRender);
+  if (searchClear) searchClear.addEventListener('click', function() {
+    if (searchEl) searchEl.value = '';
+    filterAndRender();
+    if (searchEl) searchEl.focus();
   });
 
   filterAndRender();
