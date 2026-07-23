@@ -524,6 +524,39 @@ function renderPlayRecords() {
     }
   }
 
+  // 填充月份筛选（所有有对局的月份，倒序）
+  var monthFilter = document.getElementById('playMonthFilter');
+  if (monthFilter) {
+    var monthSet = {};
+    for (var mi = 0; mi < data.plays.length; mi++) {
+      var ymd = String(data.plays[mi].playDateYmd || '');
+      if (ymd.length >= 6) monthSet[ymd.slice(0, 6)] = true;
+    }
+    var months = Object.keys(monthSet).sort().reverse();
+    for (var mj = 0; mj < months.length; mj++) {
+      var mOpt = document.createElement('option');
+      mOpt.value = months[mj];
+      var y = months[mj].slice(0, 4);
+      var mo = months[mj].slice(4, 6);
+      mOpt.textContent = y + '年' + mo + '月';
+      monthFilter.appendChild(mOpt);
+    }
+  }
+
+  function setMonthDates(monthVal) {
+    var fromEl = document.getElementById('playFromDate');
+    var toEl = document.getElementById('playToDate');
+    if (!fromEl || !toEl) return;
+    if (!monthVal) return;
+    var y = monthVal.slice(0, 4);
+    var m = monthVal.slice(4, 6);
+    fromEl.value = y + '-' + m + '-01';
+    // 当月最后一天：new Date(y, m, 0) 即下个月的第0天=当月最后一天
+    var lastDay = new Date(parseInt(y), parseInt(m), 0).getDate();
+    var lastDayStr = lastDay < 10 ? '0' + lastDay : '' + lastDay;
+    toEl.value = y + '-' + m + '-' + lastDayStr;
+  }
+
   function filterAndRender() {
     var gameId = gameFilter ? gameFilter.value : '';
     var locId = locFilter ? locFilter.value : '';
@@ -618,13 +651,45 @@ function renderPlayRecords() {
   var fromEl = document.getElementById('playFromDate');
   var toEl = document.getElementById('playToDate');
   var clearBtn = document.getElementById('playDateClear');
-  if (fromEl) fromEl.addEventListener('change', filterAndRender);
-  if (toEl) toEl.addEventListener('change', filterAndRender);
+
+  // 手动改了日期 → 月份下拉重置为"不限"
+  function onDateChange() {
+    if (monthFilter) monthFilter.value = '';
+    filterAndRender();
+  }
+
+  if (fromEl) fromEl.addEventListener('change', onDateChange);
+  if (toEl) toEl.addEventListener('change', onDateChange);
   if (clearBtn) clearBtn.addEventListener('click', function() {
     if (fromEl) fromEl.value = '';
     if (toEl) toEl.value = '';
+    if (monthFilter) monthFilter.value = '';
     filterAndRender();
   });
+
+  // 月份下拉
+  if (monthFilter) monthFilter.addEventListener('change', function() {
+    setMonthDates(this.value);
+    filterAndRender();
+  });
+
+  // 上/下个月切换按钮
+  var monthPrev = document.getElementById('playMonthPrev');
+  var monthNext = document.getElementById('playMonthNext');
+  function moveMonth(dir) {
+    if (!monthFilter) return;
+    var opts = monthFilter.options;
+    var cur = monthFilter.selectedIndex;
+    // 如果当前是"不限"，跳到第一个真实月份（index=1）
+    if (cur === 0 || cur < 0) cur = 1;
+    else cur += dir;
+    if (cur < 0 || cur >= opts.length) return;
+    monthFilter.selectedIndex = cur;
+    setMonthDates(opts[cur].value);
+    filterAndRender();
+  }
+  if (monthPrev) monthPrev.addEventListener('click', function() { moveMonth(-1); });
+  if (monthNext) monthNext.addEventListener('click', function() { moveMonth(1); });
 
   // 游戏名搜索（输入即筛选）
   var searchEl = document.getElementById('playSearch');
