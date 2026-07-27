@@ -111,6 +111,7 @@ def filter_players(raw_players):
                 "name": p["name"],
                 "uuid": p["uuid"],
                 "avatarColor": avatar_color,
+                "bggUsername": p.get("bggUsername", "") or "",
             })
             player_ids.add(p["id"])
 

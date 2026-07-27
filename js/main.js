@@ -736,12 +736,13 @@ function renderMemberWall() {
     var html = '';
     for (var i = 0; i < Math.min(3, sorted.length); i++) {
       var p = sorted[i];
-      html += '<div class="podium-card ' + podiumClasses[i] + '">' +
+      html += '<a href="member.html?id=' + p.id + '" class="podium-card-link">' +
+        '<div class="podium-card ' + podiumClasses[i] + '">' +
         '<div class="podium-medal">' + medals[i] + '</div>' +
         renderAvatar(p.name, ' style="margin:8px auto;' + (p.avatarColor ? 'background:' + p.avatarColor + ';' : 'background:white;') + '"') +
         '<div class="podium-name">' + p.name + '</div>' +
         '<div class="podium-plays">' + (playCount[p.id] || 0) + '场</div>' +
-      '</div>';
+      '</div></a>';
     }
     podiumEl.innerHTML = html;
   }
@@ -755,15 +756,192 @@ function renderMemberWall() {
       var initial = p.name.charAt(0);
       var bg = getPlayerBestGame(p.id, winMaps);
       var bgHtml = bg ? '<div class="member-best">🏆 最擅长：' + bg.gameName + '（' + bg.rate + '%，' + bg.wins + '/' + bg.plays + '）</div>' : '';
-      html += '<div class="member-card">' +
+      html += '<a href="member.html?id=' + p.id + '" class="member-card-link">' +
+      '<div class="member-card">' +
         renderAvatar(p.name, (p.avatarColor ? ' style="background:' + p.avatarColor + ';"' : '')) +
         '<div class="member-name">' + p.name + '</div>' +
         '<div class="member-plays">' + (playCount[p.id] || 0) + '场</div>' +
         bgHtml +
-      '</div>';
+      '</div></a>';
     }
     gridEl.innerHTML = html;
   }
+}
+
+/* ===== Member Profile Page ===== */
+function renderMemberProfile() {
+  var data = window.KIZ_DATA;
+  var params = new URLSearchParams(window.location.search);
+  var playerId = parseInt(params.get('id'));
+  if (!playerId) {
+    document.getElementById('memberProfile').innerHTML = '<div class="member-profile-error">未指定成员 ID</div>';
+    return;
+  }
+
+  // Find player
+  var player = null;
+  for (var i = 0; i < data.players.length; i++) {
+    if (data.players[i].id === playerId) { player = data.players[i]; break; }
+  }
+  if (!player) {
+    document.getElementById('memberProfile').innerHTML = '<div class="member-profile-error">未找到该成员</div>';
+    return;
+  }
+
+  var winMaps = buildWinRateMaps();
+  var playsByPlayer = {};
+  var playerGames = {};
+
+  // Gather all plays and game stats for this player
+  for (var pi = 0; pi < data.plays.length; pi++) {
+    var play = data.plays[pi];
+    for (var sj = 0; sj < play.playerScores.length; sj++) {
+      var ps = play.playerScores[sj];
+      if (ps.playerRefId === playerId) {
+        playsByPlayer[play.uuid] = play;
+        var gid = play.gameRefId;
+        if (!playerGames[gid]) playerGames[gid] = { plays: 0, wins: 0, totalScore: 0, scoreRounds: 0 };
+        playerGames[gid].plays++;
+        if (ps.winner) playerGames[gid].wins++;
+        if (ps.score) { playerGames[gid].totalScore += ps.score; playerGames[gid].scoreRounds++; }
+      }
+    }
+  }
+
+  // Sort plays by date descending
+  var sortedPlays = Object.keys(playsByPlayer).map(function(u) { return playsByPlayer[u]; })
+    .sort(function(a, b) { return b.playDate.localeCompare(a.playDate); });
+
+  // Compute stats
+  var totalPlays = sortedPlays.length;
+  var totalGames = Object.keys(playerGames).length;
+  var totalWins = 0;
+  for (var gk in playerGames) { totalWins += playerGames[gk].wins; }
+  var winRate = totalPlays > 0 ? Math.round(totalWins / totalPlays * 100) : 0;
+
+  // Game names + play counts
+  var gameNames = {};
+  for (var gi = 0; gi < data.games.length; gi++) { gameNames[data.games[gi].id] = data.games[gi].name; }
+
+  // Most played games (top 8)
+  var gamePlayList = [];
+  for (var gk in playerGames) { gamePlayList.push({ id: parseInt(gk), plays: playerGames[gk].plays, wins: playerGames[gk].wins }); }
+  gamePlayList.sort(function(a, b) { return b.plays - a.plays; });
+  var topPlayed = gamePlayList.slice(0, 8);
+
+  // Best win rate games (min 3 plays)
+  var bestRateGames = gamePlayList.filter(function(g) { return g.plays >= 3; })
+    .sort(function(a, b) { return (b.wins / b.plays) - (a.wins / a.plays) || b.plays - a.plays; })
+    .slice(0, 5);
+
+  // Record holder games
+  var recordGames = [];
+  for (var rg = 0; rg < data.games.length; rg++) {
+    var rec = data.games[rg].recordHolder;
+    if (rec && rec.names && rec.names.indexOf(player.name) !== -1) {
+      recordGames.push({ game: data.games[rg], record: rec });
+    }
+  }
+
+  // Build HTML
+  var html = '';
+
+  // Header
+  html += '<div class="profile-header">' +
+    '<div class="profile-avatar-wrap">' +
+      renderAvatar(player.name, (player.avatarColor ? ' style="width:80px;height:80px;font-size:32px;background:' + player.avatarColor + ';"' : ' style="width:80px;height:80px;font-size:32px;"')) +
+    '</div>' +
+    '<div class="profile-info">' +
+      '<h1 class="profile-name">' + player.name + '</h1>';
+
+  if (player.bggUsername) {
+    html += '<div class="profile-bgg">🎲 <a href="https://boardgamegeek.com/user/' + encodeURIComponent(player.bggUsername) + '" target="_blank" rel="noopener">BGG: ' + player.bggUsername + '</a></div>';
+  }
+
+  html += '<a href="members.html" class="profile-back">← 返回成员墙</a>' +
+    '</div></div>';
+
+  // Stats cards
+  html += '<div class="profile-stats">' +
+    '<div class="profile-stat-card"><div class="stat-value">' + totalPlays + '</div><div class="stat-label">总对局</div></div>' +
+    '<div class="profile-stat-card"><div class="stat-value">' + totalGames + '</div><div class="stat-label">游戏种类</div></div>' +
+    '<div class="profile-stat-card"><div class="stat-value">' + totalWins + '</div><div class="stat-label">总胜场</div></div>' +
+    '<div class="profile-stat-card"><div class="stat-value">' + winRate + '%</div><div class="stat-label">总胜率</div></div>' +
+  '</div>';
+
+  // Best win rate games
+  if (bestRateGames.length > 0) {
+    html += '<h2 class="profile-section-title">🎯 最擅长的游戏</h2><div class="profile-game-list">';
+    for (var bi = 0; bi < bestRateGames.length; bi++) {
+      var bg = bestRateGames[bi];
+      var gn = gameNames[bg.id] || 'Unknown';
+      var rate = Math.round(bg.wins / bg.plays * 100);
+      html += '<div class="profile-game-item">' +
+        '<span class="profile-game-name">' + gn + '</span>' +
+        '<span class="profile-game-stat">' + rate + '%</span>' +
+        '<span class="profile-game-detail">（' + bg.wins + '胜/' + bg.plays + '局）</span>' +
+      '</div>';
+    }
+    html += '</div>';
+  }
+
+  // Most played games
+  if (topPlayed.length > 0) {
+    html += '<h2 class="profile-section-title">📊 玩得最多的游戏</h2><div class="profile-game-list">';
+    for (var ti = 0; ti < topPlayed.length; ti++) {
+      var tg = topPlayed[ti];
+      var gn2 = gameNames[tg.id] || 'Unknown';
+      html += '<div class="profile-game-item">' +
+        '<span class="profile-game-name">' + gn2 + '</span>' +
+        '<span class="profile-game-stat">' + tg.plays + '局</span>' +
+        '<span class="profile-game-detail">（' + tg.wins + '胜）</span>' +
+      '</div>';
+    }
+    html += '</div>';
+  }
+
+  // Record holder games
+  if (recordGames.length > 0) {
+    html += '<h2 class="profile-section-title">🏅 记录保持者</h2><div class="profile-game-list">';
+    for (var ri = 0; ri < recordGames.length; ri++) {
+      var r = recordGames[ri];
+      var scoreLabel = r.record.lowerBetter ? '最低' : '最高';
+      var namesDisplay = r.record.names.join('、') + ' ' + r.record.score + '分';
+      html += '<div class="profile-game-item">' +
+        '<span class="profile-game-name">' + r.game.name + '</span>' +
+        '<span class="profile-game-stat">' + namesDisplay + '</span>' +
+        '<span class="profile-game-detail">（' + scoreLabel + '分记录）</span>' +
+      '</div>';
+    }
+    html += '</div>';
+  }
+
+  // Recent plays (last 10)
+  if (sortedPlays.length > 0) {
+    html += '<h2 class="profile-section-title">🕐 最近对局</h2><div class="profile-recent">';
+    var recentCount = Math.min(10, sortedPlays.length);
+    for (var ri2 = 0; ri2 < recentCount; ri2++) {
+      var sp = sortedPlays[ri2];
+      var gn3 = getGameNameById(sp.gameRefId) || 'Unknown';
+      var loc = getLocationNameById(sp.locationRefId) || '';
+      // Find this player's score in this play
+      var myPs = null;
+      for (var ssi = 0; ssi < sp.playerScores.length; ssi++) {
+        if (sp.playerScores[ssi].playerRefId === playerId) { myPs = sp.playerScores[ssi]; break; }
+      }
+      var scoreStr = myPs && myPs.score ? ' · ' + myPs.score + '分' : '';
+      var winStr = myPs && myPs.winner ? ' 🏆' : '';
+      html += '<div class="profile-recent-item">' +
+        '<span class="profile-recent-date">' + formatDate(sp.playDateYmd) + '</span>' +
+        '<span class="profile-recent-game">' + gn3 + winStr + '</span>' +
+        '<span class="profile-recent-loc">' + loc + '</span>' +
+        '<span class="profile-recent-score">' + scoreStr + '</span>' +
+      '</div>';
+    }
+    html += '</div>';
+  }
+
+  document.getElementById('memberProfile').innerHTML = html;
 }
 
 /* ===== Leaderboard Page ===== */

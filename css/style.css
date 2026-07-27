@@ -411,6 +411,12 @@ input, select { font-family: inherit; }
 
 .member-card:hover { transform: translateY(-2px); }
 
+.member-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .member-avatar {
   width: 50px;
   height: 50px;
@@ -499,6 +505,12 @@ input, select { font-family: inherit; }
 .podium-name { font-weight: 600; color: var(--color-text); margin-top: 4px; }
 .podium-plays { font-size: 13px; color: var(--color-text-light); }
 
+.podium-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 768px) {
   .podium { grid-template-columns: 1fr; }
 }
@@ -513,6 +525,182 @@ input, select { font-family: inherit; }
 @media (max-width: 1024px) { .member-grid { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 768px) { .member-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 480px) { .member-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* ===== Member Profile Page ===== */
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.profile-avatar-wrap {
+  flex-shrink: 0;
+}
+
+.profile-info h1 {
+  margin: 0;
+}
+
+.profile-name {
+  font-size: 28px;
+  margin: 0 0 4px;
+  color: var(--color-text);
+}
+
+.profile-bgg {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.profile-bgg a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.profile-bgg a:hover {
+  text-decoration: underline;
+}
+
+.profile-back {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  margin-top: 4px;
+}
+
+.profile-back:hover {
+  color: var(--color-primary);
+}
+
+.profile-stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.profile-stat-card {
+  flex: 1;
+  min-width: 100px;
+  padding: 20px;
+  background: var(--color-white);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.stat-label {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-top: 4px;
+}
+
+.profile-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 24px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.profile-game-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.profile-game-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--color-white);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.profile-game-name {
+  flex: 1;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.profile-game-stat {
+  font-weight: 600;
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
+.profile-game-detail {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.profile-recent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.profile-recent-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  background: var(--color-white);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  font-size: 14px;
+}
+
+.profile-recent-date {
+  color: var(--color-text-muted);
+  min-width: 85px;
+}
+
+.profile-recent-game {
+  flex: 1;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.profile-recent-loc {
+  color: var(--color-text-muted);
+  font-size: 13px;
+  min-width: 80px;
+  text-align: right;
+}
+
+.profile-recent-score {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  min-width: 50px;
+  text-align: right;
+}
+
+.member-profile-loading,
+.member-profile-error {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 16px;
+  color: var(--color-text-muted);
+}
 
 /* ===== Page Section ===== */
 .page-section {
