@@ -606,9 +606,31 @@ function renderPlayRecords() {
 
       var winner = getWinnerFromScores(play.playerScores);
 
-      var playerNames = pagePlays[i].playerScores.map(function(ps) {
-        return getPlayerNameById(ps.playerRefId);
-      }).join(' · ');
+      // 判断是否为记分对局（有 scoringSetting 或任一玩家有分数）
+      var hasScoring = false;
+      for (var si = 0; si < play.playerScores.length; si++) {
+        if (play.playerScores[si].score) { hasScoring = true; break; }
+      }
+
+      // 玩家列表：若记分则附带分数，赢家加 🏆
+      var playerNames = '';
+      for (var si2 = 0; si2 < play.playerScores.length; si2++) {
+        var ps = play.playerScores[si2];
+        var pn = getPlayerNameById(ps.playerRefId);
+        if (si2 > 0) playerNames += ' · ';
+        playerNames += pn;
+        if (hasScoring && ps.score) {
+          playerNames += ' ' + ps.score + '分';
+        }
+        if (ps.winner) {
+          playerNames += ' 🏆';
+        }
+      }
+
+      var commentHtml = '';
+      if (play.comments) {
+        commentHtml = '<div class="timeline-comment">📝 ' + play.comments + '</div>';
+      }
 
       html += '<div class="timeline-item">' +
         '<div class="timeline-dot"></div>' +
@@ -618,6 +640,7 @@ function renderPlayRecords() {
             (winner ? ' <span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
           '</div>' +
           '<div class="timeline-players">👥 ' + playerNames + '</div>' +
+          commentHtml +
         '</div>' +
       '</div>';
     }

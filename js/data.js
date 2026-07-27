@@ -390,6 +390,7 @@ window.KIZ_DATA = {
       "durationMin": 120,
       "scoringSetting": 1,
       "board": "2号版图",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -427,6 +428,7 @@ window.KIZ_DATA = {
       "durationMin": 120,
       "scoringSetting": 1,
       "board": "1号版图",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -464,6 +466,7 @@ window.KIZ_DATA = {
       "durationMin": 120,
       "scoringSetting": 1,
       "board": "1号版图",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -495,6 +498,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 3,
       "board": "13a",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -514,6 +518,7 @@ window.KIZ_DATA = {
       "durationMin": 90,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -539,6 +544,7 @@ window.KIZ_DATA = {
       "durationMin": 150,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -564,6 +570,7 @@ window.KIZ_DATA = {
       "durationMin": 15,
       "scoringSetting": 6,
       "board": null,
+      "comments": "42关",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -601,6 +608,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -632,6 +640,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -663,6 +672,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -706,6 +716,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -749,6 +760,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -774,6 +786,7 @@ window.KIZ_DATA = {
       "durationMin": 240,
       "scoringSetting": 6,
       "board": null,
+      "comments": "罗尔和洛克",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -793,6 +806,7 @@ window.KIZ_DATA = {
       "durationMin": 90,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 6,
@@ -830,6 +844,7 @@ window.KIZ_DATA = {
       "durationMin": 171,
       "scoringSetting": 4,
       "board": "双人版图",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -867,6 +882,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 21,
@@ -904,6 +920,7 @@ window.KIZ_DATA = {
       "durationMin": 81,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 22,
@@ -947,6 +964,7 @@ window.KIZ_DATA = {
       "durationMin": 37,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -990,6 +1008,7 @@ window.KIZ_DATA = {
       "durationMin": 56,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1033,6 +1052,7 @@ window.KIZ_DATA = {
       "durationMin": 32,
       "scoringSetting": 3,
       "board": null,
+      "comments": "歌剧魅影3",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1058,6 +1078,7 @@ window.KIZ_DATA = {
       "durationMin": 41,
       "scoringSetting": 6,
       "board": null,
+      "comments": "KEF橙色",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1083,6 +1104,7 @@ window.KIZ_DATA = {
       "durationMin": 25,
       "scoringSetting": 6,
       "board": null,
+      "comments": "PRG橙色",
       "playerScores": [
         {
           "playerRefId": 23,
@@ -1108,6 +1130,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "诅咒之恋2",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1133,6 +1156,7 @@ window.KIZ_DATA = {
       "durationMin": 120,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 22,
@@ -1164,6 +1188,7 @@ window.KIZ_DATA = {
       "durationMin": 28,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1189,6 +1214,7 @@ window.KIZ_DATA = {
       "durationMin": 20,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1214,6 +1240,7 @@ window.KIZ_DATA = {
       "durationMin": 6,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -1257,6 +1284,7 @@ window.KIZ_DATA = {
       "durationMin": 29,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -1306,6 +1334,7 @@ window.KIZ_DATA = {
       "durationMin": 65,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -1355,6 +1384,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 6,
@@ -1386,6 +1416,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -1423,6 +1454,7 @@ window.KIZ_DATA = {
       "durationMin": 120,
       "scoringSetting": 3,
       "board": null,
+      "comments": "鬼灵之谜",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -1466,6 +1498,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "43",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -1509,6 +1542,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "44",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -1552,6 +1586,7 @@ window.KIZ_DATA = {
       "durationMin": 32,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 6,
@@ -1607,6 +1642,7 @@ window.KIZ_DATA = {
       "durationMin": 18,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1643,6 +1679,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -1679,6 +1716,7 @@ window.KIZ_DATA = {
       "durationMin": 55,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -1710,6 +1748,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -1741,6 +1780,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 11,
@@ -1783,6 +1823,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -1814,6 +1855,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -1845,6 +1887,7 @@ window.KIZ_DATA = {
       "durationMin": 34,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -1876,6 +1919,7 @@ window.KIZ_DATA = {
       "durationMin": 73,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -1922,6 +1966,7 @@ window.KIZ_DATA = {
       "durationMin": 26,
       "scoringSetting": 6,
       "board": null,
+      "comments": "45",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -1965,6 +2010,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "45",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -2008,6 +2054,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "46",
       "playerScores": [
         {
           "playerRefId": 8,
@@ -2051,6 +2098,7 @@ window.KIZ_DATA = {
       "durationMin": 7,
       "scoringSetting": 6,
       "board": null,
+      "comments": "46",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2094,6 +2142,7 @@ window.KIZ_DATA = {
       "durationMin": 44,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -2137,6 +2186,7 @@ window.KIZ_DATA = {
       "durationMin": 35,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2162,6 +2212,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -2196,6 +2247,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 21,
@@ -2251,6 +2303,7 @@ window.KIZ_DATA = {
       "durationMin": 58,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 22,
@@ -2288,6 +2341,7 @@ window.KIZ_DATA = {
       "durationMin": 42,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2325,6 +2379,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2350,6 +2405,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 23,
@@ -2375,6 +2431,7 @@ window.KIZ_DATA = {
       "durationMin": 44,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2424,6 +2481,7 @@ window.KIZ_DATA = {
       "durationMin": 18,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -2473,6 +2531,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -2507,6 +2566,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "ATL",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2532,6 +2592,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "47",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -2569,6 +2630,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "47",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -2606,6 +2668,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "47",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -2643,6 +2706,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2668,6 +2732,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2693,6 +2758,7 @@ window.KIZ_DATA = {
       "durationMin": 64,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -2742,6 +2808,7 @@ window.KIZ_DATA = {
       "durationMin": 69,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -2791,6 +2858,7 @@ window.KIZ_DATA = {
       "durationMin": 21,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2816,6 +2884,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -2853,6 +2922,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "球赛终局",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2896,6 +2966,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "谍影重重",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2920,6 +2991,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "第一关",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2945,6 +3017,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "第二关",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -2970,6 +3043,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -3025,6 +3099,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "歌剧魅影3",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -3056,6 +3131,7 @@ window.KIZ_DATA = {
       "durationMin": 23,
       "scoringSetting": 3,
       "board": null,
+      "comments": "歌剧魅影4",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3087,6 +3163,7 @@ window.KIZ_DATA = {
       "durationMin": 31,
       "scoringSetting": 3,
       "board": null,
+      "comments": "诅咒之恋5",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -3118,6 +3195,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "48",
       "playerScores": [
         {
           "playerRefId": 5,
@@ -3155,6 +3233,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "48",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3192,6 +3271,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "ATL橙色",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3217,6 +3297,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "ATL橙色",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -3242,6 +3323,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -3285,6 +3367,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3328,6 +3411,7 @@ window.KIZ_DATA = {
       "durationMin": 150,
       "scoringSetting": 3,
       "board": null,
+      "comments": "黑色之王",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -3371,6 +3455,7 @@ window.KIZ_DATA = {
       "durationMin": 92,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3420,6 +3505,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3469,6 +3555,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 31,
@@ -3518,6 +3605,7 @@ window.KIZ_DATA = {
       "durationMin": 17,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 31,
@@ -3567,6 +3655,7 @@ window.KIZ_DATA = {
       "durationMin": 159,
       "scoringSetting": 3,
       "board": null,
+      "comments": "绯红迷情",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3615,6 +3704,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 23,
@@ -3640,6 +3730,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 23,
@@ -3665,6 +3756,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -3708,6 +3800,7 @@ window.KIZ_DATA = {
       "durationMin": 16,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 29,
@@ -3739,6 +3832,7 @@ window.KIZ_DATA = {
       "durationMin": 40,
       "scoringSetting": 1,
       "board": null,
+      "comments": "3",
       "playerScores": [
         {
           "playerRefId": 20,
@@ -3764,6 +3858,7 @@ window.KIZ_DATA = {
       "durationMin": 16,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 29,
@@ -3813,6 +3908,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 31,
@@ -3862,6 +3958,7 @@ window.KIZ_DATA = {
       "durationMin": 28,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -3893,6 +3990,7 @@ window.KIZ_DATA = {
       "durationMin": 29,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -3924,6 +4022,7 @@ window.KIZ_DATA = {
       "durationMin": 26,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -3966,6 +4065,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "49",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -4003,6 +4103,7 @@ window.KIZ_DATA = {
       "durationMin": 24,
       "scoringSetting": 6,
       "board": null,
+      "comments": "49",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4040,6 +4141,7 @@ window.KIZ_DATA = {
       "durationMin": 21,
       "scoringSetting": 6,
       "board": null,
+      "comments": "49",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4077,6 +4179,7 @@ window.KIZ_DATA = {
       "durationMin": 17,
       "scoringSetting": 6,
       "board": null,
+      "comments": "49",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4114,6 +4217,7 @@ window.KIZ_DATA = {
       "durationMin": 19,
       "scoringSetting": 6,
       "board": null,
+      "comments": "50",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -4151,6 +4255,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 6,
       "board": null,
+      "comments": "51",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -4188,6 +4293,7 @@ window.KIZ_DATA = {
       "durationMin": 19,
       "scoringSetting": 6,
       "board": null,
+      "comments": "52",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -4225,6 +4331,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -4256,6 +4363,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -4287,6 +4395,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 31,
@@ -4312,6 +4421,7 @@ window.KIZ_DATA = {
       "durationMin": 40,
       "scoringSetting": 1,
       "board": null,
+      "comments": "5",
       "playerScores": [
         {
           "playerRefId": 20,
@@ -4337,6 +4447,7 @@ window.KIZ_DATA = {
       "durationMin": 50,
       "scoringSetting": 1,
       "board": null,
+      "comments": "6",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4362,6 +4473,7 @@ window.KIZ_DATA = {
       "durationMin": 30,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 29,
@@ -4387,6 +4499,7 @@ window.KIZ_DATA = {
       "durationMin": 57,
       "scoringSetting": 1,
       "board": null,
+      "comments": "7",
       "playerScores": [
         {
           "playerRefId": 20,
@@ -4412,6 +4525,7 @@ window.KIZ_DATA = {
       "durationMin": 59,
       "scoringSetting": 1,
       "board": null,
+      "comments": "8",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4437,6 +4551,7 @@ window.KIZ_DATA = {
       "durationMin": 57,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -4492,6 +4607,7 @@ window.KIZ_DATA = {
       "durationMin": 27,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -4523,6 +4639,7 @@ window.KIZ_DATA = {
       "durationMin": 43,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -4554,6 +4671,7 @@ window.KIZ_DATA = {
       "durationMin": 30,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4591,6 +4709,7 @@ window.KIZ_DATA = {
       "durationMin": 27,
       "scoringSetting": 6,
       "board": null,
+      "comments": "53",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4634,6 +4753,7 @@ window.KIZ_DATA = {
       "durationMin": 16,
       "scoringSetting": 6,
       "board": null,
+      "comments": "53",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4677,6 +4797,7 @@ window.KIZ_DATA = {
       "durationMin": 30,
       "scoringSetting": 11,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 31,
@@ -4714,6 +4835,7 @@ window.KIZ_DATA = {
       "durationMin": 171,
       "scoringSetting": 1,
       "board": "2号版图",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 27,
@@ -4751,6 +4873,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 11,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -4806,6 +4929,7 @@ window.KIZ_DATA = {
       "durationMin": 48,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -4861,6 +4985,7 @@ window.KIZ_DATA = {
       "durationMin": 34,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -4910,6 +5035,7 @@ window.KIZ_DATA = {
       "durationMin": 62,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -4953,6 +5079,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "53",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -4996,6 +5123,7 @@ window.KIZ_DATA = {
       "durationMin": 25,
       "scoringSetting": 6,
       "board": null,
+      "comments": "53",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5039,6 +5167,7 @@ window.KIZ_DATA = {
       "durationMin": 20,
       "scoringSetting": 6,
       "board": null,
+      "comments": "54",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5082,6 +5211,7 @@ window.KIZ_DATA = {
       "durationMin": 20,
       "scoringSetting": 6,
       "board": null,
+      "comments": "42",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5125,6 +5255,7 @@ window.KIZ_DATA = {
       "durationMin": 20,
       "scoringSetting": 6,
       "board": null,
+      "comments": "53",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5168,6 +5299,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 33,
@@ -5199,6 +5331,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5242,6 +5375,7 @@ window.KIZ_DATA = {
       "durationMin": 29,
       "scoringSetting": 6,
       "board": null,
+      "comments": "55",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5285,6 +5419,7 @@ window.KIZ_DATA = {
       "durationMin": 15,
       "scoringSetting": 6,
       "board": null,
+      "comments": "56",
       "playerScores": [
         {
           "playerRefId": 34,
@@ -5328,6 +5463,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 6,
       "board": null,
+      "comments": "57",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5365,6 +5501,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "57",
       "playerScores": [
         {
           "playerRefId": 34,
@@ -5408,6 +5545,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 33,
@@ -5439,6 +5577,7 @@ window.KIZ_DATA = {
       "durationMin": 20,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5464,6 +5603,7 @@ window.KIZ_DATA = {
       "durationMin": 56,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 22,
@@ -5507,6 +5647,7 @@ window.KIZ_DATA = {
       "durationMin": 140,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -5555,6 +5696,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -5598,6 +5740,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5635,6 +5778,7 @@ window.KIZ_DATA = {
       "durationMin": 180,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 35,
@@ -5660,6 +5804,7 @@ window.KIZ_DATA = {
       "durationMin": 31,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5685,6 +5830,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5710,6 +5856,7 @@ window.KIZ_DATA = {
       "durationMin": 180,
       "scoringSetting": 6,
       "board": null,
+      "comments": "第二章",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5729,6 +5876,7 @@ window.KIZ_DATA = {
       "durationMin": 26,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5760,6 +5908,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 33,
@@ -5797,6 +5946,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -5840,6 +5990,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 29,
@@ -5883,6 +6034,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5920,6 +6072,7 @@ window.KIZ_DATA = {
       "durationMin": 180,
       "scoringSetting": 1,
       "board": null,
+      "comments": "成都麻将",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -5957,6 +6110,7 @@ window.KIZ_DATA = {
       "durationMin": 180,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5976,6 +6130,7 @@ window.KIZ_DATA = {
       "durationMin": 180,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -5995,6 +6150,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -6044,6 +6200,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -6093,6 +6250,7 @@ window.KIZ_DATA = {
       "durationMin": 19,
       "scoringSetting": 6,
       "board": null,
+      "comments": "58",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6136,6 +6294,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "58",
       "playerScores": [
         {
           "playerRefId": 36,
@@ -6179,6 +6338,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -6222,6 +6382,7 @@ window.KIZ_DATA = {
       "durationMin": 200,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6259,6 +6420,7 @@ window.KIZ_DATA = {
       "durationMin": 38,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -6302,6 +6464,7 @@ window.KIZ_DATA = {
       "durationMin": 44,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -6345,6 +6508,7 @@ window.KIZ_DATA = {
       "durationMin": 132,
       "scoringSetting": 3,
       "board": null,
+      "comments": "马德里的名画",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -6393,6 +6557,7 @@ window.KIZ_DATA = {
       "durationMin": 116,
       "scoringSetting": 3,
       "board": null,
+      "comments": "电锯惊魂",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -6436,6 +6601,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "情景5",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6455,6 +6621,7 @@ window.KIZ_DATA = {
       "durationMin": 78,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -6507,6 +6674,7 @@ window.KIZ_DATA = {
       "durationMin": 50,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -6550,6 +6718,7 @@ window.KIZ_DATA = {
       "durationMin": 18,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6575,6 +6744,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6600,6 +6770,7 @@ window.KIZ_DATA = {
       "durationMin": 114,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -6631,6 +6802,7 @@ window.KIZ_DATA = {
       "durationMin": 63,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6655,6 +6827,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "剧本1",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6674,6 +6847,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "剧本2",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6693,6 +6867,7 @@ window.KIZ_DATA = {
       "durationMin": 26,
       "scoringSetting": 3,
       "board": null,
+      "comments": "剧本4",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6712,6 +6887,7 @@ window.KIZ_DATA = {
       "durationMin": 27,
       "scoringSetting": 3,
       "board": null,
+      "comments": "剧本5",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6731,6 +6907,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 41,
@@ -6780,6 +6957,7 @@ window.KIZ_DATA = {
       "durationMin": 11,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 39,
@@ -6829,6 +7007,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 42,
@@ -6878,6 +7057,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "51",
       "playerScores": [
         {
           "playerRefId": 42,
@@ -6921,6 +7101,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "46",
       "playerScores": [
         {
           "playerRefId": 42,
@@ -6964,6 +7145,7 @@ window.KIZ_DATA = {
       "durationMin": 23,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -6989,6 +7171,7 @@ window.KIZ_DATA = {
       "durationMin": 14,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7014,6 +7197,7 @@ window.KIZ_DATA = {
       "durationMin": 13,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7039,6 +7223,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "8",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7064,6 +7249,7 @@ window.KIZ_DATA = {
       "durationMin": 38,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7089,6 +7275,7 @@ window.KIZ_DATA = {
       "durationMin": 18,
       "scoringSetting": 6,
       "board": null,
+      "comments": "59",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -7126,6 +7313,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "60",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7169,6 +7357,7 @@ window.KIZ_DATA = {
       "durationMin": 12,
       "scoringSetting": 6,
       "board": null,
+      "comments": "60",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -7212,6 +7401,7 @@ window.KIZ_DATA = {
       "durationMin": 44,
       "scoringSetting": 6,
       "board": null,
+      "comments": "60",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -7255,6 +7445,7 @@ window.KIZ_DATA = {
       "durationMin": 11,
       "scoringSetting": 6,
       "board": null,
+      "comments": "61",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -7298,6 +7489,7 @@ window.KIZ_DATA = {
       "durationMin": 24,
       "scoringSetting": 6,
       "board": null,
+      "comments": "62",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7341,6 +7533,7 @@ window.KIZ_DATA = {
       "durationMin": 19,
       "scoringSetting": 6,
       "board": null,
+      "comments": "63",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7384,6 +7577,7 @@ window.KIZ_DATA = {
       "durationMin": 18,
       "scoringSetting": 6,
       "board": null,
+      "comments": "64",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7427,6 +7621,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "66",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -7470,6 +7665,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 6,
       "board": null,
+      "comments": "66",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7513,6 +7709,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "59",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -7556,6 +7753,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "59",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7599,6 +7797,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "60",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7642,6 +7841,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "65",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -7685,6 +7885,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -7716,6 +7917,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "5",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7735,6 +7937,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "6",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7754,6 +7957,7 @@ window.KIZ_DATA = {
       "durationMin": 21,
       "scoringSetting": 3,
       "board": null,
+      "comments": "6",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7773,6 +7977,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "6",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7792,6 +7997,7 @@ window.KIZ_DATA = {
       "durationMin": 25,
       "scoringSetting": 6,
       "board": null,
+      "comments": "pbh红色",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7817,6 +8023,7 @@ window.KIZ_DATA = {
       "durationMin": 17,
       "scoringSetting": 6,
       "board": null,
+      "comments": "红pbh",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7842,6 +8049,7 @@ window.KIZ_DATA = {
       "durationMin": 19,
       "scoringSetting": 6,
       "board": null,
+      "comments": "红hnd ",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7867,6 +8075,7 @@ window.KIZ_DATA = {
       "durationMin": 11,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7897,6 +8106,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7927,6 +8137,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -7952,6 +8163,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "6",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7971,6 +8183,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "6",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -7990,6 +8203,7 @@ window.KIZ_DATA = {
       "durationMin": 14,
       "scoringSetting": 3,
       "board": null,
+      "comments": "6",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8009,6 +8223,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8028,6 +8243,7 @@ window.KIZ_DATA = {
       "durationMin": 204,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -8065,6 +8281,7 @@ window.KIZ_DATA = {
       "durationMin": 37,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8102,6 +8319,7 @@ window.KIZ_DATA = {
       "durationMin": 13,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8121,6 +8339,7 @@ window.KIZ_DATA = {
       "durationMin": 36,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8155,6 +8374,7 @@ window.KIZ_DATA = {
       "durationMin": 70,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8174,6 +8394,7 @@ window.KIZ_DATA = {
       "durationMin": 18,
       "scoringSetting": 3,
       "board": null,
+      "comments": "8",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8193,6 +8414,7 @@ window.KIZ_DATA = {
       "durationMin": 208,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8230,6 +8452,7 @@ window.KIZ_DATA = {
       "durationMin": 79,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -8261,6 +8484,7 @@ window.KIZ_DATA = {
       "durationMin": 25,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8286,6 +8510,7 @@ window.KIZ_DATA = {
       "durationMin": 16,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8311,6 +8536,7 @@ window.KIZ_DATA = {
       "durationMin": 16,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 35,
@@ -8336,6 +8562,7 @@ window.KIZ_DATA = {
       "durationMin": 52,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -8373,6 +8600,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8410,6 +8638,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8447,6 +8676,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -8484,6 +8714,7 @@ window.KIZ_DATA = {
       "durationMin": 26,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -8515,6 +8746,7 @@ window.KIZ_DATA = {
       "durationMin": 46,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -8552,6 +8784,7 @@ window.KIZ_DATA = {
       "durationMin": 14,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 46,
@@ -8589,6 +8822,7 @@ window.KIZ_DATA = {
       "durationMin": 196,
       "scoringSetting": 3,
       "board": null,
+      "comments": "黑帮安魂曲",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -8637,6 +8871,7 @@ window.KIZ_DATA = {
       "durationMin": 27,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 29,
@@ -8671,6 +8906,7 @@ window.KIZ_DATA = {
       "durationMin": 96,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8702,6 +8938,7 @@ window.KIZ_DATA = {
       "durationMin": 76,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8733,6 +8970,7 @@ window.KIZ_DATA = {
       "durationMin": 151,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -8764,6 +9002,7 @@ window.KIZ_DATA = {
       "durationMin": 56,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8795,6 +9034,7 @@ window.KIZ_DATA = {
       "durationMin": 45,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 29,
@@ -8820,6 +9060,7 @@ window.KIZ_DATA = {
       "durationMin": 114,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8860,6 +9101,7 @@ window.KIZ_DATA = {
       "durationMin": 84,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -8891,6 +9133,7 @@ window.KIZ_DATA = {
       "durationMin": 30,
       "scoringSetting": 1,
       "board": "1",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8910,6 +9153,7 @@ window.KIZ_DATA = {
       "durationMin": 38,
       "scoringSetting": 1,
       "board": "2",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -8929,6 +9173,7 @@ window.KIZ_DATA = {
       "durationMin": 40,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -8966,6 +9211,7 @@ window.KIZ_DATA = {
       "durationMin": 74,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9003,6 +9249,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9046,6 +9293,7 @@ window.KIZ_DATA = {
       "durationMin": 82,
       "scoringSetting": 3,
       "board": null,
+      "comments": "大白鲨",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -9089,6 +9337,7 @@ window.KIZ_DATA = {
       "durationMin": 37,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -9132,6 +9381,7 @@ window.KIZ_DATA = {
       "durationMin": 43,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9175,6 +9425,7 @@ window.KIZ_DATA = {
       "durationMin": 50,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -9218,6 +9469,7 @@ window.KIZ_DATA = {
       "durationMin": 43,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -9261,6 +9513,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9298,6 +9551,7 @@ window.KIZ_DATA = {
       "durationMin": 35,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9341,6 +9595,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -9384,6 +9639,7 @@ window.KIZ_DATA = {
       "durationMin": 200,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9426,6 +9682,7 @@ window.KIZ_DATA = {
       "durationMin": 53,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -9463,6 +9720,7 @@ window.KIZ_DATA = {
       "durationMin": 28,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9500,6 +9758,7 @@ window.KIZ_DATA = {
       "durationMin": 29,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9537,6 +9796,7 @@ window.KIZ_DATA = {
       "durationMin": 180,
       "scoringSetting": 6,
       "board": null,
+      "comments": "多米娜",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9565,6 +9825,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "辛德",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -9590,6 +9851,7 @@ window.KIZ_DATA = {
       "durationMin": 210,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9618,6 +9880,7 @@ window.KIZ_DATA = {
       "durationMin": 36,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9652,6 +9915,7 @@ window.KIZ_DATA = {
       "durationMin": 17,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9677,6 +9941,7 @@ window.KIZ_DATA = {
       "durationMin": 32,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9702,6 +9967,7 @@ window.KIZ_DATA = {
       "durationMin": 36,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -9736,6 +10002,7 @@ window.KIZ_DATA = {
       "durationMin": 115,
       "scoringSetting": 1,
       "board": "2",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9767,6 +10034,7 @@ window.KIZ_DATA = {
       "durationMin": 112,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9807,6 +10075,7 @@ window.KIZ_DATA = {
       "durationMin": 195,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 49,
@@ -9844,6 +10113,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9881,6 +10151,7 @@ window.KIZ_DATA = {
       "durationMin": 99,
       "scoringSetting": 3,
       "board": null,
+      "comments": "44 恐怖蜡像馆",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -9924,6 +10195,7 @@ window.KIZ_DATA = {
       "durationMin": 270,
       "scoringSetting": 6,
       "board": null,
+      "comments": "纳西索斯",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -9943,6 +10215,7 @@ window.KIZ_DATA = {
       "durationMin": 124,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 29,
@@ -9986,6 +10259,7 @@ window.KIZ_DATA = {
       "durationMin": 25,
       "scoringSetting": 3,
       "board": null,
+      "comments": "4",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10005,6 +10279,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 3,
       "board": null,
+      "comments": "13",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10024,6 +10299,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10058,6 +10334,7 @@ window.KIZ_DATA = {
       "durationMin": 30,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10089,6 +10366,7 @@ window.KIZ_DATA = {
       "durationMin": 36,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -10125,6 +10403,7 @@ window.KIZ_DATA = {
       "durationMin": 69,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -10156,6 +10435,7 @@ window.KIZ_DATA = {
       "durationMin": 34,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 49,
@@ -10187,6 +10467,7 @@ window.KIZ_DATA = {
       "durationMin": 162,
       "scoringSetting": 1,
       "board": "工厂学校价格对换／玉米削弱／走私者／节日",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 49,
@@ -10230,6 +10511,7 @@ window.KIZ_DATA = {
       "durationMin": 28,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10273,6 +10555,7 @@ window.KIZ_DATA = {
       "durationMin": 29,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 49,
@@ -10316,6 +10599,7 @@ window.KIZ_DATA = {
       "durationMin": 57,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10364,6 +10648,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -10395,6 +10680,7 @@ window.KIZ_DATA = {
       "durationMin": 51,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 50,
@@ -10444,6 +10730,7 @@ window.KIZ_DATA = {
       "durationMin": 32,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -10493,6 +10780,7 @@ window.KIZ_DATA = {
       "durationMin": 69,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -10547,6 +10835,7 @@ window.KIZ_DATA = {
       "durationMin": 91,
       "scoringSetting": 1,
       "board": "2",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -10578,6 +10867,7 @@ window.KIZ_DATA = {
       "durationMin": 31,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -10609,6 +10899,7 @@ window.KIZ_DATA = {
       "durationMin": 30,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -10640,6 +10931,7 @@ window.KIZ_DATA = {
       "durationMin": 106,
       "scoringSetting": 1,
       "board": "工厂学校价格对换／玉米削弱／走私者／节日活动／成就／建筑扩",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -10677,6 +10969,7 @@ window.KIZ_DATA = {
       "durationMin": 30,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -10714,6 +11007,7 @@ window.KIZ_DATA = {
       "durationMin": 33,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10751,6 +11045,7 @@ window.KIZ_DATA = {
       "durationMin": 67,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -10776,6 +11071,7 @@ window.KIZ_DATA = {
       "durationMin": 21,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -10801,6 +11097,7 @@ window.KIZ_DATA = {
       "durationMin": 179,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -10838,6 +11135,7 @@ window.KIZ_DATA = {
       "durationMin": 112,
       "scoringSetting": 3,
       "board": null,
+      "comments": "凶徒之死",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -10886,6 +11184,7 @@ window.KIZ_DATA = {
       "durationMin": 224,
       "scoringSetting": 1,
       "board": "2号版图／商路扩展",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -10923,6 +11222,7 @@ window.KIZ_DATA = {
       "durationMin": 38,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10961,6 +11261,7 @@ window.KIZ_DATA = {
       "durationMin": 48,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -10999,6 +11300,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -11037,6 +11339,7 @@ window.KIZ_DATA = {
       "durationMin": 54,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11062,6 +11365,7 @@ window.KIZ_DATA = {
       "durationMin": 62,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11087,6 +11391,7 @@ window.KIZ_DATA = {
       "durationMin": 155,
       "scoringSetting": 3,
       "board": null,
+      "comments": "回忆杀",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11135,6 +11440,7 @@ window.KIZ_DATA = {
       "durationMin": 114,
       "scoringSetting": 3,
       "board": null,
+      "comments": "迷雾重重",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11159,6 +11465,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "码头血案",
       "playerScores": [
         {
           "playerRefId": 8,
@@ -11202,6 +11509,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "日落谋杀案",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -11245,6 +11553,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "结案追踪",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -11282,6 +11591,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "血色医师",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -11319,6 +11629,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "万圣夜谋杀案",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11356,6 +11667,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "码头血案",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11375,6 +11687,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "日落谋杀案",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11394,6 +11707,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "劫案追踪",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11413,6 +11727,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "血色医师",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11432,6 +11747,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "最后的拥抱",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11451,6 +11767,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "万圣夜谋杀案",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11470,6 +11787,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "鬼灵之谜",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11489,6 +11807,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "球赛终局",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11508,6 +11827,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "黑色之王",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11527,6 +11847,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "绯红迷情",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11551,6 +11872,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "节庆医师",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11575,6 +11897,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "马德里的名画",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11599,6 +11922,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "黑帮安魂曲",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11623,6 +11947,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "凶徒末路",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11647,6 +11972,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "回忆杀",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11671,6 +11997,7 @@ window.KIZ_DATA = {
       "durationMin": 34,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -11708,6 +12035,7 @@ window.KIZ_DATA = {
       "durationMin": 114,
       "scoringSetting": 3,
       "board": null,
+      "comments": "谍影重重",
       "playerScores": [
         {
           "playerRefId": 2,
@@ -11756,6 +12084,7 @@ window.KIZ_DATA = {
       "durationMin": 228,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11798,6 +12127,7 @@ window.KIZ_DATA = {
       "durationMin": 154,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -11834,6 +12164,7 @@ window.KIZ_DATA = {
       "durationMin": 232,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -11882,6 +12213,7 @@ window.KIZ_DATA = {
       "durationMin": 20,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 29,
@@ -11920,6 +12252,7 @@ window.KIZ_DATA = {
       "durationMin": 194,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -11957,6 +12290,7 @@ window.KIZ_DATA = {
       "durationMin": 104,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -11994,6 +12328,7 @@ window.KIZ_DATA = {
       "durationMin": 28,
       "scoringSetting": 6,
       "board": null,
+      "comments": "红HND",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12019,6 +12354,7 @@ window.KIZ_DATA = {
       "durationMin": 24,
       "scoringSetting": 6,
       "board": null,
+      "comments": "红GIG",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12044,6 +12380,7 @@ window.KIZ_DATA = {
       "durationMin": 13,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12074,6 +12411,7 @@ window.KIZ_DATA = {
       "durationMin": 117,
       "scoringSetting": 3,
       "board": null,
+      "comments": "迷雾重重",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12122,6 +12460,7 @@ window.KIZ_DATA = {
       "durationMin": 63,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12165,6 +12504,7 @@ window.KIZ_DATA = {
       "durationMin": 150,
       "scoringSetting": 6,
       "board": null,
+      "comments": "入门难度",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12196,6 +12536,7 @@ window.KIZ_DATA = {
       "durationMin": 160,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -12238,6 +12579,7 @@ window.KIZ_DATA = {
       "durationMin": 42,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12275,6 +12617,7 @@ window.KIZ_DATA = {
       "durationMin": 136,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12312,6 +12655,7 @@ window.KIZ_DATA = {
       "durationMin": 34,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12349,6 +12693,7 @@ window.KIZ_DATA = {
       "durationMin": 119,
       "scoringSetting": 1,
       "board": "1",
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -12380,6 +12725,7 @@ window.KIZ_DATA = {
       "durationMin": 38,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12411,6 +12757,7 @@ window.KIZ_DATA = {
       "durationMin": 61,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 60,
@@ -12442,6 +12789,7 @@ window.KIZ_DATA = {
       "durationMin": 39,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -12479,6 +12827,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12516,6 +12865,7 @@ window.KIZ_DATA = {
       "durationMin": 19,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 4,
@@ -12553,6 +12903,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12590,6 +12941,7 @@ window.KIZ_DATA = {
       "durationMin": 51,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12627,6 +12979,7 @@ window.KIZ_DATA = {
       "durationMin": 111,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12658,6 +13011,7 @@ window.KIZ_DATA = {
       "durationMin": 15,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12695,6 +13049,7 @@ window.KIZ_DATA = {
       "durationMin": 49,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12732,6 +13087,7 @@ window.KIZ_DATA = {
       "durationMin": 35,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -12769,6 +13125,7 @@ window.KIZ_DATA = {
       "durationMin": 66,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -12806,6 +13163,7 @@ window.KIZ_DATA = {
       "durationMin": 141,
       "scoringSetting": 3,
       "board": null,
+      "comments": "最佳冷盘",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12830,6 +13188,7 @@ window.KIZ_DATA = {
       "durationMin": 77,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 49,
@@ -12867,6 +13226,7 @@ window.KIZ_DATA = {
       "durationMin": 65,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -12915,6 +13275,7 @@ window.KIZ_DATA = {
       "durationMin": 205,
       "scoringSetting": 3,
       "board": null,
+      "comments": "最佳冷盘",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -12963,6 +13324,7 @@ window.KIZ_DATA = {
       "durationMin": 71,
       "scoringSetting": 3,
       "board": null,
+      "comments": "夺命群鸦",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -12987,6 +13349,7 @@ window.KIZ_DATA = {
       "durationMin": 21,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 61,
@@ -13018,6 +13381,7 @@ window.KIZ_DATA = {
       "durationMin": 15,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 61,
@@ -13049,6 +13413,7 @@ window.KIZ_DATA = {
       "durationMin": 32,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -13080,6 +13445,7 @@ window.KIZ_DATA = {
       "durationMin": 70,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 61,
@@ -13111,6 +13477,7 @@ window.KIZ_DATA = {
       "durationMin": 35,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13142,6 +13509,7 @@ window.KIZ_DATA = {
       "durationMin": 13,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -13172,6 +13540,7 @@ window.KIZ_DATA = {
       "durationMin": 120,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -13203,6 +13572,7 @@ window.KIZ_DATA = {
       "durationMin": 189,
       "scoringSetting": 3,
       "board": null,
+      "comments": "夺命群鸦",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -13251,6 +13621,7 @@ window.KIZ_DATA = {
       "durationMin": 38,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 64,
@@ -13300,6 +13671,7 @@ window.KIZ_DATA = {
       "durationMin": 57,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 63,
@@ -13361,6 +13733,7 @@ window.KIZ_DATA = {
       "durationMin": 35,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 65,
@@ -13422,6 +13795,7 @@ window.KIZ_DATA = {
       "durationMin": 65,
       "scoringSetting": 3,
       "board": null,
+      "comments": "码头血案",
       "playerScores": [
         {
           "playerRefId": 67,
@@ -13459,6 +13833,7 @@ window.KIZ_DATA = {
       "durationMin": 83,
       "scoringSetting": 3,
       "board": null,
+      "comments": "日落谋杀案",
       "playerScores": [
         {
           "playerRefId": 67,
@@ -13496,6 +13871,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "8",
       "playerScores": [
         {
           "playerRefId": 73,
@@ -13533,6 +13909,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "8",
       "playerScores": [
         {
           "playerRefId": 73,
@@ -13570,6 +13947,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "9",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13607,6 +13985,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "9",
       "playerScores": [
         {
           "playerRefId": 72,
@@ -13644,6 +14023,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "10",
       "playerScores": [
         {
           "playerRefId": 73,
@@ -13681,6 +14061,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "10",
       "playerScores": [
         {
           "playerRefId": 73,
@@ -13718,6 +14099,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "11",
       "playerScores": [
         {
           "playerRefId": 72,
@@ -13755,6 +14137,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "11",
       "playerScores": [
         {
           "playerRefId": 71,
@@ -13792,6 +14175,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "11",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13829,6 +14213,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -13866,6 +14251,7 @@ window.KIZ_DATA = {
       "durationMin": 40,
       "scoringSetting": 3,
       "board": null,
+      "comments": "劫案追踪",
       "playerScores": [
         {
           "playerRefId": 67,
@@ -13903,6 +14289,7 @@ window.KIZ_DATA = {
       "durationMin": 110,
       "scoringSetting": 3,
       "board": null,
+      "comments": "血色医师",
       "playerScores": [
         {
           "playerRefId": 61,
@@ -13940,6 +14327,7 @@ window.KIZ_DATA = {
       "durationMin": 15,
       "scoringSetting": 6,
       "board": null,
+      "comments": "12",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -13977,6 +14365,7 @@ window.KIZ_DATA = {
       "durationMin": 19,
       "scoringSetting": 6,
       "board": null,
+      "comments": "12",
       "playerScores": [
         {
           "playerRefId": 67,
@@ -14014,6 +14403,7 @@ window.KIZ_DATA = {
       "durationMin": 77,
       "scoringSetting": 1,
       "board": null,
+      "comments": "1月",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -14051,6 +14441,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 1,
       "board": null,
+      "comments": "一月第二次",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -14088,6 +14479,7 @@ window.KIZ_DATA = {
       "durationMin": 42,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 61,
@@ -14143,6 +14535,7 @@ window.KIZ_DATA = {
       "durationMin": 29,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 62,
@@ -14198,6 +14591,7 @@ window.KIZ_DATA = {
       "durationMin": 25,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 61,
@@ -14253,6 +14647,7 @@ window.KIZ_DATA = {
       "durationMin": 14,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -14308,6 +14703,7 @@ window.KIZ_DATA = {
       "durationMin": 11,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 15,
@@ -14339,6 +14735,7 @@ window.KIZ_DATA = {
       "durationMin": 88,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 14,
@@ -14382,6 +14779,7 @@ window.KIZ_DATA = {
       "durationMin": 72,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 15,
@@ -14425,6 +14823,7 @@ window.KIZ_DATA = {
       "durationMin": 100,
       "scoringSetting": 3,
       "board": null,
+      "comments": "最后的拥抱",
       "playerScores": [
         {
           "playerRefId": 61,
@@ -14462,6 +14861,7 @@ window.KIZ_DATA = {
       "durationMin": 14,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14499,6 +14899,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -14536,6 +14937,7 @@ window.KIZ_DATA = {
       "durationMin": 28,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14579,6 +14981,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14622,6 +15025,7 @@ window.KIZ_DATA = {
       "durationMin": 14,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14665,6 +15069,7 @@ window.KIZ_DATA = {
       "durationMin": 90,
       "scoringSetting": 3,
       "board": null,
+      "comments": "万圣夜谋杀案",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -14702,6 +15107,7 @@ window.KIZ_DATA = {
       "durationMin": 97,
       "scoringSetting": 3,
       "board": null,
+      "comments": "鬼灵之谜",
       "playerScores": [
         {
           "playerRefId": 61,
@@ -14739,6 +15145,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "13",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14776,6 +15183,7 @@ window.KIZ_DATA = {
       "durationMin": 25,
       "scoringSetting": 6,
       "board": null,
+      "comments": "13",
       "playerScores": [
         {
           "playerRefId": 67,
@@ -14813,6 +15221,7 @@ window.KIZ_DATA = {
       "durationMin": 86,
       "scoringSetting": 1,
       "board": null,
+      "comments": "2月",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -14850,6 +15259,7 @@ window.KIZ_DATA = {
       "durationMin": 71,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 17,
@@ -14887,6 +15297,7 @@ window.KIZ_DATA = {
       "durationMin": 17,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -14927,6 +15338,7 @@ window.KIZ_DATA = {
       "durationMin": 84,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -14976,6 +15388,7 @@ window.KIZ_DATA = {
       "durationMin": 16,
       "scoringSetting": 2,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -15025,6 +15438,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 6,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -15074,6 +15488,7 @@ window.KIZ_DATA = {
       "durationMin": 111,
       "scoringSetting": 3,
       "board": null,
+      "comments": "球赛终局",
       "playerScores": [
         {
           "playerRefId": 30,
@@ -15111,6 +15526,7 @@ window.KIZ_DATA = {
       "durationMin": 22,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -15148,6 +15564,7 @@ window.KIZ_DATA = {
       "durationMin": 95,
       "scoringSetting": 1,
       "board": null,
+      "comments": "4月",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -15185,6 +15602,7 @@ window.KIZ_DATA = {
       "durationMin": 100,
       "scoringSetting": 1,
       "board": null,
+      "comments": "5月",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -15222,6 +15640,7 @@ window.KIZ_DATA = {
       "durationMin": 63,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -15265,6 +15684,7 @@ window.KIZ_DATA = {
       "durationMin": 53,
       "scoringSetting": 3,
       "board": null,
+      "comments": "49",
       "playerScores": [
         {
           "playerRefId": 34,
@@ -15308,6 +15728,7 @@ window.KIZ_DATA = {
       "durationMin": 43,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -15351,6 +15772,7 @@ window.KIZ_DATA = {
       "durationMin": 189,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 31,
@@ -15393,6 +15815,7 @@ window.KIZ_DATA = {
       "durationMin": 78,
       "scoringSetting": 6,
       "board": null,
+      "comments": "5月",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -15430,6 +15853,7 @@ window.KIZ_DATA = {
       "durationMin": 58,
       "scoringSetting": 6,
       "board": null,
+      "comments": "6月",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -15467,6 +15891,7 @@ window.KIZ_DATA = {
       "durationMin": 35,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -15509,6 +15934,7 @@ window.KIZ_DATA = {
       "durationMin": 12,
       "scoringSetting": 6,
       "board": null,
+      "comments": "教学",
       "playerScores": [
         {
           "playerRefId": 28,
@@ -15552,6 +15978,7 @@ window.KIZ_DATA = {
       "durationMin": 60,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 3,
@@ -15613,6 +16040,7 @@ window.KIZ_DATA = {
       "durationMin": 30,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 1,
@@ -15644,6 +16072,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 7,
@@ -15687,6 +16116,7 @@ window.KIZ_DATA = {
       "durationMin": 18,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 34,
@@ -15718,6 +16148,7 @@ window.KIZ_DATA = {
       "durationMin": 36,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 34,
@@ -15755,6 +16186,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 1,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 15,
@@ -15797,6 +16229,7 @@ window.KIZ_DATA = {
       "durationMin": 0,
       "scoringSetting": 3,
       "board": null,
+      "comments": "",
       "playerScores": [
         {
           "playerRefId": 67,

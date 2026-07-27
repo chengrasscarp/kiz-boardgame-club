@@ -174,6 +174,7 @@ def filter_plays(raw_plays, player_ids):
             "durationMin": p.get("durationMin", 0),
             "scoringSetting": p.get("scoringSetting"),
             "board": p.get("board"),
+            "comments": p.get("comments", ""),
             "playerScores": player_scores,
             # 透传扩展引用，供 compute_play_counts 统计扩展游玩次数
             "expansionPlays": [

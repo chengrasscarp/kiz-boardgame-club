@@ -399,6 +399,15 @@ input, select { font-family: inherit; }
   color: var(--color-text-muted);
 }
 
+.timeline-comment {
+  font-size: 12px;
+  color: var(--color-text-light);
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--color-border);
+  line-height: 1.4;
+}
+
 /* ===== Member Card ===== */
 .member-card {
   text-align: center;
@@ -688,7 +697,7 @@ input, select { font-family: inherit; }
 }
 
 .profile-recent-score {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
   font-size: 13px;
   min-width: 50px;
   text-align: right;
