@@ -789,17 +789,24 @@ function renderMemberProfile() {
   }
 
   var winMaps = buildWinRateMaps();
+
+  // Build valid game ID set (仅统计仍在游戏库中的游戏)
+  var validGameIds = {};
+  for (var vi = 0; vi < data.games.length; vi++) { validGameIds[data.games[vi].id] = true; }
+
   var playsByPlayer = {};
   var playerGames = {};
 
   // Gather all plays and game stats for this player
   for (var pi = 0; pi < data.plays.length; pi++) {
     var play = data.plays[pi];
+    var gid = play.gameRefId;
+    // 跳过已不在游戏库里的对局
+    if (!validGameIds[gid]) continue;
     for (var sj = 0; sj < play.playerScores.length; sj++) {
       var ps = play.playerScores[sj];
       if (ps.playerRefId === playerId) {
         playsByPlayer[play.uuid] = play;
-        var gid = play.gameRefId;
         if (!playerGames[gid]) playerGames[gid] = { plays: 0, wins: 0, totalScore: 0, scoreRounds: 0 };
         playerGames[gid].plays++;
         if (ps.winner) playerGames[gid].wins++;
