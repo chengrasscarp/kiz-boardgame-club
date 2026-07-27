@@ -962,24 +962,29 @@ function renderMemberProfile() {
       for (var ssi2 = 0; ssi2 < sp.playerScores.length; ssi2++) {
         if (sp.playerScores[ssi2].score) { playHasScore = true; break; }
       }
-      // 计分局显示分数，不计分局显示胜负结果
+      // 计分局显示分数，不计分局显示胜负（胜负文字放分数列对齐）
       var scoreStr = '';
-      var resultStr = '';
+      var trophyStr = '';
       if (myPs) {
         if (playHasScore) {
           if (myPs.score) {
             scoreStr = ' · ' + myPs.score + '分';
-            if (myPs.winner) resultStr = ' 🏆';
+            if (myPs.winner) trophyStr = ' 🏆';
           }
           // 记分局但此人无分数 → 不显示结果
         } else {
-          // 不计分对局：输赢都标上
-          resultStr = myPs.winner ? ' 🏆 胜' : ' 败';
+          // 不计分对局：🏆 留在游戏名右边，胜/败放到分数列
+          if (myPs.winner) {
+            trophyStr = ' 🏆';
+            scoreStr = '胜';
+          } else {
+            scoreStr = '败';
+          }
         }
       }
       html += '<div class="profile-recent-item">' +
         '<span class="profile-recent-date">' + formatDate(sp.playDateYmd) + '</span>' +
-        '<span class="profile-recent-game">' + gn3 + resultStr + '</span>' +
+        '<span class="profile-recent-game">' + gn3 + trophyStr + '</span>' +
         '<span class="profile-recent-loc">' + loc + '</span>' +
         '<span class="profile-recent-score">' + scoreStr + '</span>' +
       '</div>';
