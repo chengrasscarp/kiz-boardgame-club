@@ -576,11 +576,24 @@ input, select { font-family: inherit; }
 }
 
 .profile-back {
-  display: inline-block;
-  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
   color: var(--color-text-muted);
   text-decoration: none;
-  margin-top: 4px;
+  margin-top: 8px;
+  padding: 6px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
+  transition: all .15s;
+}
+
+.profile-back:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background: var(--color-white);
 }
 
 .profile-back:hover {

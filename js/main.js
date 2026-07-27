@@ -612,18 +612,16 @@ function renderPlayRecords() {
         if (play.playerScores[si].score) { hasScoring = true; break; }
       }
 
-      // 玩家列表：若记分则附带分数，赢家加 🏆
+      // 玩家列表：记分对局中非冠军玩家展示分数，冠军的分数/🏆 已在顶部游戏名行展示不重复
       var playerNames = '';
       for (var si2 = 0; si2 < play.playerScores.length; si2++) {
         var ps = play.playerScores[si2];
         var pn = getPlayerNameById(ps.playerRefId);
         if (si2 > 0) playerNames += ' · ';
         playerNames += pn;
-        if (hasScoring && ps.score) {
+        // 非冠军玩家才记分数（冠军的分数已显示在游戏名右边）
+        if (hasScoring && ps.score && !ps.winner) {
           playerNames += ' ' + ps.score + '分';
-        }
-        if (ps.winner) {
-          playerNames += ' 🏆';
         }
       }
 
@@ -959,11 +957,29 @@ function renderMemberProfile() {
       for (var ssi = 0; ssi < sp.playerScores.length; ssi++) {
         if (sp.playerScores[ssi].playerRefId === playerId) { myPs = sp.playerScores[ssi]; break; }
       }
-      var scoreStr = myPs && myPs.score ? ' · ' + myPs.score + '分' : '';
-      var winStr = myPs && myPs.winner ? ' 🏆' : '';
+      // 判断这局是否有分数（有任一玩家记了分就算记分局）
+      var playHasScore = false;
+      for (var ssi2 = 0; ssi2 < sp.playerScores.length; ssi2++) {
+        if (sp.playerScores[ssi2].score) { playHasScore = true; break; }
+      }
+      // 计分局显示分数，不计分局显示胜负结果
+      var scoreStr = '';
+      var resultStr = '';
+      if (myPs) {
+        if (playHasScore) {
+          if (myPs.score) {
+            scoreStr = ' · ' + myPs.score + '分';
+            if (myPs.winner) resultStr = ' 🏆';
+          }
+          // 记分局但此人无分数 → 不显示结果
+        } else {
+          // 不计分对局：输赢都标上
+          resultStr = myPs.winner ? ' 🏆 胜' : ' 败';
+        }
+      }
       html += '<div class="profile-recent-item">' +
         '<span class="profile-recent-date">' + formatDate(sp.playDateYmd) + '</span>' +
-        '<span class="profile-recent-game">' + gn3 + winStr + '</span>' +
+        '<span class="profile-recent-game">' + gn3 + resultStr + '</span>' +
         '<span class="profile-recent-loc">' + loc + '</span>' +
         '<span class="profile-recent-score">' + scoreStr + '</span>' +
       '</div>';
