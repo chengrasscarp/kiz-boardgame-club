@@ -164,6 +164,8 @@ def filter_plays(raw_plays, player_ids):
 
         if not has_grad:
             continue
+        if len(player_scores) < 2:
+            continue
 
         plays.append({
             "uuid": p["uuid"],
