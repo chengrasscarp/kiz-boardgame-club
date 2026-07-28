@@ -625,6 +625,20 @@ function renderPlayRecords() {
         }
       }
 
+      // 扩展信息
+      var expHtml = '';
+      if (play.expansionPlays && play.expansionPlays.length > 0) {
+        var expNames = [];
+        for (var ei = 0; ei < play.expansionPlays.length; ei++) {
+          var expGid = play.expansionPlays[ei].gameRefId;
+          var expGame = gameById[expGid];
+          if (expGame) expNames.push(expGame.name);
+        }
+        if (expNames.length > 0) {
+          expHtml = '<div class="timeline-expansion">🧩 ' + expNames.join('、') + '</div>';
+        }
+      }
+
       var commentHtml = '';
       if (play.comments) {
         commentHtml = '<div class="timeline-comment">📝 ' + play.comments + '</div>';
@@ -637,6 +651,7 @@ function renderPlayRecords() {
           '<div class="timeline-game">' + gameName +
             (winner ? ' <span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
           '</div>' +
+          expHtml +
           '<div class="timeline-players">👥 ' + playerNames + '</div>' +
           commentHtml +
         '</div>' +
