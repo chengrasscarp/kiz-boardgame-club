@@ -32,6 +32,9 @@ VALID_LOCATION_IDS = {1, 2, 18}    # 茨坝405, 茨坝104, 茨坝205
 GRAD_STUDENT_TAG_ID = 3           # 研究生标签
 DEANONYMIZE_IDS = {1, 3, 4, 7, 28}   # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、王乐桐
 
+# 允许单人游玩的对局游戏（如单人破案/剧情游戏，虽仅1人但保留统计）
+SOLO_ALLOWED_GAME_IDS = {6, 16, 18, 19}  # 罪案疑云系列
+
 # 本地游戏封面覆盖：游戏名 -> 站点内相对路径。
 # 用于 BGStats 导出里缺失封面的游戏（如三国杀：欢乐斗地主）。
 # 注意：图片必须放在被 git 跟踪的 img/ 下（网站素材/ 已被 .gitignore 忽略，不会被部署）。
@@ -164,7 +167,8 @@ def filter_plays(raw_plays, player_ids):
 
         if not has_grad:
             continue
-        if len(player_scores) < 2:
+        # 单人局过滤：仅允许白名单中的游戏(如罪案疑云单人破案)
+        if len(player_scores) < 2 and p.get("gameRefId") not in SOLO_ALLOWED_GAME_IDS:
             continue
 
         plays.append({

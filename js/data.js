@@ -2918,6 +2918,31 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "46E53EA3-D63F-49D3-AEAD-6B075FF2E388",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20250629,
+      "playDate": "2025-06-29 11:17:25",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "谍影重重",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
+        }
+      ]
+    },
+    {
       "uuid": "030EDAA3-348C-401B-BC89-65A8ED6D9A1A",
       "gameRefId": 33,
       "locationRefId": 1,
@@ -6647,6 +6672,31 @@ window.KIZ_DATA = {
         }
       ],
       "expansionPlays": []
+    },
+    {
+      "uuid": "C5957886-689B-4279-8E27-6DAC6971CFBF",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20250927,
+      "playDate": "2025-09-27 11:19:57",
+      "durationMin": 63,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
+        }
+      ]
     },
     {
       "uuid": "4495A6E1-D3AE-412F-B595-8BB2C0CBACAA",
@@ -10804,6 +10854,31 @@ window.KIZ_DATA = {
       ]
     },
     {
+      "uuid": "B6D6585E-1991-4265-93FB-B8CF32DEE1F3",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260308,
+      "playDate": "2026-03-08 16:10:27",
+      "durationMin": 114,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "迷雾重重",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
+        }
+      ]
+    },
+    {
       "uuid": "E1889B0C-E588-47B4-BA8B-47D982E7D0E7",
       "gameRefId": 6,
       "locationRefId": 1,
@@ -11004,6 +11079,336 @@ window.KIZ_DATA = {
         }
       ],
       "expansionPlays": []
+    },
+    {
+      "uuid": "A8FE56B5-3201-4617-A000-39D48B34D003",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 16:31:39",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "码头血案",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "807DB16D-1A90-4AC2-834C-A3BC03992D29",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 16:44:04",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "日落谋杀案",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "2EC774CB-C9ED-48CD-A5AA-432B381D7C17",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:37:38",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "劫案追踪",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "4A72DAFF-F6A1-428C-B646-105E176B0D59",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:37:56",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "血色医师",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "300F094D-72F6-4138-85F4-5B786F284545",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:38:09",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "最后的拥抱",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "2D6F6C1C-9174-4F46-84C9-1E27F83D45A4",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:38:20",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "万圣夜谋杀案",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "5B21E326-EE37-4E78-9F78-D485D22DDA1E",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:38:43",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "鬼灵之谜",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "0D778136-4CD1-479D-899E-FE3600EDB1C0",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:39:14",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "球赛终局",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "E44BAAAF-14D9-4DA9-B56F-1B804367CAB2",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:39:35",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "黑色之王",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "FFB73D96-4759-4AA5-84FD-7EC41AA1D0FA",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:39:51",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "绯红迷情",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
+        }
+      ]
+    },
+    {
+      "uuid": "19DDCE95-4BB7-407B-985A-824E326B7FBE",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:40:15",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "节庆医师",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
+        }
+      ]
+    },
+    {
+      "uuid": "ED5D8799-A057-41C7-AC02-7544B16BFC98",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:40:26",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "马德里的名画",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
+        }
+      ]
+    },
+    {
+      "uuid": "9B8E7DA8-8C56-492B-B73F-97A94D27F232",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:40:49",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "黑帮安魂曲",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 16
+        }
+      ]
+    },
+    {
+      "uuid": "0AA0C7FC-D0FE-4269-8335-62E066E593C0",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:41:15",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "凶徒末路",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
+        }
+      ]
+    },
+    {
+      "uuid": "C307CDFB-0D23-4986-9395-7869576E67E8",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260310,
+      "playDate": "2026-03-10 20:41:39",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "回忆杀",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 18
+        }
+      ]
     },
     {
       "uuid": "53991970-B9AC-4B5A-9C44-747284F41DEA",
@@ -12172,6 +12577,31 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "3307C969-431F-471A-831C-A63B2B97F4E4",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260523,
+      "playDate": "2026-05-23 10:10:51",
+      "durationMin": 141,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "最佳冷盘",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
+        }
+      ]
+    },
+    {
       "uuid": "A97D7E9B-A348-4E11-A76E-928CAB51F555",
       "gameRefId": 93,
       "locationRefId": 1,
@@ -12298,6 +12728,31 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 19
+        }
+      ]
+    },
+    {
+      "uuid": "79B6B398-27B3-4BBF-A1B8-F18F7CF4E2DB",
+      "gameRefId": 6,
+      "locationRefId": 1,
+      "playDateYmd": 20260606,
+      "playDate": "2026-06-06 10:44:24",
+      "durationMin": 71,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "夺命群鸦",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [
@@ -15459,7 +15914,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/xWdK1lL-2ZTdzBZGYjjqkw__original/img/952nbRCH-EE0TtcMD_Cpol0tRXQ=/0x0/filters:format(jpeg)/pic3469246.jpg",
       "urlThumb": "https://cf.geekdo-images.com/xWdK1lL-2ZTdzBZGYjjqkw__thumb/img/wl_YxOhd-S6QbpyHAQZGhV109rw=/fit-in/200x150/filters:strip_icc()/pic3469246.jpg",
       "isExpansion": 0,
-      "playCount": 27,
+      "playCount": 47,
       "bggRank": 645,
       "bggRating": 7.84709,
       "complexity": 2.4,
@@ -15750,7 +16205,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__original/img/dcwvexXJ3-hZQRvbU24tZMMy_7E=/0x0/filters:format(png)/pic4806093.png",
       "urlThumb": "https://cf.geekdo-images.com/ua6gMRaaxQgI1d_uo1n17A__thumb/img/qH4wf8jVQHZfF0dOFIF1CcB68xQ=/fit-in/200x150/filters:strip_icc()/pic4806093.png",
       "isExpansion": 1,
-      "playCount": 4,
+      "playCount": 8,
       "bggRank": null,
       "bggRating": 8.38283,
       "complexity": 2.9,
@@ -15825,7 +16280,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__original/img/rSXfW0NzjfzcuhOUJiAuaneIbMA=/0x0/filters:format(jpeg)/pic8382627.jpg",
       "urlThumb": "https://cf.geekdo-images.com/LAkkAXEZTxq7b7e3CY3zdQ__thumb/img/owJK8ZyWOPvDLxxiSfieOUbyGfo=/fit-in/200x150/filters:strip_icc()/pic8382627.jpg",
       "isExpansion": 1,
-      "playCount": 3,
+      "playCount": 6,
       "bggRank": null,
       "bggRating": 8.58085,
       "complexity": 2.0,
@@ -15858,7 +16313,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__original/img/1cX0pOz1e1DxMjRHhFYORBQb2LE=/0x0/filters:format(jpeg)/pic6653145.jpg",
       "urlThumb": "https://cf.geekdo-images.com/L5XPUpVkVoNyVmyfY2To7A__thumb/img/_NxfExq2zQkZcobedKuPPwPk6mU=/fit-in/200x150/filters:strip_icc()/pic6653145.jpg",
       "isExpansion": 1,
-      "playCount": 4,
+      "playCount": 8,
       "bggRank": null,
       "bggRating": 8.46008,
       "complexity": 2.7,
@@ -18228,11 +18683,11 @@ window.KIZ_DATA = {
     }
   ],
   "stats": {
-    "totalPlays": 385,
+    "totalPlays": 405,
     "totalPlayers": 54,
     "totalGames": 81,
-    "avgPlaysPerGame": 4.8,
-    "avgPlaysPerPlayer": 7.1,
+    "avgPlaysPerGame": 5.0,
+    "avgPlaysPerPlayer": 7.5,
     "topGames": [
       {
         "gameRefId": 20,
@@ -18240,7 +18695,7 @@ window.KIZ_DATA = {
       },
       {
         "gameRefId": 6,
-        "count": 27
+        "count": 47
       },
       {
         "gameRefId": 61,
@@ -18278,7 +18733,7 @@ window.KIZ_DATA = {
     "topPlayers": [
       {
         "playerRefId": 1,
-        "count": 356
+        "count": 376
       },
       {
         "playerRefId": 3,
