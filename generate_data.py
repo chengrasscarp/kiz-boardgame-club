@@ -96,25 +96,27 @@ def filter_players(raw_players):
     for p in raw_players:
         tag_ids = {t["tagRefId"] for t in p.get("tags", [])}
         if GRAD_STUDENT_TAG_ID in tag_ids:
-            # Only keep avatar color for specific players
-            # 桌友05 = 陈勇杰 (photo loaded from img/, color as fallback)
             avatar_color = None
-            if p["id"] == 1:  # 陈勇杰
-                try:
-                    meta = json.loads(p.get("metaData", "{}"))
+            bga_username = ""
+            try:
+                meta = json.loads(p.get("metaData", "{}"))
+                # 提取 BGA 用户名（从 metaData 中）
+                bga_username = (meta.get("bgaUsername") or "").strip()
+                # 陈勇杰头像颜色
+                if p["id"] == 1:
                     avatar = meta.get("playerAvatar")
                     if avatar and avatar.get("color"):
                         h, s, b = avatar["color"]
                         avatar_color = f"hsl({int(h*360)},{int(s*100)}%,{int(b*80)}%)"
-                except (json.JSONDecodeError, KeyError, ValueError):
-                    pass
+            except (json.JSONDecodeError, KeyError, ValueError):
+                pass
 
             players.append({
                 "id": p["id"],
                 "name": p["name"],
                 "uuid": p["uuid"],
                 "avatarColor": avatar_color,
-                "bggUsername": p.get("bggUsername", "") or "",
+                "bgaUsername": bga_username,
             })
             player_ids.add(p["id"])
 

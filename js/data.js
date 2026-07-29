@@ -6,378 +6,378 @@ window.KIZ_DATA = {
       "name": "陈勇杰",
       "uuid": "20525577-2614-418F-9423-0DF44DAA5B21",
       "avatarColor": "hsl(150,10%,77%)",
-      "bggUsername": "Grasscarp"
+      "bgaUsername": "Grasscarp2025"
     },
     {
       "id": 2,
       "name": "桌友34",
       "uuid": "D8EFC582-19FE-41FD-B2FC-1E7197394474",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 3,
       "name": "白如",
       "uuid": "8B7B3A22-32F1-4211-8984-A81C21E90534",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": "BaiR13"
     },
     {
       "id": 4,
       "name": "梁能涛",
       "uuid": "C49B4B10-827B-4E70-8AA1-C03F790504BC",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": "henshui"
     },
     {
       "id": 5,
       "name": "桌友36",
       "uuid": "99D89905-81E0-467C-ACDC-A5286DFDC9D1",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 6,
       "name": "桌友08",
       "uuid": "8A6AF849-D4B3-4968-8285-301B90BFF3FB",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 7,
       "name": "朱晨阳",
       "uuid": "81329C92-84B7-4A3E-971F-03522B7B0F8E",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": "asuanana"
     },
     {
       "id": 8,
       "name": "桌友40",
       "uuid": "B732F611-2BEA-4CF4-A02D-27FB84F0F4FD",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 9,
       "name": "桌友29",
       "uuid": "00DE0C9A-F06C-42DB-AA16-1A28A868AB52",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 10,
       "name": "桌友17",
       "uuid": "D17797A2-4450-4E91-954A-09CDE6ED7D54",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 11,
       "name": "桌友42",
       "uuid": "D0962917-C9FB-461C-AC56-F219EDA78229",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 12,
       "name": "桌友21",
       "uuid": "E5FBD6F8-0039-4957-8E2C-1C661796249C",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 13,
       "name": "桌友02",
       "uuid": "4CDC2E79-5678-414E-A7F2-F545B5F1ED3B",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 14,
       "name": "桌友16",
       "uuid": "95E9BCA9-8694-4C75-AECA-366911AFD71C",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 15,
       "name": "桌友13",
       "uuid": "4C5152B2-37C3-4338-8377-98BCBA736A97",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 16,
       "name": "桌友46",
       "uuid": "15F929E7-EC1A-441B-A818-17B23ADBCFA5",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 17,
       "name": "桌友09",
       "uuid": "3F88333E-64D6-422B-A546-3AECC7ADA297",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 21,
       "name": "桌友30",
       "uuid": "62B3F625-5B3C-4D29-9DE3-0D6A0464EB09",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 22,
       "name": "桌友31",
       "uuid": "3CFCAB35-1F22-49BD-BE35-3FBBCB00F1BF",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 23,
       "name": "桌友19",
       "uuid": "EC7D13DB-2CB5-499A-A4E8-902E7D9A4C99",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 24,
       "name": "桌友11",
       "uuid": "4DA3948A-819A-4270-93B5-43001862E71F",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 25,
       "name": "桌友25",
       "uuid": "D76C7325-198E-46A9-A0EA-31492443AA28",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 26,
       "name": "桌友14",
       "uuid": "3B291EAE-68D7-48B9-870A-67D28C394500",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 27,
       "name": "桌友20",
       "uuid": "BF9D7E9F-0AB4-4BF9-B68D-9CAC1148D82D",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 28,
       "name": "王乐桐",
       "uuid": "DDECA7A5-A95F-406B-AE4F-C3E55EA047DF",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": "wxl_oens"
     },
     {
       "id": 29,
       "name": "桌友38",
       "uuid": "9E477850-8D56-4574-9B08-9B9AA68076D0",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 30,
       "name": "桌友32",
       "uuid": "DA298E33-9EB5-4367-8AC9-0A1909B3FEB3",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": "crooked table"
     },
     {
       "id": 31,
       "name": "桌友44",
       "uuid": "41AA5F7E-D88D-4A68-B036-F9418B16D017",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 32,
       "name": "桌友22",
       "uuid": "FD818BAA-C784-4B78-8576-F3F62447CFED",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 33,
       "name": "桌友27",
       "uuid": "2A001A4D-0B56-44F0-B17E-61C13645755F",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 34,
       "name": "桌友06",
       "uuid": "AA943BB9-D07A-4F26-B6DC-5EC90C111FEE",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 35,
       "name": "桌友15",
       "uuid": "F73EFD95-68FF-4C50-9C4E-7E395293A535",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 36,
       "name": "桌友24",
       "uuid": "6C65F7BE-9CD5-44DE-B2AD-18A0C3FD9800",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 37,
       "name": "桌友39",
       "uuid": "27275E62-7AD1-4A2C-A251-496CF09BBF6D",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 38,
       "name": "桌友33",
       "uuid": "BF61FF3D-2A5F-4A11-B827-D90861C3E663",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 46,
       "name": "桌友48",
       "uuid": "F5DBA21D-CDA9-49C8-AE43-1F7B8EC1CCF3",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 47,
       "name": "桌友03",
       "uuid": "FBD8FBBE-80DA-4CBB-AFFC-4A82670B2873",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 48,
       "name": "桌友49",
       "uuid": "FF1B0EC7-E8E2-40F7-83F4-A195E0C05D57",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 49,
       "name": "桌友04",
       "uuid": "F3749FAA-CC43-477E-8BE4-D69A156D5815",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 50,
       "name": "桌友43",
       "uuid": "7FA06CC0-A90C-4D86-9378-B246BB718D27",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 51,
       "name": "桌友07",
       "uuid": "7B991CE3-D3EF-425C-9113-40A0314C2F43",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 52,
       "name": "桌友37",
       "uuid": "582A9DFF-4278-44AE-AAAF-E24C46B05DDE",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 60,
       "name": "桌友26",
       "uuid": "2F2C0291-24F9-413F-843E-80CCA507F949",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 61,
       "name": "桌友18",
       "uuid": "15447203-3B6E-47A6-9822-B5DA75A71E7B",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 62,
       "name": "桌友45",
       "uuid": "C55D0BF3-9754-431E-BFD4-90BA2C958626",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 63,
       "name": "桌友05",
       "uuid": "FD04BCFE-621F-4967-BCFC-DA4277F74B7D",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 64,
       "name": "桌友47",
       "uuid": "162C1149-B356-4D3C-9C54-BA353655FC2A",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 65,
       "name": "桌友35",
       "uuid": "F8A8390D-AC72-458D-A6E3-5ED082743E63",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 66,
       "name": "桌友01",
       "uuid": "0158D3BA-4F5C-4DB7-83A1-098A078557C3",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 67,
       "name": "桌友41",
       "uuid": "5B5070F3-3F9E-4E26-84FC-96A06D8A724B",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 71,
       "name": "桌友23",
       "uuid": "32D5E082-5AD6-4BF6-A81D-F461A95ADF4C",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 72,
       "name": "桌友10",
       "uuid": "AA4A44FD-2D1A-4FF1-8708-847F552F509E",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 73,
       "name": "桌友12",
       "uuid": "179DCC69-9F78-4CAB-A8A4-B97CBC6334BB",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     },
     {
       "id": 74,
       "name": "桌友28",
       "uuid": "0F4C00C4-17E3-4F01-9358-978BDD8B293B",
       "avatarColor": null,
-      "bggUsername": ""
+      "bgaUsername": ""
     }
   ],
   "plays": [

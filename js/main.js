@@ -897,8 +897,8 @@ function renderMemberProfile() {
     '<div class="profile-info">' +
       '<h1 class="profile-name">' + player.name + '</h1>';
 
-  if (player.bggUsername) {
-    html += '<div class="profile-bgg">🎲 <a href="https://boardgamegeek.com/user/' + encodeURIComponent(player.bggUsername) + '" target="_blank" rel="noopener">BGG: ' + player.bggUsername + '</a></div>';
+  if (player.bgaUsername) {
+    html += '<div class="profile-bgg">🎮 <a href="https://boardgamearena.com/player?id=' + encodeURIComponent(player.bgaUsername) + '" target="_blank" rel="noopener">BGA: ' + player.bgaUsername + '</a></div>';
   }
 
   html += '<a href="members.html" class="profile-back">← 返回成员墙</a>' +
