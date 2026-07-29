@@ -28,7 +28,7 @@ OUTPUT_FILE = os.path.join(SCRIPT_DIR, "js", "data.js")
 COLLECTION_CSV = os.path.join(SCRIPT_DIR, "collection.csv")
 
 # 筛选参数
-VALID_LOCATION_IDS = {1, 2, 18}    # 茨坝405, 茨坝104, 茨坝205
+VALID_LOCATION_IDS = {1, 2, 8, 10, 18}    # 茨坝405, 茨坝104, 花园桌游小程序, 某人的家, 茨坝205
 GRAD_STUDENT_TAG_ID = 3           # 研究生标签
 DEANONYMIZE_IDS = {1, 3, 4, 7, 28}   # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、王乐桐
 
