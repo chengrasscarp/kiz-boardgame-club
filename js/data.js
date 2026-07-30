@@ -11088,6 +11088,660 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "8A1FB9EF-347A-4F33-BD40-0F5D89E8B865",
+      "gameRefId": 61,
+      "locationRefId": 4,
+      "playDateYmd": 20260209,
+      "playDate": "2026-02-09 15:46:28",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "82",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": -1,
+          "score": "109",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "81",
+          "winner": false,
+          "rank": 3
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "EAE5D45A-F719-4981-877A-723175721440",
+      "gameRefId": 61,
+      "locationRefId": 4,
+      "playDateYmd": 20260211,
+      "playDate": "2026-02-11 00:24:03",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "86",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "81",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": -2,
+          "score": "76",
+          "winner": false,
+          "rank": 3
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "112EE216-EF9A-4D76-81CF-17F6A0492A75",
+      "gameRefId": 61,
+      "locationRefId": 4,
+      "playDateYmd": 20260211,
+      "playDate": "2026-02-11 13:54:15",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "80",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": -3,
+          "score": "80",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "70",
+          "winner": false,
+          "rank": 3
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "2D10034B-3E62-43D8-87C9-C2D18A20F257",
+      "gameRefId": 22,
+      "locationRefId": 4,
+      "playDateYmd": 20260208,
+      "playDate": "2026-02-08 20:32:07",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": -4,
+          "score": "42",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 7,
+          "score": "35",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "56",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "729CB155-06F8-4D8A-852D-9968B8C71DEB",
+      "gameRefId": 61,
+      "locationRefId": 4,
+      "playDateYmd": 20260209,
+      "playDate": "2026-02-09 13:52:15",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "64",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "94",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": -5,
+          "score": "72",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "90DE6FF0-0107-4A7F-8518-5A3AD8E6680B",
+      "gameRefId": 87,
+      "locationRefId": 4,
+      "playDateYmd": 20260209,
+      "playDate": "2026-02-09 18:00:35",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": -6,
+          "score": "56",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "52",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 7,
+          "score": "37",
+          "winner": false,
+          "rank": 5
+        },
+        {
+          "playerRefId": -7,
+          "score": "41",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": -8,
+          "score": "50",
+          "winner": false,
+          "rank": 3
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "22EA9A16-7A07-405F-9383-2D33558F6185",
+      "gameRefId": 22,
+      "locationRefId": 4,
+      "playDateYmd": 20260208,
+      "playDate": "2026-02-08 20:21:08",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": -9,
+          "score": "80",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "50",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 7,
+          "score": "97",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "42C26D29-24E3-4BEE-8DB1-C51E81E7AB35",
+      "gameRefId": 43,
+      "locationRefId": 4,
+      "playDateYmd": 20260214,
+      "playDate": "2026-02-14 21:44:57",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": -10,
+          "score": "174",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "218",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": -11,
+          "score": "218",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 30,
+          "score": "126",
+          "winner": false,
+          "rank": 4
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "16C825F1-0D99-4713-980D-C21E583CE61C",
+      "gameRefId": 61,
+      "locationRefId": 4,
+      "playDateYmd": 20260214,
+      "playDate": "2026-02-14 21:12:30",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "91",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 30,
+          "score": "68",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "09572703-C264-4BCA-9A99-58F73DA6F29C",
+      "gameRefId": 43,
+      "locationRefId": 4,
+      "playDateYmd": 20260216,
+      "playDate": "2026-02-16 19:50:14",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 28,
+          "score": "245",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "166",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "145",
+          "winner": false,
+          "rank": 3
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "239DE04F-553A-41E4-A39D-5244F6F3EF6D",
+      "gameRefId": 87,
+      "locationRefId": 4,
+      "playDateYmd": 20260216,
+      "playDate": "2026-02-16 20:21:46",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": -12,
+          "score": "46",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 3,
+          "score": "40",
+          "winner": false,
+          "rank": 5
+        },
+        {
+          "playerRefId": 1,
+          "score": "68",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": -13,
+          "score": "51",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": -14,
+          "score": "64",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "EBA4F328-7EC7-40D3-B104-7AEB85639BB3",
+      "gameRefId": 43,
+      "locationRefId": 4,
+      "playDateYmd": 20260216,
+      "playDate": "2026-02-16 20:07:07",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": -15,
+          "score": "217",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": -16,
+          "score": "89",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 3,
+          "score": "158",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "43",
+          "winner": false,
+          "rank": 5
+        },
+        {
+          "playerRefId": 28,
+          "score": "192",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "023A19C2-9379-4FFA-ADFE-84ABA536448E",
+      "gameRefId": 61,
+      "locationRefId": 4,
+      "playDateYmd": 20260216,
+      "playDate": "2026-02-16 00:11:57",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 28,
+          "score": "80",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 30,
+          "score": "94",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "80",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "6B7303D3-5404-4645-8C23-09ED8A15ECEE",
+      "gameRefId": 61,
+      "locationRefId": 4,
+      "playDateYmd": 20260215,
+      "playDate": "2026-02-15 22:28:30",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "108",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": -17,
+          "score": "74",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 30,
+          "score": "69",
+          "winner": false,
+          "rank": 3
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "4244D318-D11C-4CEC-9B45-EC98EF4F9CB4",
+      "gameRefId": 77,
+      "locationRefId": 4,
+      "playDateYmd": 20260217,
+      "playDate": "2026-02-17 20:18:49",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "43",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 30,
+          "score": "23",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 28,
+          "score": "22",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": -18,
+          "score": "25",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "79A5E4FD-2879-4657-8872-DD63EBAB7BEB",
+      "gameRefId": 34,
+      "locationRefId": 4,
+      "playDateYmd": 20260219,
+      "playDate": "2026-02-19 23:45:31",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "-2",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": -19,
+          "score": "0",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 28,
+          "score": "1",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "-1",
+          "winner": false,
+          "rank": 3
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "7F87350B-AA25-43AF-A5AA-EDBECD44DA25",
+      "gameRefId": 34,
+      "locationRefId": 4,
+      "playDateYmd": 20260221,
+      "playDate": "2026-02-21 22:42:32",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 28,
+          "score": "1",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": -20,
+          "score": "0",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "-2",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": -21,
+          "score": "-1",
+          "winner": false,
+          "rank": 3
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "AC61D86A-F7FF-4237-B93F-66C3E8C7D26C",
+      "gameRefId": 34,
+      "locationRefId": 4,
+      "playDateYmd": 20260221,
+      "playDate": "2026-02-21 21:29:47",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": -22,
+          "score": "0",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 28,
+          "score": "-1",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "1",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": -23,
+          "score": "-2",
+          "winner": false,
+          "rank": 4
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
       "uuid": "BD82AD71-8D96-4BC5-AF8B-E355779F47EC",
       "gameRefId": 32,
       "locationRefId": 1,
@@ -11861,6 +12515,84 @@ window.KIZ_DATA = {
           "gameRefId": 18
         }
       ]
+    },
+    {
+      "uuid": "21AA9907-EC21-46BC-8A35-CFFE2F0E8FC0",
+      "gameRefId": 61,
+      "locationRefId": 4,
+      "playDateYmd": 20260307,
+      "playDate": "2026-03-07 19:14:10",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "62",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 4,
+          "score": "74",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 3,
+          "score": "104",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "91",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
+    },
+    {
+      "uuid": "73A479FF-73A4-4F97-B215-4FF5C2D5D158",
+      "gameRefId": 43,
+      "locationRefId": 4,
+      "playDateYmd": 20260307,
+      "playDate": "2026-03-07 18:39:38",
+      "durationMin": 0,
+      "scoringSetting": null,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 3,
+          "score": "69",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 7,
+          "score": "304",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 4,
+          "score": "112",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "187",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [],
+      "source": "bga"
     },
     {
       "uuid": "53991970-B9AC-4B5A-9C44-747284F41DEA",
@@ -17084,7 +17816,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__original/img/jTY6_PRF6FrUgInfMajzobVy0S8=/0x0/filters:format(png)/pic7570101.png",
       "urlThumb": "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__thumb/img/5G45GN8CE7pq38fJMMocmPtV4_U=/fit-in/200x150/filters:strip_icc()/pic7570101.png",
       "isExpansion": 0,
-      "playCount": 13,
+      "playCount": 15,
       "bggRank": 257,
       "bggRating": 7.54022,
       "complexity": 1.9,
@@ -17426,7 +18158,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__original/img/q7YTy8sOZVf65mbLwnMYvjm1Iv0=/0x0/filters:format(png)/pic7683878.png",
       "urlThumb": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__thumb/img/jq8k_OtehrDmlr05OPXymlPM27Q=/fit-in/200x150/filters:strip_icc()/pic7683878.png",
       "isExpansion": 1,
-      "playCount": 2,
+      "playCount": 5,
       "bggRank": 1515,
       "bggRating": 7.64321,
       "complexity": 2.1,
@@ -17543,7 +18275,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
       "urlThumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__thumb/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
       "isExpansion": 0,
-      "playCount": 14,
+      "playCount": 18,
       "bggRank": 510,
       "bggRating": 7.21564,
       "complexity": 1.0,
@@ -17560,11 +18292,11 @@ window.KIZ_DATA = {
       "playedStandalone": true,
       "recordHolder": {
         "names": [
-          "陈勇杰"
+          "朱晨阳"
         ],
-        "score": "244",
+        "score": "304",
         "dates": [
-          "20251214"
+          "20260307"
         ],
         "lowerBetter": false
       }
@@ -18034,7 +18766,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/rGomBfj0FGrZM-w3h5HFWQ__original/img/XtVFdYXLAxdGOjQOGCkrms-hLUU=/0x0/filters:format(png)/pic8250341.png",
       "urlThumb": "https://cf.geekdo-images.com/rGomBfj0FGrZM-w3h5HFWQ__thumb/img/DnptKBxT6l_W2B3jGXdnEDEkDM0=/fit-in/200x150/filters:strip_icc()/pic8250341.png",
       "isExpansion": 0,
-      "playCount": 24,
+      "playCount": 32,
       "bggRank": 217,
       "bggRating": 7.6759,
       "complexity": 1.7,
@@ -18049,16 +18781,7 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
-      "recordHolder": {
-        "names": [
-          "白如"
-        ],
-        "score": "106",
-        "dates": [
-          "20260726"
-        ],
-        "lowerBetter": false
-      }
+      "recordHolder": null
     },
     {
       "id": 62,
@@ -18376,7 +19099,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ewNPD8vcrsXVfuVc9_E6hg__original/img/H3yQmt-6vi4jSPP-Ty0ehZ0lksM=/0x0/filters:format(jpeg)/pic8376834.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ewNPD8vcrsXVfuVc9_E6hg__small/img/fEkdPMxyjK8G9uqdRPT14Q-UCVo=/fit-in/200x150/filters:strip_icc()/pic8376834.jpg",
       "isExpansion": 0,
-      "playCount": 4,
+      "playCount": 5,
       "bggRank": null,
       "bggRating": 8.66711,
       "complexity": 3.0,
@@ -18616,7 +19339,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/Naw8y8J_s-8cvq1GoTON6w__original/img/8wVEVzdf5BoPvSiscnGvCAPNe2Q=/0x0/filters:format(jpeg)/pic7416519.jpg",
       "urlThumb": "https://cf.geekdo-images.com/Naw8y8J_s-8cvq1GoTON6w__small/img/ieH8A28KJe3truXqQe1nDXSpxUE=/fit-in/200x150/filters:strip_icc()/pic7416519.jpg",
       "isExpansion": 0,
-      "playCount": 6,
+      "playCount": 8,
       "bggRank": 199,
       "bggRating": 7.82171,
       "complexity": 2.3,
@@ -19350,6 +20073,10 @@ window.KIZ_DATA = {
       "name": "茨坝人才公寓104心理活动室"
     },
     {
+      "id": 4,
+      "name": "BoardGameArena"
+    },
+    {
       "id": 8,
       "name": "花园桌游小程序"
     },
@@ -19363,11 +20090,11 @@ window.KIZ_DATA = {
     }
   ],
   "stats": {
-    "totalPlays": 420,
+    "totalPlays": 440,
     "totalPlayers": 54,
     "totalGames": 81,
-    "avgPlaysPerGame": 5.2,
-    "avgPlaysPerPlayer": 7.8,
+    "avgPlaysPerGame": 5.4,
+    "avgPlaysPerPlayer": 8.1,
     "topGames": [
       {
         "gameRefId": 20,
@@ -19379,7 +20106,7 @@ window.KIZ_DATA = {
       },
       {
         "gameRefId": 61,
-        "count": 24
+        "count": 32
       },
       {
         "gameRefId": 11,
@@ -19387,15 +20114,15 @@ window.KIZ_DATA = {
       },
       {
         "gameRefId": 43,
-        "count": 14
+        "count": 18
+      },
+      {
+        "gameRefId": 22,
+        "count": 15
       },
       {
         "gameRefId": 104,
         "count": 14
-      },
-      {
-        "gameRefId": 22,
-        "count": 13
       },
       {
         "gameRefId": 12,
@@ -19413,27 +20140,27 @@ window.KIZ_DATA = {
     "topPlayers": [
       {
         "playerRefId": 1,
-        "count": 391
+        "count": 411
       },
       {
         "playerRefId": 3,
-        "count": 174
+        "count": 179
       },
       {
         "playerRefId": 7,
-        "count": 157
+        "count": 167
       },
       {
         "playerRefId": 28,
-        "count": 143
+        "count": 150
       },
       {
         "playerRefId": 4,
-        "count": 104
+        "count": 106
       },
       {
         "playerRefId": 30,
-        "count": 94
+        "count": 99
       },
       {
         "playerRefId": 2,
@@ -19452,5 +20179,122 @@ window.KIZ_DATA = {
         "count": 36
       }
     ]
-  }
+  },
+  "pseudoPlayers": [
+    {
+      "id": -1,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -2,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -3,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -4,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -5,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -6,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -7,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -8,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -9,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -10,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -11,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -12,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -13,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -14,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -15,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -16,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -17,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -18,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -19,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -20,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -21,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -22,
+      "name": "歪果人",
+      "bgaUsername": ""
+    },
+    {
+      "id": -23,
+      "name": "歪果人",
+      "bgaUsername": ""
+    }
+  ]
 };

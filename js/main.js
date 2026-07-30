@@ -148,7 +148,25 @@ function getPlayerNameById(id) {
   for (var i = 0; i < players.length; i++) {
     if (players[i].id === id) return players[i].name;
   }
+  // BGA 线上对局中的匿名玩家（歪果人）存于独立字段，不污染成员墙
+  var pseudo = window.KIZ_DATA.pseudoPlayers;
+  if (pseudo) {
+    for (var j = 0; j < pseudo.length; j++) {
+      if (pseudo[j].id === id) return pseudo[j].name;
+    }
+  }
   return '玩家';
+}
+
+// 取对局游戏名：优先使用 BGA 线上对局自带的名称兜底（库外游戏也能显示真名）
+function getGameNameForPlay(play) {
+  if (play && play.gameNameOverride) return play.gameNameOverride;
+  return getGameNameById(play.gameRefId);
+}
+
+// 线上对局徽标（BGA）
+function onlineBadge(play) {
+  return (play && play.source === 'bga') ? ' <span class="timeline-online">🌐线上</span>' : '';
 }
 
 function getLocationNameById(id) {
@@ -304,7 +322,7 @@ function renderRecentPlays() {
   var html = '';
   for (var i = 0; i < sorted.length; i++) {
     var play = sorted[i];
-    var gameName = getGameNameById(play.gameRefId);
+    var gameName = getGameNameForPlay(play);
     var locName = getLocationNameById(play.locationRefId);
     var winner = getWinnerFromScores(play.playerScores);
 
@@ -316,7 +334,7 @@ function renderRecentPlays() {
       '<div class="timeline-dot"></div>' +
       '<div class="timeline-card">' +
         '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + locName + '</div>' +
-        '<div class="timeline-game">' + gameName +
+        '<div class="timeline-game">' + gameName + onlineBadge(play) +
           (winner ? ' <span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
         '</div>' +
         '<div class="timeline-players">👥 ' + playerNames + '</div>' +
@@ -482,7 +500,7 @@ function renderPlayRecords() {
 
   // Fill count
   var countEl = document.getElementById('playCount');
-  if (countEl) countEl.textContent = data.plays.length + '场线下对局';
+  if (countEl) countEl.textContent = data.plays.length + '场对局';
 
   // Sort plays by date descending
   var sortedPlays = data.plays.slice().sort(function(a, b) {
@@ -585,7 +603,7 @@ function renderPlayRecords() {
       return true;
     });
 
-    if (countEl) countEl.textContent = filtered.length + '场线下对局';
+    if (countEl) countEl.textContent = filtered.length + '场对局';
     playsPageConfig.filteredPlays = filtered;
     playsPageConfig.currentPage = 0;
     renderTimelinePage();
@@ -601,7 +619,7 @@ function renderPlayRecords() {
     var html = '';
     for (var i = 0; i < pagePlays.length; i++) {
       var play = pagePlays[i];
-      var gameName = getGameNameById(play.gameRefId);
+      var gameName = getGameNameForPlay(play);
       var locName = getLocationNameById(play.locationRefId);
 
       var winner = getWinnerFromScores(play.playerScores);
@@ -648,7 +666,7 @@ function renderPlayRecords() {
         '<div class="timeline-dot"></div>' +
         '<div class="timeline-card">' +
           '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + locName + '</div>' +
-          '<div class="timeline-game">' + gameName +
+          '<div class="timeline-game">' + gameName + onlineBadge(play) +
             (winner ? ' <span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
           '</div>' +
           expHtml +
@@ -898,7 +916,7 @@ function renderMemberProfile() {
       '<h1 class="profile-name">' + player.name + '</h1>';
 
   if (player.bgaUsername) {
-    html += '<div class="profile-bgg">🎮 <a href="https://boardgamearena.com/player?id=' + encodeURIComponent(player.bgaUsername) + '" target="_blank" rel="noopener">BGA: ' + player.bgaUsername + '</a></div>';
+    html += '<div class="profile-bgg">🎮 <a href="https://boardgamearena.com/" target="_blank" rel="noopener">BGA: ' + player.bgaUsername + '</a></div>';
   }
 
   html += '<a href="members.html" class="profile-back">← 返回成员墙</a>' +
@@ -965,7 +983,7 @@ function renderMemberProfile() {
     var recentCount = Math.min(10, sortedPlays.length);
     for (var ri2 = 0; ri2 < recentCount; ri2++) {
       var sp = sortedPlays[ri2];
-      var gn3 = getGameNameById(sp.gameRefId) || 'Unknown';
+      var gn3 = getGameNameForPlay(sp) || 'Unknown';
       var loc = getLocationNameById(sp.locationRefId) || '';
       // Find this player's score in this play
       var myPs = null;

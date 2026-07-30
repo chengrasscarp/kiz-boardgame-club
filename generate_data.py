@@ -2,7 +2,9 @@
 """从 BGStatsExport.json 生成 js/data.js，按规则筛选数据。
 
 筛选规则:
-  - 仅保留茨坝人才公寓405 (locationRefId=1) 和茨坝104 (locationRefId=2) 的对局
+  - 线下地点：茨坝405(1)、茨坝104(2)、花园桌游小程序(8)、某人的家(10)、茨坝205(18)
+  - 线上(BGA)：BoardGameArena(4)，仅保留含陈勇杰+至少另一研究生的对局，
+    非研究生玩家显示为"歪果人"
   - 仅保留带有"研究生"标签 (tagRefId=3) 的玩家
   - 仅保留上述对局中出现的游戏
 """
@@ -28,16 +30,16 @@ OUTPUT_FILE = os.path.join(SCRIPT_DIR, "js", "data.js")
 COLLECTION_CSV = os.path.join(SCRIPT_DIR, "collection.csv")
 
 # 筛选参数
-VALID_LOCATION_IDS = {1, 2, 8, 10, 18}    # 茨坝405, 茨坝104, 花园桌游小程序, 某人的家, 茨坝205
-GRAD_STUDENT_TAG_ID = 3           # 研究生标签
-DEANONYMIZE_IDS = {1, 3, 4, 7, 28}   # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、王乐桐
+VALID_LOCATION_IDS = {1, 2, 4, 8, 10, 18}  # 405, 104, BoardGameArena, 花园, 某人的家, 205
+BGA_LOCATION_ID = 4                         # BoardGameArena
+GRAD_STUDENT_TAG_ID = 3                     # 研究生标签
+DEANONYMIZE_IDS = {1, 3, 4, 7, 28}         # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、王乐桐
+CHEN_PLAYER_ID = 1                          # 陈勇杰
 
 # 允许单人游玩的对局游戏（如单人破案/剧情游戏，虽仅1人但保留统计）
 SOLO_ALLOWED_GAME_IDS = {6, 16, 18, 19}  # 罪案疑云系列
 
 # 本地游戏封面覆盖：游戏名 -> 站点内相对路径。
-# 用于 BGStats 导出里缺失封面的游戏（如三国杀：欢乐斗地主）。
-# 注意：图片必须放在被 git 跟踪的 img/ 下（网站素材/ 已被 .gitignore 忽略，不会被部署）。
 LOCAL_GAME_IMAGES = {
     "三国杀：欢乐斗地主": "img/三国杀欢乐斗地主.jpg",
 }
@@ -64,18 +66,18 @@ def load_bgg_collection():
             if not oid:
                 continue
 
-            # 安全解析数字
             def safe_int(v, default=0):
-                try: return int(v) if v else default
-                except: return default
+                try:
+                    return int(v) if v else default
+                except Exception:
+                    return default
 
             def safe_float(v, default=0):
-                try: return float(v) if v else default
-                except: return default
+                try:
+                    return float(v) if v else default
+                except Exception:
+                    return default
 
-            # 仅保留前端真正渲染的 BGG 社区字段；其余（语言依赖/购入来源/
-            # 版本昵称/拥有数/价格/玩家数/时长）要么从未渲染，要么与 BGStats
-            # 重复且被后者覆盖，属死代码，不再加载。
             bgg_info[oid] = {
                 "bggRank": safe_int(row.get("rank"), None) or None,
                 "bggRating": safe_float(row.get("average"), 0),
@@ -100,9 +102,7 @@ def filter_players(raw_players):
             bga_username = ""
             try:
                 meta = json.loads(p.get("metaData", "{}"))
-                # 提取 BGA 用户名（从 metaData 中）
                 bga_username = (meta.get("bgaUsername") or "").strip()
-                # 陈勇杰头像颜色
                 if p["id"] == 1:
                     avatar = meta.get("playerAvatar")
                     if avatar and avatar.get("color"):
@@ -132,7 +132,7 @@ def anonymize_players(players):
     id_to_alias = {}
     for player in sorted_players:
         if player["id"] in DEANONYMIZE_IDS:
-            continue  # 保留真名，不占编号
+            continue
         id_to_alias[player["id"]] = f"桌友{counter:02d}"
         counter += 1
 
@@ -144,39 +144,80 @@ def anonymize_players(players):
 
 
 def filter_plays(raw_plays, player_ids):
-    """筛选线下地点 + 研究生参与的对局。
+    """筛选有效地点 + 研究生参与的对局。
 
-    只保留至少有一名研究生参与的对局。
+    线下地点：普通筛选，仅保留至少1名研究生的对局。
+    BGA 线上(id=4)：特殊处理——
+      - 先检查筛选条件，通过后才创建歪果人
+      - 必须包含陈勇杰(id=1) + 至少另1名研究生
+      - 非研究生玩家替换为伪玩家"歪果人"
+      - 标记 source='bga'
+    返回: (plays, pseudo_players)
     """
     plays = []
+    pseudo_players = []
+    pseudo_next = [1]
+
+    def get_pseudo_id():
+        n = pseudo_next[0]
+        pseudo_next[0] += 1
+        pid = -n
+        pseudo_players.append({"id": pid, "name": "歪果人", "bgaUsername": ""})
+        return pid
 
     for p in raw_plays:
-        if p.get("locationRefId") not in VALID_LOCATION_IDS:
+        lid = p.get("locationRefId")
+        if lid not in VALID_LOCATION_IDS:
             continue
 
-        player_scores = []
-        has_grad = False
+        is_bga = (lid == BGA_LOCATION_ID)
+
+        # 第一步：统计已知研究生成员，判断是否通过筛选
+        known_member_ids = set()
         for ps in p.get("playerScores", []):
             pid = ps.get("playerRefId")
             if pid in player_ids:
-                has_grad = True
-            player_scores.append({
-                "playerRefId": pid,
-                "score": ps.get("score", ""),
-                "winner": ps.get("winner", False),
-                "rank": ps.get("rank", 0),
-            })
+                known_member_ids.add(pid)
 
-        if not has_grad:
-            continue
-        # 单人局过滤：仅允许白名单中的游戏(如罪案疑云单人破案)
+        if is_bga:
+            if CHEN_PLAYER_ID not in known_member_ids:
+                continue
+            if len(known_member_ids) < 2:
+                continue
+        else:
+            if not known_member_ids:
+                continue
+
+        # 第二步：通过筛选，构建 playerScores
+        player_scores = []
+        for ps in p.get("playerScores", []):
+            pid = ps.get("playerRefId")
+            if is_bga and pid not in player_ids:
+                # BGA 对局中非研究生玩家 → 歪果人
+                pseudo_pid = get_pseudo_id()
+                player_scores.append({
+                    "playerRefId": pseudo_pid,
+                    "score": ps.get("score", ""),
+                    "winner": ps.get("winner", False),
+                    "rank": ps.get("rank", 0),
+                })
+            else:
+                # 线下对局保留所有玩家，BGA 对局保留研究生玩家
+                player_scores.append({
+                    "playerRefId": pid,
+                    "score": ps.get("score", ""),
+                    "winner": ps.get("winner", False),
+                    "rank": ps.get("rank", 0),
+                })
+
+        # 单人局过滤
         if len(player_scores) < 2 and p.get("gameRefId") not in SOLO_ALLOWED_GAME_IDS:
             continue
 
-        plays.append({
+        play = {
             "uuid": p["uuid"],
             "gameRefId": p["gameRefId"],
-            "locationRefId": p["locationRefId"],
+            "locationRefId": lid,
             "playDateYmd": p["playDateYmd"],
             "playDate": p["playDate"],
             "durationMin": p.get("durationMin", 0),
@@ -184,25 +225,27 @@ def filter_plays(raw_plays, player_ids):
             "board": p.get("board"),
             "comments": p.get("comments", ""),
             "playerScores": player_scores,
-            # 透传扩展引用，供 compute_play_counts 统计扩展游玩次数
             "expansionPlays": [
                 {"bggId": ep.get("bggId", 0), "gameRefId": ep.get("gameRefId")}
                 for ep in (p.get("expansionPlays") or [])
             ],
-        })
+        }
+        if is_bga:
+            play["source"] = "bga"
 
-    return plays
+        plays.append(play)
+
+    if pseudo_players:
+        print(f"  BGA 伪玩家: {len(pseudo_players)} 个歪果人")
+
+    return plays, pseudo_players
 
 
 import re
 
 
 def _copy_image(c):
-    """返回副本的有效 BGG CDN 图片 URL（排除 previewthumb 预览图），否则空串。
-
-    previewthumb 是 BGG 的极小占位图，不能作为游戏卡封面；若副本只有
-    previewthumb，应返回空串，让游戏回退到 BGStats 自带的 urlThumb。
-    """
+    """返回副本的有效 BGG CDN 图片 URL（排除 previewthumb 预览图），否则空串。"""
     t = c.get("urlThumb", "") or c.get("urlImage", "")
     if not t or "cf.geekdo-images.com" not in t:
         return ""
@@ -212,8 +255,7 @@ def _copy_image(c):
 
 
 def pick_primary_copy(copies):
-    """挑选一款游戏的"主要拥有副本"：优先 statusOwned 且带有效图片者，
-    其次任意拥有副本，最后回退到第一份副本。"""
+    """挑选一款游戏的"主要拥有副本"。"""
     owned = [c for c in copies if c.get("statusOwned") == 1]
     pool = owned if owned else copies
     for c in pool:
@@ -223,13 +265,12 @@ def pick_primary_copy(copies):
 
 
 def version_label(version_name, version_languages):
-    """把 versionName + VersionLanguages 规范化成中文版本徽章文案。
-    简繁只有在 versionName 明确写了 Simplified/Traditional 时才能确定。"""
+    """把 versionName + VersionLanguages 规范化成中文版本徽章文案。"""
     vn = version_name or ""
     langs = [x.strip() for x in (version_languages or "").split(",") if x.strip()]
     has_ch = ("Chinese" in langs) or ("Chinese" in vn)
     has_en = ("English" in langs) or ("English" in vn)
-    if "Simplified" in vn or "Simplied" in vn:  # 兼容导出里的拼写笔误
+    if "Simplified" in vn or "Simplied" in vn:
         return "简体中文版"
     if "Traditional" in vn:
         return "繁体中文版"
@@ -260,18 +301,10 @@ def _owned_version_fields(copies):
 
 
 def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
-    """保留所有拥有的游戏，附带游玩次数和 BGG 详细信息。
-
-    base_play_counts: 仅按本体(gameRefId)统计的游玩次数，用于标记
-    playedStandalone（该扩展是否也作为本体被单独开过局）。
-    """
-
+    """保留所有拥有的游戏，附带游玩次数和 BGG 详细信息。"""
     games = []
     for g in raw_games:
-        owned = any(
-            c.get("statusOwned") == 1
-            for c in g.get("copies", [])
-        )
+        owned = any(c.get("statusOwned") == 1 for c in g.get("copies", []))
         if not owned:
             continue
 
@@ -280,19 +313,17 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
 
         owned_thumb, owned_version_label = _owned_version_fields(g.get("copies", []))
 
-        # 本地封面覆盖（BGStats 缺失封面时使用），否则用 BGStats 默认图
         local_img = LOCAL_GAME_IMAGES.get(g["name"], "")
         thumb_url = local_img or g.get("urlThumb", "")
 
         games.append({
             "id": g["id"],
             "name": g["name"],
-            "nameSim": _name_variants(g["name"])[0],   # 简体版（搜索简繁通用）
-            "nameTrad": _name_variants(g["name"])[1],  # 繁体版
+            "nameSim": _name_variants(g["name"])[0],
+            "nameTrad": _name_variants(g["name"])[1],
             "bggId": g.get("bggId", 0),
             "bggName": g.get("bggName", ""),
             "rating": g.get("rating", 0),
-            # 玩家数/时长等以 BGStats 实际记录为准
             "minPlayers": g.get("minPlayerCount", 1),
             "maxPlayers": g.get("maxPlayerCount", 99),
             "minPlayTime": g.get("minPlayTime", 0),
@@ -302,7 +333,6 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
             "urlThumb": thumb_url,
             "isExpansion": g.get("isExpansion", 0),
             "playCount": play_counts.get(g["id"], 0),
-            # 以下 BGG 社区信息来自 collection.csv（排名/社区评分/复杂度/年份/推荐人数）
             "bggRank": bgg.get("bggRank"),
             "bggRating": bgg.get("bggRating", 0),
             "complexity": bgg.get("complexity", 0),
@@ -312,10 +342,8 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
                 "gameName": c.get("gameName", g["name"]),
                 "urlThumb": c.get("urlThumb", ""),
             } for c in g.get("copies", [])[:1]],
-            # 版本专属封面（主要拥有副本的图）+ 规范化版本徽章文案
             "ownedThumb": owned_thumb,
             "ownedVersionLabel": owned_version_label,
-            # 该游戏是否作为本体被单独开过局（用于区分"既是本体又是扩展"与"纯扩展"）
             "playedStandalone": base_play_counts.get(g["id"], 0) > 0,
         })
     return games
@@ -334,7 +362,6 @@ def compute_play_counts(plays):
     counts = Counter()
     for p in plays:
         counts[p["gameRefId"]] += 1
-        # 扩展游玩也计入
         for ep in p.get("expansionPlays", []):
             counts[ep["gameRefId"]] += 1
     return counts
@@ -342,7 +369,6 @@ def compute_play_counts(plays):
 
 def compute_stats(plays, players, games, play_counts):
     """计算常用统计数据。"""
-    # topGames 只统计拥有的游戏，且排除"纯扩展"（从未作为本体开过局的扩展）
     owned_ids = {g["id"] for g in games}
     base_counts = Counter(p["gameRefId"] for p in plays)
     pure_expansion_ids = {
@@ -358,7 +384,6 @@ def compute_stats(plays, players, games, play_counts):
         for gid, count in owned_play_counts.most_common(10)
     ]
 
-    # 游玩次数 per player
     player_play_count = Counter()
     for p in plays:
         for ps in p["playerScores"]:
@@ -369,37 +394,24 @@ def compute_stats(plays, players, games, play_counts):
         for pid, count in player_play_count.most_common(10)
     ]
 
-    total_plays = len(plays)
-    total_players = len(players)
-    total_games = len(games)
-
     return {
-        "totalPlays": total_plays,
-        "totalPlayers": total_players,
-        "totalGames": total_games,
-        "avgPlaysPerGame": round(total_plays / total_games, 1) if total_games else 0,
-        "avgPlaysPerPlayer": round(total_plays / total_players, 1) if total_players else 0,
+        "totalPlays": len(plays),
+        "totalPlayers": len(players),
+        "totalGames": len(games),
+        "avgPlaysPerGame": round(len(plays) / len(games), 1) if games else 0,
+        "avgPlaysPerPlayer": round(len(plays) / len(players), 1) if players else 0,
         "topGames": top_games,
         "topPlayers": top_players,
     }
 
 
 def compute_record_holders(plays, games, player_id_to_name, no_points_map):
-    """为每款"需要记分"的游戏计算最佳单局分数保持者，回填 recordHolder。
-
-    - 仅 noPoints=False 的游戏参与（合作/推理等不计分游戏不展示）
-    - scoringSetting == 2 表示低分胜，否则高分胜
-    - 低分胜游戏里 0 分是合法最低分（如某些游戏 0 即最佳），需计入；
-      高分胜游戏里 0 通常代表未记分，跳过
-    - 含"双人版图"的对局分数为两人之和，不可比，排除（勃艮第城堡等）
-    - 同分的所有玩家并列展示
-    """
-    # 汇总每款游戏 (分数值, 玩家id, 日期, 低分胜?) 列表
+    """为每款"需要记分"的游戏计算最佳单局分数保持者，回填 recordHolder。"""
     by_game = {}
     for p in plays:
         gid = p["gameRefId"]
         board = p.get("board") or ""
-        if "双人版图" in board:  # 两人分数相加，不可比，排除
+        if "双人版图" in board:
             continue
         lower_better = (p.get("scoringSetting") == 2)
         for ps in p.get("playerScores", []):
@@ -410,7 +422,7 @@ def compute_record_holders(plays, games, player_id_to_name, no_points_map):
                 val = float(raw)
             except (TypeError, ValueError):
                 continue
-            if val == 0 and not lower_better:  # 高分胜的 0 视为未记分
+            if val == 0 and not lower_better:
                 continue
             by_game.setdefault(gid, []).append(
                 (val, ps.get("playerRefId"), p.get("playDateYmd", ""), lower_better)
@@ -431,9 +443,7 @@ def compute_record_holders(plays, games, player_id_to_name, no_points_map):
         else:
             best_val = max(r[0] for r in recs)
         holders = [r for r in recs if r[0] == best_val]
-        # 同分保持者按创纪录日期倒序排列，便于展示与取代表日期
         holders.sort(key=lambda r: -int(r[2]) if str(r[2]).isdigit() else 0)
-        # 按玩家去重：同一玩家在多局均达最佳分时只列一次
         seen = set()
         deduped = []
         for r in holders:
@@ -442,6 +452,11 @@ def compute_record_holders(plays, games, player_id_to_name, no_points_map):
             seen.add(r[1])
             deduped.append(r)
         holders = deduped
+        # 跳过歪果人等伪玩家
+        holders = [r for r in holders if r[1] in player_id_to_name]
+        if not holders:
+            g["recordHolder"] = None
+            continue
         names = [player_id_to_name.get(r[1], "未知玩家") for r in holders]
         dates = [str(r[2]) for r in holders]
         score_disp = str(int(best_val)) if best_val == int(best_val) else str(best_val)
@@ -460,12 +475,12 @@ def main():
     print("筛选玩家（研究生）...")
     players, player_ids = filter_players(data.get("players", []))
 
-    print("筛选对局（茨坝405+104，研究生参与）...")
-    plays = filter_plays(data.get("plays", []), player_ids)
+    print("筛选对局（含线上 BGA 按规则过滤）...")
+    plays, pseudo_players = filter_plays(data.get("plays", []), player_ids)
 
     print("计算游玩次数（含扩展）...")
     play_counts = compute_play_counts(plays)
-    print("计算本体游玩次数（仅 gameRefId，用于标记 playedStandalone）...")
+    print("计算本体游玩次数...")
     base_play_counts = Counter(p["gameRefId"] for p in plays)
 
     print("加载 BGG 收藏信息...")
@@ -490,20 +505,20 @@ def main():
 
     print(f"\n=== 筛选结果 ===")
     print(f"  玩家: {len(players)} 人")
-    print(f"  对局: {len(plays)} 场")
+    bga_count = sum(1 for p in plays if p.get("source") == "bga")
+    print(f"  对局: {len(plays)} 场（其中 BGA 线上 {bga_count} 场）")
     print(f"  游戏: {len(games)} 款")
     print(f"  地点: {len(locations)} 个")
 
-    # 构建输出对象
     output = {
         "players": players,
         "plays": plays,
         "games": games,
         "locations": locations,
         "stats": stats,
+        "pseudoPlayers": pseudo_players,
     }
 
-    # 写入 data.js
     json_str = json.dumps(output, ensure_ascii=False, indent=2)
     js_content = f"// Auto-generated by generate_data.py. DO NOT EDIT.\nwindow.KIZ_DATA = {json_str};\n"
 
