@@ -785,9 +785,14 @@ function renderMemberWall() {
   var countEl = document.getElementById('memberCount');
   if (countEl) countEl.textContent = data.players.length + '位研究生玩家';
 
+  // 只统计仍在游戏库中的对局（与个人主页口径一致，避免库外/已下架游戏导致两边数字不符）
+  var validGameIds = {};
+  for (var vi = 0; vi < data.games.length; vi++) { validGameIds[data.games[vi].id] = true; }
+
   // Count plays per player
   var playCount = {};
   for (var i = 0; i < data.plays.length; i++) {
+    if (!validGameIds[data.plays[i].gameRefId]) continue;
     var scores = data.plays[i].playerScores;
     for (var j = 0; j < scores.length; j++) {
       var pid = scores[j].playerRefId;
