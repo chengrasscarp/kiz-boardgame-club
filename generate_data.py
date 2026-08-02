@@ -33,7 +33,7 @@ COLLECTION_CSV = os.path.join(SCRIPT_DIR, "collection.csv")
 VALID_LOCATION_IDS = {1, 2, 4, 8, 10, 18}  # 405, 104, BoardGameArena, 花园, 某人的家, 205
 BGA_LOCATION_ID = 4                         # BoardGameArena
 GRAD_STUDENT_TAG_ID = 3                     # 研究生标签
-DEANONYMIZE_IDS = {1, 3, 4, 7, 28}         # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、王乐桐
+DEANONYMIZE_IDS = {1, 3, 4, 7, 17, 28}     # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、何林、王乐桐
 CHEN_PLAYER_ID = 1                          # 陈勇杰
 
 # 允许单人游玩的对局游戏（如单人破案/剧情游戏，虽仅1人但保留统计）
