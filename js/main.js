@@ -123,9 +123,9 @@ function getPlayerBestGame(pid, maps) {
   return (best && best.rate > 0) ? best : null;
 }
 
-// 某游戏胜率最高的玩家（tie-break：胜场更多者优先）
+// 某游戏胜率最高的玩家（并列则全部列出；二级 tie-break：胜场更多者优先；再用玩家 id 稳定排序避免出现"随机"胜者）
 function getGameBestPlayer(gid, maps) {
-  var best = null;
+  var cands = [];
   for (var key in maps.plays) {
     var parts = key.split(':');
     if (Number(parts[1]) !== gid) continue;
@@ -136,11 +136,25 @@ function getGameBestPlayer(gid, maps) {
     var pid = Number(parts[0]);
     var pname = getPlayerNameById(pid);
     if (pname === null) continue;
-    if (!best || rate > best.rate || (rate === best.rate && wc > best.wins)) {
-      best = { playerId: pid, name: pname, rate: rate, wins: wc, plays: pc };
-    }
+    cands.push({ playerId: pid, name: pname, rate: rate, wins: wc, plays: pc });
   }
-  return (best && best.rate > 0) ? best : null;
+  cands = cands.filter(function (c) { return c.rate > 0; });
+  if (!cands.length) return null;
+  var bestRate = -1, bestWins = -1;
+  for (var i = 0; i < cands.length; i++) {
+    if (cands[i].rate > bestRate) bestRate = cands[i].rate;
+  }
+  for (var j = 0; j < cands.length; j++) {
+    if (cands[j].rate === bestRate && cands[j].wins > bestWins) bestWins = cands[j].wins;
+  }
+  var winners = cands.filter(function (c) { return c.rate === bestRate && c.wins === bestWins; });
+  winners.sort(function (a, b) { return a.playerId - b.playerId; });
+  return {
+    names: winners.map(function (w) { return w.name; }),
+    rate: bestRate,
+    wins: bestWins,
+    plays: winners[0].plays,
+  };
 }
 
 function getPlayerNameById(id) {
@@ -398,7 +412,11 @@ function renderGameLibrary() {
     var stars = g.bggRating ? '⭐' + g.bggRating.toFixed(1) : '';
     var complexityHtml = g.complexity ? '<span class="complexity" title="复杂度 ' + g.complexity.toFixed(1) + '/5">' + renderComplexity(g.complexity) + ' ' + g.complexity.toFixed(1) + '</span>' : '';
     var gp = getGameBestPlayer(g.id, winMaps);
-    var gpHtml = gp ? '<div class="winrate-line">👑 胜率王：' + gp.name + '（' + gp.rate + '%）</div>' : '';
+    var gpHtml = '';
+    if (gp) {
+      var crownLabel = gp.names.length > 1 ? '👑 胜率王（并列）' : '👑 胜率王';
+      gpHtml = '<div class="winrate-line">' + crownLabel + '：' + gp.names.join('、') + '（' + gp.rate + '%）</div>';
+    }
     var verBadge = g.ownedVersionLabel ? '<span class="version-badge">' + g.ownedVersionLabel + '</span>' : '';
     var rec = g.recordHolder;
     var recHtml = '';
