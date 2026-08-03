@@ -20847,27 +20847,27 @@ window.KIZ_DATA = {
     "topPlayers": [
       {
         "playerRefId": 1,
-        "count": 423
+        "count": 404
       },
       {
         "playerRefId": 3,
-        "count": 189
+        "count": 188
       },
       {
         "playerRefId": 7,
-        "count": 173
+        "count": 168
       },
       {
         "playerRefId": 28,
-        "count": 162
-      },
-      {
-        "playerRefId": 4,
-        "count": 106
+        "count": 159
       },
       {
         "playerRefId": 30,
         "count": 106
+      },
+      {
+        "playerRefId": 4,
+        "count": 104
       },
       {
         "playerRefId": 2,
@@ -20879,11 +20879,11 @@ window.KIZ_DATA = {
       },
       {
         "playerRefId": 5,
-        "count": 37
+        "count": 35
       },
       {
         "playerRefId": 27,
-        "count": 36
+        "count": 28
       }
     ]
   },

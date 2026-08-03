@@ -386,6 +386,8 @@ def compute_stats(plays, players, games, play_counts):
 
     player_play_count = Counter()
     for p in plays:
+        if p["gameRefId"] not in owned_ids:
+            continue
         for ps in p["playerScores"]:
             player_play_count[ps["playerRefId"]] += 1
 
