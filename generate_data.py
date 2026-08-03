@@ -491,6 +491,13 @@ def main():
     print("筛选游戏...")
     games = filter_games(data.get("games", []), play_counts, bgg_collection, base_play_counts)
 
+    # 仅保留游戏库内的对局，使全站总对局数与成员墙/个人主页/排行榜口径完全一致
+    owned_ids = {g["id"] for g in games}
+    before_count = len(plays)
+    plays = [p for p in plays if p["gameRefId"] in owned_ids]
+    play_counts = compute_play_counts(plays)
+    print(f"  过滤库外游戏对局: {before_count} -> {len(plays)} 场")
+
     print("筛选地点...")
     locations = filter_locations(data.get("locations", []))
 

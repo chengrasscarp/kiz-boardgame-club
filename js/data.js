@@ -497,58 +497,6 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
-      "uuid": "F9FDEDBE-2AD8-4C07-898E-A18C2213A358",
-      "gameRefId": 7,
-      "locationRefId": 2,
-      "playDateYmd": 20250316,
-      "playDate": "2025-03-16 15:49:48",
-      "durationMin": 90,
-      "scoringSetting": 6,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 13,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "EBE3B17E-EDE6-40C7-AEA1-4BEF293902B5",
-      "gameRefId": 7,
-      "locationRefId": 2,
-      "playDateYmd": 20250309,
-      "playDate": "2025-03-09 15:52:26",
-      "durationMin": 150,
-      "scoringSetting": 6,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 13,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
       "uuid": "0CE600B1-8548-4EB1-9E31-78C6D7C7C8A1",
       "gameRefId": 20,
       "locationRefId": 1,
@@ -1011,32 +959,6 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
-      "uuid": "980186D8-0BF7-45AA-8A27-6DC3C2C89299",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250420,
-      "playDate": "2025-04-20 18:51:17",
-      "durationMin": 32,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "歌剧魅影3",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 23,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
       "uuid": "3B1F9E7F-F0AE-4A3D-B525-4FB7A3E2B28F",
       "gameRefId": 21,
       "locationRefId": 1,
@@ -1083,32 +1005,6 @@ window.KIZ_DATA = {
           "playerRefId": 1,
           "score": "",
           "winner": false,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "93E1D477-AC01-48E1-8785-1473C7825469",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250420,
-      "playDate": "2025-04-20 20:11:03",
-      "durationMin": 0,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "诅咒之恋2",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 23,
-          "score": "",
-          "winner": true,
           "rank": 0
         }
       ],
@@ -1673,70 +1569,6 @@ window.KIZ_DATA = {
           "gameRefId": 45
         }
       ]
-    },
-    {
-      "uuid": "93553B30-FCAC-4972-A676-058C4B60267C",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250516,
-      "playDate": "2025-05-16 21:32:14",
-      "durationMin": 55,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 5,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "B10F1DD0-48DA-4B64-A0E7-960B9407F7CE",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250516,
-      "playDate": "2025-05-16 22:27:30",
-      "durationMin": 0,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 5,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
     },
     {
       "uuid": "EB67E8DB-2453-47E9-8398-724039A620D9",
@@ -2332,58 +2164,6 @@ window.KIZ_DATA = {
           "playerRefId": 1,
           "score": "14",
           "winner": false,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "7B440644-428A-4EAC-AA0C-930AA55D7754",
-      "gameRefId": 41,
-      "locationRefId": 2,
-      "playDateYmd": 20250615,
-      "playDate": "2025-06-15 14:59:41",
-      "durationMin": 0,
-      "scoringSetting": 6,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 23,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "3B314958-3EF8-4541-823D-C8F66E13C86C",
-      "gameRefId": 41,
-      "locationRefId": 2,
-      "playDateYmd": 20250615,
-      "playDate": "2025-06-15 14:58:41",
-      "durationMin": 0,
-      "scoringSetting": 6,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 23,
-          "score": "",
-          "winner": true,
           "rank": 0
         }
       ],
@@ -3058,102 +2838,6 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
-      "uuid": "12A175A1-E8BB-427C-B171-4500B4B9F70D",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250704,
-      "playDate": "2025-07-04 21:17:07",
-      "durationMin": 0,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "歌剧魅影3",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 29,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 27,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "A21C54EB-8F87-4DA0-99DB-54BEDC100319",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250704,
-      "playDate": "2025-07-04 21:17:52",
-      "durationMin": 23,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "歌剧魅影4",
-      "playerScores": [
-        {
-          "playerRefId": 29,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 27,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "57B87071-5BAB-4324-9060-A17D593030AC",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250704,
-      "playDate": "2025-07-04 21:40:52",
-      "durationMin": 31,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "诅咒之恋5",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 29,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 27,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
       "uuid": "6E6DEADF-07E1-4E07-97E4-55F35EC0F439",
       "gameRefId": 20,
       "locationRefId": 1,
@@ -3663,58 +3347,6 @@ window.KIZ_DATA = {
       ]
     },
     {
-      "uuid": "A3DCBAC5-FFDD-4A51-B1A8-013D6DBA42E4",
-      "gameRefId": 42,
-      "locationRefId": 2,
-      "playDateYmd": 20250712,
-      "playDate": "2025-07-12 19:45:46",
-      "durationMin": 60,
-      "scoringSetting": 6,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 23,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "55831763-2724-4A04-8A63-ACEEC5C28205",
-      "gameRefId": 42,
-      "locationRefId": 2,
-      "playDateYmd": 20250712,
-      "playDate": "2025-07-12 19:46:20",
-      "durationMin": 60,
-      "scoringSetting": 6,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 23,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
       "uuid": "A59C343E-5BAC-411D-8276-D408E8F3A5D8",
       "gameRefId": 14,
       "locationRefId": 1,
@@ -3751,38 +3383,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 2,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "E045849B-1877-4648-A8EC-268C571830BD",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250717,
-      "playDate": "2025-07-17 12:29:14",
-      "durationMin": 16,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 27,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 29,
           "score": "",
           "winner": false,
           "rank": 0
@@ -4290,96 +3890,6 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
-      "uuid": "5011B1D1-5E08-460F-A9DB-81218A8A0DD0",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250718,
-      "playDate": "2025-07-18 22:40:55",
-      "durationMin": 0,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 31,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 29,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 27,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "60649E5F-7FCD-4954-86FC-BDD231140AA8",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250718,
-      "playDate": "2025-07-18 22:41:44",
-      "durationMin": 0,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 31,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 29,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 27,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "145F2411-3F50-4FD4-B712-A766EFE7AB43",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250720,
-      "playDate": "2025-07-20 22:44:11",
-      "durationMin": 0,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 27,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 31,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
       "uuid": "1A6D2088-B480-41B0-8E89-5787BB27D964",
       "gameRefId": 33,
       "locationRefId": 1,
@@ -4751,44 +4261,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "321A4B94-2797-4ABC-96C7-7C3CAA2ED619",
-      "gameRefId": 25,
-      "locationRefId": 1,
-      "playDateYmd": 20250725,
-      "playDate": "2025-07-25 23:47:04",
-      "durationMin": 30,
-      "scoringSetting": 11,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 31,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 27,
-          "score": "",
-          "winner": false,
-          "rank": 0
         }
       ],
       "expansionPlays": []
@@ -5774,32 +5246,6 @@ window.KIZ_DATA = {
         {
           "playerRefId": 1,
           "score": "20",
-          "winner": true,
-          "rank": 1
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "3880E0DD-FAF9-4155-AD9B-D1019A3421AF",
-      "gameRefId": 29,
-      "locationRefId": 2,
-      "playDateYmd": 20250101,
-      "playDate": "2025-01-01 15:11:17",
-      "durationMin": 180,
-      "scoringSetting": 6,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 35,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
           "winner": true,
           "rank": 1
         }
@@ -6845,56 +6291,6 @@ window.KIZ_DATA = {
           "score": "120",
           "winner": false,
           "rank": 3
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "0A110A56-0EA2-4F0D-BA58-7165FCAAA6CF",
-      "gameRefId": 70,
-      "locationRefId": 1,
-      "playDateYmd": 20251002,
-      "playDate": "2025-10-02 15:58:07",
-      "durationMin": 0,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 42,
-          "score": "19",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 40,
-          "score": "8",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 41,
-          "score": "25",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 19,
-          "score": "22",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 18,
-          "score": "21",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "17",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -8185,44 +7581,6 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
-      "uuid": "B7D8EB25-C318-40F4-A165-DFA1C0909D4A",
-      "gameRefId": 75,
-      "locationRefId": 1,
-      "playDateYmd": 20251031,
-      "playDate": "2025-10-31 21:21:12",
-      "durationMin": 52,
-      "scoringSetting": 1,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 4,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
       "uuid": "D9A59E74-B7F5-4390-A645-8F3F599856B4",
       "gameRefId": 68,
       "locationRefId": 1,
@@ -8364,44 +7722,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "1C40DFB3-FF7D-42F0-B2A9-47E88E054635",
-      "gameRefId": 75,
-      "locationRefId": 1,
-      "playDateYmd": 20251108,
-      "playDate": "2025-11-08 16:21:28",
-      "durationMin": 46,
-      "scoringSetting": 1,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 47,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 46,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 14,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -8956,50 +8276,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        }
-      ],
-      "expansionPlays": []
-    },
-    {
-      "uuid": "9F48B0C9-71AD-4C94-B8F6-BD27D6F00FAE",
-      "gameRefId": 75,
-      "locationRefId": 1,
-      "playDateYmd": 20251214,
-      "playDate": "2025-12-14 16:30:55",
-      "durationMin": 37,
-      "scoringSetting": 3,
-      "board": null,
-      "comments": "",
-      "playerScores": [
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 4,
           "score": "",
           "winner": true,
           "rank": 1
@@ -20797,11 +20073,11 @@ window.KIZ_DATA = {
     }
   ],
   "stats": {
-    "totalPlays": 456,
+    "totalPlays": 433,
     "totalPlayers": 55,
     "totalGames": 81,
-    "avgPlaysPerGame": 5.6,
-    "avgPlaysPerPlayer": 8.3,
+    "avgPlaysPerGame": 5.3,
+    "avgPlaysPerPlayer": 7.9,
     "topGames": [
       {
         "gameRefId": 20,
