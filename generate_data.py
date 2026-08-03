@@ -30,7 +30,7 @@ OUTPUT_FILE = os.path.join(SCRIPT_DIR, "js", "data.js")
 COLLECTION_CSV = os.path.join(SCRIPT_DIR, "collection.csv")
 
 # 筛选参数
-VALID_LOCATION_IDS = {1, 2, 4, 8, 10, 18}  # 405, 104, BoardGameArena, 花园, 某人的家, 205
+VALID_LOCATION_IDS = {1, 2, 4, 8, 10, 18, 20}  # 405, 104, BoardGameArena, 花园, 某人的家, 205, 昆明的某个角落
 BGA_LOCATION_ID = 4                         # BoardGameArena
 GRAD_STUDENT_TAG_ID = 3                     # 研究生标签
 DEANONYMIZE_IDS = {1, 3, 4, 7, 17, 28}     # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、何林、王乐桐
