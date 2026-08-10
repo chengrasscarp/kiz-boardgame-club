@@ -413,6 +413,13 @@ input, select { font-family: inherit; }
   line-height: 1.4;
 }
 
+.timeline-board {
+  font-size: 12px;
+  color: var(--color-text-light);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
 .timeline-players {
   font-size: 13px;
   color: var(--color-text-muted);

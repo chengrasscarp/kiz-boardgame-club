@@ -675,6 +675,12 @@ function renderPlayRecords() {
         }
       }
 
+      // 变体/版图信息
+      var boardHtml = '';
+      if (play.board) {
+        boardHtml = '<div class="timeline-board">🎲 变体：' + play.board + '</div>';
+      }
+
       var commentHtml = '';
       if (play.comments) {
         commentHtml = '<div class="timeline-comment">📝 ' + play.comments + '</div>';
@@ -688,6 +694,7 @@ function renderPlayRecords() {
             (winner ? ' <span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
           '</div>' +
           expHtml +
+          boardHtml +
           '<div class="timeline-players">👥 ' + playerNames + '</div>' +
           commentHtml +
         '</div>' +
