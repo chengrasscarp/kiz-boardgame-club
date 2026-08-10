@@ -308,7 +308,7 @@ function renderHotGames() {
     var game = sorted[i];
     var name = game.name;
     var thumb = getGameThumb(game);
-    html += '<div class="game-card" onclick="location.href=\'games.html\'">' +
+    html += '<div class="game-card" onclick="location.href=\'game.html?id=' + game.id + '\'">' +
       '<div class="game-card-image">' +
         (thumb ? '<img src="' + thumb + '" alt="' + name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
       '</div>' +
@@ -407,7 +407,6 @@ function renderGameLibrary() {
   function renderCard(g) {
     var count = g.playCount || 0;
     var thumb = getGameThumb(g);
-    var bggUrl = g.bggId ? 'https://boardgamegeek.com/boardgame/' + g.bggId : '#';
     var rankBadge = g.bggRank ? '<span class="bgg-rank-badge">#' + g.bggRank + '</span>' : '';
     var stars = g.bggRating ? '⭐' + g.bggRating.toFixed(1) : '';
     var complexityHtml = g.complexity ? '<span class="complexity" title="复杂度 ' + g.complexity.toFixed(1) + '/5">' + renderComplexity(g.complexity) + ' ' + g.complexity.toFixed(1) + '</span>' : '';
@@ -431,7 +430,7 @@ function renderGameLibrary() {
       var recTitle = titleParts.length ? ' title="记录保持者：' + titleParts.join('、') + '"' : '';
       recHtml = '<div class="record-line"' + recTitle + '>🏅 记录：' + names + ' ' + rec.score + '分</div>';
     }
-    return '<div class="game-card" onclick="window.open(\'' + bggUrl + '\', \'_blank\')">' +
+    return '<div class="game-card" onclick="location.href=\'game.html?id=' + g.id + '\'">' +
       '<div class="game-card-image">' +
         (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
         rankBadge +
@@ -504,6 +503,198 @@ function renderGameLibrary() {
       render(searchInput ? searchInput.value : '', this.value);
     });
   }
+}
+
+/* ===== Game Profile Page ===== */
+function renderGameProfile() {
+  var container = document.getElementById('gameProfile');
+  if (!container) return;
+
+  var data = window.KIZ_DATA;
+  var params = new URLSearchParams(window.location.search);
+  var gameId = parseInt(params.get('id'));
+
+  var game = null;
+  for (var i = 0; i < data.games.length; i++) {
+    if (data.games[i].id === gameId) { game = data.games[i]; break; }
+  }
+  if (!game) {
+    container.innerHTML = '<div class="member-profile-error">未找到该游戏 <p style="margin-top:12px;"><a href="games.html" class="profile-back">← 返回游戏库</a></p></div>';
+    return;
+  }
+
+  // 该游戏的全部对局（时间倒序）
+  var gamePlays = [];
+  for (var pi = 0; pi < data.plays.length; pi++) {
+    if (data.plays[pi].gameRefId === gameId) gamePlays.push(data.plays[pi]);
+  }
+  gamePlays.sort(function(a, b) { return b.playDate.localeCompare(a.playDate); });
+
+  // 成员维度统计（仅真实成员）
+  var memberNameById = {};
+  for (var mi = 0; mi < data.players.length; mi++) { memberNameById[data.players[mi].id] = data.players[mi].name; }
+  var memberStat = {};
+  var participantIds = {};
+  // 扩展/变体使用统计
+  var expCount = {};
+  var boardCount = {};
+  for (var gj = 0; gj < gamePlays.length; gj++) {
+    var gp2 = gamePlays[gj];
+    for (var gs = 0; gs < gp2.playerScores.length; gs++) {
+      var ps = gp2.playerScores[gs];
+      if (!memberNameById[ps.playerRefId]) continue;
+      participantIds[ps.playerRefId] = true;
+      var st = memberStat[ps.playerRefId] || (memberStat[ps.playerRefId] = { plays: 0, wins: 0 });
+      st.plays++;
+      if (ps.winner) st.wins++;
+    }
+    var eps = gp2.expansionPlays || [];
+    for (var ge = 0; ge < eps.length; ge++) {
+      var expName = getGameNameById(eps[ge].gameRefId);
+      if (expName) expCount[expName] = (expCount[expName] || 0) + 1;
+    }
+    if (gp2.board) boardCount[gp2.board] = (boardCount[gp2.board] || 0) + 1;
+  }
+  var participantCount = Object.keys(participantIds).length;
+
+  // 成员胜率榜（按胜率降序，同率比场次；场次相同按名字稳定）
+  var memberRows = Object.keys(memberStat).map(function(id) {
+    var n = Number(id);
+    return { id: n, name: memberNameById[n], plays: memberStat[n].plays, wins: memberStat[n].wins };
+  }).sort(function(a, b) {
+    return (b.wins / b.plays) - (a.wins / a.plays) || b.plays - a.plays || a.name.localeCompare(b.name, 'zh');
+  });
+
+  // 胜率王（复用全局逻辑，含 ≥3 场门槛与并列）
+  var winMaps = buildWinRateMaps();
+  var bestPlayer = getGameBestPlayer(gameId, winMaps);
+
+  // ===== Header =====
+  var thumb = getGameThumb(game);
+  var html = '<div class="profile-header">' +
+    '<div class="profile-avatar-wrap">' +
+      (thumb
+        ? '<img class="game-profile-cover" src="' + thumb + '" alt="' + game.name + '">'
+        : '<div class="game-profile-cover game-profile-cover-empty">🎲</div>') +
+    '</div>' +
+    '<div class="profile-info">' +
+      '<h1 class="profile-name">' + game.name +
+        (game.ownedVersionLabel ? ' <span class="version-badge">' + game.ownedVersionLabel + '</span>' : '') +
+      '</h1>' +
+      '<div class="game-card-tags" style="margin-top:8px;">' +
+        '<span class="tag tag-primary">👥 ' + game.minPlayers + '-' + game.maxPlayers + '人</span>' +
+        (game.bestPlayers ? '<span class="tag tag-accent">👍 ' + game.bestPlayers + '人</span>' : '') +
+        (game.yearPublished ? '<span class="tag tag-secondary">📅 ' + game.yearPublished + '</span>' : '') +
+        (game.bggRating ? '<span class="tag tag-secondary">⭐ BGG ' + game.bggRating.toFixed(1) + '</span>' : '') +
+        (game.bggRank ? '<span class="tag tag-secondary">#️⃣ BGG Rank ' + game.bggRank + '</span>' : '') +
+        (game.complexity ? '<span class="tag tag-secondary">🧠 重度 ' + game.complexity.toFixed(1) + '</span>' : '') +
+      '</div>' +
+      '<div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;">' +
+        (game.bggId ? '<a href="https://boardgamegeek.com/boardgame/' + game.bggId + '" target="_blank" rel="noopener" class="profile-back">🔗 在 BGG 查看</a>' : '') +
+        '<a href="games.html" class="profile-back">← 返回游戏库</a>' +
+      '</div>' +
+    '</div></div>';
+
+  // ===== 统计卡片 =====
+  var rec = game.recordHolder;
+  var recText = (rec && rec.names && rec.names.length) ? rec.names.join('、') + ' ' + rec.score + '分' : '—';
+  var bpText = bestPlayer ? bestPlayer.names.join('、') + '（' + bestPlayer.rate + '%）' : '—';
+  html += '<div class="profile-stats">' +
+    '<div class="profile-stat-card"><div class="stat-value">' + gamePlays.length + '</div><div class="stat-label">总场次</div></div>' +
+    '<div class="profile-stat-card"><div class="stat-value">' + participantCount + '</div><div class="stat-label">参与成员</div></div>' +
+    '<div class="profile-stat-card"><div class="stat-value stat-value-sm">' + recText + '</div><div class="stat-label">🏅 记录保持者</div></div>' +
+    '<div class="profile-stat-card"><div class="stat-value stat-value-sm">' + bpText + '</div><div class="stat-label">👑 胜率王</div></div>' +
+  '</div>';
+
+  // ===== 成员胜率榜 =====
+  if (memberRows.length > 0) {
+    html += '<h2 class="profile-section-title">📊 成员战绩</h2><div class="profile-game-list">';
+    var crownNames = bestPlayer ? bestPlayer.names : [];
+    for (var mr = 0; mr < memberRows.length; mr++) {
+      var row = memberRows[mr];
+      var rate = Math.round(row.wins / row.plays * 100);
+      var crown = crownNames.indexOf(row.name) !== -1 ? '👑 ' : '';
+      html += '<div class="profile-game-item">' +
+        '<span class="profile-game-name">' + crown + row.name + '</span>' +
+        '<span class="profile-game-stat">' + rate + '%</span>' +
+        '<span class="profile-game-detail">（' + row.wins + '胜/' + row.plays + '局）</span>' +
+      '</div>';
+    }
+    html += '</div>';
+  }
+
+  // ===== 扩展与变体 =====
+  var expNames = Object.keys(expCount).sort(function(a, b) { return expCount[b] - expCount[a]; });
+  var boardNames = Object.keys(boardCount).sort(function(a, b) { return boardCount[b] - boardCount[a]; });
+  if (expNames.length > 0 || boardNames.length > 0) {
+    html += '<h2 class="profile-section-title">🧩 扩展与变体</h2><div class="profile-game-list">';
+    for (var en = 0; en < expNames.length; en++) {
+      html += '<div class="profile-game-item">' +
+        '<span class="profile-game-name">🧩 ' + expNames[en] + '</span>' +
+        '<span class="profile-game-detail">使用 ' + expCount[expNames[en]] + ' 次</span>' +
+      '</div>';
+    }
+    for (var bn = 0; bn < boardNames.length; bn++) {
+      html += '<div class="profile-game-item">' +
+        '<span class="profile-game-name">🎲 ' + boardNames[bn] + '</span>' +
+        '<span class="profile-game-detail">使用 ' + boardCount[boardNames[bn]] + ' 次</span>' +
+      '</div>';
+    }
+    html += '</div>';
+  }
+
+  // ===== 全部对局 =====
+  if (gamePlays.length > 0) {
+    html += '<h2 class="profile-section-title">📋 全部对局（' + gamePlays.length + '场）</h2><div class="timeline">';
+    for (var gi2 = 0; gi2 < gamePlays.length; gi2++) {
+      var play = gamePlays[gi2];
+      var locName = getLocationNameById(play.locationRefId);
+      var winner = getWinnerFromScores(play.playerScores);
+
+      var hasScoring = false;
+      for (var si = 0; si < play.playerScores.length; si++) {
+        if (play.playerScores[si].score) { hasScoring = true; break; }
+      }
+      var playerNames = '';
+      for (var si2 = 0; si2 < play.playerScores.length; si2++) {
+        var ps2 = play.playerScores[si2];
+        if (si2 > 0) playerNames += ' · ';
+        playerNames += getPlayerNameById(ps2.playerRefId);
+        if (hasScoring && ps2.score && !ps2.winner) playerNames += ' ' + ps2.score + '分';
+      }
+
+      var expHtml = '';
+      if (play.expansionPlays && play.expansionPlays.length > 0) {
+        var exNames = [];
+        for (var ei = 0; ei < play.expansionPlays.length; ei++) {
+          var en2 = getGameNameById(play.expansionPlays[ei].gameRefId);
+          if (en2) exNames.push(en2);
+        }
+        if (exNames.length > 0) expHtml = '<div class="timeline-expansion">🧩 ' + exNames.join('、') + '</div>';
+      }
+      var boardHtml = play.board ? '<div class="timeline-board">🎲 变体：' + play.board + '</div>' : '';
+      var commentHtml = play.comments ? '<div class="timeline-comment">📝 ' + play.comments + '</div>' : '';
+
+      html += '<div class="timeline-item">' +
+        '<div class="timeline-dot"></div>' +
+        '<div class="timeline-card">' +
+          '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + locName + '</div>' +
+          '<div class="timeline-game">' +
+            (winner ? '<span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
+            onlineBadge(play) +
+          '</div>' +
+          expHtml + boardHtml +
+          '<div class="timeline-players">👥 ' + playerNames + '</div>' +
+          commentHtml +
+        '</div>' +
+      '</div>';
+    }
+    html += '</div>';
+  } else {
+    html += '<p class="section-subtitle">本站暂无该游戏的对局记录</p>';
+  }
+
+  container.innerHTML = html;
 }
 
 /* ===== Plays Page ===== */
