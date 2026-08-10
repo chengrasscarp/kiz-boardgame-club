@@ -1039,6 +1039,49 @@ function renderMemberProfile() {
     html += '</div>';
   }
 
+  // 交手记录：仅统计真实成员对手（排除歪果人/未解析玩家），≥3 场门槛
+  var memberNameById = {};
+  for (var mbi = 0; mbi < data.players.length; mbi++) { memberNameById[data.players[mbi].id] = data.players[mbi].name; }
+  var h2h = {};
+  for (var hi = 0; hi < sortedPlays.length; hi++) {
+    var hPlay = sortedPlays[hi];
+    var myEntry = null;
+    for (var hs = 0; hs < hPlay.playerScores.length; hs++) {
+      if (hPlay.playerScores[hs].playerRefId === playerId) { myEntry = hPlay.playerScores[hs]; break; }
+    }
+    if (!myEntry) continue;
+    for (var ht = 0; ht < hPlay.playerScores.length; ht++) {
+      var op = hPlay.playerScores[ht];
+      if (op.playerRefId === playerId) continue;
+      if (!memberNameById[op.playerRefId]) continue;
+      var rec = h2h[op.playerRefId] || (h2h[op.playerRefId] = { plays: 0, win: 0, loss: 0, draw: 0 });
+      rec.plays++;
+      // 我赢他没赢=胜；他赢我没赢=负；都赢（合作）或都没赢=平
+      if (myEntry.winner && !op.winner) rec.win++;
+      else if (!myEntry.winner && op.winner) rec.loss++;
+      else rec.draw++;
+    }
+  }
+  var h2hList = Object.keys(h2h).map(function(id) {
+    var rr = h2h[id];
+    return { id: Number(id), name: memberNameById[id], plays: rr.plays, win: rr.win, loss: rr.loss, draw: rr.draw };
+  }).filter(function(rr) { return rr.plays >= 3; })
+    .sort(function(a, b) { return b.plays - a.plays; })
+    .slice(0, 10);
+
+  if (h2hList.length > 0) {
+    html += '<h2 class="profile-section-title">🤝 交手记录</h2><div class="profile-game-list">';
+    for (var hli = 0; hli < h2hList.length; hli++) {
+      var hh = h2hList[hli];
+      html += '<div class="profile-game-item">' +
+        '<span class="profile-game-name">' + hh.name + '</span>' +
+        '<span class="profile-game-stat">' + hh.win + '胜' + hh.loss + '负' + (hh.draw > 0 ? hh.draw + '平' : '') + '</span>' +
+        '<span class="profile-game-detail">（共' + hh.plays + '局）</span>' +
+      '</div>';
+    }
+    html += '</div>';
+  }
+
   // Recent plays (last 10)
   if (sortedPlays.length > 0) {
     html += '<h2 class="profile-section-title">🕐 最近对局</h2><div class="profile-recent">';
@@ -1147,6 +1190,45 @@ function renderLeaderboard() {
       '</div>';
     }
     playersEl.innerHTML = html;
+  }
+
+  // 胜率榜：仅真实成员，≥10 场门槛，按胜率降序（同胜率比胜场、再比场次）
+  var winRateEl = document.getElementById('leaderboardWinRate');
+  if (winRateEl) {
+    var memberIds = {};
+    for (var mi = 0; mi < data.players.length; mi++) { memberIds[data.players[mi].id] = true; }
+    var totalCount = {};
+    var winCount = {};
+    for (var wi = 0; wi < data.plays.length; wi++) {
+      var wScores = data.plays[wi].playerScores;
+      for (var wj = 0; wj < wScores.length; wj++) {
+        var wpid = wScores[wj].playerRefId;
+        if (!memberIds[wpid]) continue;
+        totalCount[wpid] = (totalCount[wpid] || 0) + 1;
+        if (wScores[wj].winner) winCount[wpid] = (winCount[wpid] || 0) + 1;
+      }
+    }
+    var winRateList = Object.keys(totalCount)
+      .map(function(id) {
+        var n = Number(id);
+        return { id: n, plays: totalCount[n], wins: winCount[n] || 0 };
+      })
+      .filter(function(p) { return p.plays >= 10; })
+      .sort(function(a, b) {
+        return (b.wins / b.plays) - (a.wins / a.plays) || b.wins - a.wins || b.plays - a.plays;
+      })
+      .slice(0, 10);
+    var wrHtml = '';
+    for (var wri = 0; wri < winRateList.length; wri++) {
+      var wp = winRateList[wri];
+      var wrate = Math.round(wp.wins / wp.plays * 100);
+      wrHtml += '<div class="leaderboard-row">' +
+        '<span class="leaderboard-rank' + (wri < 3 ? ' top' : '') + '">' + (wri + 1) + '</span>' +
+        '<span class="leaderboard-name">' + getPlayerNameById(wp.id) + '</span>' +
+        '<span class="leaderboard-value">' + wrate + '% · ' + wp.wins + '胜/' + wp.plays + '场</span>' +
+      '</div>';
+    }
+    winRateEl.innerHTML = wrHtml || '<div class="leaderboard-row"><span class="leaderboard-name">暂无足够数据（≥10场）</span></div>';
   }
 
   // Render locations
