@@ -470,6 +470,97 @@ def compute_record_holders(plays, games, player_id_to_name, no_points_map):
         }
 
 
+def sanity_report(data, players, player_ids, plays, pseudo_players, removed_by_game):
+    """数据自检报告：列出被静默丢弃或未解析的数据，防止漏数。
+
+    覆盖：
+    1. 地点未收录（VALID_LOCATION_IDS 之外）被跳过的对局
+    2. 有效地点但无研究生参与的线下对局 / 不满足规则的 BGA 对局 / 被过滤的单人局
+    3. 游戏未入库导致被移除的对局
+    4. 对局中出现但未解析的玩家（页面显示为「玩家」）
+    5. 零对局的研究生成员
+    """
+    raw_plays = data.get("plays", [])
+    raw_locations = {l["id"]: l["name"] for l in data.get("locations", [])}
+    raw_games = {g["id"]: g["name"] for g in data.get("games", [])}
+    raw_players = {p["id"]: p["name"] for p in data.get("players", [])}
+
+    warnings = []
+
+    # 1+2. 逐场分类原始对局的丢弃原因
+    skipped_loc = Counter()
+    no_grad = 0
+    bga_rejected = 0
+    solo_dropped = 0
+    for p in raw_plays:
+        lid = p.get("locationRefId")
+        if lid not in VALID_LOCATION_IDS:
+            skipped_loc[lid] += 1
+            continue
+        pss = p.get("playerScores", [])
+        member_cnt = sum(1 for ps in pss if ps.get("playerRefId") in player_ids)
+        if lid == BGA_LOCATION_ID:
+            has_chen = any(ps.get("playerRefId") == CHEN_PLAYER_ID for ps in pss)
+            if not has_chen or member_cnt < 2:
+                bga_rejected += 1
+                continue
+        elif member_cnt == 0:
+            no_grad += 1
+            continue
+        if len(pss) < 2 and p.get("gameRefId") not in SOLO_ALLOWED_GAME_IDS:
+            solo_dropped += 1
+
+    for lid, cnt in sorted(skipped_loc.items(), key=lambda x: -x[1]):
+        warnings.append(
+            f"地点未收录：「{raw_locations.get(lid, '?')}」(id={lid}) 的 {cnt} 场对局被跳过，"
+            f"如需收录请将其加入 VALID_LOCATION_IDS"
+        )
+    if no_grad:
+        warnings.append(f"{no_grad} 场线下对局因无研究生成员参与被跳过")
+    if bga_rejected:
+        warnings.append(f"{bga_rejected} 场 BGA 对局因不满足规则（需陈勇杰+另1名成员）被跳过")
+    if solo_dropped:
+        warnings.append(f"{solo_dropped} 场单人局被跳过（罪案疑云等白名单除外）")
+
+    # 3. 库外游戏对局被移除
+    if removed_by_game:
+        cnt_by_game = Counter(p["gameRefId"] for p in removed_by_game)
+        for gid, cnt in sorted(cnt_by_game.items(), key=lambda x: -x[1]):
+            warnings.append(
+                f"游戏未入库：「{raw_games.get(gid, '?')}」(id={gid}) 的 {cnt} 场对局被移除"
+            )
+
+    # 4. 对局中未解析的玩家（前端显示为「玩家」）
+    known_ids = player_ids | {pp["id"] for pp in pseudo_players}
+    unknown = Counter()
+    for p in plays:
+        for ps in p["playerScores"]:
+            pid = ps["playerRefId"]
+            if pid not in known_ids:
+                unknown[pid] += 1
+    for pid, cnt in sorted(unknown.items(), key=lambda x: -x[1]):
+        warnings.append(
+            f"玩家未解析：「{raw_players.get(pid, '?')}」(id={pid}) 出现在 {cnt} 场对局中，"
+            f"页面显示为「玩家」；如需显示真名，请在 BGStats 中为其添加研究生标签"
+        )
+
+    # 5. 零对局的研究生成员（用源数据真名展示，便于核对）
+    played = set()
+    for p in plays:
+        for ps in p["playerScores"]:
+            played.add(ps["playerRefId"])
+    idle = [raw_players.get(pl["id"], pl["name"]) for pl in players if pl["id"] not in played]
+    if idle:
+        warnings.append(f"{len(idle)} 名研究生成员没有任何对局：{'、'.join(idle)}")
+
+    print("\n=== 数据自检 ===")
+    if not warnings:
+        print("  ✓ 未发现问题")
+    else:
+        for w in warnings:
+            print(f"  ⚠ {w}")
+
+
 def main():
     print(f"读取 {INPUT_FILE} ...")
     data = load_data()
@@ -494,6 +585,7 @@ def main():
     # 仅保留游戏库内的对局，使全站总对局数与成员墙/个人主页/排行榜口径完全一致
     owned_ids = {g["id"] for g in games}
     before_count = len(plays)
+    removed_by_game = [p for p in plays if p["gameRefId"] not in owned_ids]
     plays = [p for p in plays if p["gameRefId"] in owned_ids]
     play_counts = compute_play_counts(plays)
     print(f"  过滤库外游戏对局: {before_count} -> {len(plays)} 场")
@@ -518,6 +610,8 @@ def main():
     print(f"  对局: {len(plays)} 场（其中 BGA 线上 {bga_count} 场）")
     print(f"  游戏: {len(games)} 款")
     print(f"  地点: {len(locations)} 个")
+
+    sanity_report(data, players, player_ids, plays, pseudo_players, removed_by_game)
 
     output = {
         "players": players,

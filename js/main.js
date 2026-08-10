@@ -560,6 +560,28 @@ function renderPlayRecords() {
     }
   }
 
+  // 填充玩家筛选（仅真实成员，按对局数降序；不含歪果人等伪玩家）
+  var playerFilter = document.getElementById('playPlayerFilter');
+  if (playerFilter) {
+    var pCount = {};
+    for (var pi = 0; pi < data.plays.length; pi++) {
+      var pScores = data.plays[pi].playerScores;
+      for (var pj = 0; pj < pScores.length; pj++) {
+        var ppid = pScores[pj].playerRefId;
+        pCount[ppid] = (pCount[ppid] || 0) + 1;
+      }
+    }
+    var sortedPlayers = data.players.slice().sort(function(a, b) {
+      return (pCount[b.id] || 0) - (pCount[a.id] || 0);
+    });
+    for (var pk = 0; pk < sortedPlayers.length; pk++) {
+      var pOpt = document.createElement('option');
+      pOpt.value = sortedPlayers[pk].id;
+      pOpt.textContent = sortedPlayers[pk].name;
+      playerFilter.appendChild(pOpt);
+    }
+  }
+
   // 填充月份筛选（所有有对局的月份，倒序）
   var monthFilter = document.getElementById('playMonthFilter');
   if (monthFilter) {
@@ -596,6 +618,7 @@ function renderPlayRecords() {
   function filterAndRender() {
     var gameId = gameFilter ? gameFilter.value : '';
     var locId = locFilter ? locFilter.value : '';
+    var playerId = playerFilter ? playerFilter.value : '';
     var fromEl = document.getElementById('playFromDate');
     var toEl = document.getElementById('playToDate');
     var from = fromEl ? fromEl.value.replace(/-/g, '') : '';
@@ -607,6 +630,14 @@ function renderPlayRecords() {
     var filtered = sortedPlays.filter(function(p) {
       if (gameId && String(p.gameRefId) !== gameId) return false;
       if (locId && String(p.locationRefId) !== locId) return false;
+      // 玩家筛选：对局 playerScores 中含该玩家即命中
+      if (playerId) {
+        var hasPlayer = false;
+        for (var fp = 0; fp < p.playerScores.length; fp++) {
+          if (String(p.playerScores[fp].playerRefId) === playerId) { hasPlayer = true; break; }
+        }
+        if (!hasPlayer) return false;
+      }
       // 日期范围（playDateYmd 为 YYYYMMDD 数字，统一转字符串比较）
       var ymd = String(p.playDateYmd || '');
       if (from && (!ymd || ymd < from)) return false;
@@ -726,6 +757,7 @@ function renderPlayRecords() {
   // Filters
   if (gameFilter) gameFilter.addEventListener('change', filterAndRender);
   if (locFilter) locFilter.addEventListener('change', filterAndRender);
+  if (playerFilter) playerFilter.addEventListener('change', filterAndRender);
 
   var fromEl = document.getElementById('playFromDate');
   var toEl = document.getElementById('playToDate');
