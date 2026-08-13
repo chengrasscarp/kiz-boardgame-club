@@ -52,7 +52,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 8,
-      "name": "桌友40",
+      "name": "桌友41",
       "uuid": "B732F611-2BEA-4CF4-A02D-27FB84F0F4FD",
       "avatarColor": null,
       "bgaUsername": ""
@@ -73,7 +73,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 11,
-      "name": "桌友42",
+      "name": "桌友43",
       "uuid": "D0962917-C9FB-461C-AC56-F219EDA78229",
       "avatarColor": null,
       "bgaUsername": ""
@@ -108,7 +108,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 16,
-      "name": "桌友46",
+      "name": "桌友47",
       "uuid": "15F929E7-EC1A-441B-A818-17B23ADBCFA5",
       "avatarColor": null,
       "bgaUsername": ""
@@ -178,7 +178,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 29,
-      "name": "桌友38",
+      "name": "桌友39",
       "uuid": "9E477850-8D56-4574-9B08-9B9AA68076D0",
       "avatarColor": null,
       "bgaUsername": ""
@@ -192,7 +192,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 31,
-      "name": "桌友44",
+      "name": "桌友45",
       "uuid": "41AA5F7E-D88D-4A68-B036-F9418B16D017",
       "avatarColor": null,
       "bgaUsername": ""
@@ -234,7 +234,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 37,
-      "name": "桌友39",
+      "name": "桌友40",
       "uuid": "27275E62-7AD1-4A2C-A251-496CF09BBF6D",
       "avatarColor": null,
       "bgaUsername": ""
@@ -248,7 +248,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 46,
-      "name": "桌友48",
+      "name": "桌友49",
       "uuid": "F5DBA21D-CDA9-49C8-AE43-1F7B8EC1CCF3",
       "avatarColor": null,
       "bgaUsername": ""
@@ -262,7 +262,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 48,
-      "name": "桌友49",
+      "name": "桌友50",
       "uuid": "FF1B0EC7-E8E2-40F7-83F4-A195E0C05D57",
       "avatarColor": null,
       "bgaUsername": ""
@@ -276,7 +276,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 50,
-      "name": "桌友43",
+      "name": "桌友44",
       "uuid": "7FA06CC0-A90C-4D86-9378-B246BB718D27",
       "avatarColor": null,
       "bgaUsername": ""
@@ -290,7 +290,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 52,
-      "name": "桌友37",
+      "name": "桌友38",
       "uuid": "582A9DFF-4278-44AE-AAAF-E24C46B05DDE",
       "avatarColor": null,
       "bgaUsername": ""
@@ -311,7 +311,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 62,
-      "name": "桌友45",
+      "name": "桌友46",
       "uuid": "C55D0BF3-9754-431E-BFD4-90BA2C958626",
       "avatarColor": null,
       "bgaUsername": ""
@@ -325,7 +325,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 64,
-      "name": "桌友47",
+      "name": "桌友48",
       "uuid": "162C1149-B356-4D3C-9C54-BA353655FC2A",
       "avatarColor": null,
       "bgaUsername": ""
@@ -346,7 +346,7 @@ window.KIZ_DATA = {
     },
     {
       "id": 67,
-      "name": "桌友41",
+      "name": "桌友42",
       "uuid": "5B5070F3-3F9E-4E26-84FC-96A06D8A724B",
       "avatarColor": null,
       "bgaUsername": ""
@@ -385,6 +385,13 @@ window.KIZ_DATA = {
       "uuid": "7988CCA7-EE3D-4304-B621-31CEF4F4C612",
       "avatarColor": null,
       "bgaUsername": ""
+    },
+    {
+      "id": 77,
+      "name": "桌友37",
+      "uuid": "5386007B-B975-4321-A1A4-743A1A7435B8",
+      "avatarColor": null,
+      "bgaUsername": ""
     }
   ],
   "plays": [
@@ -400,26 +407,26 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "183",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 7,
           "score": "232",
           "winner": true,
           "rank": 0
         },
         {
-          "playerRefId": 1,
-          "score": "221",
+          "playerRefId": 3,
+          "score": "205",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 3,
-          "score": "205",
+          "playerRefId": 4,
+          "score": "183",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "221",
           "winner": false,
           "rank": 0
         }
@@ -438,20 +445,14 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "180",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 5,
-          "score": "173",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 7,
           "score": "184",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "180",
           "winner": false,
           "rank": 0
         },
@@ -459,6 +460,12 @@ window.KIZ_DATA = {
           "playerRefId": 2,
           "score": "243",
           "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 5,
+          "score": "173",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -508,12 +515,6 @@ window.KIZ_DATA = {
       "comments": "42关",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 6,
           "score": "",
           "winner": true,
@@ -527,6 +528,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 5,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 0
@@ -546,12 +553,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 15,
-          "score": "27",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 14,
           "score": "50",
           "winner": false,
@@ -561,6 +562,12 @@ window.KIZ_DATA = {
           "playerRefId": 1,
           "score": "53",
           "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 15,
+          "score": "27",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -578,12 +585,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "72",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 15,
           "score": "59",
           "winner": false,
@@ -593,6 +594,12 @@ window.KIZ_DATA = {
           "playerRefId": 14,
           "score": "51",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "72",
+          "winner": true,
           "rank": 0
         }
       ],
@@ -610,20 +617,20 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "47",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 3,
           "score": "38",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 4,
-          "score": "36",
+          "playerRefId": 1,
+          "score": "47",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 7,
+          "score": "66",
           "winner": false,
           "rank": 0
         },
@@ -634,8 +641,8 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 7,
-          "score": "66",
+          "playerRefId": 4,
+          "score": "36",
           "winner": false,
           "rank": 0
         }
@@ -654,15 +661,21 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "94",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 7,
           "score": "58",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 5,
+          "score": "77",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
+          "score": "94",
+          "winner": true,
           "rank": 0
         },
         {
@@ -674,12 +687,6 @@ window.KIZ_DATA = {
         {
           "playerRefId": 1,
           "score": "51",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 5,
-          "score": "77",
           "winner": false,
           "rank": 0
         }
@@ -724,15 +731,15 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "-140",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 1,
           "score": "108",
           "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 2,
+          "score": "-140",
+          "winner": false,
           "rank": 0
         },
         {
@@ -762,12 +769,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "432",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 1,
           "score": "432",
           "winner": false,
@@ -777,6 +778,12 @@ window.KIZ_DATA = {
           "playerRefId": 5,
           "score": "476",
           "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 2,
+          "score": "432",
+          "winner": false,
           "rank": 0
         },
         {
@@ -800,26 +807,26 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 21,
-          "score": "58",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 14,
-          "score": "36",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 15,
           "score": "59",
           "winner": true,
           "rank": 0
         },
         {
+          "playerRefId": 21,
+          "score": "58",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 22,
           "score": "44",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 14,
+          "score": "36",
           "winner": false,
           "rank": 0
         }
@@ -838,20 +845,14 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "439",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 15,
           "score": "304",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 22,
-          "score": "380",
+          "playerRefId": 21,
+          "score": "295",
           "winner": false,
           "rank": 0
         },
@@ -862,8 +863,14 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 21,
-          "score": "295",
+          "playerRefId": 1,
+          "score": "439",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 22,
+          "score": "380",
           "winner": false,
           "rank": 0
         }
@@ -894,12 +901,6 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 15,
-          "score": "66",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 21,
           "score": "73",
           "winner": false,
@@ -908,6 +909,12 @@ window.KIZ_DATA = {
         {
           "playerRefId": 1,
           "score": "37",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 15,
+          "score": "66",
           "winner": false,
           "rank": 0
         }
@@ -932,7 +939,7 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 14,
           "score": "28",
           "winner": false,
           "rank": 0
@@ -944,7 +951,7 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 14,
+          "playerRefId": 1,
           "score": "28",
           "winner": false,
           "rank": 0
@@ -1022,12 +1029,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 22,
-          "score": "3",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 1,
           "score": "21",
           "winner": true,
@@ -1037,6 +1038,12 @@ window.KIZ_DATA = {
           "playerRefId": 24,
           "score": "21",
           "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 22,
+          "score": "3",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -1054,15 +1061,15 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "80",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 23,
           "score": "59",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "80",
+          "winner": true,
           "rank": 0
         }
       ],
@@ -1080,15 +1087,15 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "52",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 23,
           "score": "92",
           "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "52",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -1106,14 +1113,20 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "0",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 5,
           "score": "9",
           "winner": true,
           "rank": 0
         },
         {
-          "playerRefId": 1,
-          "score": "6",
+          "playerRefId": 6,
+          "score": "8",
           "winner": false,
           "rank": 0
         },
@@ -1124,14 +1137,8 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 6,
-          "score": "8",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
-          "score": "0",
+          "playerRefId": 1,
+          "score": "6",
           "winner": false,
           "rank": 0
         }
@@ -1150,9 +1157,15 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 6,
+          "playerRefId": 7,
           "score": "",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 4,
+          "score": "",
+          "winner": true,
           "rank": 0
         },
         {
@@ -1174,13 +1187,7 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 4,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
+          "playerRefId": 6,
           "score": "",
           "winner": false,
           "rank": 0
@@ -1200,15 +1207,9 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
+          "playerRefId": 4,
           "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 6,
-          "score": "",
-          "winner": false,
+          "winner": true,
           "rank": 0
         },
         {
@@ -1218,15 +1219,21 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 4,
+          "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 0
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 7,
           "score": "",
-          "winner": true,
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 6,
+          "score": "",
+          "winner": false,
           "rank": 0
         },
         {
@@ -1250,6 +1257,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "19",
+          "winner": true,
+          "rank": 0
+        },
+        {
           "playerRefId": 6,
           "score": "13",
           "winner": false,
@@ -1259,12 +1272,6 @@ window.KIZ_DATA = {
           "playerRefId": 3,
           "score": "13",
           "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "19",
-          "winner": true,
           "rank": 0
         }
       ],
@@ -1282,6 +1289,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 4,
+          "score": "6",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 5,
           "score": "15",
           "winner": false,
@@ -1290,12 +1303,6 @@ window.KIZ_DATA = {
         {
           "playerRefId": 2,
           "score": "18",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 4,
-          "score": "6",
           "winner": false,
           "rank": 0
         },
@@ -1320,19 +1327,19 @@ window.KIZ_DATA = {
       "comments": "鬼灵之谜",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
+          "playerRefId": 4,
           "score": "",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 4,
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 7,
           "score": "",
           "winner": false,
           "rank": 0
@@ -1344,9 +1351,9 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 1,
           "score": "",
-          "winner": false,
+          "winner": true,
           "rank": 0
         }
       ],
@@ -1408,12 +1415,6 @@ window.KIZ_DATA = {
       "comments": "44",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
@@ -1436,6 +1437,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 0
+        },
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": true,
+          "rank": 0
         }
       ],
       "expansionPlays": []
@@ -1452,14 +1459,8 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "208",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 6,
-          "score": "34",
+          "playerRefId": 5,
+          "score": "129",
           "winner": false,
           "rank": 0
         },
@@ -1476,9 +1477,9 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 11,
-          "score": "210",
-          "winner": true,
+          "playerRefId": 2,
+          "score": "208",
+          "winner": false,
           "rank": 0
         },
         {
@@ -1488,8 +1489,14 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 5,
-          "score": "129",
+          "playerRefId": 11,
+          "score": "210",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 6,
+          "score": "34",
           "winner": false,
           "rank": 0
         }
@@ -1508,6 +1515,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 5,
+          "score": "60",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 1,
           "score": "69",
           "winner": true,
@@ -1515,12 +1528,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 7,
-          "score": "60",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 5,
           "score": "60",
           "winner": false,
           "rank": 0
@@ -1545,6 +1552,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "47",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 7,
           "score": "59",
           "winner": false,
@@ -1554,12 +1567,6 @@ window.KIZ_DATA = {
           "playerRefId": 5,
           "score": "98",
           "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "47",
-          "winner": false,
           "rank": 0
         }
       ],
@@ -1582,25 +1589,25 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 11,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 0
         },
         {
+          "playerRefId": 2,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
           "playerRefId": 6,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 11,
           "score": "",
           "winner": false,
           "rank": 0
@@ -1625,6 +1632,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "18",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 14,
           "score": "19",
           "winner": true,
@@ -1634,12 +1647,6 @@ window.KIZ_DATA = {
           "playerRefId": 22,
           "score": "19",
           "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "18",
-          "winner": false,
           "rank": 0
         }
       ],
@@ -1657,6 +1664,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "19",
+          "winner": true,
+          "rank": 0
+        },
+        {
           "playerRefId": 14,
           "score": "8",
           "winner": false,
@@ -1664,12 +1677,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 22,
-          "score": "19",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
           "score": "19",
           "winner": true,
           "rank": 0
@@ -1768,18 +1775,6 @@ window.KIZ_DATA = {
       "comments": "45",
       "playerScores": [
         {
-          "playerRefId": 5,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 8,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 2,
           "score": "",
           "winner": true,
@@ -1793,6 +1788,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 5,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 8,
           "score": "",
           "winner": true,
           "rank": 0
@@ -1812,12 +1819,6 @@ window.KIZ_DATA = {
       "comments": "45",
       "playerScores": [
         {
-          "playerRefId": 8,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 2,
           "score": "",
           "winner": false,
@@ -1837,6 +1838,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 8,
           "score": "",
           "winner": false,
           "rank": 0
@@ -1856,18 +1863,6 @@ window.KIZ_DATA = {
       "comments": "46",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 8,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 5,
           "score": "",
           "winner": false,
@@ -1880,7 +1875,19 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
+          "playerRefId": 8,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 0
@@ -1900,12 +1907,6 @@ window.KIZ_DATA = {
       "comments": "46",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 8,
           "score": "",
           "winner": true,
@@ -1925,6 +1926,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 5,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 0
@@ -1944,14 +1951,8 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "19",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "15",
+          "playerRefId": 8,
+          "score": "22",
           "winner": false,
           "rank": 0
         },
@@ -1962,14 +1963,20 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 8,
+          "playerRefId": 2,
           "score": "22",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 2,
-          "score": "22",
+          "playerRefId": 3,
+          "score": "19",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "15",
           "winner": false,
           "rank": 0
         }
@@ -1988,15 +1995,15 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "20",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 5,
           "score": "17",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "20",
+          "winner": true,
           "rank": 0
         }
       ],
@@ -2029,11 +2036,11 @@ window.KIZ_DATA = {
       "expansionPlays": [
         {
           "bggId": 0,
-          "gameRefId": 82
+          "gameRefId": 81
         },
         {
           "bggId": 0,
-          "gameRefId": 81
+          "gameRefId": 82
         }
       ]
     },
@@ -2055,15 +2062,15 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 1,
-          "score": "57",
+          "playerRefId": 25,
+          "score": "84",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 25,
-          "score": "84",
-          "winner": false,
+          "playerRefId": 14,
+          "score": "133",
+          "winner": true,
           "rank": 0
         },
         {
@@ -2079,15 +2086,15 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 26,
-          "score": "64",
+          "playerRefId": 1,
+          "score": "57",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 14,
-          "score": "133",
-          "winner": true,
+          "playerRefId": 26,
+          "score": "64",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -2117,13 +2124,13 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 14,
           "score": "",
           "winner": true,
           "rank": 0
         },
         {
-          "playerRefId": 14,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 0
@@ -2149,12 +2156,6 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 1,
-          "score": "14",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 22,
           "score": "22",
           "winner": false,
@@ -2163,6 +2164,12 @@ window.KIZ_DATA = {
         {
           "playerRefId": 21,
           "score": "23",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "14",
           "winner": false,
           "rank": 0
         }
@@ -2193,8 +2200,8 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 1,
-          "score": "71",
+          "playerRefId": 2,
+          "score": "64",
           "winner": false,
           "rank": 0
         },
@@ -2205,8 +2212,8 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 2,
-          "score": "64",
+          "playerRefId": 1,
+          "score": "71",
           "winner": false,
           "rank": 0
         },
@@ -2231,20 +2238,8 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "174",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 3,
-          "score": "91",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 5,
-          "score": "113",
+          "playerRefId": 2,
+          "score": "120",
           "winner": false,
           "rank": 0
         },
@@ -2255,14 +2250,26 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
+          "playerRefId": 1,
+          "score": "174",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 7,
           "score": "193",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 2,
-          "score": "120",
+          "playerRefId": 5,
+          "score": "113",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
+          "score": "91",
           "winner": false,
           "rank": 0
         }
@@ -2281,26 +2288,26 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 27,
           "score": "",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
           "rank": 0
         }
       ],
       "expansionPlays": [
         {
           "bggId": 0,
-          "gameRefId": 82
+          "gameRefId": 81
         },
         {
           "bggId": 0,
-          "gameRefId": 81
+          "gameRefId": 82
         }
       ]
     },
@@ -2316,13 +2323,13 @@ window.KIZ_DATA = {
       "comments": "ATL",
       "playerScores": [
         {
-          "playerRefId": 27,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 27,
           "score": "",
           "winner": false,
           "rank": 0
@@ -2380,12 +2387,6 @@ window.KIZ_DATA = {
       "comments": "47",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 7,
           "score": "",
           "winner": false,
@@ -2399,6 +2400,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 2,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 0
@@ -2456,13 +2463,13 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 12,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 0
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 12,
           "score": "",
           "winner": true,
           "rank": 0
@@ -2482,13 +2489,13 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 12,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 0
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 12,
           "score": "",
           "winner": true,
           "rank": 0
@@ -2508,9 +2515,9 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 5,
-          "score": "102",
-          "winner": false,
+          "playerRefId": 1,
+          "score": "46",
+          "winner": true,
           "rank": 0
         },
         {
@@ -2520,20 +2527,20 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 3,
-          "score": "57",
+          "playerRefId": 5,
+          "score": "102",
           "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 1,
-          "score": "46",
-          "winner": true,
           "rank": 0
         },
         {
           "playerRefId": 27,
           "score": "50",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
+          "score": "57",
           "winner": false,
           "rank": 0
         },
@@ -2558,9 +2565,15 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
+          "playerRefId": 28,
           "score": "",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
           "rank": 0
         },
         {
@@ -2570,15 +2583,9 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 4,
           "score": "",
           "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 5,
-          "score": "",
-          "winner": true,
           "rank": 0
         },
         {
@@ -2588,7 +2595,7 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 5,
           "score": "",
           "winner": true,
           "rank": 0
@@ -2634,12 +2641,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 27,
-          "score": "78",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 28,
           "score": "58",
           "winner": true,
@@ -2648,6 +2649,12 @@ window.KIZ_DATA = {
         {
           "playerRefId": 3,
           "score": "81",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 27,
+          "score": "78",
           "winner": false,
           "rank": 0
         },
@@ -2672,21 +2679,21 @@ window.KIZ_DATA = {
       "comments": "球赛终局",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 2,
           "score": "",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 4,
           "score": "",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": true,
           "rank": 0
         },
         {
@@ -2696,9 +2703,9 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 1,
           "score": "",
-          "winner": true,
+          "winner": false,
           "rank": 0
         }
       ],
@@ -2799,26 +2806,20 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 1,
-          "score": "120",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 4,
           "score": "211",
           "winner": true,
           "rank": 0
         },
         {
-          "playerRefId": 3,
-          "score": "145",
+          "playerRefId": 27,
+          "score": "100",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 30,
-          "score": "199",
+          "playerRefId": 1,
+          "score": "120",
           "winner": false,
           "rank": 0
         },
@@ -2829,8 +2830,14 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 27,
-          "score": "100",
+          "playerRefId": 30,
+          "score": "199",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
+          "score": "145",
           "winner": false,
           "rank": 0
         }
@@ -2849,12 +2856,6 @@ window.KIZ_DATA = {
       "comments": "48",
       "playerScores": [
         {
-          "playerRefId": 5,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 4,
           "score": "",
           "winner": true,
@@ -2868,6 +2869,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 30,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 5,
           "score": "",
           "winner": true,
           "rank": 0
@@ -2925,13 +2932,13 @@ window.KIZ_DATA = {
       "comments": "ATL橙色",
       "playerScores": [
         {
-          "playerRefId": 27,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 27,
           "score": "",
           "winner": false,
           "rank": 0
@@ -2951,13 +2958,13 @@ window.KIZ_DATA = {
       "comments": "ATL橙色",
       "playerScores": [
         {
-          "playerRefId": 1,
+          "playerRefId": 27,
           "score": "",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 27,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 0
@@ -2977,13 +2984,7 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 5,
+          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 0
@@ -2995,7 +2996,13 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 30,
+          "playerRefId": 5,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 4,
           "score": "",
           "winner": false,
           "rank": 0
@@ -3021,7 +3028,7 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 11,
+          "playerRefId": 4,
           "score": "",
           "winner": false,
           "rank": 0
@@ -3039,15 +3046,15 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 5,
           "score": "",
           "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 11,
+          "score": "",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -3065,19 +3072,19 @@ window.KIZ_DATA = {
       "comments": "黑色之王",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 2,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 4,
           "score": "",
           "winner": false,
           "rank": 0
@@ -3089,7 +3096,7 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 4,
+          "playerRefId": 7,
           "score": "",
           "winner": false,
           "rank": 0
@@ -3109,20 +3116,14 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "41",
-          "winner": false,
+          "playerRefId": 1,
+          "score": "27",
+          "winner": true,
           "rank": 0
         },
         {
           "playerRefId": 28,
           "score": "72",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
-          "score": "49",
           "winner": false,
           "rank": 0
         },
@@ -3133,15 +3134,21 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 31,
-          "score": "81",
+          "playerRefId": 4,
+          "score": "41",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 1,
-          "score": "27",
-          "winner": true,
+          "playerRefId": 7,
+          "score": "49",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 31,
+          "score": "81",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -3158,12 +3165,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "115",
-          "winner": false,
-          "rank": 0
-        },
         {
           "playerRefId": 31,
           "score": "10",
@@ -3193,6 +3194,12 @@ window.KIZ_DATA = {
           "score": "35",
           "winner": false,
           "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "115",
+          "winner": false,
+          "rank": 0
         }
       ],
       "expansionPlays": []
@@ -3208,12 +3215,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 31,
-          "score": "98",
-          "winner": false,
-          "rank": 0
-        },
         {
           "playerRefId": 1,
           "score": "100",
@@ -3243,6 +3244,12 @@ window.KIZ_DATA = {
           "score": "72",
           "winner": false,
           "rank": 0
+        },
+        {
+          "playerRefId": 31,
+          "score": "98",
+          "winner": false,
+          "rank": 0
         }
       ],
       "expansionPlays": []
@@ -3259,15 +3266,15 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 31,
-          "score": "0",
+          "playerRefId": 4,
+          "score": "101",
           "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 27,
-          "score": "217",
-          "winner": true,
+          "playerRefId": 31,
+          "score": "0",
+          "winner": false,
           "rank": 0
         },
         {
@@ -3277,8 +3284,8 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 4,
-          "score": "101",
+          "playerRefId": 7,
+          "score": "153",
           "winner": false,
           "rank": 0
         },
@@ -3289,9 +3296,9 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 7,
-          "score": "153",
-          "winner": false,
+          "playerRefId": 27,
+          "score": "217",
+          "winner": true,
           "rank": 0
         }
       ],
@@ -3308,12 +3315,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "绯红迷情",
       "playerScores": [
-        {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
         {
           "playerRefId": 3,
           "score": "",
@@ -3336,6 +3337,12 @@ window.KIZ_DATA = {
           "playerRefId": 7,
           "score": "",
           "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 4,
+          "score": "",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -3358,15 +3365,9 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
+          "playerRefId": 2,
           "score": "",
           "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 3,
-          "score": "",
-          "winner": true,
           "rank": 0
         },
         {
@@ -3382,9 +3383,15 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 2,
+          "playerRefId": 4,
           "score": "",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": true,
           "rank": 0
         }
       ],
@@ -3428,8 +3435,8 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "111",
+          "playerRefId": 29,
+          "score": "33",
           "winner": false,
           "rank": 0
         },
@@ -3446,8 +3453,14 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 29,
-          "score": "33",
+          "playerRefId": 1,
+          "score": "111",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 32,
+          "score": "98",
           "winner": false,
           "rank": 0
         },
@@ -3455,12 +3468,6 @@ window.KIZ_DATA = {
           "playerRefId": 27,
           "score": "180",
           "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 32,
-          "score": "98",
-          "winner": false,
           "rank": 0
         }
       ],
@@ -3477,6 +3484,18 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 30,
+          "score": "30",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 27,
+          "score": "25",
+          "winner": false,
+          "rank": 0
+        },
         {
           "playerRefId": 32,
           "score": "18",
@@ -3500,18 +3519,6 @@ window.KIZ_DATA = {
           "score": "23",
           "winner": false,
           "rank": 0
-        },
-        {
-          "playerRefId": 30,
-          "score": "30",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 27,
-          "score": "25",
-          "winner": false,
-          "rank": 0
         }
       ],
       "expansionPlays": []
@@ -3528,12 +3535,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "16",
-          "winner": false,
-          "rank": 0
-        },
-        {
           "playerRefId": 1,
           "score": "16",
           "winner": true,
@@ -3542,6 +3543,12 @@ window.KIZ_DATA = {
         {
           "playerRefId": 32,
           "score": "15",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 30,
+          "score": "16",
           "winner": false,
           "rank": 0
         }
@@ -3560,12 +3567,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "64",
-          "winner": true,
-          "rank": 0
-        },
-        {
           "playerRefId": 30,
           "score": "61",
           "winner": false,
@@ -3575,6 +3576,12 @@ window.KIZ_DATA = {
           "playerRefId": 32,
           "score": "62",
           "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "64",
+          "winner": true,
           "rank": 0
         }
       ],
@@ -3592,15 +3599,15 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "61",
-          "winner": true,
+          "playerRefId": 28,
+          "score": "56",
+          "winner": false,
           "rank": 0
         },
         {
-          "playerRefId": 1,
-          "score": "55",
-          "winner": false,
+          "playerRefId": 7,
+          "score": "61",
+          "winner": true,
           "rank": 0
         },
         {
@@ -3610,8 +3617,8 @@ window.KIZ_DATA = {
           "rank": 0
         },
         {
-          "playerRefId": 28,
-          "score": "56",
+          "playerRefId": 1,
+          "score": "55",
           "winner": false,
           "rank": 0
         }
@@ -3635,6 +3642,12 @@ window.KIZ_DATA = {
       "comments": "49",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 2,
           "score": "",
           "winner": false,
@@ -3648,12 +3661,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
           "score": "",
           "winner": false,
           "rank": 0
@@ -3711,6 +3718,12 @@ window.KIZ_DATA = {
       "comments": "49",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
           "playerRefId": 28,
           "score": "",
           "winner": false,
@@ -3724,12 +3737,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
           "score": "",
           "winner": false,
           "rank": 0
@@ -3749,6 +3756,12 @@ window.KIZ_DATA = {
       "comments": "49",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
           "playerRefId": 28,
           "score": "",
           "winner": true,
@@ -3762,12 +3775,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 0
@@ -3825,6 +3832,12 @@ window.KIZ_DATA = {
       "comments": "51",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
           "playerRefId": 2,
           "score": "",
           "winner": true,
@@ -3838,12 +3851,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
-          "score": "",
-          "winner": true,
-          "rank": 0
-        },
-        {
-          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 0
@@ -3953,13 +3960,13 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 29,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 29,
           "score": "",
           "winner": false,
           "rank": 2
@@ -4031,16 +4038,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 27,
+          "score": "60",
+          "winner": false,
+          "rank": 4
+        },
+        {
           "playerRefId": 3,
           "score": "80",
           "winner": false,
           "rank": 6
-        },
-        {
-          "playerRefId": 31,
-          "score": "75",
-          "winner": false,
-          "rank": 5
         },
         {
           "playerRefId": 1,
@@ -4055,22 +4062,22 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 7,
-          "score": "42",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 30,
           "score": "80",
           "winner": false,
           "rank": 6
         },
         {
-          "playerRefId": 27,
-          "score": "60",
+          "playerRefId": 31,
+          "score": "75",
           "winner": false,
-          "rank": 4
+          "rank": 5
+        },
+        {
+          "playerRefId": 7,
+          "score": "42",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -4087,6 +4094,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "20",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 30,
           "score": "95",
           "winner": true,
@@ -4094,12 +4107,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 3,
-          "score": "20",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
           "score": "20",
           "winner": false,
           "rank": 2
@@ -4119,6 +4126,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "74",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 3,
           "score": "130",
           "winner": true,
@@ -4129,12 +4142,6 @@ window.KIZ_DATA = {
           "score": "130",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "74",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -4151,12 +4158,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "53",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 28,
           "score": "75",
           "winner": false,
@@ -4170,6 +4171,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 27,
+          "score": "53",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
           "score": "53",
           "winner": true,
           "rank": 1
@@ -4189,6 +4196,12 @@ window.KIZ_DATA = {
       "comments": "53",
       "playerScores": [
         {
+          "playerRefId": 31,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -4208,12 +4221,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 31,
           "score": "",
           "winner": false,
           "rank": 2
@@ -4233,6 +4240,12 @@ window.KIZ_DATA = {
       "comments": "53",
       "playerScores": [
         {
+          "playerRefId": 27,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -4252,12 +4265,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 27,
           "score": "",
           "winner": false,
           "rank": 2
@@ -4277,18 +4284,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 27,
-          "score": "180",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 1,
-          "score": "215",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 7,
           "score": "204",
           "winner": false,
@@ -4299,6 +4294,18 @@ window.KIZ_DATA = {
           "score": "245",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "215",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 27,
+          "score": "180",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -4315,30 +4322,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 9,
-          "score": "",
-          "winner": false,
-          "rank": 1
-        },
-        {
-          "playerRefId": 31,
-          "score": "",
-          "winner": false,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 1
-        },
-        {
           "playerRefId": 30,
           "score": "",
           "winner": false,
@@ -4351,7 +4334,31 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
+          "playerRefId": 9,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        },
+        {
           "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        },
+        {
+          "playerRefId": 31,
           "score": "",
           "winner": false,
           "rank": 1
@@ -4371,28 +4378,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 31,
-          "score": "43",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "78",
           "winner": false,
           "rank": 7
         },
         {
-          "playerRefId": 7,
-          "score": "73",
+          "playerRefId": 31,
+          "score": "43",
           "winner": false,
-          "rank": 6
-        },
-        {
-          "playerRefId": 9,
-          "score": "52",
-          "winner": false,
-          "rank": 4
+          "rank": 2
         },
         {
           "playerRefId": 30,
@@ -4405,6 +4400,18 @@ window.KIZ_DATA = {
           "score": "53",
           "winner": false,
           "rank": 5
+        },
+        {
+          "playerRefId": 7,
+          "score": "73",
+          "winner": false,
+          "rank": 6
+        },
+        {
+          "playerRefId": 9,
+          "score": "52",
+          "winner": false,
+          "rank": 4
         },
         {
           "playerRefId": 28,
@@ -4427,6 +4434,18 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 4,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 31,
           "score": "",
           "winner": true,
@@ -4449,18 +4468,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 4,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -4476,6 +4483,12 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 4,
+          "score": "325",
+          "winner": false,
+          "rank": 4
+        },
         {
           "playerRefId": 28,
           "score": "425",
@@ -4499,12 +4512,6 @@ window.KIZ_DATA = {
           "score": "587",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 4,
-          "score": "325",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -4741,12 +4748,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 33,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
@@ -4757,6 +4758,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 33,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -4779,7 +4786,7 @@ window.KIZ_DATA = {
           "rank": 5
         },
         {
-          "playerRefId": 33,
+          "playerRefId": 30,
           "score": "",
           "winner": true,
           "rank": 1
@@ -4797,7 +4804,7 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 30,
+          "playerRefId": 33,
           "score": "",
           "winner": true,
           "rank": 1
@@ -4817,7 +4824,7 @@ window.KIZ_DATA = {
       "comments": "55",
       "playerScores": [
         {
-          "playerRefId": 1,
+          "playerRefId": 30,
           "score": "",
           "winner": true,
           "rank": 1
@@ -4829,19 +4836,19 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
+          "playerRefId": 33,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 27,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 30,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 33,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -4861,6 +4868,18 @@ window.KIZ_DATA = {
       "comments": "56",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 33,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 34,
           "score": "",
           "winner": true,
@@ -4874,18 +4893,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 30,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 33,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -4917,13 +4924,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 27,
+          "playerRefId": 33,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 33,
+          "playerRefId": 27,
           "score": "",
           "winner": false,
           "rank": 2
@@ -4943,7 +4950,7 @@ window.KIZ_DATA = {
       "comments": "57",
       "playerScores": [
         {
-          "playerRefId": 27,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -4955,13 +4962,13 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 30,
+          "playerRefId": 27,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 30,
           "score": "",
           "winner": true,
           "rank": 1
@@ -4987,12 +4994,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 33,
-          "score": "12",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 34,
           "score": "18",
           "winner": true,
@@ -5003,6 +5004,12 @@ window.KIZ_DATA = {
           "score": "11",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 33,
+          "score": "12",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -5019,16 +5026,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "133",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "85",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 30,
+          "score": "133",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -5045,13 +5052,7 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 22,
-          "score": "10",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 15,
+          "playerRefId": 14,
           "score": "0",
           "winner": true,
           "rank": 1
@@ -5063,16 +5064,22 @@ window.KIZ_DATA = {
           "rank": 3
         },
         {
-          "playerRefId": 14,
-          "score": "0",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 16,
           "score": "14",
           "winner": false,
           "rank": 5
+        },
+        {
+          "playerRefId": 22,
+          "score": "10",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 15,
+          "score": "0",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -5088,6 +5095,12 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
         {
           "playerRefId": 2,
           "score": "",
@@ -5111,12 +5124,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 3,
-          "score": "",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": [
@@ -5156,13 +5163,13 @@ window.KIZ_DATA = {
           "rank": 5
         },
         {
-          "playerRefId": 2,
+          "playerRefId": 4,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 4,
+          "playerRefId": 2,
           "score": "",
           "winner": true,
           "rank": 1
@@ -5188,13 +5195,13 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
@@ -5220,10 +5227,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "18",
+          "playerRefId": 2,
+          "score": "6",
           "winner": false,
-          "rank": 2
+          "rank": 3
         },
         {
           "playerRefId": 7,
@@ -5238,16 +5245,16 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
+          "playerRefId": 3,
+          "score": "18",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 4,
           "score": "5",
           "winner": false,
           "rank": 5
-        },
-        {
-          "playerRefId": 2,
-          "score": "6",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -5316,6 +5323,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 34,
+          "score": "48",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 1,
           "score": "58",
           "winner": false,
@@ -5326,12 +5339,6 @@ window.KIZ_DATA = {
           "score": "62",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 34,
-          "score": "48",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -5348,12 +5355,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 34,
-          "score": "20",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 30,
           "score": "36",
           "winner": false,
@@ -5364,6 +5365,12 @@ window.KIZ_DATA = {
           "score": "35",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 34,
+          "score": "20",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 1,
@@ -5392,28 +5399,28 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 34,
-          "score": "67",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 30,
-          "score": "77",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "66",
           "winner": false,
           "rank": 5
         },
         {
+          "playerRefId": 34,
+          "score": "67",
+          "winner": false,
+          "rank": 4
+        },
+        {
           "playerRefId": 33,
           "score": "74",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 30,
+          "score": "77",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -5430,16 +5437,22 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "59",
+          "winner": false,
+          "rank": 5
+        },
+        {
           "playerRefId": 34,
           "score": "79",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 1,
-          "score": "59",
+          "playerRefId": 33,
+          "score": "77",
           "winner": false,
-          "rank": 5
+          "rank": 3
         },
         {
           "playerRefId": 29,
@@ -5452,12 +5465,6 @@ window.KIZ_DATA = {
           "score": "80",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 33,
-          "score": "77",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -5486,13 +5493,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 9,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 9,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -5518,6 +5525,12 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
+          "playerRefId": 1,
+          "score": "104",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 28,
           "score": "87",
           "winner": false,
@@ -5528,12 +5541,6 @@ window.KIZ_DATA = {
           "score": "69",
           "winner": false,
           "rank": 4
-        },
-        {
-          "playerRefId": 1,
-          "score": "104",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -5556,16 +5563,16 @@ window.KIZ_DATA = {
           "rank": 6
         },
         {
+          "playerRefId": 36,
+          "score": "79",
+          "winner": false,
+          "rank": 4
+        },
+        {
           "playerRefId": 30,
           "score": "92",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 34,
-          "score": "105",
-          "winner": true,
-          "rank": 1
         },
         {
           "playerRefId": 28,
@@ -5580,10 +5587,10 @@ window.KIZ_DATA = {
           "rank": 5
         },
         {
-          "playerRefId": 36,
-          "score": "79",
-          "winner": false,
-          "rank": 4
+          "playerRefId": 34,
+          "score": "105",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -5600,16 +5607,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "36",
+          "playerRefId": 30,
+          "score": "53",
           "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": 34,
-          "score": "41",
-          "winner": false,
-          "rank": 4
+          "rank": 6
         },
         {
           "playerRefId": 7,
@@ -5618,22 +5619,28 @@ window.KIZ_DATA = {
           "rank": 5
         },
         {
-          "playerRefId": 30,
-          "score": "53",
+          "playerRefId": 34,
+          "score": "41",
           "winner": false,
-          "rank": 6
+          "rank": 4
         },
         {
-          "playerRefId": 28,
-          "score": "34",
+          "playerRefId": 1,
+          "score": "36",
           "winner": false,
-          "rank": 2
+          "rank": 3
         },
         {
           "playerRefId": 36,
           "score": "30",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 28,
+          "score": "34",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -5650,7 +5657,7 @@ window.KIZ_DATA = {
       "comments": "58",
       "playerScores": [
         {
-          "playerRefId": 30,
+          "playerRefId": 36,
           "score": "",
           "winner": false,
           "rank": 2
@@ -5662,7 +5669,7 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 36,
+          "playerRefId": 28,
           "score": "",
           "winner": false,
           "rank": 2
@@ -5674,7 +5681,7 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 2
@@ -5700,13 +5707,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 30,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -5738,7 +5745,7 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
+          "playerRefId": 36,
           "score": "",
           "winner": true,
           "rank": 1
@@ -5750,19 +5757,19 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 7,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 36,
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
@@ -5782,10 +5789,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "6",
+          "playerRefId": 30,
+          "score": "9",
           "winner": false,
-          "rank": 4
+          "rank": 2
         },
         {
           "playerRefId": 1,
@@ -5794,10 +5801,10 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 30,
-          "score": "9",
+          "playerRefId": 7,
+          "score": "6",
           "winner": false,
-          "rank": 2
+          "rank": 4
         },
         {
           "playerRefId": 28,
@@ -5826,18 +5833,6 @@ window.KIZ_DATA = {
           "rank": 5
         },
         {
-          "playerRefId": 1,
-          "score": "27",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 37,
-          "score": "0",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 30,
           "score": "19",
           "winner": false,
@@ -5848,6 +5843,18 @@ window.KIZ_DATA = {
           "score": "10",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "27",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 37,
+          "score": "0",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -5864,22 +5871,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "43",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 11,
           "score": "71",
           "winner": false,
           "rank": 5
-        },
-        {
-          "playerRefId": 37,
-          "score": "40",
-          "winner": false,
-          "rank": 2
         },
         {
           "playerRefId": 1,
@@ -5892,6 +5887,18 @@ window.KIZ_DATA = {
           "score": "62",
           "winner": false,
           "rank": 4
+        },
+        {
+          "playerRefId": 30,
+          "score": "43",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 37,
+          "score": "40",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -5920,13 +5927,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 4,
+          "playerRefId": 2,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 2,
+          "playerRefId": 4,
           "score": "",
           "winner": false,
           "rank": 2
@@ -5963,7 +5970,7 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 2,
           "score": "",
           "winner": true,
           "rank": 1
@@ -5975,16 +5982,16 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 7,
           "score": "",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -6001,6 +6008,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 28,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 14,
           "score": "",
           "winner": true,
@@ -6014,12 +6027,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 7,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6054,16 +6061,22 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "22",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 4,
           "score": "21",
           "winner": false,
           "rank": 3
         },
         {
-          "playerRefId": 7,
-          "score": "22",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 28,
+          "score": "20",
+          "winner": false,
+          "rank": 4
         },
         {
           "playerRefId": 1,
@@ -6076,12 +6089,6 @@ window.KIZ_DATA = {
           "score": "12",
           "winner": false,
           "rank": 5
-        },
-        {
-          "playerRefId": 28,
-          "score": "20",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -6207,10 +6214,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 43,
-          "score": "200",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 40,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 42,
+          "score": "",
+          "winner": false,
+          "rank": 2
         },
         {
           "playerRefId": 39,
@@ -6219,13 +6232,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 41,
-          "score": "",
-          "winner": false,
-          "rank": 2
+          "playerRefId": 43,
+          "score": "200",
+          "winner": true,
+          "rank": 1
         },
         {
-          "playerRefId": 40,
+          "playerRefId": 41,
           "score": "",
           "winner": false,
           "rank": 2
@@ -6233,12 +6246,6 @@ window.KIZ_DATA = {
         {
           "playerRefId": 1,
           "score": "142",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 42,
-          "score": "",
           "winner": false,
           "rank": 2
         }
@@ -6257,12 +6264,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "120",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 40,
           "score": "105",
           "winner": false,
@@ -6275,6 +6276,18 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
+          "playerRefId": 41,
+          "score": "209",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "120",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 42,
           "score": "75",
           "winner": false,
@@ -6285,12 +6298,6 @@ window.KIZ_DATA = {
           "score": "0",
           "winner": false,
           "rank": 6
-        },
-        {
-          "playerRefId": 41,
-          "score": "209",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -6307,19 +6314,7 @@ window.KIZ_DATA = {
       "comments": "51",
       "playerScores": [
         {
-          "playerRefId": 19,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 42,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 18,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6331,7 +6326,19 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
+          "playerRefId": 18,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 19,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6351,13 +6358,13 @@ window.KIZ_DATA = {
       "comments": "46",
       "playerScores": [
         {
-          "playerRefId": 19,
+          "playerRefId": 18,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 42,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6369,13 +6376,13 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 18,
+          "playerRefId": 19,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 42,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6499,16 +6506,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 17,
-          "score": "85",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "95",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 17,
+          "score": "85",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -6525,25 +6532,25 @@ window.KIZ_DATA = {
       "comments": "59",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 2,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
           "playerRefId": 3,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6563,6 +6570,12 @@ window.KIZ_DATA = {
       "comments": "60",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 2,
           "score": "",
           "winner": false,
@@ -6575,19 +6588,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
           "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -6607,19 +6614,13 @@ window.KIZ_DATA = {
       "comments": "60",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 2,
           "score": "",
           "winner": false,
           "rank": 2
@@ -6631,7 +6632,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 2,
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 28,
           "score": "",
           "winner": false,
           "rank": 2
@@ -6651,19 +6658,13 @@ window.KIZ_DATA = {
       "comments": "60",
       "playerScores": [
         {
-          "playerRefId": 1,
+          "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
           "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6676,6 +6677,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6695,6 +6702,12 @@ window.KIZ_DATA = {
       "comments": "61",
       "playerScores": [
         {
+          "playerRefId": 28,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
@@ -6707,19 +6720,13 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 2,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6739,18 +6746,6 @@ window.KIZ_DATA = {
       "comments": "62",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 28,
           "score": "",
           "winner": true,
@@ -6764,6 +6759,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 2,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6783,19 +6790,19 @@ window.KIZ_DATA = {
       "comments": "63",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 2,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6807,7 +6814,7 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6827,19 +6834,7 @@ window.KIZ_DATA = {
       "comments": "64",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
+          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6851,7 +6846,19 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 3,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 2,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6871,12 +6878,6 @@ window.KIZ_DATA = {
       "comments": "66",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 2,
           "score": "",
           "winner": false,
@@ -6884,6 +6885,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 2
@@ -6915,18 +6922,6 @@ window.KIZ_DATA = {
       "comments": "66",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": true,
@@ -6939,7 +6934,19 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 2,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
@@ -6959,13 +6966,7 @@ window.KIZ_DATA = {
       "comments": "59",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 2,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -6977,13 +6978,19 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 7,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 2,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7003,7 +7010,7 @@ window.KIZ_DATA = {
       "comments": "59",
       "playerScores": [
         {
-          "playerRefId": 7,
+          "playerRefId": 28,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7015,7 +7022,7 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 2,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7027,7 +7034,7 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 2,
+          "playerRefId": 7,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7047,19 +7054,19 @@ window.KIZ_DATA = {
       "comments": "60",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 28,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 2,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7071,7 +7078,7 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7097,25 +7104,25 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 2,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -7135,12 +7142,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 2,
           "score": "",
           "winner": false,
@@ -7151,6 +7152,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -7167,13 +7174,13 @@ window.KIZ_DATA = {
       "comments": "pbh红色",
       "playerScores": [
         {
-          "playerRefId": 17,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 17,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7193,13 +7200,13 @@ window.KIZ_DATA = {
       "comments": "红pbh",
       "playerScores": [
         {
-          "playerRefId": 17,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
@@ -7219,13 +7226,13 @@ window.KIZ_DATA = {
       "comments": "红hnd ",
       "playerScores": [
         {
-          "playerRefId": 17,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 17,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7245,16 +7252,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 17,
-          "score": "67",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "30",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 17,
+          "score": "67",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [
@@ -7276,16 +7283,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 17,
-          "score": "48",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "58",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 17,
+          "score": "48",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -7307,16 +7314,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "21",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 17,
           "score": "9",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "21",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -7333,28 +7340,28 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "129",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "107",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 3,
           "score": "109",
           "winner": false,
           "rank": 3
         },
         {
+          "playerRefId": 7,
+          "score": "129",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 28,
           "score": "122",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "107",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -7371,6 +7378,18 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 28,
+          "score": "55",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "76",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 7,
           "score": "41",
           "winner": false,
@@ -7381,18 +7400,6 @@ window.KIZ_DATA = {
           "score": "72",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "76",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
-          "score": "55",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -7424,11 +7431,11 @@ window.KIZ_DATA = {
       "expansionPlays": [
         {
           "bggId": 0,
-          "gameRefId": 82
+          "gameRefId": 81
         },
         {
           "bggId": 0,
-          "gameRefId": 81
+          "gameRefId": 82
         }
       ]
     },
@@ -7444,10 +7451,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "7",
+          "playerRefId": 28,
+          "score": "11",
           "winner": false,
-          "rank": 4
+          "rank": 2
         },
         {
           "playerRefId": 3,
@@ -7456,16 +7463,16 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
+          "playerRefId": 7,
+          "score": "7",
+          "winner": false,
+          "rank": 4
+        },
+        {
           "playerRefId": 1,
           "score": "8",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 28,
-          "score": "11",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -7482,12 +7489,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "50",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 28,
           "score": "42",
           "winner": false,
@@ -7498,6 +7499,12 @@ window.KIZ_DATA = {
           "score": "37",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "50",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -7514,16 +7521,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 35,
-          "score": "67",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "69",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 35,
+          "score": "67",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -7540,16 +7547,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 35,
-          "score": "51",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "69",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 35,
+          "score": "51",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -7566,16 +7573,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "64",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 35,
           "score": "64",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "64",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -7592,12 +7599,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 4,
           "score": "",
           "winner": false,
@@ -7614,6 +7615,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -7630,18 +7637,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 7,
           "score": "",
           "winner": true,
@@ -7649,6 +7644,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 4,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7668,16 +7675,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
         },
         {
           "playerRefId": 4,
@@ -7686,7 +7693,7 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 28,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7706,12 +7713,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 46,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 14,
           "score": "",
           "winner": true,
@@ -7719,6 +7720,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 46,
           "score": "",
           "winner": true,
           "rank": 1
@@ -7738,12 +7745,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 46,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 14,
           "score": "",
           "winner": true,
@@ -7757,6 +7758,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 47,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 46,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7776,18 +7783,6 @@ window.KIZ_DATA = {
       "comments": "黑帮安魂曲",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 7,
           "score": "",
           "winner": true,
@@ -7801,6 +7796,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 4,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 2,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -7831,10 +7838,10 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 3,
-          "score": "24",
-          "winner": false,
-          "rank": 2
+          "playerRefId": 1,
+          "score": "25",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 2,
@@ -7843,16 +7850,16 @@ window.KIZ_DATA = {
           "rank": 3
         },
         {
-          "playerRefId": 1,
-          "score": "25",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 4,
           "score": "-2",
           "winner": false,
           "rank": 5
+        },
+        {
+          "playerRefId": 3,
+          "score": "24",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -7869,16 +7876,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 29,
           "score": "",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [
@@ -7904,12 +7911,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 17,
-          "score": "80",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 7,
           "score": "73",
           "winner": false,
@@ -7920,6 +7921,12 @@ window.KIZ_DATA = {
           "score": "106",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 17,
+          "score": "80",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -7936,12 +7943,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 17,
-          "score": "16",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "22",
           "winner": true,
@@ -7952,6 +7953,12 @@ window.KIZ_DATA = {
           "score": "7",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 17,
+          "score": "16",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -7968,12 +7975,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "144",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 3,
           "score": "155",
           "winner": true,
@@ -7984,6 +7985,12 @@ window.KIZ_DATA = {
           "score": "152",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "144",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -8000,12 +8007,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "7",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 1,
           "score": "19",
           "winner": true,
@@ -8016,6 +8017,12 @@ window.KIZ_DATA = {
           "score": "19",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "7",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -8032,16 +8039,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "19",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 29,
           "score": "13",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "19",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -8058,12 +8065,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "49",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 1,
           "score": "53",
           "winner": false,
@@ -8074,6 +8075,12 @@ window.KIZ_DATA = {
           "score": "80",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "49",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": [
@@ -8099,12 +8106,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "24",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 7,
           "score": "18",
           "winner": false,
@@ -8115,6 +8116,12 @@ window.KIZ_DATA = {
           "score": "3",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "24",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -8130,6 +8137,12 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "76",
+          "winner": false,
+          "rank": 4
+        },
         {
           "playerRefId": 30,
           "score": "73",
@@ -8147,12 +8160,6 @@ window.KIZ_DATA = {
           "score": "50",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "76",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -8169,12 +8176,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 17,
           "score": "",
           "winner": false,
@@ -8188,6 +8189,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
@@ -8207,6 +8214,18 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 4,
+          "score": "168",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 1,
+          "score": "244",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 7,
           "score": "233",
           "winner": false,
@@ -8219,22 +8238,10 @@ window.KIZ_DATA = {
           "rank": 3
         },
         {
-          "playerRefId": 4,
-          "score": "168",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 3,
           "score": "140",
           "winner": false,
           "rank": 5
-        },
-        {
-          "playerRefId": 1,
-          "score": "244",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -8251,13 +8258,13 @@ window.KIZ_DATA = {
       "comments": "大白鲨",
       "playerScores": [
         {
-          "playerRefId": 3,
+          "playerRefId": 28,
           "score": "",
-          "winner": false,
-          "rank": 2
+          "winner": true,
+          "rank": 1
         },
         {
-          "playerRefId": 4,
+          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
@@ -8269,16 +8276,16 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 4,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 3,
           "score": "",
-          "winner": true,
-          "rank": 1
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -8307,16 +8314,16 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 1,
-          "score": "16",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 4,
           "score": "20",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "16",
+          "winner": false,
+          "rank": 4
         },
         {
           "playerRefId": 3,
@@ -8383,6 +8390,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "31",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 7,
           "score": "17",
           "winner": false,
@@ -8395,22 +8408,16 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 4,
-          "score": "24",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 28,
           "score": "24",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 3,
-          "score": "31",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 4,
+          "score": "24",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -8426,12 +8433,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 7,
-          "score": "14",
-          "winner": false,
-          "rank": 3
-        },
         {
           "playerRefId": 17,
           "score": "9",
@@ -8449,6 +8450,12 @@ window.KIZ_DATA = {
           "score": "21",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "14",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -8465,10 +8472,22 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "41",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 30,
           "score": "66",
           "winner": false,
           "rank": 5
+        },
+        {
+          "playerRefId": 1,
+          "score": "29",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 17,
@@ -8481,18 +8500,6 @@ window.KIZ_DATA = {
           "score": "58",
           "winner": false,
           "rank": 4
-        },
-        {
-          "playerRefId": 1,
-          "score": "29",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 7,
-          "score": "41",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -8509,12 +8516,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "24",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "-1",
           "winner": false,
@@ -8525,6 +8526,12 @@ window.KIZ_DATA = {
           "score": "7",
           "winner": false,
           "rank": 4
+        },
+        {
+          "playerRefId": 28,
+          "score": "24",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 7,
@@ -8553,28 +8560,28 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "13",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 28,
           "score": "11",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 3,
-          "score": "5",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 7,
           "score": "11",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "13",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "5",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": [
@@ -8634,28 +8641,28 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "76",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "69",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 7,
-          "score": "50",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 28,
           "score": "63",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 3,
+          "score": "76",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "50",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -8672,10 +8679,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "95",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 3,
+          "score": "83",
+          "winner": false,
+          "rank": 3
         },
         {
           "playerRefId": 1,
@@ -8684,13 +8691,13 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 28,
-          "score": "83",
-          "winner": false,
-          "rank": 3
+          "playerRefId": 7,
+          "score": "95",
+          "winner": true,
+          "rank": 1
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 28,
           "score": "83",
           "winner": false,
           "rank": 3
@@ -8710,13 +8717,13 @@ window.KIZ_DATA = {
       "comments": "辛德",
       "playerScores": [
         {
-          "playerRefId": 1,
+          "playerRefId": 14,
           "score": "",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 14,
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -8736,26 +8743,26 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 29,
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [
         {
           "bggId": 0,
-          "gameRefId": 81
+          "gameRefId": 82
         },
         {
           "bggId": 0,
-          "gameRefId": 82
+          "gameRefId": 81
         }
       ]
     },
@@ -8823,16 +8830,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -8858,6 +8865,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 28,
+          "score": "117",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 3,
           "score": "124",
           "winner": false,
@@ -8868,12 +8881,6 @@ window.KIZ_DATA = {
           "score": "141",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 28,
-          "score": "117",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -8890,6 +8897,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "61",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 28,
           "score": "62",
           "winner": true,
@@ -8900,12 +8913,6 @@ window.KIZ_DATA = {
           "score": "55",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 3,
-          "score": "61",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -8931,16 +8938,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 9,
-          "score": "174",
+          "playerRefId": 3,
+          "score": "163",
           "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": 28,
-          "score": "188",
-          "winner": false,
-          "rank": 2
+          "rank": 4
         },
         {
           "playerRefId": 1,
@@ -8949,22 +8950,28 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 3,
-          "score": "163",
+          "playerRefId": 28,
+          "score": "188",
           "winner": false,
-          "rank": 4
+          "rank": 2
         },
         {
-          "playerRefId": 48,
-          "score": "148",
+          "playerRefId": 9,
+          "score": "174",
           "winner": false,
-          "rank": 6
+          "rank": 3
         },
         {
           "playerRefId": 4,
           "score": "161",
           "winner": false,
           "rank": 5
+        },
+        {
+          "playerRefId": 48,
+          "score": "148",
+          "winner": false,
+          "rank": 6
         }
       ],
       "expansionPlays": []
@@ -8981,24 +8988,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "36",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 28,
-          "score": "28",
-          "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": 48,
-          "score": "50",
-          "winner": false,
-          "rank": 5
-        },
-        {
           "playerRefId": 3,
           "score": "15",
           "winner": true,
@@ -9011,10 +9000,28 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
+          "playerRefId": 28,
+          "score": "28",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 9,
           "score": "73",
           "winner": false,
           "rank": 6
+        },
+        {
+          "playerRefId": 48,
+          "score": "50",
+          "winner": false,
+          "rank": 5
+        },
+        {
+          "playerRefId": 1,
+          "score": "36",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -9031,24 +9038,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 9,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 4,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 48,
           "score": "",
           "winner": false,
@@ -9065,6 +9054,24 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 9,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 4,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -9081,24 +9088,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 9,
           "score": "",
           "winner": true,
@@ -9112,6 +9101,24 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 48,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 4,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -9137,12 +9144,6 @@ window.KIZ_DATA = {
           "rank": 3
         },
         {
-          "playerRefId": 1,
-          "score": "143",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 3,
           "score": "119",
           "winner": false,
@@ -9153,6 +9154,12 @@ window.KIZ_DATA = {
           "score": "101",
           "winner": false,
           "rank": 4
+        },
+        {
+          "playerRefId": 1,
+          "score": "143",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -9207,7 +9214,13 @@ window.KIZ_DATA = {
       "comments": "44 恐怖蜡像馆",
       "playerScores": [
         {
-          "playerRefId": 49,
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -9219,16 +9232,10 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 49,
           "score": "",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
         },
         {
           "playerRefId": 4,
@@ -9251,16 +9258,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "40",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 17,
           "score": "39",
           "winner": false,
           "rank": 4
+        },
+        {
+          "playerRefId": 29,
+          "score": "49",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 1,
@@ -9275,10 +9282,10 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 29,
-          "score": "49",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 30,
+          "score": "40",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -9295,13 +9302,13 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
+          "playerRefId": 29,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 29,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -9310,11 +9317,11 @@ window.KIZ_DATA = {
       "expansionPlays": [
         {
           "bggId": 0,
-          "gameRefId": 82
+          "gameRefId": 81
         },
         {
           "bggId": 0,
-          "gameRefId": 81
+          "gameRefId": 82
         }
       ]
     },
@@ -9330,12 +9337,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "81",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 17,
           "score": "89",
           "winner": true,
@@ -9346,6 +9347,12 @@ window.KIZ_DATA = {
           "score": "74",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "81",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -9431,6 +9438,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "73",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 3,
           "score": "76",
           "winner": true,
@@ -9441,12 +9454,6 @@ window.KIZ_DATA = {
           "score": "62",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 1,
-          "score": "73",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -9463,22 +9470,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "38",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 49,
           "score": "32",
           "winner": false,
           "rank": 5
         },
         {
-          "playerRefId": 7,
-          "score": "51",
+          "playerRefId": 4,
+          "score": "38",
           "winner": false,
-          "rank": 2
+          "rank": 3
         },
         {
           "playerRefId": 1,
@@ -9491,6 +9492,12 @@ window.KIZ_DATA = {
           "score": "38",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 7,
+          "score": "51",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -9506,18 +9513,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 4,
-          "score": "46",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "61",
-          "winner": true,
-          "rank": 1
-        },
         {
           "playerRefId": 7,
           "score": "28",
@@ -9535,6 +9530,18 @@ window.KIZ_DATA = {
           "score": "38",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 4,
+          "score": "46",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "61",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -9551,22 +9558,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 49,
-          "score": "43",
-          "winner": false,
-          "rank": 5
-        },
-        {
           "playerRefId": 1,
           "score": "61",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 7,
-          "score": "55",
+          "playerRefId": 3,
+          "score": "53",
           "winner": false,
-          "rank": 2
+          "rank": 3
         },
         {
           "playerRefId": 4,
@@ -9575,10 +9576,16 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 3,
-          "score": "53",
+          "playerRefId": 49,
+          "score": "43",
           "winner": false,
-          "rank": 3
+          "rank": 5
+        },
+        {
+          "playerRefId": 7,
+          "score": "55",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -9595,28 +9602,28 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "75",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 49,
           "score": "50",
           "winner": false,
           "rank": 5
         },
         {
-          "playerRefId": 7,
-          "score": "78",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 4,
           "score": "65",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "75",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 7,
+          "score": "78",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 3,
@@ -9644,12 +9651,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 49,
-          "score": "19",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 1,
           "score": "10",
           "winner": false,
@@ -9660,6 +9661,12 @@ window.KIZ_DATA = {
           "score": "30",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 49,
+          "score": "19",
+          "winner": false,
+          "rank": 3
         },
         {
           "playerRefId": 3,
@@ -9720,28 +9727,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "60",
+          "playerRefId": 50,
+          "score": "76",
           "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 1,
-          "score": "44",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 28,
-          "score": "48",
-          "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": 30,
-          "score": "39",
-          "winner": true,
-          "rank": 1
+          "rank": 5
         },
         {
           "playerRefId": 17,
@@ -9750,10 +9739,28 @@ window.KIZ_DATA = {
           "rank": 6
         },
         {
-          "playerRefId": 50,
-          "score": "76",
+          "playerRefId": 1,
+          "score": "44",
           "winner": false,
-          "rank": 5
+          "rank": 2
+        },
+        {
+          "playerRefId": 30,
+          "score": "39",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
+          "score": "48",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 4,
+          "score": "60",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -9776,10 +9783,10 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 30,
-          "score": "21",
+          "playerRefId": 4,
+          "score": "39",
           "winner": false,
-          "rank": 6
+          "rank": 2
         },
         {
           "playerRefId": 50,
@@ -9788,22 +9795,22 @@ window.KIZ_DATA = {
           "rank": 5
         },
         {
-          "playerRefId": 4,
-          "score": "39",
+          "playerRefId": 30,
+          "score": "21",
           "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "39",
-          "winner": false,
-          "rank": 2
+          "rank": 6
         },
         {
           "playerRefId": 28,
           "score": "42",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "39",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -9820,22 +9827,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "77",
-          "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": 17,
-          "score": "59",
-          "winner": false,
-          "rank": 5
-        },
-        {
           "playerRefId": 28,
           "score": "79",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 50,
+          "score": "84",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 1,
@@ -9850,10 +9851,16 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 50,
-          "score": "84",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 17,
+          "score": "59",
+          "winner": false,
+          "rank": 5
+        },
+        {
+          "playerRefId": 4,
+          "score": "77",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": [
@@ -9875,6 +9882,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 4,
+          "score": "88",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "112",
           "winner": true,
@@ -9885,12 +9898,6 @@ window.KIZ_DATA = {
           "score": "86",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 4,
-          "score": "88",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -9907,6 +9914,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "75",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 4,
           "score": "72",
           "winner": false,
@@ -9917,12 +9930,6 @@ window.KIZ_DATA = {
           "score": "92",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 3,
-          "score": "75",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -9939,6 +9946,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "99",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 4,
           "score": "98",
           "winner": false,
@@ -9949,12 +9962,6 @@ window.KIZ_DATA = {
           "score": "81",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 3,
-          "score": "99",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -10009,16 +10016,16 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 28,
-          "score": "32",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 3,
           "score": "46",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 28,
+          "score": "32",
+          "winner": false,
+          "rank": 4
         },
         {
           "playerRefId": 1,
@@ -10041,16 +10048,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "85",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
-          "score": "85",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 1,
+          "score": "74",
+          "winner": false,
+          "rank": 3
         },
         {
           "playerRefId": 4,
@@ -10059,10 +10060,16 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 1,
-          "score": "74",
-          "winner": false,
-          "rank": 3
+          "playerRefId": 28,
+          "score": "85",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "85",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -10079,6 +10086,18 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 4,
+          "score": "86",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "75",
+          "winner": false,
+          "rank": 4
+        },
+        {
           "playerRefId": 28,
           "score": "91",
           "winner": true,
@@ -10089,18 +10108,6 @@ window.KIZ_DATA = {
           "score": "91",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "75",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 4,
-          "score": "86",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -10175,12 +10182,6 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 3,
-          "score": "101",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 1,
           "score": "135",
           "winner": true,
@@ -10191,6 +10192,12 @@ window.KIZ_DATA = {
           "score": "103",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 3,
+          "score": "101",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -10213,28 +10220,28 @@ window.KIZ_DATA = {
           "rank": 3
         },
         {
-          "playerRefId": 4,
-          "score": "23",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 1,
           "score": "22",
           "winner": false,
           "rank": 5
         },
         {
-          "playerRefId": 7,
-          "score": "29",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 3,
           "score": "31",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 4,
+          "score": "23",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 7,
+          "score": "29",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -10251,19 +10258,7 @@ window.KIZ_DATA = {
       "comments": "凶徒之死",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -10273,6 +10268,18 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 4,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
         },
         {
           "playerRefId": 2,
@@ -10300,6 +10307,24 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "21",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "24",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 3,
+          "score": "33",
+          "winner": false,
+          "rank": 4
+        },
+        {
           "playerRefId": 4,
           "score": "36",
           "winner": false,
@@ -10310,24 +10335,6 @@ window.KIZ_DATA = {
           "score": "27",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 7,
-          "score": "24",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "21",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 3,
-          "score": "33",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -10344,6 +10351,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 27,
+          "score": "206",
+          "winner": false,
+          "rank": 4
+        },
+        {
           "playerRefId": 1,
           "score": "281",
           "winner": true,
@@ -10354,12 +10367,6 @@ window.KIZ_DATA = {
           "score": "242",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 27,
-          "score": "206",
-          "winner": false,
-          "rank": 4
         },
         {
           "playerRefId": 30,
@@ -10382,6 +10389,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": -1,
+          "score": "109",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 1,
           "score": "81",
           "winner": false,
@@ -10392,12 +10405,6 @@ window.KIZ_DATA = {
           "score": "82",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": -1,
-          "score": "109",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": [],
@@ -10415,6 +10422,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "81",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": -2,
           "score": "76",
           "winner": false,
@@ -10425,12 +10438,6 @@ window.KIZ_DATA = {
           "score": "86",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 7,
-          "score": "81",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": [],
@@ -10448,12 +10455,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "80",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": -3,
           "score": "80",
           "winner": false,
@@ -10464,6 +10465,12 @@ window.KIZ_DATA = {
           "score": "70",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 7,
+          "score": "80",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [],
@@ -10481,12 +10488,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": -4,
-          "score": "42",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 7,
           "score": "35",
           "winner": false,
@@ -10497,6 +10498,12 @@ window.KIZ_DATA = {
           "score": "56",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": -4,
+          "score": "42",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [],
@@ -10514,12 +10521,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "64",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 1,
           "score": "94",
           "winner": true,
@@ -10530,6 +10531,12 @@ window.KIZ_DATA = {
           "score": "72",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 7,
+          "score": "64",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": [],
@@ -10547,6 +10554,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": -6,
+          "score": "56",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 1,
           "score": "52",
           "winner": false,
@@ -10559,22 +10572,16 @@ window.KIZ_DATA = {
           "rank": 5
         },
         {
-          "playerRefId": -6,
+          "playerRefId": -7,
           "score": "41",
           "winner": false,
           "rank": 4
         },
         {
-          "playerRefId": -7,
+          "playerRefId": -8,
           "score": "50",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": -8,
-          "score": "56",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": [],
@@ -10592,12 +10599,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": -9,
-          "score": "80",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "50",
           "winner": false,
@@ -10608,6 +10609,12 @@ window.KIZ_DATA = {
           "score": "97",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": -9,
+          "score": "80",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [],
@@ -10625,19 +10632,7 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "218",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": -10,
-          "score": "174",
-          "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": -11,
           "score": "218",
           "winner": true,
           "rank": 1
@@ -10647,6 +10642,18 @@ window.KIZ_DATA = {
           "score": "126",
           "winner": false,
           "rank": 4
+        },
+        {
+          "playerRefId": -11,
+          "score": "174",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 1,
+          "score": "218",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [],
@@ -10691,12 +10698,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "245",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 3,
           "score": "166",
           "winner": false,
@@ -10707,6 +10708,12 @@ window.KIZ_DATA = {
           "score": "145",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 28,
+          "score": "245",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [],
@@ -10725,21 +10732,15 @@ window.KIZ_DATA = {
       "playerScores": [
         {
           "playerRefId": -12,
-          "score": "46",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": -13,
-          "score": "51",
-          "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": -14,
           "score": "64",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": -13,
+          "score": "46",
+          "winner": false,
+          "rank": 4
         },
         {
           "playerRefId": 3,
@@ -10752,6 +10753,12 @@ window.KIZ_DATA = {
           "score": "68",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": -14,
+          "score": "51",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": [],
@@ -10775,16 +10782,16 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 1,
-          "score": "43",
-          "winner": false,
-          "rank": 5
-        },
-        {
           "playerRefId": -15,
           "score": "217",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": -16,
+          "score": "89",
+          "winner": false,
+          "rank": 4
         },
         {
           "playerRefId": 3,
@@ -10793,10 +10800,10 @@ window.KIZ_DATA = {
           "rank": 3
         },
         {
-          "playerRefId": -16,
-          "score": "89",
+          "playerRefId": 1,
+          "score": "43",
           "winner": false,
-          "rank": 4
+          "rank": 5
         }
       ],
       "expansionPlays": [],
@@ -10814,12 +10821,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "94",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "80",
           "winner": false,
@@ -10830,6 +10831,12 @@ window.KIZ_DATA = {
           "score": "80",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 30,
+          "score": "94",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [],
@@ -10880,10 +10887,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "43",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 28,
+          "score": "22",
+          "winner": false,
+          "rank": 4
         },
         {
           "playerRefId": -18,
@@ -10892,16 +10899,16 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
+          "playerRefId": 1,
+          "score": "43",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 30,
           "score": "23",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 28,
-          "score": "22",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": [],
@@ -10919,12 +10926,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "-1",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": -19,
           "score": "0",
           "winner": false,
@@ -10935,6 +10936,12 @@ window.KIZ_DATA = {
           "score": "1",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "-1",
+          "winner": false,
+          "rank": 3
         },
         {
           "playerRefId": 7,
@@ -11036,26 +11043,26 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 29,
           "score": "",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [
         {
           "bggId": 0,
-          "gameRefId": 82
+          "gameRefId": 96
         },
         {
           "bggId": 0,
-          "gameRefId": 96
+          "gameRefId": 82
         },
         {
           "bggId": 0,
@@ -11075,23 +11082,19 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 28,
           "score": "",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [
-        {
-          "bggId": 0,
-          "gameRefId": 81
-        },
         {
           "bggId": 0,
           "gameRefId": 96
@@ -11099,6 +11102,10 @@ window.KIZ_DATA = {
         {
           "bggId": 0,
           "gameRefId": 82
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 81
         }
       ]
     },
@@ -11114,22 +11121,22 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [
         {
           "bggId": 0,
-          "gameRefId": 82
+          "gameRefId": 81
         },
         {
           "bggId": 0,
@@ -11137,7 +11144,7 @@ window.KIZ_DATA = {
         },
         {
           "bggId": 0,
-          "gameRefId": 81
+          "gameRefId": 82
         }
       ]
     },
@@ -11153,16 +11160,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "20",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 28,
           "score": "11",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "20",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -11179,16 +11186,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "84",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "80",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 3,
+          "score": "84",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -11205,6 +11212,18 @@ window.KIZ_DATA = {
       "comments": "回忆杀",
       "playerScores": [
         {
+          "playerRefId": 4,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 2,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -11217,22 +11236,10 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 2,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -11323,6 +11330,12 @@ window.KIZ_DATA = {
       "comments": "日落谋杀案",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 8,
           "score": "",
           "winner": false,
@@ -11345,12 +11358,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -11367,6 +11374,12 @@ window.KIZ_DATA = {
       "comments": "结案追踪",
       "playerScores": [
         {
+          "playerRefId": 4,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -11380,12 +11393,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 4,
           "score": "",
           "winner": false,
           "rank": 2
@@ -11443,6 +11450,12 @@ window.KIZ_DATA = {
       "comments": "万圣夜谋杀案",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 4,
           "score": "",
           "winner": true,
@@ -11456,12 +11469,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 2,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 2
@@ -11823,16 +11830,16 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 4,
-          "score": "74",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 7,
           "score": "62",
           "winner": false,
           "rank": 4
+        },
+        {
+          "playerRefId": 4,
+          "score": "74",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": [],
@@ -11850,10 +11857,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "187",
-          "winner": false,
-          "rank": 2
+          "playerRefId": 7,
+          "score": "304",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 4,
@@ -11862,16 +11869,16 @@ window.KIZ_DATA = {
           "rank": 3
         },
         {
+          "playerRefId": 1,
+          "score": "187",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 3,
           "score": "69",
           "winner": false,
           "rank": 4
-        },
-        {
-          "playerRefId": 7,
-          "score": "304",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": [],
@@ -11889,12 +11896,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "94",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 3,
           "score": "87",
           "winner": false,
@@ -11911,6 +11912,12 @@ window.KIZ_DATA = {
           "score": "83",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 28,
+          "score": "94",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -11926,12 +11933,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "谍影重重",
       "playerScores": [
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
         {
           "playerRefId": 4,
           "score": "",
@@ -11952,6 +11953,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 2,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -11976,12 +11983,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "9",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 28,
           "score": "12",
           "winner": true,
@@ -11998,6 +11999,12 @@ window.KIZ_DATA = {
           "score": "11",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "9",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": [
@@ -12019,6 +12026,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "12",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 17,
           "score": "8",
           "winner": false,
@@ -12029,12 +12042,6 @@ window.KIZ_DATA = {
           "score": "11",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "12",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": [
@@ -12055,12 +12062,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 4,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
         {
           "playerRefId": 1,
           "score": "",
@@ -12084,6 +12085,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 4,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -12105,19 +12112,23 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 29,
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 96
+        },
         {
           "bggId": 0,
           "gameRefId": 81
@@ -12125,10 +12136,6 @@ window.KIZ_DATA = {
         {
           "bggId": 0,
           "gameRefId": 82
-        },
-        {
-          "bggId": 0,
-          "gameRefId": 96
         }
       ]
     },
@@ -12143,12 +12150,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 4,
-          "score": "14",
-          "winner": false,
-          "rank": 4
-        },
         {
           "playerRefId": 2,
           "score": "-6",
@@ -12172,6 +12173,12 @@ window.KIZ_DATA = {
           "score": "23",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 4,
+          "score": "14",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -12187,12 +12194,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 2,
-          "score": "28",
-          "winner": true,
-          "rank": 1
-        },
         {
           "playerRefId": 3,
           "score": "22",
@@ -12216,6 +12217,12 @@ window.KIZ_DATA = {
           "score": "12",
           "winner": false,
           "rank": 5
+        },
+        {
+          "playerRefId": 2,
+          "score": "28",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -12314,12 +12321,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 4,
-          "score": "20",
-          "winner": false,
-          "rank": 5
-        },
-        {
           "playerRefId": 1,
           "score": "28",
           "winner": false,
@@ -12342,6 +12343,12 @@ window.KIZ_DATA = {
           "score": "36",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 4,
+          "score": "20",
+          "winner": false,
+          "rank": 5
         }
       ],
       "expansionPlays": []
@@ -12357,6 +12364,12 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "87",
+          "winner": true,
+          "rank": 1
+        },
         {
           "playerRefId": 28,
           "score": "82",
@@ -12374,12 +12387,6 @@ window.KIZ_DATA = {
           "score": "40",
           "winner": false,
           "rank": 4
-        },
-        {
-          "playerRefId": 1,
-          "score": "87",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -12396,13 +12403,13 @@ window.KIZ_DATA = {
       "comments": "红HND",
       "playerScores": [
         {
-          "playerRefId": 1,
+          "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -12422,13 +12429,13 @@ window.KIZ_DATA = {
       "comments": "红GIG",
       "playerScores": [
         {
-          "playerRefId": 3,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 1
@@ -12448,16 +12455,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "57",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "97",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "57",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -12478,6 +12485,12 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "迷雾重重",
       "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
         {
           "playerRefId": 1,
           "score": "",
@@ -12501,12 +12514,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -12572,12 +12579,6 @@ window.KIZ_DATA = {
       "comments": "入门难度",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -12585,6 +12586,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 17,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 2
@@ -12647,6 +12654,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "7",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 28,
           "score": "9",
           "winner": true,
@@ -12663,12 +12676,6 @@ window.KIZ_DATA = {
           "score": "5",
           "winner": false,
           "rank": 4
-        },
-        {
-          "playerRefId": 1,
-          "score": "7",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -12684,6 +12691,12 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 3,
+          "score": "46",
+          "winner": false,
+          "rank": 4
+        },
         {
           "playerRefId": 1,
           "score": "65",
@@ -12701,12 +12714,6 @@ window.KIZ_DATA = {
           "score": "48",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 3,
-          "score": "46",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -12761,12 +12768,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
-          "score": "126",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 30,
           "score": "97",
           "winner": false,
@@ -12777,6 +12778,12 @@ window.KIZ_DATA = {
           "score": "100",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 28,
+          "score": "126",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -12793,12 +12800,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 60,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 28,
           "score": "",
           "winner": false,
@@ -12809,6 +12810,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 60,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -12825,12 +12832,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "79",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 28,
           "score": "102",
           "winner": true,
@@ -12841,6 +12842,12 @@ window.KIZ_DATA = {
           "score": "80",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "79",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -13047,6 +13054,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 7,
+          "score": "112",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 3,
           "score": "106",
           "winner": false,
@@ -13057,12 +13070,6 @@ window.KIZ_DATA = {
           "score": "110",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 7,
-          "score": "112",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -13079,6 +13086,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 7,
           "score": "",
           "winner": false,
@@ -13092,12 +13105,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 2
@@ -13155,6 +13162,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "55",
+          "winner": false,
+          "rank": 4
+        },
+        {
           "playerRefId": 3,
           "score": "94",
           "winner": true,
@@ -13171,12 +13184,6 @@ window.KIZ_DATA = {
           "score": "75",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "55",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -13192,6 +13199,12 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
         {
           "playerRefId": 7,
           "score": "400",
@@ -13209,12 +13222,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 4
-        },
-        {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -13256,12 +13263,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "46",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 28,
           "score": "50",
           "winner": false,
@@ -13278,6 +13279,12 @@ window.KIZ_DATA = {
           "score": "72",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "46",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -13293,18 +13300,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 3,
-          "score": "73",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 1,
-          "score": "66",
-          "winner": false,
-          "rank": 5
-        },
         {
           "playerRefId": 49,
           "score": "75",
@@ -13322,6 +13317,18 @@ window.KIZ_DATA = {
           "score": "81",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "73",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 1,
+          "score": "66",
+          "winner": false,
+          "rank": 5
         }
       ],
       "expansionPlays": [
@@ -13343,12 +13350,6 @@ window.KIZ_DATA = {
       "comments": "最佳冷盘",
       "playerScores": [
         {
-          "playerRefId": 2,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": false,
@@ -13368,6 +13369,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 4,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 2,
           "score": "",
           "winner": false,
           "rank": 2
@@ -13417,6 +13424,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 61,
           "score": "",
           "winner": false,
@@ -13427,12 +13440,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -13449,6 +13456,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 30,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 61,
           "score": "",
           "winner": true,
@@ -13456,12 +13469,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 2
@@ -13481,6 +13488,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 30,
+          "score": "80",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 1,
           "score": "52",
           "winner": false,
@@ -13491,12 +13504,6 @@ window.KIZ_DATA = {
           "score": "61",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 30,
-          "score": "80",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -13513,6 +13520,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 30,
+          "score": "-61",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 61,
           "score": "-24",
           "winner": false,
@@ -13523,12 +13536,6 @@ window.KIZ_DATA = {
           "score": "85",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 30,
-          "score": "-61",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -13545,6 +13552,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "78",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 30,
           "score": "70",
           "winner": false,
@@ -13555,12 +13568,6 @@ window.KIZ_DATA = {
           "score": "61",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 1,
-          "score": "78",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -13577,16 +13584,16 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "70",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "84",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "70",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -13608,6 +13615,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "0",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 1,
           "score": "93",
           "winner": true,
@@ -13618,12 +13631,6 @@ window.KIZ_DATA = {
           "score": "72",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 3,
-          "score": "0",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -13640,6 +13647,18 @@ window.KIZ_DATA = {
       "comments": "夺命群鸦",
       "playerScores": [
         {
+          "playerRefId": 2,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 4,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
@@ -13653,18 +13672,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 2,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 4,
           "score": "",
           "winner": false,
           "rank": 2
@@ -13689,24 +13696,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 63,
-          "score": "19",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "32",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 62,
-          "score": "46",
-          "winner": false,
-          "rank": 5
-        },
-        {
           "playerRefId": 64,
           "score": "70",
           "winner": false,
@@ -13723,6 +13712,24 @@ window.KIZ_DATA = {
           "score": "22",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 63,
+          "score": "19",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "32",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 62,
+          "score": "46",
+          "winner": false,
+          "rank": 5
         }
       ],
       "expansionPlays": []
@@ -13863,6 +13870,12 @@ window.KIZ_DATA = {
       "comments": "码头血案",
       "playerScores": [
         {
+          "playerRefId": 30,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 61,
           "score": "",
           "winner": true,
@@ -13876,12 +13889,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 67,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 2
@@ -13901,18 +13908,6 @@ window.KIZ_DATA = {
       "comments": "日落谋杀案",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 67,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -13923,6 +13918,18 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 30,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 67,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -13939,18 +13946,6 @@ window.KIZ_DATA = {
       "comments": "8",
       "playerScores": [
         {
-          "playerRefId": 71,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 73,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 72,
           "score": "",
           "winner": false,
@@ -13958,6 +13953,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 30,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 71,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 73,
           "score": "",
           "winner": false,
           "rank": 2
@@ -13977,6 +13984,12 @@ window.KIZ_DATA = {
       "comments": "8",
       "playerScores": [
         {
+          "playerRefId": 30,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 71,
           "score": "",
           "winner": true,
@@ -13990,12 +14003,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 73,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 30,
           "score": "",
           "winner": true,
           "rank": 1
@@ -14015,18 +14022,6 @@ window.KIZ_DATA = {
       "comments": "9",
       "playerScores": [
         {
-          "playerRefId": 72,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 30,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 71,
           "score": "",
           "winner": false,
@@ -14034,6 +14029,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 73,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 72,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 2
@@ -14053,18 +14060,6 @@ window.KIZ_DATA = {
       "comments": "9",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 72,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 73,
           "score": "",
           "winner": true,
@@ -14072,6 +14067,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 71,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 30,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 72,
           "score": "",
           "winner": true,
           "rank": 1
@@ -14091,18 +14098,6 @@ window.KIZ_DATA = {
       "comments": "10",
       "playerScores": [
         {
-          "playerRefId": 72,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 73,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 71,
           "score": "",
           "winner": false,
@@ -14110,6 +14105,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 30,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 72,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 73,
           "score": "",
           "winner": false,
           "rank": 2
@@ -14129,6 +14136,12 @@ window.KIZ_DATA = {
       "comments": "10",
       "playerScores": [
         {
+          "playerRefId": 72,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 30,
           "score": "",
           "winner": true,
@@ -14142,12 +14155,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 73,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 72,
           "score": "",
           "winner": true,
           "rank": 1
@@ -14167,6 +14174,12 @@ window.KIZ_DATA = {
       "comments": "11",
       "playerScores": [
         {
+          "playerRefId": 71,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 30,
           "score": "",
           "winner": false,
@@ -14180,12 +14193,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 73,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 71,
           "score": "",
           "winner": false,
           "rank": 2
@@ -14205,6 +14212,12 @@ window.KIZ_DATA = {
       "comments": "11",
       "playerScores": [
         {
+          "playerRefId": 30,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 73,
           "score": "",
           "winner": false,
@@ -14218,12 +14231,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 71,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 2
@@ -14243,6 +14250,12 @@ window.KIZ_DATA = {
       "comments": "11",
       "playerScores": [
         {
+          "playerRefId": 71,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 72,
           "score": "",
           "winner": true,
@@ -14256,12 +14269,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 30,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 71,
           "score": "",
           "winner": true,
           "rank": 1
@@ -14281,18 +14288,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "173",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "94",
-          "winner": false,
-          "rank": 4
-        },
-        {
           "playerRefId": 28,
           "score": "206",
           "winner": true,
@@ -14303,6 +14298,18 @@ window.KIZ_DATA = {
           "score": "113",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 30,
+          "score": "173",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "94",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -14319,6 +14326,12 @@ window.KIZ_DATA = {
       "comments": "劫案追踪",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 61,
           "score": "",
           "winner": false,
@@ -14332,12 +14345,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 30,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -14357,6 +14364,12 @@ window.KIZ_DATA = {
       "comments": "血色医师",
       "playerScores": [
         {
+          "playerRefId": 30,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -14373,12 +14386,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 30,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -14395,6 +14402,12 @@ window.KIZ_DATA = {
       "comments": "12",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 61,
           "score": "",
           "winner": false,
@@ -14408,12 +14421,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 30,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -14433,6 +14440,12 @@ window.KIZ_DATA = {
       "comments": "12",
       "playerScores": [
         {
+          "playerRefId": 61,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
@@ -14446,12 +14459,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 67,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 61,
           "score": "",
           "winner": true,
           "rank": 1
@@ -14471,6 +14478,12 @@ window.KIZ_DATA = {
       "comments": "1月",
       "playerScores": [
         {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        },
+        {
           "playerRefId": 3,
           "score": "",
           "winner": false,
@@ -14484,12 +14497,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 17,
-          "score": "",
-          "winner": false,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
           "score": "",
           "winner": false,
           "rank": 1
@@ -14509,18 +14516,6 @@ window.KIZ_DATA = {
       "comments": "一月第二次",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 17,
           "score": "",
           "winner": true,
@@ -14528,6 +14523,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
@@ -14546,6 +14553,24 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 3,
+          "score": "152",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 63,
+          "score": "148",
+          "winner": false,
+          "rank": 3
+        },
+        {
+          "playerRefId": 61,
+          "score": "147",
+          "winner": false,
+          "rank": 4
+        },
         {
           "playerRefId": 74,
           "score": "205",
@@ -14569,24 +14594,6 @@ window.KIZ_DATA = {
           "score": "144",
           "winner": false,
           "rank": 5
-        },
-        {
-          "playerRefId": 3,
-          "score": "152",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 63,
-          "score": "148",
-          "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": 61,
-          "score": "147",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -14602,6 +14609,24 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 63,
+          "score": "2",
+          "winner": false,
+          "rank": 7
+        },
+        {
+          "playerRefId": 62,
+          "score": "8",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 74,
+          "score": "6",
+          "winner": false,
+          "rank": 4
+        },
         {
           "playerRefId": 28,
           "score": "7",
@@ -14625,24 +14650,6 @@ window.KIZ_DATA = {
           "score": "6",
           "winner": false,
           "rank": 4
-        },
-        {
-          "playerRefId": 63,
-          "score": "2",
-          "winner": false,
-          "rank": 7
-        },
-        {
-          "playerRefId": 62,
-          "score": "8",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 74,
-          "score": "6",
-          "winner": false,
-          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -14659,6 +14666,24 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 74,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 63,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 61,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 3,
           "score": "",
           "winner": false,
@@ -14681,24 +14706,6 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 74,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 63,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 61,
-          "score": "",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -14715,24 +14722,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 74,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 61,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 63,
           "score": "",
           "winner": true,
@@ -14755,6 +14744,24 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 74,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 61,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -14771,6 +14778,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "144",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 15,
           "score": "144",
           "winner": false,
@@ -14781,12 +14794,6 @@ window.KIZ_DATA = {
           "score": "206",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 1,
-          "score": "144",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -14809,10 +14816,10 @@ window.KIZ_DATA = {
           "rank": 3
         },
         {
-          "playerRefId": 14,
-          "score": "66",
-          "winner": true,
-          "rank": 1
+          "playerRefId": 46,
+          "score": "33",
+          "winner": false,
+          "rank": 5
         },
         {
           "playerRefId": 1,
@@ -14821,10 +14828,10 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 46,
-          "score": "33",
-          "winner": false,
-          "rank": 5
+          "playerRefId": 14,
+          "score": "66",
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 17,
@@ -14847,18 +14854,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 46,
-          "score": "7",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 17,
-          "score": "3",
-          "winner": false,
-          "rank": 5
-        },
-        {
           "playerRefId": 1,
           "score": "8",
           "winner": false,
@@ -14875,6 +14870,18 @@ window.KIZ_DATA = {
           "score": "10",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 46,
+          "score": "7",
+          "winner": false,
+          "rank": 4
+        },
+        {
+          "playerRefId": 17,
+          "score": "3",
+          "winner": false,
+          "rank": 5
         }
       ],
       "expansionPlays": []
@@ -14891,12 +14898,6 @@ window.KIZ_DATA = {
       "comments": "最后的拥抱",
       "playerScores": [
         {
-          "playerRefId": 67,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 30,
           "score": "",
           "winner": false,
@@ -14910,6 +14911,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 67,
           "score": "",
           "winner": false,
           "rank": 2
@@ -14967,12 +14974,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 28,
           "score": "",
           "winner": true,
@@ -14986,6 +14987,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": false,
           "rank": 2
@@ -15049,12 +15056,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "1",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 7,
           "score": "3",
           "winner": false,
@@ -15077,6 +15078,12 @@ window.KIZ_DATA = {
           "score": "9",
           "winner": false,
           "rank": 5
+        },
+        {
+          "playerRefId": 3,
+          "score": "1",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -15092,12 +15099,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 28,
-          "score": "0",
-          "winner": true,
-          "rank": 1
-        },
         {
           "playerRefId": 2,
           "score": "0",
@@ -15121,6 +15122,12 @@ window.KIZ_DATA = {
           "score": "2",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 28,
+          "score": "0",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -15175,12 +15182,6 @@ window.KIZ_DATA = {
       "comments": "鬼灵之谜",
       "playerScores": [
         {
-          "playerRefId": 67,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 30,
           "score": "",
           "winner": true,
@@ -15194,6 +15195,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 67,
           "score": "",
           "winner": false,
           "rank": 2
@@ -15213,12 +15220,6 @@ window.KIZ_DATA = {
       "comments": "13",
       "playerScores": [
         {
-          "playerRefId": 67,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 30,
           "score": "",
           "winner": false,
@@ -15232,6 +15233,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 61,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 67,
           "score": "",
           "winner": false,
           "rank": 2
@@ -15289,12 +15296,6 @@ window.KIZ_DATA = {
       "comments": "2月",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": true,
@@ -15308,6 +15309,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -15365,6 +15372,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "56",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 28,
           "score": "88",
           "winner": true,
@@ -15375,22 +15388,16 @@ window.KIZ_DATA = {
           "score": "68",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 3,
-          "score": "56",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": [
         {
           "bggId": 0,
-          "gameRefId": 110
+          "gameRefId": 45
         },
         {
           "bggId": 0,
-          "gameRefId": 45
+          "gameRefId": 110
         }
       ]
     },
@@ -15450,6 +15457,12 @@ window.KIZ_DATA = {
       "comments": "锦标赛规则",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "3",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 17,
           "score": "2",
           "winner": false,
@@ -15478,12 +15491,6 @@ window.KIZ_DATA = {
           "score": "3",
           "winner": false,
           "rank": 3
-        },
-        {
-          "playerRefId": 3,
-          "score": "3",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -15499,6 +15506,12 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "0",
+          "winner": true,
+          "rank": 1
+        },
         {
           "playerRefId": 17,
           "score": "2",
@@ -15528,12 +15541,6 @@ window.KIZ_DATA = {
           "score": "0",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 7,
-          "score": "0",
-          "winner": true,
-          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -15550,12 +15557,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -15563,6 +15564,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
@@ -15580,10 +15587,10 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 17,
+          "playerRefId": 30,
           "score": "",
-          "winner": true,
-          "rank": 1
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -15600,10 +15607,10 @@ window.KIZ_DATA = {
       "comments": "球赛终局",
       "playerScores": [
         {
-          "playerRefId": 61,
+          "playerRefId": 67,
           "score": "",
-          "winner": false,
-          "rank": 2
+          "winner": true,
+          "rank": 1
         },
         {
           "playerRefId": 30,
@@ -15612,13 +15619,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 67,
+          "playerRefId": 1,
           "score": "",
-          "winner": true,
-          "rank": 1
+          "winner": false,
+          "rank": 2
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 61,
           "score": "",
           "winner": false,
           "rank": 2
@@ -15638,7 +15645,7 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 61,
+          "playerRefId": 30,
           "score": "",
           "winner": false,
           "rank": 2
@@ -15650,7 +15657,7 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 30,
+          "playerRefId": 61,
           "score": "",
           "winner": false,
           "rank": 2
@@ -15676,13 +15683,13 @@ window.KIZ_DATA = {
       "comments": "4月",
       "playerScores": [
         {
-          "playerRefId": 17,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
@@ -15694,7 +15701,7 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 1
@@ -15714,6 +15721,12 @@ window.KIZ_DATA = {
       "comments": "5月",
       "playerScores": [
         {
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -15727,12 +15740,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 17,
-          "score": "",
-          "winner": false,
-          "rank": 1
-        },
-        {
-          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 1
@@ -15752,16 +15759,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "33",
+          "playerRefId": 3,
+          "score": "50",
           "winner": false,
-          "rank": 5
-        },
-        {
-          "playerRefId": 31,
-          "score": "57",
-          "winner": true,
-          "rank": 1
+          "rank": 2
         },
         {
           "playerRefId": 61,
@@ -15770,13 +15771,19 @@ window.KIZ_DATA = {
           "rank": 4
         },
         {
-          "playerRefId": 34,
-          "score": "50",
-          "winner": false,
-          "rank": 2
+          "playerRefId": 31,
+          "score": "57",
+          "winner": true,
+          "rank": 1
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 1,
+          "score": "33",
+          "winner": false,
+          "rank": 5
+        },
+        {
+          "playerRefId": 34,
           "score": "50",
           "winner": false,
           "rank": 2
@@ -15796,18 +15803,6 @@ window.KIZ_DATA = {
       "comments": "49",
       "playerScores": [
         {
-          "playerRefId": 61,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 31,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": true,
@@ -15824,6 +15819,18 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 61,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 31,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -15840,10 +15847,10 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 31,
-          "score": "-3",
+          "playerRefId": 3,
+          "score": "20",
           "winner": false,
-          "rank": 5
+          "rank": 2
         },
         {
           "playerRefId": 34,
@@ -15852,22 +15859,22 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 61,
-          "score": "15",
+          "playerRefId": 31,
+          "score": "-3",
           "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 3,
-          "score": "20",
-          "winner": false,
-          "rank": 2
+          "rank": 5
         },
         {
           "playerRefId": 1,
           "score": "17",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 61,
+          "score": "15",
+          "winner": false,
+          "rank": 4
         }
       ],
       "expansionPlays": []
@@ -15890,12 +15897,6 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 28,
-          "score": "11",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 31,
           "score": "5",
           "winner": false,
@@ -15906,6 +15907,12 @@ window.KIZ_DATA = {
           "score": "9",
           "winner": false,
           "rank": 3
+        },
+        {
+          "playerRefId": 28,
+          "score": "11",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": [
@@ -15927,12 +15934,6 @@ window.KIZ_DATA = {
       "comments": "5月",
       "playerScores": [
         {
-          "playerRefId": 17,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 3,
           "score": "",
           "winner": true,
@@ -15946,6 +15947,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
@@ -15965,13 +15972,13 @@ window.KIZ_DATA = {
       "comments": "6月",
       "playerScores": [
         {
-          "playerRefId": 1,
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16003,18 +16010,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "106",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 17,
-          "score": "79",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 1,
           "score": "89",
           "winner": false,
@@ -16025,6 +16020,18 @@ window.KIZ_DATA = {
           "score": "75",
           "winner": false,
           "rank": 4
+        },
+        {
+          "playerRefId": 3,
+          "score": "106",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 17,
+          "score": "79",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": [
@@ -16046,7 +16053,19 @@ window.KIZ_DATA = {
       "comments": "教学",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 17,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16059,18 +16078,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 3,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16089,12 +16096,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "锦标赛规则",
       "playerScores": [
-        {
-          "playerRefId": 28,
-          "score": "0",
-          "winner": false,
-          "rank": 7
-        },
         {
           "playerRefId": 7,
           "score": "2",
@@ -16136,6 +16137,12 @@ window.KIZ_DATA = {
           "score": "4",
           "winner": false,
           "rank": 2
+        },
+        {
+          "playerRefId": 28,
+          "score": "0",
+          "winner": false,
+          "rank": 7
         }
       ],
       "expansionPlays": []
@@ -16152,6 +16159,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 1,
+          "score": "12",
+          "winner": false,
+          "rank": 3
+        },
+        {
           "playerRefId": 34,
           "score": "19",
           "winner": true,
@@ -16162,12 +16175,6 @@ window.KIZ_DATA = {
           "score": "17",
           "winner": false,
           "rank": 2
-        },
-        {
-          "playerRefId": 1,
-          "score": "12",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -16183,12 +16190,6 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
-        {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
         {
           "playerRefId": 67,
           "score": "",
@@ -16212,6 +16213,12 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        },
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -16228,6 +16235,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 34,
+          "score": "8",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "6",
           "winner": false,
@@ -16238,12 +16251,6 @@ window.KIZ_DATA = {
           "score": "15",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 34,
-          "score": "8",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -16260,28 +16267,28 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 1,
-          "score": "455",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 34,
           "score": "399",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 31,
-          "score": "398",
-          "winner": false,
-          "rank": 3
-        },
-        {
           "playerRefId": 67,
           "score": "200",
           "winner": false,
           "rank": 4
+        },
+        {
+          "playerRefId": 1,
+          "score": "455",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 31,
+          "score": "398",
+          "winner": false,
+          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -16385,6 +16392,12 @@ window.KIZ_DATA = {
       "comments": "黑色之王",
       "playerScores": [
         {
+          "playerRefId": 61,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "",
           "winner": false,
@@ -16398,12 +16411,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 67,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 61,
           "score": "",
           "winner": false,
           "rank": 2
@@ -16461,6 +16468,24 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 34,
+          "score": "100",
+          "winner": false,
+          "rank": 7
+        },
+        {
+          "playerRefId": 3,
+          "score": "205",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 17,
+          "score": "194",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 1,
           "score": "139",
           "winner": false,
@@ -16483,24 +16508,6 @@ window.KIZ_DATA = {
           "score": "180",
           "winner": false,
           "rank": 4
-        },
-        {
-          "playerRefId": 34,
-          "score": "100",
-          "winner": false,
-          "rank": 7
-        },
-        {
-          "playerRefId": 3,
-          "score": "205",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 17,
-          "score": "194",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -16517,18 +16524,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 34,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
           "playerRefId": 1,
           "score": "",
           "winner": true,
@@ -16536,6 +16531,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 31,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 34,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 2
@@ -16560,18 +16567,6 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 34,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 31,
           "score": "",
           "winner": false,
@@ -16579,6 +16574,18 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 34,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16602,6 +16609,24 @@ window.KIZ_DATA = {
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 17,
+          "score": "5",
+          "winner": false,
+          "rank": 6
+        },
+        {
+          "playerRefId": 30,
+          "score": "7",
+          "winner": false,
+          "rank": 5
+        },
+        {
+          "playerRefId": 76,
+          "score": "8",
+          "winner": false,
+          "rank": 3
+        },
         {
           "playerRefId": 34,
           "score": "2",
@@ -16631,24 +16656,6 @@ window.KIZ_DATA = {
           "score": "3",
           "winner": false,
           "rank": 7
-        },
-        {
-          "playerRefId": 17,
-          "score": "5",
-          "winner": false,
-          "rank": 6
-        },
-        {
-          "playerRefId": 30,
-          "score": "7",
-          "winner": false,
-          "rank": 5
-        },
-        {
-          "playerRefId": 76,
-          "score": "8",
-          "winner": false,
-          "rank": 3
         }
       ],
       "expansionPlays": []
@@ -16665,6 +16672,12 @@ window.KIZ_DATA = {
       "comments": "14",
       "playerScores": [
         {
+          "playerRefId": 17,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
           "playerRefId": 30,
           "score": "",
           "winner": true,
@@ -16678,12 +16691,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16703,12 +16710,6 @@ window.KIZ_DATA = {
       "comments": "15",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 76,
           "score": "",
           "winner": true,
@@ -16716,6 +16717,12 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 28,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 30,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16741,25 +16748,25 @@ window.KIZ_DATA = {
       "comments": "16",
       "playerScores": [
         {
-          "playerRefId": 76,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 30,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 76,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
           "playerRefId": 17,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16779,25 +16786,25 @@ window.KIZ_DATA = {
       "comments": "17",
       "playerScores": [
         {
-          "playerRefId": 30,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 30,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
           "playerRefId": 76,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16823,13 +16830,7 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 17,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 1,
+          "playerRefId": 3,
           "score": "",
           "winner": false,
           "rank": 2
@@ -16841,7 +16842,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 17,
           "score": "",
           "winner": false,
           "rank": 2
@@ -16861,7 +16868,7 @@ window.KIZ_DATA = {
       "comments": "1",
       "playerScores": [
         {
-          "playerRefId": 28,
+          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16873,19 +16880,19 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 7,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 3,
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
           "playerRefId": 17,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 3,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16905,13 +16912,19 @@ window.KIZ_DATA = {
       "comments": "2",
       "playerScores": [
         {
-          "playerRefId": 17,
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16924,12 +16937,6 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 3,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
@@ -16949,13 +16956,7 @@ window.KIZ_DATA = {
       "comments": "3",
       "playerScores": [
         {
-          "playerRefId": 7,
-          "score": "",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 17,
+          "playerRefId": 28,
           "score": "",
           "winner": false,
           "rank": 2
@@ -16967,7 +16968,13 @@ window.KIZ_DATA = {
           "rank": 2
         },
         {
-          "playerRefId": 28,
+          "playerRefId": 17,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 7,
           "score": "",
           "winner": false,
           "rank": 2
@@ -16993,7 +17000,7 @@ window.KIZ_DATA = {
       "comments": "3",
       "playerScores": [
         {
-          "playerRefId": 1,
+          "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
@@ -17005,19 +17012,19 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 17,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
+          "playerRefId": 1,
           "score": "",
           "winner": true,
           "rank": 1
         },
         {
           "playerRefId": 7,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
           "score": "",
           "winner": true,
           "rank": 1
@@ -17037,13 +17044,7 @@ window.KIZ_DATA = {
       "comments": "4",
       "playerScores": [
         {
-          "playerRefId": 17,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 3,
+          "playerRefId": 7,
           "score": "",
           "winner": true,
           "rank": 1
@@ -17055,7 +17056,13 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 7,
+          "playerRefId": 3,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 17,
           "score": "",
           "winner": true,
           "rank": 1
@@ -17081,6 +17088,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 34,
+          "score": "139",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 31,
           "score": "121",
           "winner": false,
@@ -17091,12 +17104,6 @@ window.KIZ_DATA = {
           "score": "168",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 34,
-          "score": "139",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -17113,7 +17120,13 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 28,
+          "playerRefId": 30,
+          "score": "19",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 3,
           "score": "19",
           "winner": false,
           "rank": 2
@@ -17125,25 +17138,19 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 3,
+          "playerRefId": 28,
           "score": "19",
           "winner": false,
           "rank": 2
         },
         {
-          "playerRefId": 30,
-          "score": "19",
-          "winner": false,
-          "rank": 2
-        },
-        {
-          "playerRefId": 31,
+          "playerRefId": 1,
           "score": "20",
           "winner": true,
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 31,
           "score": "20",
           "winner": true,
           "rank": 1
@@ -17168,6 +17175,12 @@ window.KIZ_DATA = {
       "comments": "",
       "playerScores": [
         {
+          "playerRefId": 17,
+          "score": "90",
+          "winner": false,
+          "rank": 2
+        },
+        {
           "playerRefId": 31,
           "score": "72",
           "winner": false,
@@ -17178,12 +17191,6 @@ window.KIZ_DATA = {
           "score": "96",
           "winner": true,
           "rank": 1
-        },
-        {
-          "playerRefId": 17,
-          "score": "90",
-          "winner": false,
-          "rank": 2
         }
       ],
       "expansionPlays": [
@@ -17200,36 +17207,12 @@ window.KIZ_DATA = {
       "playDateYmd": 20260809,
       "playDate": "2026-08-09 21:42:44",
       "durationMin": 44,
-      "scoringSetting": 1,
+      "scoringSetting": 3,
       "board": null,
       "comments": "",
       "playerScores": [
         {
-          "playerRefId": 3,
-          "score": "",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 1,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
           "playerRefId": 31,
-          "score": "",
-          "winner": true,
-          "rank": 1
-        },
-        {
-          "playerRefId": 28,
-          "score": "",
-          "winner": false,
-          "rank": 4
-        },
-        {
-          "playerRefId": 77,
           "score": "",
           "winner": true,
           "rank": 1
@@ -17238,7 +17221,31 @@ window.KIZ_DATA = {
           "playerRefId": 17,
           "score": "",
           "winner": false,
-          "rank": 4
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 77,
+          "score": "",
+          "winner": true,
+          "rank": 1
         }
       ],
       "expansionPlays": []
@@ -17250,10 +17257,16 @@ window.KIZ_DATA = {
       "playDateYmd": 20260809,
       "playDate": "2026-08-09 22:30:23",
       "durationMin": 58,
-      "scoringSetting": 1,
+      "scoringSetting": 3,
       "board": null,
       "comments": "",
       "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
         {
           "playerRefId": 77,
           "score": "",
@@ -17261,16 +17274,10 @@ window.KIZ_DATA = {
           "rank": 1
         },
         {
-          "playerRefId": 1,
+          "playerRefId": 17,
           "score": "",
           "winner": false,
-          "rank": 3
-        },
-        {
-          "playerRefId": 31,
-          "score": "",
-          "winner": false,
-          "rank": 3
+          "rank": 2
         },
         {
           "playerRefId": 28,
@@ -17282,13 +17289,13 @@ window.KIZ_DATA = {
           "playerRefId": 3,
           "score": "",
           "winner": false,
-          "rank": 3
+          "rank": 2
         },
         {
-          "playerRefId": 17,
+          "playerRefId": 31,
           "score": "",
           "winner": false,
-          "rank": 3
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -18876,8 +18883,8 @@ window.KIZ_DATA = {
       "playedStandalone": true,
       "recordHolder": {
         "names": [
-          "桌友12",
-          "桌友15"
+          "桌友15",
+          "桌友12"
         ],
         "score": "0",
         "dates": [
@@ -19020,8 +19027,8 @@ window.KIZ_DATA = {
       "recordHolder": {
         "names": [
           "桌友06",
-          "桌友44",
-          "陈勇杰"
+          "陈勇杰",
+          "桌友45"
         ],
         "score": "20",
         "dates": [
@@ -19563,7 +19570,7 @@ window.KIZ_DATA = {
       "playedStandalone": true,
       "recordHolder": {
         "names": [
-          "桌友43"
+          "桌友44"
         ],
         "score": "84",
         "dates": [
@@ -20138,7 +20145,7 @@ window.KIZ_DATA = {
       "playedStandalone": true,
       "recordHolder": {
         "names": [
-          "桌友44",
+          "桌友45",
           "王乐桐",
           "桌友32"
         ],
@@ -20184,10 +20191,10 @@ window.KIZ_DATA = {
       "playedStandalone": true,
       "recordHolder": {
         "names": [
+          "朱晨阳",
           "白如",
           "桌友32",
           "陈勇杰",
-          "朱晨阳",
           "桌友34",
           "王乐桐"
         ],
@@ -20316,7 +20323,7 @@ window.KIZ_DATA = {
       "maxPlayTime": 0,
       "designers": "",
       "urlImage": "",
-      "urlThumb": "",
+      "urlThumb": "img/宝可梦：谁是火箭队？.jpg",
       "isExpansion": 0,
       "playCount": 2,
       "bggRank": null,
@@ -20368,10 +20375,10 @@ window.KIZ_DATA = {
   ],
   "stats": {
     "totalPlays": 438,
-    "totalPlayers": 55,
+    "totalPlayers": 56,
     "totalGames": 83,
     "avgPlaysPerGame": 5.3,
-    "avgPlaysPerPlayer": 8.0,
+    "avgPlaysPerPlayer": 7.8,
     "topGames": [
       {
         "gameRefId": 20,

@@ -1011,10 +1011,6 @@ function renderMemberWall() {
   var data = window.KIZ_DATA;
   var winMaps = buildWinRateMaps();
 
-  // Fill count
-  var countEl = document.getElementById('memberCount');
-  if (countEl) countEl.textContent = data.players.length + '位研究生玩家';
-
   // 只统计仍在游戏库中的对局（与个人主页口径一致，避免库外/已下架游戏导致两边数字不符）
   var validGameIds = {};
   for (var vi = 0; vi < data.games.length; vi++) { validGameIds[data.games[vi].id] = true; }
@@ -1030,10 +1026,16 @@ function renderMemberWall() {
     }
   }
 
-  // Sort players by play count descending
-  var sorted = data.players.slice().sort(function(a, b) {
+  // 屏蔽 0 对局的玩家（暂不展示），再按对局数降序排序
+  var sorted = data.players.filter(function(p) {
+    return (playCount[p.id] || 0) > 0;
+  }).sort(function(a, b) {
     return (playCount[b.id] || 0) - (playCount[a.id] || 0);
   });
+
+  // Fill count
+  var countEl = document.getElementById('memberCount');
+  if (countEl) countEl.textContent = sorted.length + '位研究生玩家';
 
   // Top 3 podium
   var podiumEl = document.getElementById('podium');
