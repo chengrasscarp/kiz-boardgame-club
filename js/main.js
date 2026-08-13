@@ -752,8 +752,10 @@ function renderPlayRecords() {
   }
 
   // 填充玩家筛选（仅真实成员，按对局数降序；不含歪果人等伪玩家）
+  // 第二个下拉用于「同局查询」：两人都选时只显示两人同场的对局
   var playerFilter = document.getElementById('playPlayerFilter');
-  if (playerFilter) {
+  var player2Filter = document.getElementById('playPlayer2Filter');
+  if (playerFilter || player2Filter) {
     var pCount = {};
     for (var pi = 0; pi < data.plays.length; pi++) {
       var pScores = data.plays[pi].playerScores;
@@ -766,10 +768,18 @@ function renderPlayRecords() {
       return (pCount[b.id] || 0) - (pCount[a.id] || 0);
     });
     for (var pk = 0; pk < sortedPlayers.length; pk++) {
-      var pOpt = document.createElement('option');
-      pOpt.value = sortedPlayers[pk].id;
-      pOpt.textContent = sortedPlayers[pk].name;
-      playerFilter.appendChild(pOpt);
+      if (playerFilter) {
+        var pOpt = document.createElement('option');
+        pOpt.value = sortedPlayers[pk].id;
+        pOpt.textContent = sortedPlayers[pk].name;
+        playerFilter.appendChild(pOpt);
+      }
+      if (player2Filter) {
+        var pOpt2 = document.createElement('option');
+        pOpt2.value = sortedPlayers[pk].id;
+        pOpt2.textContent = sortedPlayers[pk].name;
+        player2Filter.appendChild(pOpt2);
+      }
     }
   }
 
@@ -810,6 +820,7 @@ function renderPlayRecords() {
     var gameId = gameFilter ? gameFilter.value : '';
     var locId = locFilter ? locFilter.value : '';
     var playerId = playerFilter ? playerFilter.value : '';
+    var playerId2 = player2Filter ? player2Filter.value : '';
     var fromEl = document.getElementById('playFromDate');
     var toEl = document.getElementById('playToDate');
     var from = fromEl ? fromEl.value.replace(/-/g, '') : '';
@@ -821,13 +832,14 @@ function renderPlayRecords() {
     var filtered = sortedPlays.filter(function(p) {
       if (gameId && String(p.gameRefId) !== gameId) return false;
       if (locId && String(p.locationRefId) !== locId) return false;
-      // 玩家筛选：对局 playerScores 中含该玩家即命中
-      if (playerId) {
-        var hasPlayer = false;
+      // 玩家筛选：含所选玩家即命中；两个都选时须两人同局
+      if (playerId || playerId2) {
+        var foundIds = {};
         for (var fp = 0; fp < p.playerScores.length; fp++) {
-          if (String(p.playerScores[fp].playerRefId) === playerId) { hasPlayer = true; break; }
+          foundIds[String(p.playerScores[fp].playerRefId)] = true;
         }
-        if (!hasPlayer) return false;
+        if (playerId && !foundIds[playerId]) return false;
+        if (playerId2 && !foundIds[playerId2]) return false;
       }
       // 日期范围（playDateYmd 为 YYYYMMDD 数字，统一转字符串比较）
       var ymd = String(p.playDateYmd || '');
@@ -949,6 +961,7 @@ function renderPlayRecords() {
   if (gameFilter) gameFilter.addEventListener('change', filterAndRender);
   if (locFilter) locFilter.addEventListener('change', filterAndRender);
   if (playerFilter) playerFilter.addEventListener('change', filterAndRender);
+  if (player2Filter) player2Filter.addEventListener('change', filterAndRender);
 
   var fromEl = document.getElementById('playFromDate');
   var toEl = document.getElementById('playToDate');
@@ -1275,55 +1288,76 @@ function renderMemberProfile() {
     html += '</div>';
   }
 
-  // Recent plays (last 10)
-  if (sortedPlays.length > 0) {
-    html += '<h2 class="profile-section-title">🕐 最近对局</h2><div class="profile-recent">';
-    var recentCount = Math.min(10, sortedPlays.length);
-    for (var ri2 = 0; ri2 < recentCount; ri2++) {
-      var sp = sortedPlays[ri2];
-      var gn3 = getGameNameForPlay(sp) || 'Unknown';
-      var loc = getLocationNameById(sp.locationRefId) || '';
-      // Find this player's score in this play
-      var myPs = null;
-      for (var ssi = 0; ssi < sp.playerScores.length; ssi++) {
-        if (sp.playerScores[ssi].playerRefId === playerId) { myPs = sp.playerScores[ssi]; break; }
-      }
-      // 判断这局是否有分数（有任一玩家记了分就算记分局）
-      var playHasScore = false;
-      for (var ssi2 = 0; ssi2 < sp.playerScores.length; ssi2++) {
-        if (sp.playerScores[ssi2].score) { playHasScore = true; break; }
-      }
-      // 计分局显示分数，不计分局显示胜负（胜负文字放分数列对齐）
-      var scoreStr = '';
-      var trophyStr = '';
-      if (myPs) {
-        if (playHasScore) {
-          if (myPs.score) {
-            scoreStr = ' · ' + myPs.score + '分';
-            if (myPs.winner) trophyStr = ' 🏆';
-          }
-          // 记分局但此人无分数 → 不显示结果
+  // 对局历史：初始显示 10 场，「加载更多」每次追加 10 场
+  var recentItems = [];
+  for (var ri2 = 0; ri2 < sortedPlays.length; ri2++) {
+    var sp = sortedPlays[ri2];
+    var gn3 = getGameNameForPlay(sp) || 'Unknown';
+    var loc = getLocationNameById(sp.locationRefId) || '';
+    // Find this player's score in this play
+    var myPs = null;
+    for (var ssi = 0; ssi < sp.playerScores.length; ssi++) {
+      if (sp.playerScores[ssi].playerRefId === playerId) { myPs = sp.playerScores[ssi]; break; }
+    }
+    // 判断这局是否有分数（有任一玩家记了分就算记分局）
+    var playHasScore = false;
+    for (var ssi2 = 0; ssi2 < sp.playerScores.length; ssi2++) {
+      if (sp.playerScores[ssi2].score) { playHasScore = true; break; }
+    }
+    // 计分局显示分数，不计分局显示胜负（胜负文字放分数列对齐）
+    var scoreStr = '';
+    var trophyStr = '';
+    if (myPs) {
+      if (playHasScore) {
+        if (myPs.score) {
+          scoreStr = ' · ' + myPs.score + '分';
+          if (myPs.winner) trophyStr = ' 🏆';
+        }
+        // 记分局但此人无分数 → 不显示结果
+      } else {
+        // 不计分对局：🏆 留在游戏名右边，胜/败放到分数列
+        if (myPs.winner) {
+          trophyStr = ' 🏆';
+          scoreStr = '胜';
         } else {
-          // 不计分对局：🏆 留在游戏名右边，胜/败放到分数列
-          if (myPs.winner) {
-            trophyStr = ' 🏆';
-            scoreStr = '胜';
-          } else {
-            scoreStr = '败';
-          }
+          scoreStr = '败';
         }
       }
-      html += '<div class="profile-recent-item">' +
-        '<span class="profile-recent-date">' + formatDate(sp.playDateYmd) + '</span>' +
-        '<span class="profile-recent-game">' + gn3 + trophyStr + '</span>' +
-        '<span class="profile-recent-loc">' + loc + '</span>' +
-        '<span class="profile-recent-score">' + scoreStr + '</span>' +
-      '</div>';
     }
-    html += '</div>';
+    recentItems.push('<div class="profile-recent-item">' +
+      '<span class="profile-recent-date">' + formatDate(sp.playDateYmd) + '</span>' +
+      '<span class="profile-recent-game">' + gn3 + trophyStr + '</span>' +
+      '<span class="profile-recent-loc">' + loc + '</span>' +
+      '<span class="profile-recent-score">' + scoreStr + '</span>' +
+    '</div>');
+  }
+  if (recentItems.length > 0) {
+    html += '<h2 class="profile-section-title">🕐 对局历史（' + recentItems.length + '场）</h2>' +
+      '<div class="profile-recent" id="profileRecentList"></div>' +
+      '<div class="load-more" id="profileRecentMore"></div>';
   }
 
   document.getElementById('memberProfile').innerHTML = html;
+
+  // 对局历史分页加载
+  var recentListEl = document.getElementById('profileRecentList');
+  if (recentListEl) {
+    var recentShown = 0;
+    var renderRecentMore = function() {
+      recentShown = Math.min(recentShown + 10, recentItems.length);
+      recentListEl.innerHTML = recentItems.slice(0, recentShown).join('');
+      var moreEl = document.getElementById('profileRecentMore');
+      if (moreEl) {
+        if (recentShown < recentItems.length) {
+          moreEl.innerHTML = '<button id="profileRecentMoreBtn">加载更多</button>';
+          document.getElementById('profileRecentMoreBtn').addEventListener('click', renderRecentMore);
+        } else {
+          moreEl.innerHTML = '';
+        }
+      }
+    };
+    renderRecentMore();
+  }
 }
 
 /* ===== Leaderboard Page ===== */
