@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>排行榜 - KIZ桌游协会</title>
+  <title>KIZ桌游协会 · 数据看板</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico" sizes="48x48">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -11,6 +11,7 @@
 </head>
 <body>
 
+<!-- Navigation -->
 <nav class="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">🎲 KIZ桌游协会</a>
@@ -20,43 +21,19 @@
       <a href="games.html">游戏库</a>
       <a href="plays.html">活动记录</a>
       <a href="members.html">成员墙</a>
-      <a href="leaderboard.html" class="active">排行榜</a>
+      <a href="leaderboard.html">排行榜</a>
       <a href="report.html">周报</a>
-      <a href="dashboard.html">数据看板</a>
+      <a href="dashboard.html" class="active">数据看板</a>
       <a href="about.html">关于我们</a>
     </div>
   </div>
 </nav>
 
 <section class="page-section">
-  <h1 class="section-title">🏆 排行榜</h1>
-  <p class="section-subtitle">研究生桌游数据一览</p>
+  <h2 class="section-title">📊 数据看板</h2>
+  <p class="section-subtitle">全部图表由站点数据实时计算生成</p>
 
-  <div class="leaderboard-grid">
-    <!-- Hot Games -->
-    <div class="leaderboard-panel">
-      <h3 style="color:#E17055;">🔥 热门游戏 Top 10</h3>
-      <div id="leaderboardGames"></div>
-    </div>
-    <!-- Active Players -->
-    <div class="leaderboard-panel">
-      <h3 style="color:#2D5A3D;">⭐ 活跃玩家 Top 10</h3>
-      <div id="leaderboardPlayers"></div>
-    </div>
-    <!-- Win Rate -->
-    <div class="leaderboard-panel">
-      <h3 style="color:#6C5CE7;">🎯 胜率榜 Top 10</h3>
-      <div id="leaderboardWinRate"></div>
-    </div>
-    <!-- Locations -->
-    <div class="leaderboard-panel">
-      <h3 style="color:#D4A574;">📍 活动地点</h3>
-      <div id="leaderboardLocations"></div>
-    </div>
-  </div>
-
-  <!-- Overall Stats -->
-  <div class="stats-row" id="statsRow"></div>
+  <div id="dashboard"></div>
 </section>
 
 <footer class="footer">
@@ -65,10 +42,11 @@
 
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
+<script src="js/dashboard.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     initNavigation();
-    renderLeaderboard();
+    renderDashboard();
   });
 </script>
 </body>

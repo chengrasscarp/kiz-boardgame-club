@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIZ桌游协会 · 每周简报</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.ico">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">🎲 KIZ桌游协会</a>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">首页</a>
+      <a href="games.html">游戏库</a>
+      <a href="plays.html">活动记录</a>
+      <a href="members.html">成员墙</a>
+      <a href="leaderboard.html">排行榜</a>
+      <a href="report.html" class="active">周报</a>
+      <a href="dashboard.html">数据看板</a>
+      <a href="about.html">关于我们</a>
+    </div>
+  </div>
+</nav>
+
+<section class="page-section">
+  <h2 class="section-title">📋 每周对局简报</h2>
+  <p class="section-subtitle">自动统计每一周（周一–周日）的俱乐部对局</p>
+
+  <div class="report-nav">
+    <button id="weekPrev" class="report-nav-btn">← 上一周</button>
+    <span id="weekLabel" class="report-week-label">…</span>
+    <button id="weekNext" class="report-nav-btn">下一周 →</button>
+  </div>
+
+  <div id="repHighlight" class="report-highlight"></div>
+
+  <div class="stats-bar">
+    <div class="stat-item"><div class="stat-number" id="repTotal">--</div><div class="stat-label">对局场次</div></div>
+    <div class="stat-item"><div class="stat-number green" id="repParticipations">--</div><div class="stat-label">参与人次</div></div>
+    <div class="stat-item"><div class="stat-number gold" id="repActive">--</div><div class="stat-label">活跃玩家</div></div>
+    <div class="stat-item"><div class="stat-number" id="repGames">--</div><div class="stat-label">游戏款数</div></div>
+  </div>
+
+  <div id="weeklyReport">
+    <h2 class="profile-section-title">📅 对局明细</h2>
+    <div class="timeline" id="repTimeline"></div>
+
+    <div class="leaderboard-grid" style="margin-top:24px;">
+      <div class="leaderboard-panel">
+        <h3>🏅 玩家战绩榜</h3>
+        <div id="repPlayers"></div>
+      </div>
+      <div class="leaderboard-panel">
+        <h3>🔥 游戏热度</h3>
+        <div id="repGames2"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© KIZ桌游协会 · 茨坝人才公寓405 · 骰子一掷，友谊长存 🎲</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/report.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    initNavigation();
+    renderWeeklyReport();
+  });
+</script>
+</body>
+</html>
