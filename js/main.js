@@ -9,6 +9,37 @@ function initNavigation() {
   }
 }
 
+/* ===== Shared Date Helpers ===== */
+// 把 20250411 这类数字/字符串 ymd 解析为 Date
+function parseYmdToDate(ymd) {
+  ymd = String(ymd);
+  if (ymd.length < 8) return null;
+  return new Date(
+    parseInt(ymd.slice(0, 4), 10),
+    parseInt(ymd.slice(4, 6), 10) - 1,
+    parseInt(ymd.slice(6, 8), 10)
+  );
+}
+
+// 平移到所在周的周一
+function getMonday(d) {
+  var date = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  var day = date.getDay(); // 0=周日 .. 6=周六
+  var diff = (day === 0) ? -6 : (1 - day);
+  date.setDate(date.getDate() + diff);
+  return date;
+}
+
+// ISO 周序号
+function isoWeekNumber(d) {
+  var target = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  var dayNr = (d.getDay() + 6) % 7;
+  target.setDate(target.getDate() - dayNr + 3);
+  var firstThursday = new Date(target.getFullYear(), 0, 4);
+  var diff = (target - firstThursday) / 86400000;
+  return 1 + Math.round((diff - 3 + ((firstThursday.getDay() + 6) % 7)) / 7);
+}
+
 /* ===== Helpers ===== */
 var GAME_CARD_COLORS = [
   'linear-gradient(135deg, #E17055, #D4A574)',

@@ -1,32 +1,6 @@
 /* ===== Weekly Report ===== */
 // 自动按数据生成「每周对局简报」，默认展示最近一个完整周（周一–周日），可前后翻周。
-
-function getMonday(d) {
-  var date = new Date(d.getFullYear(), d.getMonth(), d.getDate());
-  var day = date.getDay(); // 0=周日 .. 6=周六
-  var diff = (day === 0) ? -6 : (1 - day); // 平移到周一
-  date.setDate(date.getDate() + diff);
-  return date;
-}
-
-function isoWeekNumber(d) {
-  var target = new Date(d.getFullYear(), d.getMonth(), d.getDate());
-  var dayNr = (d.getDay() + 6) % 7;
-  target.setDate(target.getDate() - dayNr + 3);
-  var firstThursday = new Date(target.getFullYear(), 0, 4);
-  var diff = (target - firstThursday) / 86400000;
-  return 1 + Math.round((diff - 3 + ((firstThursday.getDay() + 6) % 7)) / 7);
-}
-
-function parseYmdToDate(ymd) {
-  ymd = String(ymd);
-  if (ymd.length < 8) return null;
-  return new Date(
-    parseInt(ymd.slice(0, 4), 10),
-    parseInt(ymd.slice(4, 6), 10) - 1,
-    parseInt(ymd.slice(6, 8), 10)
-  );
-}
+// 依赖 main.js 提供的 parseYmdToDate / getMonday / isoWeekNumber 共享日期工具。
 
 function renderWeeklyReport() {
   var data = window.KIZ_DATA;
