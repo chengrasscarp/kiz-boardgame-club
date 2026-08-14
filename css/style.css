@@ -1159,6 +1159,35 @@ input, select { font-family: inherit; }
   padding-bottom: 4px;
 }
 
+/* ===== 看板：热力图年份切换 ===== */
+.heat-year-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.heat-year-btn {
+  border: 1px solid var(--line, #e6ebf2);
+  background: #fff;
+  color: #5a4a3a;
+  font-size: 13px;
+  font-family: inherit;
+  padding: 4px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.heat-year-btn:hover {
+  border-color: #e6956a;
+  color: #c0502f;
+}
+.heat-year-btn.active {
+  background: var(--clay, #E17055);
+  border-color: var(--clay, #E17055);
+  color: #fff;
+  font-weight: 600;
+}
+
 .chart-heat {
   display: block;
 }

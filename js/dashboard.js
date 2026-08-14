@@ -1,5 +1,7 @@
 /* ===== Data Dashboard (inline SVG charts, no external dependency) ===== */
 
+var DASH_STATE = { heatYear: null };
+
 function dashEsc(s) {
   return String(s).replace(/[&<>]/g, function (c) {
     return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c];
@@ -15,7 +17,7 @@ function ymdOf(d) {
   return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
 }
 
-// 横向条形图（适合排行榜：游戏/玩家/胜率/搭子）
+// 横向条形图（适合排行榜：游戏/玩家/胜率/搭子/分布）
 // items: [{label, value, sub}] 已按数值降序
 function dashHBar(items, opts) {
   opts = opts || {};
@@ -91,9 +93,12 @@ function heatColor(c, maxc) {
 }
 
 // 日历热力图（GitHub 贡献图风格）：每日一格，颜色越深对局越多
-function dashHeatmap(dayCounts, minDate, maxDate, maxDay) {
+// 仅展示 year 这一年
+function dashHeatmap(dayCounts, year, maxDay) {
   var cell = 12, gap = 3, step = cell + gap;
   var padL = 30, padT = 20;
+  var minDate = new Date(year, 0, 1);
+  var maxDate = new Date(year, 11, 31);
   var start = getMonday(minDate);
   var end = getMonday(maxDate);
   end.setDate(end.getDate() + 6); // 周日
@@ -151,10 +156,11 @@ function renderDashboard() {
   var memberIds = {};
   for (var mi = 0; mi < data.players.length; mi++) memberIds[data.players[mi].id] = true;
 
-  // 每日对局数（热力图）+ 每月趋势 + 起止日期
+  // 每日对局数（热力图）+ 每月趋势 + 起止日期 + 年份列表
   var dayCounts = {};
   var monthCount = {};
   var minD = null, maxD = null;
+  var yearSet = {};
   for (var i = 0; i < data.plays.length; i++) {
     var ymd = data.plays[i].playDateYmd;
     if (!ymd) continue;
@@ -164,6 +170,7 @@ function renderDashboard() {
     dayCounts[k] = (dayCounts[k] || 0) + 1;
     var mk = String(ymd).slice(0, 6);
     monthCount[mk] = (monthCount[mk] || 0) + 1;
+    yearSet[d.getFullYear()] = true;
     if (minD === null || d < minD) minD = d;
     if (maxD === null || d > maxD) maxD = d;
   }
@@ -171,6 +178,18 @@ function renderDashboard() {
   var monthItems = months.map(function (m) {
     return { label: parseInt(m.slice(4, 6), 10) + '月', value: monthCount[m] };
   });
+
+  // 热力图：确定当前展示年份（默认最新年）
+  var yearList = Object.keys(yearSet).map(Number).sort(function (a, b) { return a - b; });
+  if (DASH_STATE.heatYear === null || yearList.indexOf(DASH_STATE.heatYear) === -1) {
+    DASH_STATE.heatYear = yearList.length ? yearList[yearList.length - 1] : new Date().getFullYear();
+  }
+  var curYear = DASH_STATE.heatYear;
+  var yearDayCount = 0, yearTotalPlays = 0;
+  for (var yk in dayCounts) {
+    var y = Math.floor(Number(yk) / 10000);
+    if (y === curYear) { yearDayCount++; yearTotalPlays += dayCounts[yk]; }
+  }
 
   // 星期分布
   var wd = [0, 0, 0, 0, 0, 0, 0];
@@ -209,28 +228,29 @@ function renderDashboard() {
   }
   var durItems = durDefs.map(function (def, i) { return { label: def[0], value: dur[i] }; });
 
-  // 常玩搭子 Top（成员两人组合，同场次数）
-  var pair = {};
-  for (var i = 0; i < data.plays.length; i++) {
-    var parts = data.plays[i].playerScores
-      .filter(function (s) { return memberIds[s.playerRefId]; })
-      .map(function (s) { return s.playerRefId; })
-      .sort(function (a, b) { return a - b; });
-    for (var a = 0; a < parts.length; a++) {
-      for (var bb = a + 1; bb < parts.length; bb++) {
-        var key = parts[a] + '_' + parts[bb];
-        pair[key] = (pair[key] || 0) + 1;
-      }
+  // 游戏复杂度分布（按已玩游戏的 BGG 权重分桶）
+  var cxDefs = [
+    { label: '轻量 (1-2)', lo: 1.0, hi: 2.0 },
+    { label: '中量 (2-3)', lo: 2.0, hi: 3.0 },
+    { label: '重量 (3-4)', lo: 3.0, hi: 4.0 },
+    { label: '超重 (4+)', lo: 4.0, hi: 99 }
+  ];
+  var cx = [0, 0, 0, 0];
+  var cxTotal = 0;
+  for (var i = 0; i < data.games.length; i++) {
+    var g = data.games[i];
+    if ((g.playCount || 0) <= 0) continue;
+    var c = g.complexity;
+    if (c == null) continue;
+    cxTotal++;
+    for (var b = 0; b < cxDefs.length; b++) {
+      if (c >= cxDefs[b].lo && c < cxDefs[b].hi) { cx[b]++; break; }
+      if (b === cxDefs.length - 1 && c >= cxDefs[b].lo) { cx[b]++; break; }
     }
   }
-  var pairItems = Object.keys(pair).map(function (key) {
-    var ids = key.split('_');
-    return { a: Number(ids[0]), b: Number(ids[1]), c: pair[key] };
-  }).sort(function (x, y) { return y.c - x.c; }).slice(0, 12).map(function (p) {
-    return { label: getPlayerNameById(p.a) + ' × ' + getPlayerNameById(p.b), value: p.c, sub: '场' };
-  });
+  var cxItems = cxDefs.map(function (def, i) { return { label: def.label, value: cx[i] }; });
 
-  // 热力图最大单日值
+  // 热力图最大单日值（跨年统一色阶，便于年份对比）
   var maxDay = 1;
   for (var kk in dayCounts) { if (dayCounts[kk] > maxDay) maxDay = dayCounts[kk]; }
 
@@ -242,6 +262,12 @@ function renderDashboard() {
       (note ? '<div class="chart-note">' + note + '</div>' : '') + '</div>';
   }
 
+  // 年份切换按钮
+  var yearBtns = yearList.map(function (y) {
+    var active = (y === curYear) ? ' active' : '';
+    return '<button type="button" class="heat-year-btn' + active + '" onclick="window.__setDashYear(' + y + ')">' + y + '</button>';
+  }).join('');
+
   var html = '';
   html += '<div class="stats-row">' +
     stat(data.plays.length, '总对局') +
@@ -252,9 +278,11 @@ function renderDashboard() {
     '</div>';
 
   html += panel('📈 每月对局趋势', dashVBar(monthItems), '单位：场');
+
   html += panel('🗓️ 每日活跃热力图',
-    '<div class="chart-scroll">' + dashHeatmap(dayCounts, minD, maxD, maxDay) + '</div>',
-    '颜色越深 = 当天对局越多（共 ' + Object.keys(dayCounts).length + ' 个有对局日，单日最多 ' + maxDay + ' 场）');
+    '<div class="heat-year-bar">' + yearBtns + '</div>' +
+    '<div class="chart-scroll">' + dashHeatmap(dayCounts, curYear, maxDay) + '</div>',
+    curYear + ' 年：颜色越深 = 当天对局越多（共 ' + yearDayCount + ' 个有对局日，' + yearTotalPlays + ' 场）');
 
   html += '<div class="dash-grid">' +
     panel('⏰ 时段分布', dashVBar(todItems), '按开局时间（深夜 0-6 / 上午 6-12 / 下午 12-18 / 晚上 18-24）') +
@@ -263,8 +291,14 @@ function renderDashboard() {
 
   html += '<div class="dash-grid">' +
     panel('📅 星期分布', dashVBar(wdItems), '单位：场') +
-    panel('🤝 常玩搭子 Top 12', dashHBar(pairItems), '成员两人同场次数') +
+    panel('🎚️ 游戏复杂度分布', dashHBar(cxItems), '基于 ' + cxTotal + ' 款已玩游戏（BGG 权重：轻 1-2 / 中 2-3 / 重 3-4 / 超重 4+）') +
     '</div>';
 
   container.innerHTML = html;
 }
+
+// 年份切换：更新状态后重渲染整个看板
+window.__setDashYear = function (y) {
+  DASH_STATE.heatYear = y;
+  renderDashboard();
+};
