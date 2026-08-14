@@ -11,7 +11,11 @@ function dashTruncate(s, n) {
   return s.length > n ? s.slice(0, n) + '…' : s;
 }
 
-// 横向条形图（适合排行榜：游戏/玩家/胜率）
+function ymdOf(d) {
+  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+}
+
+// 横向条形图（适合排行榜：游戏/玩家/胜率/搭子）
 // items: [{label, value, sub}] 已按数值降序
 function dashHBar(items, opts) {
   opts = opts || {};
@@ -31,7 +35,7 @@ function dashHBar(items, opts) {
     var bw = Math.max(2, plotW * it.value / maxV);
     var fill = (i === 0) ? '#E17055' : '#D4A574';
     svg += '<text x="0" y="' + (y + rowH / 2 + 4) + '" font-size="13" fill="#5a4a3a" font-family="sans-serif">' +
-      dashEsc(dashTruncate(it.label, 10)) + '</text>';
+      dashEsc(dashTruncate(it.label, 12)) + '</text>';
     svg += '<rect x="' + plotX + '" y="' + (y + 6) + '" width="' + bw + '" height="' + (rowH - 14) + '" rx="4" fill="' + fill + '"></rect>';
     var valTxt = it.value + (it.sub ? it.sub : '');
     svg += '<text x="' + (plotX + bw + 6) + '" y="' + (y + rowH / 2 + 4) + '" font-size="12" fill="#8a7a6a" font-family="sans-serif">' +
@@ -41,7 +45,7 @@ function dashHBar(items, opts) {
   return svg;
 }
 
-// 纵向柱状图（适合趋势/分布：月份/星期）
+// 纵向柱状图（适合趋势/分布：月份/星期/时段/时长）
 // items: [{label, value}]
 function dashVBar(items, opts) {
   opts = opts || {};
@@ -77,6 +81,66 @@ function dashVBar(items, opts) {
   return svg;
 }
 
+// 热力图颜色阶梯：count 越大越深
+function heatColor(c, maxc) {
+  if (c <= 0) return '#f1ece4';
+  var t = maxc > 1 ? (c - 1) / (maxc - 1) : 1;
+  var steps = ['#f6d9c6', '#eeb892', '#e6956a', '#db7148', '#c0502f'];
+  var idx = Math.min(steps.length - 1, Math.floor(t * steps.length));
+  return steps[idx];
+}
+
+// 日历热力图（GitHub 贡献图风格）：每日一格，颜色越深对局越多
+function dashHeatmap(dayCounts, minDate, maxDate, maxDay) {
+  var cell = 12, gap = 3, step = cell + gap;
+  var padL = 30, padT = 20;
+  var start = getMonday(minDate);
+  var end = getMonday(maxDate);
+  end.setDate(end.getDate() + 6); // 周日
+  var weeks = Math.round((end - start) / (7 * 86400000)) + 1;
+  var W = padL + weeks * step + 8;
+  var H = padT + 7 * step + 4;
+
+  var svg = '<svg class="chart-svg chart-heat" width="' + W + '" height="' + H +
+    '" viewBox="0 0 ' + W + ' ' + H + '" style="width:' + W + 'px;max-width:none" xmlns="http://www.w3.org/2000/svg">';
+
+  // 左侧星期标签（周一/三/五/日）
+  var dayLabels = ['一', '三', '五', '日'];
+  var dayRows = [0, 2, 4, 6];
+  for (var r = 0; r < dayRows.length; r++) {
+    var row = dayRows[r];
+    svg += '<text x="' + (padL - 6) + '" y="' + (padT + row * step + cell - 2) +
+      '" font-size="10" fill="#8a7a6a" text-anchor="end" font-family="sans-serif">周' + dayLabels[r] + '</text>';
+  }
+
+  var lastMonth = -1;
+  for (var w = 0; w < weeks; w++) {
+    var colDate = new Date(start);
+    colDate.setDate(colDate.getDate() + w * 7);
+    var m = colDate.getMonth();
+    if (m !== lastMonth) {
+      svg += '<text x="' + (padL + w * step) + '" y="' + (padT - 6) +
+        '" font-size="10" fill="#8a7a6a" font-family="sans-serif">' + (m + 1) + '月</text>';
+      lastMonth = m;
+    }
+    for (var day = 0; day < 7; day++) {
+      var cd = new Date(start);
+      cd.setDate(cd.getDate() + w * 7 + day);
+      var inRange = (cd >= minDate && cd <= maxDate);
+      var k = ymdOf(cd);
+      var c = dayCounts[k] || 0;
+      var x = padL + w * step;
+      var y = padT + day * step;
+      var fill = inRange ? heatColor(c, maxDay) : '#faf7f2';
+      var op = inRange ? '1' : '0.35';
+      svg += '<rect x="' + x + '" y="' + y + '" width="' + cell + '" height="' + cell +
+        '" rx="2" fill="' + fill + '" opacity="' + op + '"></rect>';
+    }
+  }
+  svg += '</svg>';
+  return svg;
+}
+
 function renderDashboard() {
   var data = window.KIZ_DATA;
   if (!data) return;
@@ -87,82 +151,88 @@ function renderDashboard() {
   var memberIds = {};
   for (var mi = 0; mi < data.players.length; mi++) memberIds[data.players[mi].id] = true;
 
-  // 每月对局趋势
+  // 每日对局数（热力图）+ 每月趋势 + 起止日期
+  var dayCounts = {};
   var monthCount = {};
+  var minD = null, maxD = null;
   for (var i = 0; i < data.plays.length; i++) {
-    var ymd = String(data.plays[i].playDateYmd || '');
-    if (ymd.length < 6) continue;
-    var mk = ymd.slice(0, 6);
+    var ymd = data.plays[i].playDateYmd;
+    if (!ymd) continue;
+    var d = parseYmdToDate(ymd);
+    if (!d) continue;
+    var k = ymdOf(d);
+    dayCounts[k] = (dayCounts[k] || 0) + 1;
+    var mk = String(ymd).slice(0, 6);
     monthCount[mk] = (monthCount[mk] || 0) + 1;
+    if (minD === null || d < minD) minD = d;
+    if (maxD === null || d > maxD) maxD = d;
   }
   var months = Object.keys(monthCount).sort();
   var monthItems = months.map(function (m) {
     return { label: parseInt(m.slice(4, 6), 10) + '月', value: monthCount[m] };
   });
 
-  // 游戏热度 Top 10（按 playCount）
-  var gameItems = data.games.slice().sort(function (a, b) {
-    return (b.playCount || 0) - (a.playCount || 0);
-  }).slice(0, 10).map(function (g) {
-    return { label: g.name, value: g.playCount || 0, sub: '场' };
-  });
-
-  // 玩家活跃 Top 10（仅成员，按参与人次）
-  var pc = {};
-  for (var i = 0; i < data.plays.length; i++) {
-    var sc = data.plays[i].playerScores;
-    for (var j = 0; j < sc.length; j++) {
-      var pid = sc[j].playerRefId;
-      if (!memberIds[pid]) continue;
-      pc[pid] = (pc[pid] || 0) + 1;
-    }
-  }
-  var playerItems = Object.keys(pc).map(function (id) {
-    return { name: getPlayerNameById(Number(id)), count: pc[id] };
-  }).sort(function (a, b) { return b.count - a.count; }).slice(0, 10).map(function (p) {
-    return { label: p.name, value: p.count, sub: '场' };
-  });
-
-  // 胜率 Top 10（仅成员，≥10 场）
-  var tc = {}, wc = {};
-  for (var i = 0; i < data.plays.length; i++) {
-    var s = data.plays[i].playerScores;
-    for (var j = 0; j < s.length; j++) {
-      var pid = s[j].playerRefId;
-      if (!memberIds[pid]) continue;
-      tc[pid] = (tc[pid] || 0) + 1;
-      if (s[j].winner) wc[pid] = (wc[pid] || 0) + 1;
-    }
-  }
-  var wrItems = Object.keys(tc).filter(function (id) { return tc[id] >= 10; }).map(function (id) {
-    return { id: Number(id), plays: tc[id], wins: wc[id] || 0 };
-  }).sort(function (a, b) {
-    return (b.wins / b.plays) - (a.wins / a.plays) || b.wins - a.wins;
-  }).slice(0, 10).map(function (p) {
-    return { label: getPlayerNameById(p.id), value: Math.round(100 * p.wins / p.plays), sub: '%' };
-  });
-
   // 星期分布
   var wd = [0, 0, 0, 0, 0, 0, 0];
   var wdNames = ['周一', '周二', '周三', '周四', '周五', '周六', '周日'];
   for (var i = 0; i < data.plays.length; i++) {
-    var d = parseYmdToDate(data.plays[i].playDateYmd);
-    if (!d) continue;
-    wd[(d.getDay() + 6) % 7]++;
+    var dd = parseYmdToDate(data.plays[i].playDateYmd);
+    if (!dd) continue;
+    wd[(dd.getDay() + 6) % 7]++;
   }
   var wdItems = wdNames.map(function (n, i) { return { label: n, value: wd[i] }; });
 
-  // 地点分布 Top 8
-  var lc = {};
+  // 时段分布（按 playDate 的小时）
+  var todNames = ['深夜', '上午', '下午', '晚上'];
+  var tod = [0, 0, 0, 0];
   for (var i = 0; i < data.plays.length; i++) {
-    var lid = data.plays[i].locationRefId;
-    lc[lid] = (lc[lid] || 0) + 1;
+    var pd = data.plays[i].playDate;
+    if (!pd || pd.length < 13) continue;
+    var hh = parseInt(pd.slice(11, 13), 10);
+    if (isNaN(hh)) continue;
+    var b = hh < 6 ? 0 : (hh < 12 ? 1 : (hh < 18 ? 2 : 3));
+    tod[b]++;
   }
-  var locItems = Object.keys(lc).map(function (id) {
-    return { name: getLocationNameById(Number(id)), count: lc[id] };
-  }).sort(function (a, b) { return b.count - a.count; }).slice(0, 8).map(function (l) {
-    return { label: l.name, value: l.count, sub: '场' };
+  var todItems = todNames.map(function (n, i) { return { label: n, value: tod[i] }; });
+
+  // 对局时长分布（分桶，仅统计有记录的）
+  var durDefs = [['<30', 0, 30], ['30-60', 30, 60], ['60-120', 60, 120], ['120-180', 120, 180], ['180+', 180, 1e9]];
+  var dur = [0, 0, 0, 0, 0];
+  var durTotal = 0;
+  for (var i = 0; i < data.plays.length; i++) {
+    var dm = data.plays[i].durationMin;
+    if (!dm || dm <= 0) continue;
+    durTotal++;
+    for (var b = 0; b < durDefs.length; b++) {
+      if (dm >= durDefs[b][1] && dm < durDefs[b][2]) { dur[b]++; break; }
+    }
+  }
+  var durItems = durDefs.map(function (def, i) { return { label: def[0], value: dur[i] }; });
+
+  // 常玩搭子 Top（成员两人组合，同场次数）
+  var pair = {};
+  for (var i = 0; i < data.plays.length; i++) {
+    var parts = data.plays[i].playerScores
+      .filter(function (s) { return memberIds[s.playerRefId]; })
+      .map(function (s) { return s.playerRefId; })
+      .sort(function (a, b) { return a - b; });
+    for (var a = 0; a < parts.length; a++) {
+      for (var bb = a + 1; bb < parts.length; bb++) {
+        var key = parts[a] + '_' + parts[bb];
+        pair[key] = (pair[key] || 0) + 1;
+      }
+    }
+  }
+  var pairItems = Object.keys(pair).map(function (key) {
+    var ids = key.split('_');
+    return { a: Number(ids[0]), b: Number(ids[1]), c: pair[key] };
+  }).sort(function (x, y) { return y.c - x.c; }).slice(0, 12).map(function (p) {
+    return { label: getPlayerNameById(p.a) + ' × ' + getPlayerNameById(p.b), value: p.c, sub: '场' };
   });
+
+  // 热力图最大单日值
+  var maxDay = 1;
+  for (var kk in dayCounts) { if (dayCounts[kk] > maxDay) maxDay = dayCounts[kk]; }
 
   function stat(v, l) {
     return '<div class="stat-item"><div class="stat-number">' + v + '</div><div class="stat-label">' + l + '</div></div>';
@@ -182,15 +252,19 @@ function renderDashboard() {
     '</div>';
 
   html += panel('📈 每月对局趋势', dashVBar(monthItems), '单位：场');
+  html += panel('🗓️ 每日活跃热力图',
+    '<div class="chart-scroll">' + dashHeatmap(dayCounts, minD, maxD, maxDay) + '</div>',
+    '颜色越深 = 当天对局越多（共 ' + Object.keys(dayCounts).length + ' 个有对局日，单日最多 ' + maxDay + ' 场）');
+
   html += '<div class="dash-grid">' +
-    panel('🎮 游戏热度 Top 10', dashHBar(gameItems)) +
-    panel('👥 玩家活跃 Top 10', dashHBar(playerItems)) +
+    panel('⏰ 时段分布', dashVBar(todItems), '按开局时间（深夜 0-6 / 上午 6-12 / 下午 12-18 / 晚上 18-24）') +
+    panel('⏱️ 对局时长分布', dashVBar(durItems), '基于 ' + durTotal + ' 场有记录对局（分钟）') +
     '</div>';
+
   html += '<div class="dash-grid">' +
-    panel('🏆 胜率 Top 10（≥10场）', dashHBar(wrItems)) +
-    panel('📅 星期分布', dashVBar(wdItems)) +
+    panel('📅 星期分布', dashVBar(wdItems), '单位：场') +
+    panel('🤝 常玩搭子 Top 12', dashHBar(pairItems), '成员两人同场次数') +
     '</div>';
-  html += panel('📍 地点分布 Top 8', dashHBar(locItems));
 
   container.innerHTML = html;
 }

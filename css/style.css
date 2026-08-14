@@ -1152,6 +1152,17 @@ input, select { font-family: inherit; }
   display: block;
 }
 
+/* 热力图较宽，桌面完整展示、移动端横向滚动 */
+.chart-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 4px;
+}
+
+.chart-heat {
+  display: block;
+}
+
 .chart-note {
   font-size: 12px;
   color: var(--color-text-muted);
