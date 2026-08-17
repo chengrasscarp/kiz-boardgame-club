@@ -146,6 +146,21 @@ function dashHeatmap(dayCounts, year, maxDay) {
   return svg;
 }
 
+// 环形进度图（游戏库利用率）：pct 为已开比例
+function dashDonut(pct, used, unused) {
+  var size = 168, c = size / 2, r = 64, lw = 22;
+  var circ = 2 * Math.PI * r;
+  var off = circ * (1 - pct / 100);
+  var svg = '<svg class="chart-svg" viewBox="0 0 ' + size + ' ' + size + '" width="' + size + '" height="' + size + '" xmlns="http://www.w3.org/2000/svg" style="max-width:168px">';
+  svg += '<circle cx="' + c + '" cy="' + c + '" r="' + r + '" fill="none" stroke="#efe3d4" stroke-width="' + lw + '"></circle>';
+  svg += '<circle cx="' + c + '" cy="' + c + '" r="' + r + '" fill="none" stroke="#E17055" stroke-width="' + lw + '" stroke-linecap="round" stroke-dasharray="' + circ + '" stroke-dashoffset="' + off + '" transform="rotate(-90 ' + c + ' ' + c + ')"></circle>';
+  svg += '<text x="' + c + '" y="' + (c - 2) + '" font-size="32" font-weight="700" fill="#5a4a3a" text-anchor="middle" font-family="sans-serif">' + pct + '%</text>';
+  svg += '<text x="' + c + '" y="' + (c + 20) + '" font-size="12" fill="#8a7a6a" text-anchor="middle" font-family="sans-serif">已开比例</text>';
+  svg += '</svg>';
+  svg += '<div class="donut-legend"><span><i style="background:#E17055"></i>已玩 ' + used + ' 款</span><span><i style="background:#efe3d4"></i>吃灰 ' + unused + ' 款</span></div>';
+  return svg;
+}
+
 function renderDashboard() {
   var data = window.KIZ_DATA;
   if (!data) return;
@@ -250,6 +265,49 @@ function renderDashboard() {
   }
   var cxItems = cxDefs.map(function (def, i) { return { label: def.label, value: cx[i] }; });
 
+  // 每局人数分布（按 playerScores 人数）
+  var ppl = {};
+  for (var i = 0; i < data.plays.length; i++) {
+    var n = data.plays[i].playerScores.length;
+    if (n >= 1 && n <= 8) ppl[n] = (ppl[n] || 0) + 1;
+  }
+  var pplItems = [];
+  for (var n = 1; n <= 8; n++) {
+    if (ppl[n]) pplItems.push({ label: n + '人' + (n === 1 ? '*' : ''), value: ppl[n] });
+  }
+
+  // 游戏年代分布（已玩游戏的出版年）
+  var yrDefs = [
+    { label: '<2000', lo: 0, hi: 2000 },
+    { label: '2000-09', lo: 2000, hi: 2010 },
+    { label: '2010-14', lo: 2010, hi: 2015 },
+    { label: '2015-19', lo: 2015, hi: 2020 },
+    { label: '2020-24', lo: 2020, hi: 2025 },
+    { label: '2025+', lo: 2025, hi: 9999 }
+  ];
+  var yrCnt = [0, 0, 0, 0, 0, 0];
+  var yrTotal = 0;
+  for (var i = 0; i < data.games.length; i++) {
+    var g = data.games[i];
+    if ((g.playCount || 0) <= 0) continue;
+    var y = g.yearPublished;
+    if (y == null) continue;
+    yrTotal++;
+    for (var b = 0; b < yrDefs.length; b++) {
+      if (y >= yrDefs[b].lo && y < yrDefs[b].hi) { yrCnt[b]++; break; }
+    }
+  }
+  var yrItems = yrDefs.map(function (def, i) { return { label: def.label, value: yrCnt[i] }; });
+
+  // 游戏库利用率
+  var totalGames = data.games.length;
+  var playedGames = 0;
+  for (var i = 0; i < data.games.length; i++) {
+    if ((data.games[i].playCount || 0) > 0) playedGames++;
+  }
+  var unusedGames = totalGames - playedGames;
+  var usedPct = totalGames > 0 ? Math.round(100 * playedGames / totalGames) : 0;
+
   // 热力图最大单日值（跨年统一色阶，便于年份对比）
   var maxDay = 1;
   for (var kk in dayCounts) { if (dayCounts[kk] > maxDay) maxDay = dayCounts[kk]; }
@@ -293,6 +351,15 @@ function renderDashboard() {
     panel('📅 星期分布', dashVBar(wdItems), '单位：场') +
     panel('🎚️ 游戏复杂度分布', dashHBar(cxItems), '基于 ' + cxTotal + ' 款已玩游戏（BGG 权重：轻 1-2 / 中 2-3 / 重 3-4 / 超重 4+）') +
     '</div>';
+
+  html += '<div class="dash-grid">' +
+    panel('👥 每局人数分布', dashVBar(pplItems), '单位：局（*为单人局，如《罪案疑云》）') +
+    panel('🎲 游戏年代分布', dashHBar(yrItems), '基于 ' + yrTotal + ' 款已玩游戏的出版年') +
+    '</div>';
+
+  html += panel('📦 游戏库利用率',
+    '<div class="dash-center">' + dashDonut(usedPct, playedGames, unusedGames) + '</div>',
+    '游戏库共 ' + totalGames + ' 款，已开 ' + playedGames + ' 款，吃灰 ' + unusedGames + ' 款（约 ' + (100 - usedPct) + '%）');
 
   container.innerHTML = html;
 }
