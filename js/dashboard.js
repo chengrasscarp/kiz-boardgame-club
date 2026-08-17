@@ -181,8 +181,9 @@ function renderDashboard() {
     if (minD === null || d < minD) minD = d;
     if (maxD === null || d > maxD) maxD = d;
   }
-  // 年份列表（所有有对局的年份）
-  var yearList = Object.keys(yearSet).map(Number).sort(function (a, b) { return a - b; });
+  // 年份列表（所有有对局的年份）；默认排除数据过少的 2024 年（全年仅 4 场，展示意义不大）
+  var yearList = Object.keys(yearSet).map(Number).sort(function (a, b) { return a - b; })
+    .filter(function (y) { return y !== 2024; });
 
   // 热力图：确定当前展示年份（默认最新年）
   if (DASH_STATE.heatYear === null || yearList.indexOf(DASH_STATE.heatYear) === -1) {
