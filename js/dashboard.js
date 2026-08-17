@@ -1,6 +1,6 @@
 /* ===== Data Dashboard (inline SVG charts, no external dependency) ===== */
 
-var DASH_STATE = { heatYear: null };
+var DASH_STATE = { heatYear: null, trendYear: null };
 
 function dashEsc(s) {
   return String(s).replace(/[&<>]/g, function (c) {
@@ -56,6 +56,7 @@ function dashVBar(items, opts) {
   var maxV = 0;
   for (var i = 0; i < items.length; i++) maxV = Math.max(maxV, items[i].value);
   if (maxV <= 0) maxV = 1;
+  if (opts.maxV && opts.maxV > maxV) maxV = opts.maxV; // 跨年统一刻度，便于对比
   var n = items.length;
   var slot = plotW / n;
   var bw = Math.min(42, slot * 0.6);
@@ -180,17 +181,29 @@ function renderDashboard() {
     if (minD === null || d < minD) minD = d;
     if (maxD === null || d > maxD) maxD = d;
   }
-  var months = Object.keys(monthCount).sort();
-  var monthItems = months.map(function (m) {
-    return { label: parseInt(m.slice(4, 6), 10) + '月', value: monthCount[m] };
-  });
+  // 年份列表（所有有对局的年份）
+  var yearList = Object.keys(yearSet).map(Number).sort(function (a, b) { return a - b; });
 
   // 热力图：确定当前展示年份（默认最新年）
-  var yearList = Object.keys(yearSet).map(Number).sort(function (a, b) { return a - b; });
   if (DASH_STATE.heatYear === null || yearList.indexOf(DASH_STATE.heatYear) === -1) {
     DASH_STATE.heatYear = yearList.length ? yearList[yearList.length - 1] : new Date().getFullYear();
   }
   var curYear = DASH_STATE.heatYear;
+
+  // 每月趋势：按年份分开展示（与热力图一致的年份切换）
+  if (DASH_STATE.trendYear === null || yearList.indexOf(DASH_STATE.trendYear) === -1) {
+    DASH_STATE.trendYear = yearList.length ? yearList[yearList.length - 1] : new Date().getFullYear();
+  }
+  var trendYear = DASH_STATE.trendYear;
+  var monthLabels = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'];
+  var trendItems = monthLabels.map(function (name, i) {
+    var mm = (i + 1 < 10 ? '0' : '') + (i + 1);
+    return { label: name, value: monthCount[String(trendYear) + mm] || 0 };
+  });
+  var trendTotal = trendItems.reduce(function (s, it) { return s + it.value; }, 0);
+  // 跨年统一 Y 轴刻度，避免早期稀疏年份的 1 场被放大成满格
+  var globalMaxMonth = 1;
+  for (var mk2 in monthCount) { if (monthCount[mk2] > globalMaxMonth) globalMaxMonth = monthCount[mk2]; }
   var yearDayCount = 0, yearTotalPlays = 0;
   for (var yk in dayCounts) {
     var y = Math.floor(Number(yk) / 10000);
@@ -317,7 +330,15 @@ function renderDashboard() {
     stat((data.plays.length / Math.max(1, data.players.length)).toFixed(1), '人均局数') +
     '</div>';
 
-  html += panel('📈 每月对局趋势', dashVBar(monthItems), '单位：场');
+  // 每月趋势的年份切换按钮（与热力图同款）
+  var trendYearBtns = yearList.map(function (y) {
+    var active = (y === trendYear) ? ' active' : '';
+    return '<button type="button" class="heat-year-btn' + active + '" onclick="window.__setTrendYear(' + y + ')">' + y + '</button>';
+  }).join('');
+  html += panel('📈 每月对局趋势',
+    '<div class="heat-year-bar">' + trendYearBtns + '</div>' +
+    dashVBar(trendItems, { maxV: globalMaxMonth }),
+    '单位：场（' + trendYear + ' 年共 ' + trendTotal + ' 场，1–12 月）');
 
   html += panel('🗓️ 每日活跃热力图',
     '<div class="heat-year-bar">' + yearBtns + '</div>' +
@@ -345,5 +366,11 @@ function renderDashboard() {
 // 年份切换：更新状态后重渲染整个看板
 window.__setDashYear = function (y) {
   DASH_STATE.heatYear = y;
+  renderDashboard();
+};
+
+// 每月趋势年份切换
+window.__setTrendYear = function (y) {
+  DASH_STATE.trendYear = y;
   renderDashboard();
 };
