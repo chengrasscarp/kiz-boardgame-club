@@ -1138,6 +1138,13 @@ input, select { font-family: inherit; }
   border-radius: var(--radius-md);
   padding: 16px 18px;
   margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 横向条形图在等高网格中垂直居中，避免内容偏上留白 */
+.dash-card > .chart-svg {
+  margin: auto 0;
 }
 
 .dash-card h3 {

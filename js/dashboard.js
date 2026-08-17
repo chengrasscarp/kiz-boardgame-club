@@ -95,8 +95,8 @@ function heatColor(c, maxc) {
 // 日历热力图（GitHub 贡献图风格）：每日一格，颜色越深对局越多
 // 仅展示 year 这一年
 function dashHeatmap(dayCounts, year, maxDay) {
-  var cell = 12, gap = 3, step = cell + gap;
-  var padL = 30, padT = 20;
+  var cell = 13, gap = 4, step = cell + gap;
+  var padL = 32, padT = 22;
   var minDate = new Date(year, 0, 1);
   var maxDate = new Date(year, 11, 31);
   var start = getMonday(minDate);
@@ -122,11 +122,17 @@ function dashHeatmap(dayCounts, year, maxDay) {
   for (var w = 0; w < weeks; w++) {
     var colDate = new Date(start);
     colDate.setDate(colDate.getDate() + w * 7);
-    var m = colDate.getMonth();
-    if (m !== lastMonth) {
+    // 以本周首个有效日期所在月份来标注：避免跨年残缺周把 12月/1月 标签挤在一起
+    var labelMonth = -1;
+    for (var d = 0; d < 7; d++) {
+      var cd = new Date(start);
+      cd.setDate(cd.getDate() + w * 7 + d);
+      if (cd >= minDate && cd <= maxDate) { labelMonth = cd.getMonth(); break; }
+    }
+    if (labelMonth !== -1 && labelMonth !== lastMonth) {
       svg += '<text x="' + (padL + w * step) + '" y="' + (padT - 6) +
-        '" font-size="10" fill="#8a7a6a" font-family="sans-serif">' + (m + 1) + '月</text>';
-      lastMonth = m;
+        '" font-size="10" fill="#8a7a6a" font-family="sans-serif">' + (labelMonth + 1) + '月</text>';
+      lastMonth = labelMonth;
     }
     for (var day = 0; day < 7; day++) {
       var cd = new Date(start);
@@ -143,21 +149,6 @@ function dashHeatmap(dayCounts, year, maxDay) {
     }
   }
   svg += '</svg>';
-  return svg;
-}
-
-// 环形进度图（游戏库利用率）：pct 为已开比例
-function dashDonut(pct, used, unused) {
-  var size = 168, c = size / 2, r = 64, lw = 22;
-  var circ = 2 * Math.PI * r;
-  var off = circ * (1 - pct / 100);
-  var svg = '<svg class="chart-svg" viewBox="0 0 ' + size + ' ' + size + '" width="' + size + '" height="' + size + '" xmlns="http://www.w3.org/2000/svg" style="max-width:168px">';
-  svg += '<circle cx="' + c + '" cy="' + c + '" r="' + r + '" fill="none" stroke="#efe3d4" stroke-width="' + lw + '"></circle>';
-  svg += '<circle cx="' + c + '" cy="' + c + '" r="' + r + '" fill="none" stroke="#E17055" stroke-width="' + lw + '" stroke-linecap="round" stroke-dasharray="' + circ + '" stroke-dashoffset="' + off + '" transform="rotate(-90 ' + c + ' ' + c + ')"></circle>';
-  svg += '<text x="' + c + '" y="' + (c - 2) + '" font-size="32" font-weight="700" fill="#5a4a3a" text-anchor="middle" font-family="sans-serif">' + pct + '%</text>';
-  svg += '<text x="' + c + '" y="' + (c + 20) + '" font-size="12" fill="#8a7a6a" text-anchor="middle" font-family="sans-serif">已开比例</text>';
-  svg += '</svg>';
-  svg += '<div class="donut-legend"><span><i style="background:#E17055"></i>已玩 ' + used + ' 款</span><span><i style="background:#efe3d4"></i>吃灰 ' + unused + ' 款</span></div>';
   return svg;
 }
 
@@ -206,7 +197,7 @@ function renderDashboard() {
     if (y === curYear) { yearDayCount++; yearTotalPlays += dayCounts[yk]; }
   }
 
-  // 星期分布
+  // 活动日分布（按星期几）
   var wd = [0, 0, 0, 0, 0, 0, 0];
   var wdNames = ['周一', '周二', '周三', '周四', '周五', '周六', '周日'];
   for (var i = 0; i < data.plays.length; i++) {
@@ -299,15 +290,6 @@ function renderDashboard() {
   }
   var yrItems = yrDefs.map(function (def, i) { return { label: def.label, value: yrCnt[i] }; });
 
-  // 游戏库利用率
-  var totalGames = data.games.length;
-  var playedGames = 0;
-  for (var i = 0; i < data.games.length; i++) {
-    if ((data.games[i].playCount || 0) > 0) playedGames++;
-  }
-  var unusedGames = totalGames - playedGames;
-  var usedPct = totalGames > 0 ? Math.round(100 * playedGames / totalGames) : 0;
-
   // 热力图最大单日值（跨年统一色阶，便于年份对比）
   var maxDay = 1;
   for (var kk in dayCounts) { if (dayCounts[kk] > maxDay) maxDay = dayCounts[kk]; }
@@ -340,7 +322,7 @@ function renderDashboard() {
   html += panel('🗓️ 每日活跃热力图',
     '<div class="heat-year-bar">' + yearBtns + '</div>' +
     '<div class="chart-scroll">' + dashHeatmap(dayCounts, curYear, maxDay) + '</div>',
-    curYear + ' 年：颜色越深 = 当天对局越多（共 ' + yearDayCount + ' 个有对局日，' + yearTotalPlays + ' 场）');
+    '颜色越深 = 当天对局越多（共 ' + yearDayCount + ' 个有对局日，' + yearTotalPlays + ' 场）');
 
   html += '<div class="dash-grid">' +
     panel('⏰ 时段分布', dashVBar(todItems), '按开局时间（深夜 0-6 / 上午 6-12 / 下午 12-18 / 晚上 18-24）') +
@@ -348,7 +330,7 @@ function renderDashboard() {
     '</div>';
 
   html += '<div class="dash-grid">' +
-    panel('📅 星期分布', dashVBar(wdItems), '单位：场') +
+    panel('📅 活动日分布', dashVBar(wdItems), '单位：场') +
     panel('🎚️ 游戏复杂度分布', dashHBar(cxItems), '基于 ' + cxTotal + ' 款已玩游戏（BGG 权重：轻 1-2 / 中 2-3 / 重 3-4 / 超重 4+）') +
     '</div>';
 
@@ -356,10 +338,6 @@ function renderDashboard() {
     panel('👥 每局人数分布', dashVBar(pplItems), '单位：局（*为单人局，如《罪案疑云》）') +
     panel('🎲 游戏年代分布', dashHBar(yrItems), '基于 ' + yrTotal + ' 款已玩游戏的出版年') +
     '</div>';
-
-  html += panel('📦 游戏库利用率',
-    '<div class="dash-center">' + dashDonut(usedPct, playedGames, unusedGames) + '</div>',
-    '游戏库共 ' + totalGames + ' 款，已开 ' + playedGames + ' 款，吃灰 ' + unusedGames + ' 款（约 ' + (100 - usedPct) + '%）');
 
   container.innerHTML = html;
 }
