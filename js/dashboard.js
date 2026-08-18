@@ -96,8 +96,8 @@ function heatColor(c, maxc) {
 // 日历热力图（GitHub 贡献图风格）：每日一格，颜色越深对局越多
 // 仅展示 year 这一年
 function dashHeatmap(dayCounts, year, maxDay) {
-  var cell = 13, gap = 4, step = cell + gap;
-  var padL = 32, padT = 22;
+  var cell = 16, gap = 5, step = cell + gap;
+  var padL = 36, padT = 24;
   var minDate = new Date(year, 0, 1);
   var maxDate = new Date(year, 11, 31);
   var start = getMonday(minDate);
@@ -108,7 +108,7 @@ function dashHeatmap(dayCounts, year, maxDay) {
   var H = padT + 7 * step + 4;
 
   var svg = '<svg class="chart-svg chart-heat" width="' + W + '" height="' + H +
-    '" viewBox="0 0 ' + W + ' ' + H + '" style="width:' + W + 'px;max-width:none" xmlns="http://www.w3.org/2000/svg">';
+    '" viewBox="0 0 ' + W + ' ' + H + '" style="width:100%;height:auto" xmlns="http://www.w3.org/2000/svg">';
 
   // 左侧星期标签（周一/三/五/日）
   var dayLabels = ['一', '三', '五', '日'];

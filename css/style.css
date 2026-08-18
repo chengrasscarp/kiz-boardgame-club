@@ -1197,6 +1197,8 @@ input, select { font-family: inherit; }
 
 .chart-heat {
   display: block;
+  width: 100%;
+  min-width: 720px;
 }
 
 .chart-note {
