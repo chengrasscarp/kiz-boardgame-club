@@ -35,7 +35,7 @@ function dashHBar(items, opts) {
     var it = items[i];
     var y = padTop + i * rowH;
     var bw = Math.max(2, plotW * it.value / maxV);
-    var fill = (i === 0) ? '#E17055' : '#D4A574';
+    var fill = '#D4A574';
     svg += '<text x="0" y="' + (y + rowH / 2 + 4) + '" font-size="13" fill="#5a4a3a" font-family="sans-serif">' +
       dashEsc(dashTruncate(it.label, 12)) + '</text>';
     svg += '<rect x="' + plotX + '" y="' + (y + 6) + '" width="' + bw + '" height="' + (rowH - 14) + '" rx="4" fill="' + fill + '"></rect>';
@@ -74,7 +74,7 @@ function dashVBar(items, opts) {
     var bh = plotH * it.value / maxV;
     var bx = padL + slot * i + (slot - bw) / 2;
     var by = padT + plotH - bh;
-    var fill = (i === items.length - 1) ? '#E17055' : '#D4A574';
+    var fill = '#D4A574';
     svg += '<rect x="' + bx + '" y="' + by + '" width="' + bw + '" height="' + bh + '" rx="3" fill="' + fill + '"></rect>';
     svg += '<text x="' + (bx + bw / 2) + '" y="' + (by - 5) + '" font-size="11" fill="#5a4a3a" text-anchor="middle" font-family="sans-serif">' + it.value + '</text>';
     svg += '<text x="' + (padL + slot * i + slot / 2) + '" y="' + (H - padB + 16) + '" font-size="11" fill="#5a4a3a" text-anchor="middle" font-family="sans-serif">' +
@@ -250,9 +250,9 @@ function renderDashboard() {
 
   // 游戏复杂度分布（按已玩游戏的 BGG 权重分桶）
   var cxDefs = [
-    { label: '轻量 (1-2)', lo: 1.0, hi: 2.0 },
-    { label: '中量 (2-3)', lo: 2.0, hi: 3.0 },
-    { label: '重量 (3-4)', lo: 3.0, hi: 4.0 },
+    { label: '轻度 (1-2)', lo: 1.0, hi: 2.0 },
+    { label: '中度 (2-3)', lo: 2.0, hi: 3.0 },
+    { label: '重度 (3-4)', lo: 3.0, hi: 4.0 },
     { label: '超重 (4+)', lo: 4.0, hi: 99 }
   ];
   var cx = [0, 0, 0, 0];
@@ -283,7 +283,7 @@ function renderDashboard() {
 
   // 游戏年代分布（已玩游戏的出版年）
   var yrDefs = [
-    { label: '<2000', lo: 0, hi: 2000 },
+    { label: '2000前', lo: 0, hi: 2000 },
     { label: '2000-09', lo: 2000, hi: 2010 },
     { label: '2010-14', lo: 2010, hi: 2015 },
     { label: '2015-19', lo: 2015, hi: 2020 },
@@ -296,7 +296,7 @@ function renderDashboard() {
     var g = data.games[i];
     if ((g.playCount || 0) <= 0) continue;
     var y = g.yearPublished;
-    if (y == null) continue;
+    if (y == null || y === 0) continue;
     yrTotal++;
     for (var b = 0; b < yrDefs.length; b++) {
       if (y >= yrDefs[b].lo && y < yrDefs[b].hi) { yrCnt[b]++; break; }
@@ -353,7 +353,7 @@ function renderDashboard() {
 
   html += '<div class="dash-grid">' +
     panel('📅 活动日分布', dashVBar(wdItems), '单位：场') +
-    panel('🎚️ 游戏复杂度分布', dashHBar(cxItems), '基于 ' + cxTotal + ' 款已玩游戏（BGG 权重：轻 1-2 / 中 2-3 / 重 3-4 / 超重 4+）') +
+    panel('🎚️ 游戏复杂度分布', dashHBar(cxItems), '基于 ' + cxTotal + ' 款已玩游戏（BGG 权重：轻度 1-2 / 中度 2-3 / 重度 3-4 / 超重 4+）') +
     '</div>';
 
   html += '<div class="dash-grid">' +
