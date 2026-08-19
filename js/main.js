@@ -588,13 +588,14 @@ function renderGameProfile() {
   }
   var participantCount = Object.keys(participantIds).length;
 
-  // 成员胜率榜（按胜率降序，同率比场次；场次相同按名字稳定）
+  // 成员胜率榜（与"胜率王"一致：仅统计参与 ≥3 场的成员，避免少数场次 100% 的偶然；按胜率降序，同率比胜场、再比名字）
   var memberRows = Object.keys(memberStat).map(function(id) {
     var n = Number(id);
     return { id: n, name: memberNameById[n], plays: memberStat[n].plays, wins: memberStat[n].wins };
-  }).sort(function(a, b) {
-    return (b.wins / b.plays) - (a.wins / a.plays) || b.plays - a.plays || a.name.localeCompare(b.name, 'zh');
-  });
+  }).filter(function(r) { return r.plays >= WIN_RATE_MIN_PLAYS; })
+    .sort(function(a, b) {
+      return (b.wins / b.plays) - (a.wins / a.plays) || b.wins - a.wins || a.name.localeCompare(b.name, 'zh');
+    });
 
   // 胜率王（复用全局逻辑，含 ≥3 场门槛与并列）
   var winMaps = buildWinRateMaps();
@@ -639,7 +640,9 @@ function renderGameProfile() {
 
   // ===== 成员胜率榜 =====
   if (memberRows.length > 0) {
-    html += '<h2 class="profile-section-title">📊 成员战绩</h2><div class="profile-game-list">';
+    html += '<h2 class="profile-section-title">📊 成员战绩</h2>' +
+      '<p class="profile-section-note">仅统计参与 ≥' + WIN_RATE_MIN_PLAYS + ' 场的成员</p>' +
+      '<div class="profile-game-list">';
     var crownNames = bestPlayer ? bestPlayer.names : [];
     for (var mr = 0; mr < memberRows.length; mr++) {
       var row = memberRows[mr];
