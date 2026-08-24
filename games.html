@@ -42,6 +42,8 @@
       <option value="complexity">按复杂度</option>
     </select>
   </div>
+  <h2 class="section-subtitle" style="margin-top:28px;color:var(--color-primary);" id="newGamesTitle"></h2>
+  <div class="game-grid" id="newGamesGrid"></div>
   <h2 class="section-subtitle" style="margin-top:24px;color:var(--color-secondary);" id="baseCount"></h2>
   <div class="game-grid" id="gameGrid"></div>
   <h2 class="section-subtitle" style="margin-top:32px;color:var(--color-accent);" id="expCount"></h2>
@@ -58,6 +60,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     initNavigation();
+    renderNewGames('newGamesGrid', 'newGamesTitle');
     renderGameLibrary();
   });
 </script>

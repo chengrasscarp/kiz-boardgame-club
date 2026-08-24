@@ -10,6 +10,7 @@
 """
 
 import csv
+import hashlib
 import json
 import os
 from collections import Counter
@@ -111,6 +112,13 @@ def filter_players(raw_players):
                         avatar_color = f"hsl({int(h*360)},{int(s*100)}%,{int(b*80)}%)"
             except (json.JSONDecodeError, KeyError, ValueError):
                 pass
+
+            # 未从 BGA 拿到配色时，按 id+name 生成稳定的确定性配色，
+            # 保证成员墙/领奖台每位成员都拥有彩色首字母头像
+            if not avatar_color:
+                digest = hashlib.md5(f"{p['id']}-{p['name']}".encode("utf-8")).hexdigest()
+                hue = int(digest[:6], 16) % 360
+                avatar_color = f"hsl({hue},48%,72%)"
 
             players.append({
                 "id": p["id"],

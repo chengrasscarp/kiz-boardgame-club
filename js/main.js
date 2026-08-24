@@ -64,11 +64,33 @@ function getGameById(id) {
   return null;
 }
 
-function renderAvatar(name, extraStyle) {
+// 依据背景色计算首字母文字颜色，保证彩色头像上的字高对比可读
+function pickAvatarTextColor(bg) {
+  if (!bg) return '#333333';
+  var m = /hsl\(\s*([\d.]+)\s*,\s*([\d.]+)%\s*,\s*([\d.]+)%\s*\)/i.exec(bg);
+  var L;
+  if (m) {
+    L = parseFloat(m[3]);
+  } else {
+    var h = String(bg).replace('#', '');
+    if (h.length === 6) {
+      var r = parseInt(h.slice(0, 2), 16), g = parseInt(h.slice(2, 4), 16), b = parseInt(h.slice(4, 6), 16);
+      L = (0.299 * r + 0.587 * g + 0.114 * b) / 255 * 100;
+    } else {
+      L = 60;
+    }
+  }
+  return L > 62 ? '#2b2b2b' : '#ffffff';
+}
+
+// bgColor: 头像底色（如 player.avatarColor）；extraStyle: 附加内联样式（无需 style= 前缀）
+function renderAvatar(name, bgColor, extraStyle) {
   var imgPath = 'img/' + name + '.jpg';
-  return '<div class="member-avatar"' + (extraStyle || '') + '>' +
+  var styleAttr = (bgColor ? 'background:' + bgColor + ';' : '') + (extraStyle || '');
+  var tc = pickAvatarTextColor(bgColor);
+  return '<div class="member-avatar"' + (styleAttr ? ' style="' + styleAttr + '"' : '') + '>' +
     '<img src="' + imgPath + '" class="avatar-img" onerror="this.style.display=\'none\'" onload="this.style.display=\'block\'">' +
-    '<span class="avatar-initial">' + name.charAt(0) + '</span>' +
+    '<span class="avatar-initial" style="color:' + tc + '">' + name.charAt(0) + '</span>' +
   '</div>';
 }
 
@@ -318,6 +340,35 @@ function fillStats() {
 }
 
 /* ===== Home Page: Hot Games ===== */
+// 通用游戏卡片（点击跳转详情页），供热门游戏 / 近期上新复用
+function buildGameCardHtml(game, subline) {
+  var name = game.name;
+  var thumb = getGameThumb(game);
+  return '<div class="game-card" onclick="location.href=\'game.html?id=' + game.id + '\'">' +
+    '<div class="game-card-image">' +
+      (thumb ? '<img src="' + thumb + '" alt="' + name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
+    '</div>' +
+    '<div class="game-card-body">' +
+      '<div class="game-card-title">' + name + '</div>' +
+      '<div class="game-card-plays">' + (subline != null ? subline : ('🏆 ' + (game.playCount || 0) + '次游玩')) + '</div>' +
+    '</div>' +
+  '</div>';
+}
+
+// 计算每款游戏在全数据集中的「首次游玩日期」
+function computeGameFirstPlay() {
+  var data = window.KIZ_DATA;
+  var first = {};
+  for (var i = 0; i < data.plays.length; i++) {
+    var p = data.plays[i];
+    if (!p.gameRefId || !p.playDateYmd) continue;
+    if (first[p.gameRefId] == null || p.playDateYmd < first[p.gameRefId]) {
+      first[p.gameRefId] = p.playDateYmd;
+    }
+  }
+  return first;
+}
+
 function renderHotGames() {
   var container = document.getElementById('hotGames');
   if (!container) return;
@@ -336,20 +387,52 @@ function renderHotGames() {
 
   var html = '';
   for (var i = 0; i < sorted.length; i++) {
-    var game = sorted[i];
-    var name = game.name;
-    var thumb = getGameThumb(game);
-    html += '<div class="game-card" onclick="location.href=\'game.html?id=' + game.id + '\'">' +
-      '<div class="game-card-image">' +
-        (thumb ? '<img src="' + thumb + '" alt="' + name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
-      '</div>' +
-      '<div class="game-card-body">' +
-        '<div class="game-card-title">' + name + '</div>' +
-        '<div class="game-card-plays">🏆 ' + (game.playCount || 0) + '次游玩</div>' +
-      '</div>' +
-    '</div>';
+    html += buildGameCardHtml(sorted[i]);
   }
 
+  container.innerHTML = html;
+}
+
+/* ===== 近期上新：最近 N 天内「首次被搬上桌」的游戏 ===== */
+function renderNewGames(containerId, titleId) {
+  var container = document.getElementById(containerId);
+  if (!container) return;
+
+  var data = window.KIZ_DATA;
+  var first = computeGameFirstPlay();
+  // 以数据集最新对局日期为基准，往前 NEW_GAME_WINDOW_DAYS 天为「近期」
+  var NEW_GAME_WINDOW_DAYS = 120;
+  var latest = 0;
+  for (var i = 0; i < data.plays.length; i++) {
+    if (data.plays[i].playDateYmd > latest) latest = data.plays[i].playDateYmd;
+  }
+  if (!latest) { container.innerHTML = ''; return; }
+
+  var newGames = data.games.filter(function(g) {
+    var f = first[g.id];
+    if (f == null) return false;
+    var d = parseYmdToDate(f), l = parseYmdToDate(latest);
+    if (!d || !l) return false;
+    var diff = Math.round((l - d) / 86400000);
+    return diff >= 0 && diff <= NEW_GAME_WINDOW_DAYS;
+  }).sort(function(a, b) {
+    return (first[b.id] || 0) - (first[a.id] || 0);
+  });
+
+  if (titleId) {
+    var titleEl = document.getElementById(titleId);
+    if (titleEl) titleEl.style.display = newGames.length ? '' : 'none';
+  }
+
+  if (!newGames.length) { container.innerHTML = ''; return; }
+
+  var html = '';
+  for (var j = 0; j < newGames.length; j++) {
+    var g = newGames[j];
+    var fp = parseYmdToDate(first[g.id]);
+    var sub = fp ? ('🆕 首玩 ' + (fp.getMonth() + 1) + '月' + fp.getDate() + '日') : '';
+    html += buildGameCardHtml(g, sub);
+  }
   container.innerHTML = html;
 }
 
@@ -1095,7 +1178,7 @@ function renderMemberWall() {
       html += '<a href="member.html?id=' + p.id + '" class="podium-card-link">' +
         '<div class="podium-card ' + podiumClasses[i] + '">' +
         '<div class="podium-medal">' + medals[i] + '</div>' +
-        renderAvatar(p.name, ' style="margin:8px auto;' + (p.avatarColor ? 'background:' + p.avatarColor + ';' : 'background:white;') + '"') +
+        renderAvatar(p.name, p.avatarColor, 'margin:8px auto;') +
         '<div class="podium-name">' + p.name + '</div>' +
         '<div class="podium-plays">' + (playCount[p.id] || 0) + '场</div>' +
       '</div></a>';
@@ -1114,7 +1197,7 @@ function renderMemberWall() {
       var bgHtml = bg ? '<div class="member-best">🏆 最擅长：' + bg.gameName + '（' + bg.rate + '%，' + bg.wins + '/' + bg.plays + '）</div>' : '';
       html += '<a href="member.html?id=' + p.id + '" class="member-card-link">' +
       '<div class="member-card">' +
-        renderAvatar(p.name, (p.avatarColor ? ' style="background:' + p.avatarColor + ';"' : '')) +
+        renderAvatar(p.name, p.avatarColor, '') +
         '<div class="member-name">' + p.name + '</div>' +
         '<div class="member-plays">' + (playCount[p.id] || 0) + '场</div>' +
         bgHtml +
@@ -1212,7 +1295,7 @@ function renderMemberProfile() {
   // Header
   html += '<div class="profile-header">' +
     '<div class="profile-avatar-wrap">' +
-      renderAvatar(player.name, (player.avatarColor ? ' style="width:80px;height:80px;font-size:32px;background:' + player.avatarColor + ';"' : ' style="width:80px;height:80px;font-size:32px;"')) +
+      renderAvatar(player.name, player.avatarColor, 'width:80px;height:80px;font-size:32px;') +
     '</div>' +
     '<div class="profile-info">' +
       '<h1 class="profile-name">' + player.name + '</h1>';

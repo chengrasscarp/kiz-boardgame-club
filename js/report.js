@@ -2,11 +2,31 @@
 // 自动按数据生成「每周对局简报」，默认展示最近一个完整周（周一–周日），可前后翻周。
 // 依赖 main.js 提供的 parseYmdToDate / getMonday / isoWeekNumber 共享日期工具。
 
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function ymdOf(d) {
+  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+}
+
 function renderWeeklyReport() {
   var data = window.KIZ_DATA;
   if (!data) return;
   var root = document.getElementById('weeklyReport');
   if (!root) return;
+
+  // 预计算每款游戏在全数据集中的「首次游玩日期」（用于判断本周是否新游戏首秀）
+  var gameFirstPlay = {};
+  for (var fi = 0; fi < data.plays.length; fi++) {
+    var fp = data.plays[fi];
+    if (!fp.gameRefId || !fp.playDateYmd) continue;
+    if (gameFirstPlay[fp.gameRefId] == null || fp.playDateYmd < gameFirstPlay[fp.gameRefId]) {
+      gameFirstPlay[fp.gameRefId] = fp.playDateYmd;
+    }
+  }
 
   // 1) 把每场对局归入其所在周（周一为起点）
   var weekMap = {}; // key = 周一的 YYYYMMDD -> {monday, plays:[]}
@@ -135,6 +155,47 @@ function renderWeeklyReport() {
         '</div></div>';
     }
     document.getElementById('repTimeline').innerHTML = tl;
+
+    // 本周新游戏首秀 + 本周名场面
+    var monYmd = ymdOf(week.monday);
+    var sunYmd = ymdOf(week.sunday);
+    var debutSet = {};
+    for (var di2 = 0; di2 < plays.length; di2++) {
+      var gfp = gameFirstPlay[plays[di2].gameRefId];
+      if (gfp != null && gfp >= monYmd && gfp <= sunYmd) {
+        var dn = getGameNameForPlay(plays[di2]);
+        if (dn && dn !== 'Unknown') debutSet[dn] = true;
+      }
+    }
+    var debutGames = Object.keys(debutSet);
+    var quotes = [];
+    var seenQuote = {};
+    for (var qi = 0; qi < plays.length; qi++) {
+      var cm = (plays[qi].comments || '').trim();
+      if (cm.length < 4) continue;
+      if (seenQuote[cm]) continue;
+      seenQuote[cm] = true;
+      quotes.push({ text: cm, game: getGameNameForPlay(plays[qi]) });
+    }
+    quotes.sort(function (a, b) { return b.text.length - a.text.length; });
+    quotes = quotes.slice(0, 2);
+
+    var extra = '';
+    if (debutGames.length) {
+      extra += '<div class="report-extra-card"><div class="report-extra-title">🆕 本周新游戏首秀</div>' +
+        '<div class="report-extra-body">' + debutGames.join('、') + '</div></div>';
+    }
+    if (quotes.length) {
+      var qHtml = '';
+      for (var xi = 0; xi < quotes.length; xi++) {
+        qHtml += '<div class="quote-item">“' + escapeHtml(quotes[xi].text) + '”' +
+          (quotes[xi].game ? ' <span class="quote-game">— ' + escapeHtml(quotes[xi].game) + '</span>' : '') + '</div>';
+      }
+      extra += '<div class="report-extra-card"><div class="report-extra-title">💬 本周名场面</div>' +
+        '<div class="report-quotes">' + qHtml + '</div></div>';
+    }
+    var extraEl = document.getElementById('repExtra');
+    if (extraEl) extraEl.innerHTML = extra;
 
     // 核心发现
     var hl = '';

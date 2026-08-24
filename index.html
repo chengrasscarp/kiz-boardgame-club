@@ -64,6 +64,13 @@
   <div class="game-grid" id="hotGames"></div>
 </section>
 
+<!-- Recent New Games -->
+<section class="page-section">
+  <h2 class="section-title">✨ 近期上新</h2>
+  <p class="section-subtitle">最近被搬上桌游桌的新游戏</p>
+  <div class="game-grid" id="newGames"></div>
+</section>
+
 <!-- Recent Plays -->
 <section class="page-section">
   <h2 class="section-title">📋 最近活动</h2>
@@ -86,6 +93,7 @@
     initNavigation();
     fillStats();
     renderHotGames();
+    renderNewGames('newGames');
     renderRecentPlays();
   });
 </script>
