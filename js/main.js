@@ -401,7 +401,7 @@ function renderNewGames(containerId, titleId) {
   var data = window.KIZ_DATA;
   var first = computeGameFirstPlay();
   // 以数据集最新对局日期为基准，往前 NEW_GAME_WINDOW_DAYS 天为「近期」
-  var NEW_GAME_WINDOW_DAYS = 120;
+  var NEW_GAME_WINDOW_DAYS = 30;
   var latest = 0;
   for (var i = 0; i < data.plays.length; i++) {
     if (data.plays[i].playDateYmd > latest) latest = data.plays[i].playDateYmd;
