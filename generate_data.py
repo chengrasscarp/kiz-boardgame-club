@@ -422,7 +422,8 @@ def compute_record_holders(plays, games, player_id_to_name, no_points_map):
     for p in plays:
         gid = p["gameRefId"]
         board = p.get("board") or ""
-        if "双人版图" in board:
+        # 排除双人版图、3v3 等非标准模式的记分（如沙丘 3v3 团队模式得分不可与标准局比较）
+        if "双人版图" in board or "3v3" in board:
             continue
         lower_better = (p.get("scoringSetting") == 2)
         for ps in p.get("playerScores", []):

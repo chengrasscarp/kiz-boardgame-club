@@ -20338,15 +20338,11 @@ window.KIZ_DATA = {
       "playedStandalone": true,
       "recordHolder": {
         "names": [
-          "桌友47",
-          "陈勇杰",
-          "桌友06"
+          "陈勇杰"
         ],
-        "score": "20",
+        "score": "15",
         "dates": [
-          "20260809",
-          "20260809",
-          "20260809"
+          "20260823"
         ],
         "lowerBetter": false
       }
