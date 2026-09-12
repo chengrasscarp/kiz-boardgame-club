@@ -365,6 +365,17 @@ function computeGameFirstPlay() {
     if (first[p.gameRefId] == null || p.playDateYmd < first[p.gameRefId]) {
       first[p.gameRefId] = p.playDateYmd;
     }
+    // 扩展首次使用：作为附属扩展参与的对局，也记为其首玩日期
+    var exps = p.expansionPlays;
+    if (exps && exps.length) {
+      for (var e = 0; e < exps.length; e++) {
+        var egid = exps[e] && exps[e].gameRefId;
+        if (!egid) continue;
+        if (first[egid] == null || p.playDateYmd < first[egid]) {
+          first[egid] = p.playDateYmd;
+        }
+      }
+    }
   }
   return first;
 }
@@ -431,6 +442,7 @@ function renderNewGames(containerId, titleId) {
     var g = newGames[j];
     var fp = parseYmdToDate(first[g.id]);
     var sub = fp ? ('🆕 首玩 ' + (fp.getMonth() + 1) + '月' + fp.getDate() + '日') : '';
+    if (g.isExpansion === 1) sub += ' · 🧩扩展';
     html += buildGameCardHtml(g, sub);
   }
   container.innerHTML = html;
