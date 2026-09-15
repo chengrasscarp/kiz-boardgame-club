@@ -747,9 +747,6 @@ function renderGameProfile() {
   if (game.publishers) {
     metaRows.push(['出版商', escapeHtml(game.publishers)]);
   }
-  if (game.recPlayers) {
-    metaRows.push(['推荐人数', escapeHtml(game.recPlayers) + ' 人']);
-  }
   if (metaRows.length) {
     html += '<div class="profile-meta-grid">';
     for (var mi2 = 0; mi2 < metaRows.length; mi2++) {

@@ -19835,7 +19835,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "alea; Broadway Toys LTD",
       "originalName": "The Castles of Burgundy",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "勃根地城堡豪華版",
@@ -19882,7 +19881,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Space Cowboys",
       "originalName": "스플렌더: Pokémon (Splendor: Pokémon)",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "璀璨宝石：宝可梦",
@@ -19929,7 +19927,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Space Cowboys",
       "originalName": "Splendor",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "璀璨寶石",
@@ -19976,7 +19973,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Space Cowboys",
       "originalName": "Splendor Duel",
-      "recPlayers": "2",
       "copies": [
         {
           "gameName": "璀璨宝石：对决",
@@ -20025,7 +20021,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3,4",
       "publishers": "",
       "originalName": "Rummikub Twist",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "拉密豪华版",
@@ -20072,7 +20067,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3,4",
       "publishers": "Game Harbor; Van Ryder Games",
       "originalName": "Detective: City of Angels",
-      "recPlayers": "1,2,3,4,5",
       "copies": [
         {
           "gameName": "罪案疑云：天使之城",
@@ -20110,7 +20104,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "asmodee; Space Cowboys",
       "originalName": "Unlock!: Heroic Adventures",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "大搜查! 英勇冒險",
@@ -20148,7 +20141,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "YOKA Games; Alderac Entertainment Group",
       "originalName": "War Chest",
-      "recPlayers": "2,4",
       "copies": [
         {
           "gameName": "战争之匣",
@@ -20186,7 +20178,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "YOKA Games",
       "originalName": "War Chest: Nobility",
-      "recPlayers": "2,4",
       "copies": [
         {
           "gameName": "战争之匣：权贵",
@@ -20224,7 +20215,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2,4",
       "publishers": "YOKA Games",
       "originalName": "War Chest: Siege",
-      "recPlayers": "2,4",
       "copies": [
         {
           "gameName": "战争之匣：围城",
@@ -20262,7 +20252,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "asmodee; Oink Games",
       "originalName": "SCOUT",
-      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "SCOUT",
@@ -20309,7 +20298,6 @@ window.KIZ_DATA = {
       "bestPlayers": "5,6",
       "publishers": "Broadway Toys LTD; AMIGO",
       "originalName": "Take 5",
-      "recPlayers": "3,4,5,6,7,8,9,10",
       "copies": [
         {
           "gameName": "牛頭王",
@@ -20356,7 +20344,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3,4",
       "publishers": "Bézier Games",
       "originalName": "CABO (Second Edition)",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "CABO (Second Edition)",
@@ -20403,7 +20390,6 @@ window.KIZ_DATA = {
       "bestPlayers": "",
       "publishers": "C.O.R.E Lab",
       "originalName": "Spill The Tea",
-      "recPlayers": "",
       "copies": [
         {
           "gameName": "猩猩相惜",
@@ -20441,7 +20427,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Game Harbor",
       "originalName": "Detective: Bullets over Hollywood",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "罪案疑云：好莱坞的枪声",
@@ -20479,7 +20464,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4,5",
       "publishers": "CMON Global Limited",
       "originalName": "Modern Art",
-      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "現代藝術",
@@ -20526,7 +20510,6 @@ window.KIZ_DATA = {
       "bestPlayers": "1",
       "publishers": "Game Harbor",
       "originalName": "Detective: Saints & Sinners",
-      "recPlayers": "1",
       "copies": [
         {
           "gameName": "罪案疑云：天使与恶魔",
@@ -20564,7 +20547,6 @@ window.KIZ_DATA = {
       "bestPlayers": "1",
       "publishers": "Game Harbor",
       "originalName": "Detective: Smoke and Mirrors",
-      "recPlayers": "1",
       "copies": [
         {
           "gameName": "罪案疑云：迷雾与幻影",
@@ -20602,7 +20584,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "Broadway Toys LTD",
       "originalName": "Bomb Busters",
-      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "炸弹克星",
@@ -20640,7 +20621,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Scorpion Masqué; YOKA Games",
       "originalName": "Sky Team",
-      "recPlayers": "2",
       "copies": [
         {
           "gameName": "天合小队",
@@ -20678,7 +20658,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Blackrock Games; BoardGamePlanet; Catch Up Games; CMON Global Limited; 狗吠火車",
       "originalName": "Faraway",
-      "recPlayers": "2,3,4,5",
       "copies": [
         {
           "gameName": "遙遠之地",
@@ -20725,7 +20704,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2,3",
       "publishers": "Alderac Entertainment Group; Flatout Games",
       "originalName": "Cascadia",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "卡斯卡迪亚之旅",
@@ -20772,7 +20750,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Stonemaier Games",
       "originalName": "Wingspan Asia",
-      "recPlayers": "1,2",
       "copies": [
         {
           "gameName": "展翅翱翔：亚洲篇",
@@ -20819,7 +20796,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Origames; Super Meeple",
       "originalName": "Kronologic: Paris 1920",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "时空神探：巴黎1920",
@@ -20857,7 +20833,6 @@ window.KIZ_DATA = {
       "bestPlayers": "",
       "publishers": "YOKA Games",
       "originalName": "一带一路 (Belt and Road)",
-      "recPlayers": "",
       "copies": [
         {
           "gameName": "一带一路 (Belt and Road)",
@@ -20895,7 +20870,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2,3",
       "publishers": "One Moment Games",
       "originalName": "Azul: Master Chocolatier",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "花砖物语：巧夺天工",
@@ -20942,7 +20916,6 @@ window.KIZ_DATA = {
       "bestPlayers": "1,2",
       "publishers": "GoKids 玩樂小子",
       "originalName": "Too Many Bones: Unbreakable",
-      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "骸骨險境: 堅不可摧",
@@ -20980,7 +20953,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Game Harbor",
       "originalName": "Heredity: The Book of Swan",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "末世亲缘：斯旺之书",
@@ -21018,7 +20990,6 @@ window.KIZ_DATA = {
       "bestPlayers": "8",
       "publishers": "Broadway Toys LTD",
       "originalName": "Telestrations",
-      "recPlayers": "5,6,7,8",
       "copies": [
         {
           "gameName": "傳情畫意",
@@ -21056,7 +21027,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Repos Production",
       "originalName": "The Lord of the Rings: Duel for Middle-earth",
-      "recPlayers": "2",
       "copies": [
         {
           "gameName": "魔戒：中洲对决",
@@ -21094,7 +21064,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2,3,4",
       "publishers": "BoardGamePlanet",
       "originalName": "Welcome to the Moon",
-      "recPlayers": "1,2,3,4,5,6",
       "copies": [
         {
           "gameName": "欢迎来到月球",
@@ -21141,7 +21110,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4,6,8",
       "publishers": "",
       "originalName": "Challengers! Beach Cup",
-      "recPlayers": "2,4,5,6,7,8",
       "copies": [
         {
           "gameName": "Challengers! Beach Cup",
@@ -21188,7 +21156,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4,6",
       "publishers": "Scorpion Masqué",
       "originalName": "Decrypto",
-      "recPlayers": "4,5,6,7,8",
       "copies": [
         {
           "gameName": "谍报风云：5周年纪念版",
@@ -21226,7 +21193,6 @@ window.KIZ_DATA = {
       "bestPlayers": "",
       "publishers": "",
       "originalName": "",
-      "recPlayers": "",
       "copies": [
         {
           "gameName": "三国杀：欢乐斗地主",
@@ -21273,7 +21239,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Space Cowboys",
       "originalName": "Unlock!: Mythic Adventures",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "大搜查：神话冒险",
@@ -21311,7 +21276,6 @@ window.KIZ_DATA = {
       "bestPlayers": "5,6",
       "publishers": "The Op Games",
       "originalName": "Flip 7",
-      "recPlayers": "3,4,5,6,7,8,9",
       "copies": [
         {
           "gameName": "Flip 7",
@@ -21358,7 +21322,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2,4,5",
       "publishers": "Catch Up Games; CMON Global Limited; 狗吠火車",
       "originalName": "Faraway: People From Below",
-      "recPlayers": "2,3,4,5,6",
       "copies": [
         {
           "gameName": "遙遠之地：地下族群",
@@ -21396,7 +21359,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Alderac Entertainment Group; YOKA Games",
       "originalName": "War Chest: Nightfall",
-      "recPlayers": "2,4",
       "copies": [
         {
           "gameName": "战争之匣：夜幕",
@@ -21434,7 +21396,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3,4",
       "publishers": "Board Game Rookie; Dexker Games; Roxley",
       "originalName": "Brass: Birmingham",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "工業革命：伯明翰",
@@ -21481,7 +21442,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Brueh Games Inc.; Treetato Studio",
       "originalName": "Keep the Heroes Out!",
-      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "英雄止步",
@@ -21519,7 +21479,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Brueh Games Inc.; Treetato Studio",
       "originalName": "Keep the Heroes Out!: Guild Master's Revenge Expansion",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "英雄止步:會長的復仇",
@@ -21557,7 +21516,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "",
       "originalName": "Keep the Heroes Out!: Boss Battles",
-      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: Boss Battles",
@@ -21595,7 +21553,6 @@ window.KIZ_DATA = {
       "bestPlayers": "",
       "publishers": "Chip Theory Games",
       "originalName": "Too Many Bones: Riffle",
-      "recPlayers": "",
       "copies": [
         {
           "gameName": "Too Many Bones: Riffle",
@@ -21633,7 +21590,6 @@ window.KIZ_DATA = {
       "bestPlayers": "",
       "publishers": "Chip Theory Games",
       "originalName": "Too Many Bones: Carcass",
-      "recPlayers": "",
       "copies": [
         {
           "gameName": "Too Many Bones: Carcass",
@@ -21671,7 +21627,6 @@ window.KIZ_DATA = {
       "bestPlayers": "",
       "publishers": "Chip Theory Games",
       "originalName": "Too Many Bones: Polaris",
-      "recPlayers": "",
       "copies": [
         {
           "gameName": "Too Many Bones: Polaris",
@@ -21709,7 +21664,6 @@ window.KIZ_DATA = {
       "bestPlayers": "",
       "publishers": "Chip Theory Games",
       "originalName": "Too Many Bones: Static",
-      "recPlayers": "",
       "copies": [
         {
           "gameName": "Too Many Bones: Static",
@@ -21747,7 +21701,6 @@ window.KIZ_DATA = {
       "bestPlayers": "6",
       "publishers": "Broadway Toys LTD",
       "originalName": "Stick Stack",
-      "recPlayers": "3,4,5,6,7,8,9,10,11,12,13,14,15",
       "copies": [
         {
           "gameName": "籤籤入扣 stick stack",
@@ -21796,7 +21749,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Brueh Games Inc.",
       "originalName": "Keep the Heroes Out!: The Great Dreamer Expansion",
-      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Great Dreamer Expansion",
@@ -21834,7 +21786,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Brueh Games Inc.",
       "originalName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
-      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
@@ -21872,7 +21823,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Catch Up Games; YOKA Games",
       "originalName": "Castle Combo",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "城堡嘉年华",
@@ -21910,7 +21860,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "Broadway Toys LTD; Dire Wolf",
       "originalName": "Dune: Imperium – Uprising",
-      "recPlayers": "1,2,3,4,6",
       "copies": [
         {
           "gameName": "沙丘：帝国 - 起义",
@@ -21957,7 +21906,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "",
       "originalName": "Mahjong",
-      "recPlayers": "4",
       "copies": [
         {
           "gameName": "Mahjong",
@@ -22004,7 +21952,6 @@ window.KIZ_DATA = {
       "bestPlayers": "5",
       "publishers": "Game Harbor",
       "originalName": "Betrayal at House on the Hill: 3rd Edition",
-      "recPlayers": "4,5,6",
       "copies": [
         {
           "gameName": "山中小屋",
@@ -22042,7 +21989,6 @@ window.KIZ_DATA = {
       "bestPlayers": "1",
       "publishers": "",
       "originalName": "Gloomhaven: Buttons & Bugs",
-      "recPlayers": "1",
       "copies": [
         {
           "gameName": "Gloomhaven: Buttons & Bugs",
@@ -22080,7 +22026,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2,3",
       "publishers": "Feuerland Spiele; Game Harbor",
       "originalName": "Sanctuary",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "方舟保护区",
@@ -22127,7 +22072,6 @@ window.KIZ_DATA = {
       "bestPlayers": "6,8",
       "publishers": "Broadway Toys LTD",
       "originalName": "Good Cop Bad Cop",
-      "recPlayers": "4,5,6,7,8",
       "copies": [
         {
           "gameName": "無間風雲",
@@ -22165,7 +22109,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "FryxGames; Stronghold Games; Surfin' Meeple China",
       "originalName": "Terraforming Mars: The Dice Game",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "骰筑火星",
@@ -22212,7 +22155,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4,5",
       "publishers": "ABACUSSPIELE; Yaofish Games",
       "originalName": "Wandering Towers",
-      "recPlayers": "3,4,5,6",
       "copies": [
         {
           "gameName": "巫师飞塔",
@@ -22250,7 +22192,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "Broadway Toys LTD",
       "originalName": "Dune: Imperium – Bloodlines",
-      "recPlayers": "2,3,4,6",
       "copies": [
         {
           "gameName": "沙丘：帝國 血脈永續",
@@ -22288,7 +22229,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "GoKids 玩樂小子",
       "originalName": "Puerto Rico 1897: Special Edition",
-      "recPlayers": "1,2,3,4,5",
       "copies": [
         {
           "gameName": "波多黎各 1897 特別典藏版",
@@ -22335,7 +22275,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "FryxGames",
       "originalName": "Terraforming Mars: The Dice Game – Missions",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "Terraforming Mars: The Dice Game – Missions",
@@ -22373,7 +22312,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Repos Production",
       "originalName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
-      "recPlayers": "2",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
@@ -22411,7 +22349,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "Repos Production",
       "originalName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
-      "recPlayers": "2",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
@@ -22449,7 +22386,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "YOKA Games",
       "originalName": "Feya's Swamp",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "菲雅的沼泽",
@@ -22487,7 +22423,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "Mattel, Inc.",
       "originalName": "UNO Flip!",
-      "recPlayers": "2,3,4,5,6,7",
       "copies": [
         {
           "gameName": "UNO Flip!",
@@ -22525,7 +22460,6 @@ window.KIZ_DATA = {
       "bestPlayers": "5",
       "publishers": "Repos Production",
       "originalName": "7 Wonders (Second Edition): Armada",
-      "recPlayers": "3,4,5,6,7",
       "copies": [
         {
           "gameName": "七大奇迹：舰队扩展",
@@ -22563,7 +22497,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4,5",
       "publishers": "Repos Production",
       "originalName": "7 Wonders (Second Edition)",
-      "recPlayers": "3,4,5,6,7",
       "copies": [
         {
           "gameName": "七大奇蹟：第二版",
@@ -22610,7 +22543,6 @@ window.KIZ_DATA = {
       "bestPlayers": "5,6",
       "publishers": "",
       "originalName": "Poker",
-      "recPlayers": "3,4,5,6,7,8,9",
       "copies": [
         {
           "gameName": "Poker",
@@ -22648,7 +22580,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4,5",
       "publishers": "Broadway Toys LTD",
       "originalName": "Las Vegas Royale",
-      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "拉斯維加斯豪華版",
@@ -22695,7 +22626,6 @@ window.KIZ_DATA = {
       "bestPlayers": "6,7,8",
       "publishers": "Broadway Toys LTD; 狗吠火車",
       "originalName": "Night of the Ninja",
-      "recPlayers": "5,6,7,8,9,10,11",
       "copies": [
         {
           "gameName": "忍者之夜",
@@ -22744,7 +22674,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2",
       "publishers": "",
       "originalName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
-      "recPlayers": "2",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
@@ -22782,7 +22711,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Broadway Toys LTD; Czech Games Edition (CGE)",
       "originalName": "SETI: Search for Extraterrestrial Intelligence",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "星空觅迹：探寻地外文明计划",
@@ -22820,7 +22748,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Z-Man Games",
       "originalName": "The Lord of the Rings: Fate of the Fellowship",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "魔戒：命运同盟",
@@ -22858,7 +22785,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "Jolly Thinkers; Z-Man Games",
       "originalName": "Pandemic Legacy: Season 1",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "瘟疫危機︰承傳",
@@ -22896,7 +22822,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Broadway Toys LTD",
       "originalName": "Clank!: Catacombs",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "噤声寻宝记！地下墓穴",
@@ -22943,7 +22868,6 @@ window.KIZ_DATA = {
       "bestPlayers": "5,6",
       "publishers": "CMYK",
       "originalName": "Magical Athlete",
-      "recPlayers": "3,4,5,6",
       "copies": [
         {
           "gameName": "Magical Athlete",
@@ -22990,7 +22914,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "Z-Man Games",
       "originalName": "Arkham Horror: Lovecraft Letter",
-      "recPlayers": "3,4,5,6",
       "copies": [
         {
           "gameName": "诡镇奇谈：洛夫克拉夫特情书",
@@ -23028,7 +22951,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "",
       "originalName": "Clank!: Catacombs – Lairs and Lost Chambers",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "Clank!: Catacombs – Lairs and Lost Chambers",
@@ -23066,7 +22988,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "",
       "originalName": "Clank!: Catacombs – Underworld",
-      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "Clank!: Catacombs – Underworld",
@@ -23104,7 +23025,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2,3,4,5",
       "publishers": "Blackrock Games; BoardGamePlanet; Catch Up Games; CMON Global Limited",
       "originalName": "Faraway: Under Starry Skies",
-      "recPlayers": "2,3,4,5,6",
       "copies": [
         {
           "gameName": "遙遠之地：星空之下",
@@ -23142,7 +23062,6 @@ window.KIZ_DATA = {
       "bestPlayers": "6,7",
       "publishers": "AMIGO; Broadway Toys LTD",
       "originalName": "Saboteur: 20th Anniversary Edition",
-      "recPlayers": "4,5,6,7,8,9",
       "copies": [
         {
           "gameName": "矮人掘金：20週年紀念版",
@@ -23189,7 +23108,6 @@ window.KIZ_DATA = {
       "bestPlayers": "5,6,7",
       "publishers": "Oink Games",
       "originalName": "Durian",
-      "recPlayers": "4,5,6,7",
       "copies": [
         {
           "gameName": "榴莲忘贩",
@@ -23248,7 +23166,6 @@ window.KIZ_DATA = {
       "bestPlayers": "2,3",
       "publishers": "Catch Up Games; Hachette Boardgames UK",
       "originalName": "Castle Combo: Out of the Oubliette!",
-      "recPlayers": "2,3,4,5",
       "copies": [
         {
           "gameName": "Castle Combo: Out of the Oubliette!",
@@ -23286,7 +23203,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "KOSMOS; Swan Panasia Co., Ltd.",
       "originalName": "The Crew: Mission Deep Sea",
-      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "星際探險隊：深海任務",
@@ -23324,7 +23240,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "Days of Wonder; GoKids 玩樂小子",
       "originalName": "Ticket to Ride Legacy: Legends of the West",
-      "recPlayers": "2,3,4,5",
       "copies": [
         {
           "gameName": "Ticket to Ride Legacy: Legends of the West",
@@ -23371,7 +23286,6 @@ window.KIZ_DATA = {
       "bestPlayers": "",
       "publishers": "",
       "originalName": "",
-      "recPlayers": "",
       "copies": [
         {
           "gameName": "谁是火箭队",
@@ -23409,7 +23323,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3,4",
       "publishers": "",
       "originalName": "Lords of Waterdeep",
-      "recPlayers": "2,3,4,5",
       "copies": [
         {
           "gameName": "深水城領主",
@@ -23456,7 +23369,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4,5,6",
       "publishers": "",
       "originalName": "Skull King",
-      "recPlayers": "3,4,5,6",
       "copies": [
         {
           "gameName": "Skull King",
@@ -23503,7 +23415,6 @@ window.KIZ_DATA = {
       "bestPlayers": "4",
       "publishers": "",
       "originalName": "Lords of Waterdeep: Scoundrels of Skullport",
-      "recPlayers": "2,3,4,5,6",
       "copies": [
         {
           "gameName": "Lords of Waterdeep: Scoundrels of Skullport",
@@ -23541,7 +23452,6 @@ window.KIZ_DATA = {
       "bestPlayers": "3",
       "publishers": "Delicious Games; YOKA Games",
       "originalName": "Woodcraft",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "木心匠艺",
@@ -23579,7 +23489,6 @@ window.KIZ_DATA = {
       "bestPlayers": "1,2",
       "publishers": "Origames; Super Meeple",
       "originalName": "Kronologic: Cuzco 1450",
-      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "时空神探：库斯科1450",

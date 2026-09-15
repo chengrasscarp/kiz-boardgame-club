@@ -90,7 +90,6 @@ def load_bgg_collection():
                 "bestPlayers": row.get("bggbestplayers", ""),
                 "publishers": (row.get("version_publishers") or "").strip(),
                 "originalName": (row.get("originalname") or "").strip(),
-                "recPlayers": (row.get("bggrecplayers") or "").strip(),
             }
 
     print(f"加载 BGG 收藏: {len(bgg_info)} 款游戏")
@@ -367,7 +366,6 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
             "bestPlayers": bgg.get("bestPlayers", ""),
             "publishers": bgg.get("publishers", ""),
             "originalName": bgg.get("originalName", ""),
-            "recPlayers": bgg.get("recPlayers", ""),
             "copies": [{
                 "gameName": c.get("gameName", g["name"]),
                 "urlThumb": c.get("urlThumb", ""),
