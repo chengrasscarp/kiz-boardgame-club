@@ -34,7 +34,9 @@ COLLECTION_CSV = os.path.join(SCRIPT_DIR, "collection.csv")
 VALID_LOCATION_IDS = {1, 2, 4, 8, 10, 18, 20}  # 405, 104, BoardGameArena, 花园, 某人的家, 205, 昆明的某个角落
 BGA_LOCATION_ID = 4                         # BoardGameArena
 GRAD_STUDENT_TAG_ID = 3                     # 研究生标签
-DEANONYMIZE_IDS = {1, 3, 4, 7, 17, 28}     # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、何林、王乐桐
+DEANONYMIZE_IDS = {1, 3, 4, 7, 17, 28, 31, 34}  # 保留真名: 陈勇杰、白如、梁能涛、朱晨阳、何林、王乐桐、郑学睿、单家琪
+# 个别玩家在 BGStats 导出中的姓名有误，生成时强制覆盖为正确真名（避免改导出源）
+PLAYER_NAME_OVERRIDE = {31: "郑学睿"}
 CHEN_PLAYER_ID = 1                          # 陈勇杰
 
 # 允许单人游玩的对局游戏（如单人破案/剧情游戏，虽仅1人但保留统计）
@@ -151,6 +153,8 @@ def anonymize_players(players):
     for player in players:
         if player["id"] not in DEANONYMIZE_IDS:
             player["name"] = id_to_alias[player["id"]]
+        elif player["id"] in PLAYER_NAME_OVERRIDE:
+            player["name"] = PLAYER_NAME_OVERRIDE[player["id"]]
 
     return id_to_alias
 
