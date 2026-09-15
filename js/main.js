@@ -10,6 +10,17 @@ function initNavigation() {
 }
 
 /* ===== Shared Date Helpers ===== */
+// 转义 HTML 特殊字符，避免来自 CSV 的文本（出版商/原名等）破坏页面
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 // 把 20250411 这类数字/字符串 ymd 解析为 Date
 function parseYmdToDate(ymd) {
   ymd = String(ymd);
@@ -344,9 +355,11 @@ function fillStats() {
 function buildGameCardHtml(game, subline) {
   var name = game.name;
   var thumb = getGameThumb(game);
+  var soldBadge = game.sold ? '<span class="sold-badge">已出</span>' : '';
   return '<div class="game-card" onclick="location.href=\'game.html?id=' + game.id + '\'">' +
     '<div class="game-card-image">' +
       (thumb ? '<img src="' + thumb + '" alt="' + name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
+      soldBadge +
     '</div>' +
     '<div class="game-card-body">' +
       '<div class="game-card-title">' + name + '</div>' +
@@ -420,6 +433,7 @@ function renderNewGames(containerId, titleId) {
   if (!latest) { container.innerHTML = ''; return; }
 
   var newGames = data.games.filter(function(g) {
+    if (g.sold) return false;  // 已出售的游戏不进「近期上新」
     var f = first[g.id];
     if (f == null) return false;
     var d = parseYmdToDate(f), l = parseYmdToDate(latest);
@@ -543,6 +557,7 @@ function renderGameLibrary() {
       gpHtml = '<div class="winrate-line">' + crownLabel + '：' + gp.names.join('、') + '（' + gp.rate + '%）</div>';
     }
     var verBadge = g.ownedVersionLabel ? '<span class="version-badge">' + g.ownedVersionLabel + '</span>' : '';
+    var soldBadge = g.sold ? '<span class="sold-badge">已出</span>' : '';
     var rec = g.recordHolder;
     var recHtml = '';
     if (rec && rec.names && rec.names.length) {
@@ -561,6 +576,7 @@ function renderGameLibrary() {
         (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
         rankBadge +
         verBadge +
+        soldBadge +
       '</div>' +
       '<div class="game-card-body">' +
         '<div class="game-card-title">' + g.name + '</div>' +
@@ -715,12 +731,33 @@ function renderGameProfile() {
         (game.bggRating ? '<span class="tag tag-secondary">⭐ BGG ' + game.bggRating.toFixed(1) + '</span>' : '') +
         (game.bggRank ? '<span class="tag tag-secondary">#️⃣ BGG Rank ' + game.bggRank + '</span>' : '') +
         (game.complexity ? '<span class="tag tag-secondary">🧠 重度 ' + game.complexity.toFixed(1) + '</span>' : '') +
+        (game.sold ? '<span class="tag tag-sold">📤 已出（曾拥有）</span>' : '') +
       '</div>' +
       '<div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;">' +
         (game.bggId ? '<a href="https://boardgamegeek.com/boardgame/' + game.bggId + '" target="_blank" rel="noopener" class="profile-back">🔗 在 BGG 查看</a>' : '') +
         '<a href="games.html" class="profile-back">← 返回游戏库</a>' +
       '</div>' +
     '</div></div>';
+
+  // ===== 游戏信息（来自 BGG 收藏，部分游戏可能无数据）=====
+  var metaRows = [];
+  if (game.originalName && game.originalName !== game.name) {
+    metaRows.push(['原名', escapeHtml(game.originalName)]);
+  }
+  if (game.publishers) {
+    metaRows.push(['出版商', escapeHtml(game.publishers)]);
+  }
+  if (game.recPlayers) {
+    metaRows.push(['推荐人数', escapeHtml(game.recPlayers) + ' 人']);
+  }
+  if (metaRows.length) {
+    html += '<div class="profile-meta-grid">';
+    for (var mi2 = 0; mi2 < metaRows.length; mi2++) {
+      html += '<div class="profile-meta-item"><div class="meta-key">' + metaRows[mi2][0] + '</div>' +
+              '<div class="meta-val">' + metaRows[mi2][1] + '</div></div>';
+    }
+    html += '</div>';
+  }
 
   // ===== 统计卡片 =====
   var rec = game.recordHolder;

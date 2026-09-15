@@ -518,6 +518,58 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "F9FDEDBE-2AD8-4C07-898E-A18C2213A358",
+      "gameRefId": 7,
+      "locationRefId": 2,
+      "playDateYmd": 20250316,
+      "playDate": "2025-03-16 15:49:48",
+      "durationMin": 90,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 13,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "EBE3B17E-EDE6-40C7-AEA1-4BEF293902B5",
+      "gameRefId": 7,
+      "locationRefId": 2,
+      "playDateYmd": 20250309,
+      "playDate": "2025-03-09 15:52:26",
+      "durationMin": 150,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 13,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "0CE600B1-8548-4EB1-9E31-78C6D7C7C8A1",
       "gameRefId": 20,
       "locationRefId": 1,
@@ -980,6 +1032,32 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "980186D8-0BF7-45AA-8A27-6DC3C2C89299",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250420,
+      "playDate": "2025-04-20 18:51:17",
+      "durationMin": 32,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "歌剧魅影3",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 23,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "3B1F9E7F-F0AE-4A3D-B525-4FB7A3E2B28F",
       "gameRefId": 21,
       "locationRefId": 1,
@@ -1026,6 +1104,32 @@ window.KIZ_DATA = {
           "playerRefId": 1,
           "score": "",
           "winner": false,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "93E1D477-AC01-48E1-8785-1473C7825469",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250420,
+      "playDate": "2025-04-20 20:11:03",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "诅咒之恋2",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 23,
+          "score": "",
+          "winner": true,
           "rank": 0
         }
       ],
@@ -1590,6 +1694,70 @@ window.KIZ_DATA = {
           "gameRefId": 45
         }
       ]
+    },
+    {
+      "uuid": "93553B30-FCAC-4972-A676-058C4B60267C",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250516,
+      "playDate": "2025-05-16 21:32:14",
+      "durationMin": 55,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 5,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "B10F1DD0-48DA-4B64-A0E7-960B9407F7CE",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250516,
+      "playDate": "2025-05-16 22:27:30",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 5,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "EB67E8DB-2453-47E9-8398-724039A620D9",
@@ -2859,6 +3027,102 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "12A175A1-E8BB-427C-B171-4500B4B9F70D",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250704,
+      "playDate": "2025-07-04 21:17:07",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "歌剧魅影3",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 29,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 27,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "A21C54EB-8F87-4DA0-99DB-54BEDC100319",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250704,
+      "playDate": "2025-07-04 21:17:52",
+      "durationMin": 23,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "歌剧魅影4",
+      "playerScores": [
+        {
+          "playerRefId": 29,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 27,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "57B87071-5BAB-4324-9060-A17D593030AC",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250704,
+      "playDate": "2025-07-04 21:40:52",
+      "durationMin": 31,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "诅咒之恋5",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 29,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 27,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "6E6DEADF-07E1-4E07-97E4-55F35EC0F439",
       "gameRefId": 20,
       "locationRefId": 1,
@@ -3368,6 +3632,58 @@ window.KIZ_DATA = {
       ]
     },
     {
+      "uuid": "A3DCBAC5-FFDD-4A51-B1A8-013D6DBA42E4",
+      "gameRefId": 42,
+      "locationRefId": 2,
+      "playDateYmd": 20250712,
+      "playDate": "2025-07-12 19:45:46",
+      "durationMin": 60,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 23,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "55831763-2724-4A04-8A63-ACEEC5C28205",
+      "gameRefId": 42,
+      "locationRefId": 2,
+      "playDateYmd": 20250712,
+      "playDate": "2025-07-12 19:46:20",
+      "durationMin": 60,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 23,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "A59C343E-5BAC-411D-8276-D408E8F3A5D8",
       "gameRefId": 14,
       "locationRefId": 1,
@@ -3406,6 +3722,38 @@ window.KIZ_DATA = {
           "playerRefId": 3,
           "score": "",
           "winner": true,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "E045849B-1877-4648-A8EC-268C571830BD",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250717,
+      "playDate": "2025-07-17 12:29:14",
+      "durationMin": 16,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        },
+        {
+          "playerRefId": 27,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 29,
+          "score": "",
+          "winner": false,
           "rank": 0
         }
       ],
@@ -3911,6 +4259,96 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "5011B1D1-5E08-460F-A9DB-81218A8A0DD0",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250718,
+      "playDate": "2025-07-18 22:40:55",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 31,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 29,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 27,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "60649E5F-7FCD-4954-86FC-BDD231140AA8",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250718,
+      "playDate": "2025-07-18 22:41:44",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 31,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 29,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 27,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "145F2411-3F50-4FD4-B712-A766EFE7AB43",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250720,
+      "playDate": "2025-07-20 22:44:11",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 27,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 31,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "1A6D2088-B480-41B0-8E89-5787BB27D964",
       "gameRefId": 33,
       "locationRefId": 1,
@@ -4282,6 +4720,44 @@ window.KIZ_DATA = {
           "score": "",
           "winner": false,
           "rank": 2
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "321A4B94-2797-4ABC-96C7-7C3CAA2ED619",
+      "gameRefId": 25,
+      "locationRefId": 1,
+      "playDateYmd": 20250725,
+      "playDate": "2025-07-25 23:47:04",
+      "durationMin": 30,
+      "scoringSetting": 11,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 27,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 0
+        },
+        {
+          "playerRefId": 31,
+          "score": "",
+          "winner": false,
+          "rank": 0
         }
       ],
       "expansionPlays": []
@@ -5267,6 +5743,32 @@ window.KIZ_DATA = {
         {
           "playerRefId": 1,
           "score": "20",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "3880E0DD-FAF9-4155-AD9B-D1019A3421AF",
+      "gameRefId": 29,
+      "locationRefId": 2,
+      "playDateYmd": 20250101,
+      "playDate": "2025-01-01 15:11:17",
+      "durationMin": 180,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 35,
+          "score": "",
           "winner": true,
           "rank": 1
         }
@@ -7602,6 +8104,44 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "B7D8EB25-C318-40F4-A165-DFA1C0909D4A",
+      "gameRefId": 75,
+      "locationRefId": 1,
+      "playDateYmd": 20251031,
+      "playDate": "2025-10-31 21:21:12",
+      "durationMin": 52,
+      "scoringSetting": 1,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 4,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "D9A59E74-B7F5-4390-A645-8F3F599856B4",
       "gameRefId": 68,
       "locationRefId": 1,
@@ -7743,6 +8283,44 @@ window.KIZ_DATA = {
           "score": "",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "1C40DFB3-FF7D-42F0-B2A9-47E88E054635",
+      "gameRefId": 75,
+      "locationRefId": 1,
+      "playDateYmd": 20251108,
+      "playDate": "2025-11-08 16:21:28",
+      "durationMin": 46,
+      "scoringSetting": 1,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 46,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 14,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 47,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -8297,6 +8875,50 @@ window.KIZ_DATA = {
         },
         {
           "playerRefId": 7,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "9F48B0C9-71AD-4C94-B8F6-BD27D6F00FAE",
+      "gameRefId": 75,
+      "locationRefId": 1,
+      "playDateYmd": 20251214,
+      "playDate": "2025-12-14 16:30:55",
+      "durationMin": 37,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 7,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 3,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 28,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        },
+        {
+          "playerRefId": 4,
           "score": "",
           "winner": true,
           "rank": 1
@@ -19207,10 +19829,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 7,
       "bggRank": null,
-      "bggRating": 8.45499,
+      "bggRating": 8.45527,
       "complexity": 2.9,
       "yearPublished": 2020,
       "bestPlayers": "2",
+      "publishers": "alea; Broadway Toys LTD",
+      "originalName": "The Castles of Burgundy",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "勃根地城堡豪華版",
@@ -19220,6 +19845,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/C782V4VtaEZpP7MF6nJ0xw__thumb/img/bq366wA-qrkxvwk0aXz4D23YWYI=/fit-in/200x150/filters:strip_icc()/pic5697468.png",
       "ownedVersionLabel": "中英双语版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -19248,11 +19875,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/o6HpiLCBBFvc7XvBv7DEig__thumb/img/cP3zFhQXbpOo4jMbXWgPShAdn4E=/fit-in/200x150/filters:strip_icc()/pic7902371.jpg",
       "isExpansion": 0,
       "playCount": 4,
-      "bggRank": 1287,
-      "bggRating": 7.92534,
-      "complexity": 1.8,
+      "bggRank": 1230,
+      "bggRating": 7.9121,
+      "complexity": 1.9,
       "yearPublished": 2024,
       "bestPlayers": "3",
+      "publishers": "Space Cowboys",
+      "originalName": "스플렌더: Pokémon (Splendor: Pokémon)",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "璀璨宝石：宝可梦",
@@ -19262,6 +19892,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/6fPq2SuzGH4W3eWH9aIEcA__thumb/img/Rgm_o332-MfmhW7p6K3ClCJ62Rw=/fit-in/200x150/filters:strip_icc()/pic8299356.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "王乐桐"
@@ -19290,11 +19922,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__thumb/img/KKU_42Uswt4tKCpf1zY5kTzgr-g=/fit-in/200x150/filters:strip_icc()/pic8234167.png",
       "isExpansion": 0,
       "playCount": 4,
-      "bggRank": 243,
-      "bggRating": 7.42088,
+      "bggRank": 244,
+      "bggRating": 7.42099,
       "complexity": 1.8,
       "yearPublished": 2016,
       "bestPlayers": "3",
+      "publishers": "Space Cowboys",
+      "originalName": "Splendor",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "璀璨寶石",
@@ -19304,6 +19939,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/IuEvupnLgQWOmL4NrsawLw__thumb/img/XqTJpIjae9kRHPevrx2hMhdwT2E=/fit-in/200x150/filters:strip_icc()/pic6098467.png",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友06"
@@ -19333,10 +19970,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 8,
       "bggRank": 111,
-      "bggRating": 7.87532,
+      "bggRating": 7.87908,
       "complexity": 2.0,
       "yearPublished": 2022,
       "bestPlayers": "2",
+      "publishers": "Space Cowboys",
+      "originalName": "Splendor Duel",
+      "recPlayers": "2",
       "copies": [
         {
           "gameName": "璀璨宝石：对决",
@@ -19346,6 +19986,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/hJWRlZYEcf5tb_MLlxhR-g__thumb/img/X4GYI4OAuQpmP7vjlEelw9JQRmo=/fit-in/200x150/filters:strip_icc()/pic7208419.png",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友06",
@@ -19376,11 +20018,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/jzhXRU3pYfzmmZAFw7oM7A__thumb/img/SnJL_C7V909VbRcUygLvRxPfSXY=/fit-in/200x150/filters:strip_icc()/pic3810997.jpg",
       "isExpansion": 0,
       "playCount": 5,
-      "bggRank": 6478,
-      "bggRating": 7.41292,
+      "bggRank": 6471,
+      "bggRating": 7.41031,
       "complexity": 2.0,
       "yearPublished": 2016,
       "bestPlayers": "3,4",
+      "publishers": "",
+      "originalName": "Rummikub Twist",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "拉密豪华版",
@@ -19390,6 +20035,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/jzhXRU3pYfzmmZAFw7oM7A__thumb/img/SnJL_C7V909VbRcUygLvRxPfSXY=/fit-in/200x150/filters:strip_icc()/pic3810997.jpg",
       "ownedVersionLabel": "",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -19418,11 +20065,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/xWdK1lL-2ZTdzBZGYjjqkw__thumb/img/wl_YxOhd-S6QbpyHAQZGhV109rw=/fit-in/200x150/filters:strip_icc()/pic3469246.jpg",
       "isExpansion": 0,
       "playCount": 50,
-      "bggRank": 645,
-      "bggRating": 7.84709,
+      "bggRank": 649,
+      "bggRating": 7.84214,
       "complexity": 2.4,
       "yearPublished": 2021,
       "bestPlayers": "3,4",
+      "publishers": "Game Harbor; Van Ryder Games",
+      "originalName": "Detective: City of Angels",
+      "recPlayers": "1,2,3,4,5",
       "copies": [
         {
           "gameName": "罪案疑云：天使之城",
@@ -19432,6 +20082,46 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/Y81DCwyfOYWCgbWNZbXabw__thumb/img/i03mK9f4Qg27p3fRnANOKq6_1wc=/fit-in/200x150/filters:strip_icc()/pic6231883.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
+      "recordHolder": null
+    },
+    {
+      "id": 7,
+      "name": "大搜查! 英勇冒險",
+      "nameSim": "大搜查! 英勇冒险",
+      "nameTrad": "大搜查! 英勇冒險",
+      "bggId": 266121,
+      "bggName": "Unlock!: Heroic Adventures",
+      "rating": 76,
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "minPlayTime": 60,
+      "maxPlayTime": 60,
+      "designers": "Mathieu Casnin, Thomas Cauët, Cyril Demaegd, Vincent Goyat, Dave Neale",
+      "urlImage": "https://cf.geekdo-images.com/biw1DYvUdQ4-ZgIOtUDqhQ__original/img/vV6PSQWPpihv9718RaxFEEcgYgA=/0x0/filters:format(jpeg)/pic4432319.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/biw1DYvUdQ4-ZgIOtUDqhQ__thumb/img/Nv2EPGFRbeOzcJ2ErbN6EsET5CU=/fit-in/200x150/filters:strip_icc()/pic4432319.jpg",
+      "isExpansion": 0,
+      "playCount": 2,
+      "bggRank": 734,
+      "bggRating": 7.56568,
+      "complexity": 2.3,
+      "yearPublished": 2018,
+      "bestPlayers": "2",
+      "publishers": "asmodee; Space Cowboys",
+      "originalName": "Unlock!: Heroic Adventures",
+      "recPlayers": "1,2,3,4",
+      "copies": [
+        {
+          "gameName": "大搜查! 英勇冒險",
+          "urlThumb": "https://cf.geekdo-images.com/EFhWXwO9Inas01E5zQxZyQ__thumb/img/0PamARhs3oxvganLWQJ1sHNFTJo=/fit-in/200x150/filters:strip_icc()/pic5951470.jpg"
+        }
+      ],
+      "ownedThumb": "https://cf.geekdo-images.com/EFhWXwO9Inas01E5zQxZyQ__thumb/img/0PamARhs3oxvganLWQJ1sHNFTJo=/fit-in/200x150/filters:strip_icc()/pic5951470.jpg",
+      "ownedVersionLabel": "中文版",
+      "playedStandalone": true,
+      "prevowned": true,
+      "sold": true,
       "recordHolder": null
     },
     {
@@ -19451,11 +20141,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/BryJNSSDbCohXeaJPx3tpw__thumb/img/5fmJlAM307xX3zozMnStTuWYphI=/fit-in/200x150/filters:strip_icc()/pic4232048.png",
       "isExpansion": 0,
       "playCount": 6,
-      "bggRank": 182,
-      "bggRating": 7.81954,
+      "bggRank": 183,
+      "bggRating": 7.81752,
       "complexity": 2.3,
       "yearPublished": 2020,
       "bestPlayers": "2",
+      "publishers": "YOKA Games; Alderac Entertainment Group",
+      "originalName": "War Chest",
+      "recPlayers": "2,4",
       "copies": [
         {
           "gameName": "战争之匣",
@@ -19465,6 +20158,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/6QAEf7IGGzHjhrVqA1KFVQ__thumb/img/-2P3eu1_NxEEv40piwb8gm27Tao=/fit-in/200x150/filters:strip_icc()/pic7434148.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19485,10 +20180,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 4,
       "bggRank": null,
-      "bggRating": 8.24272,
+      "bggRating": 8.24362,
       "complexity": 2.3,
       "yearPublished": 2020,
       "bestPlayers": "2",
+      "publishers": "YOKA Games",
+      "originalName": "War Chest: Nobility",
+      "recPlayers": "2,4",
       "copies": [
         {
           "gameName": "战争之匣：权贵",
@@ -19498,6 +20196,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19518,10 +20218,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 0,
       "bggRank": null,
-      "bggRating": 8.15992,
+      "bggRating": 8.16139,
       "complexity": 2.4,
       "yearPublished": 2021,
       "bestPlayers": "2,4",
+      "publishers": "YOKA Games",
+      "originalName": "War Chest: Siege",
+      "recPlayers": "2,4",
       "copies": [
         {
           "gameName": "战争之匣：围城",
@@ -19531,6 +20234,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/fbeTp59ZQNth16re7p6fHA__thumb/img/RyT_kmF66WQLk6wDC9Nl6x1QHPc=/fit-in/200x150/filters:strip_icc()/pic7009222.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19550,11 +20255,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/cf0xxkevbwTGF3VUZymKjg__thumb/img/NUcMdmZ3_eA1YfIwL8iRgkZKaHw=/fit-in/200x150/filters:strip_icc()/pic6398727.png",
       "isExpansion": 0,
       "playCount": 22,
-      "bggRank": 107,
-      "bggRating": 7.78287,
+      "bggRank": 110,
+      "bggRating": 7.77366,
       "complexity": 1.4,
       "yearPublished": 2021,
       "bestPlayers": "4",
+      "publishers": "asmodee; Oink Games",
+      "originalName": "SCOUT",
+      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "SCOUT",
@@ -19564,6 +20272,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/YHgZ2mKV9GvX1IgsZ0y5tg__thumb/img/9smGO-b_PN9xbcYqo1FyfVPESr4=/fit-in/200x150/filters:strip_icc()/pic7127142.jpg",
       "ownedVersionLabel": "多语言版(含中文)",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友18"
@@ -19592,11 +20302,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/WuOY1XAIJQ-RGAmT_apW_w__thumb/img/dhNHd8Ztln_lUFAdti6WkPnGTGg=/fit-in/200x150/filters:strip_icc()/pic8632998.jpg",
       "isExpansion": 0,
       "playCount": 13,
-      "bggRank": 675,
-      "bggRating": 6.98601,
+      "bggRank": 674,
+      "bggRating": 6.98782,
       "complexity": 1.2,
       "yearPublished": 1994,
       "bestPlayers": "5,6",
+      "publishers": "Broadway Toys LTD; AMIGO",
+      "originalName": "Take 5",
+      "recPlayers": "3,4,5,6,7,8,9,10",
       "copies": [
         {
           "gameName": "牛頭王",
@@ -19606,6 +20319,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/zEV3uaF1n4TdC9Sb8USrNQ__thumb/img/moUBd5jDofO88oGwSFPshp5mgko=/fit-in/200x150/filters:strip_icc()/pic5941093.png",
       "ownedVersionLabel": "中英双语版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "王乐桐"
@@ -19634,11 +20349,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__thumb/img/rDg9t7gP1iqNcy3NZxAWGVoWYok=/fit-in/200x150/filters:strip_icc()/pic4572408.jpg",
       "isExpansion": 0,
       "playCount": 10,
-      "bggRank": 1727,
-      "bggRating": 7.2997,
+      "bggRank": 1729,
+      "bggRating": 7.30064,
       "complexity": 1.2,
       "yearPublished": 2019,
       "bestPlayers": "3,4",
+      "publishers": "Bézier Games",
+      "originalName": "CABO (Second Edition)",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "CABO (Second Edition)",
@@ -19648,6 +20366,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/UXg5z353Vs3aI90_TfL4pQ__thumb/img/rDg9t7gP1iqNcy3NZxAWGVoWYok=/fit-in/200x150/filters:strip_icc()/pic4572408.jpg",
       "ownedVersionLabel": "英文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -19677,10 +20397,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 1,
       "bggRank": null,
-      "bggRating": 6.4,
+      "bggRating": 6.225,
       "complexity": 1.0,
       "yearPublished": 2023,
       "bestPlayers": "",
+      "publishers": "C.O.R.E Lab",
+      "originalName": "Spill The Tea",
+      "recPlayers": "",
       "copies": [
         {
           "gameName": "猩猩相惜",
@@ -19690,6 +20413,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/4l_h4ixyimOzHBqyB7_GKA__thumb/img/lgSaGPsRq0VkCY_2jeHej6OckTw=/fit-in/200x150/filters:strip_icc()/pic7707572.png",
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19710,10 +20435,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 10,
       "bggRank": null,
-      "bggRating": 8.38283,
+      "bggRating": 8.3723,
       "complexity": 2.9,
       "yearPublished": 2022,
       "bestPlayers": "2",
+      "publishers": "Game Harbor",
+      "originalName": "Detective: Bullets over Hollywood",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "罪案疑云：好莱坞的枪声",
@@ -19723,6 +20451,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/mH58En-0uCSsSz7iw3eiOA__thumb/img/nBBFfijllWm2itYn_271IRKoOzk=/fit-in/200x150/filters:strip_icc()/pic8545711.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19742,11 +20472,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/wLto-xaabHwKQe_Bc4iD1Q__thumb/img/AUqMholGVlwXLjMcxwiziE_7Ffw=/fit-in/200x150/filters:strip_icc()/pic3458036.png",
       "isExpansion": 0,
       "playCount": 5,
-      "bggRank": 221,
-      "bggRating": 7.52454,
+      "bggRank": 223,
+      "bggRating": 7.52451,
       "complexity": 2.3,
       "yearPublished": 2017,
       "bestPlayers": "4,5",
+      "publishers": "CMON Global Limited",
+      "originalName": "Modern Art",
+      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "現代藝術",
@@ -19756,6 +20489,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/VrecaPljkx_LOgdKXJ5gNw__thumb/img/dZCW2IxVXb7Oio1raZVC3_MOqNY=/fit-in/200x150/filters:strip_icc()/pic7716896.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "朱晨阳"
@@ -19785,10 +20520,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 6,
       "bggRank": null,
-      "bggRating": 8.58085,
+      "bggRating": 8.566,
       "complexity": 2.0,
       "yearPublished": 2025,
       "bestPlayers": "1",
+      "publishers": "Game Harbor",
+      "originalName": "Detective: Saints & Sinners",
+      "recPlayers": "1",
       "copies": [
         {
           "gameName": "罪案疑云：天使与恶魔",
@@ -19798,6 +20536,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/avlNLfd1v2iMnpic3sDTXA__thumb/img/lu91pqokrYm8bQ4I-8Ii5eegTow=/fit-in/200x150/filters:strip_icc()/pic8643342.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19818,10 +20558,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 8,
       "bggRank": null,
-      "bggRating": 8.46008,
+      "bggRating": 8.45835,
       "complexity": 2.7,
       "yearPublished": 2025,
       "bestPlayers": "1",
+      "publishers": "Game Harbor",
+      "originalName": "Detective: Smoke and Mirrors",
+      "recPlayers": "1",
       "copies": [
         {
           "gameName": "罪案疑云：迷雾与幻影",
@@ -19831,6 +20574,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/3tz81pIHuULaeBuZ4ceoPw__thumb/img/e8cBIOS8W35sfzElncglFa6H_yA=/fit-in/200x150/filters:strip_icc()/pic8643341.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19850,11 +20595,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/HpGXIlt5i6T-0jbiQRReOg__thumb/img/8wfQelnNsbXCykJWMjD8UAjhleU=/fit-in/200x150/filters:strip_icc()/pic8303080.png",
       "isExpansion": 0,
       "playCount": 66,
-      "bggRank": 90,
-      "bggRating": 8.03805,
+      "bggRank": 85,
+      "bggRating": 8.032,
       "complexity": 2.0,
       "yearPublished": 2024,
       "bestPlayers": "4",
+      "publishers": "Broadway Toys LTD",
+      "originalName": "Bomb Busters",
+      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "炸弹克星",
@@ -19864,6 +20612,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/nthnx3-8BIeG8kFs87VpNQ__thumb/img/Ug89bojQkxzAn-aaYKkmFZtg34Q=/fit-in/200x150/filters:strip_icc()/pic8406024.png",
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19884,10 +20634,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 13,
       "bggRank": 32,
-      "bggRating": 8.11771,
+      "bggRating": 8.11124,
       "complexity": 2.0,
       "yearPublished": 2024,
       "bestPlayers": "2",
+      "publishers": "Scorpion Masqué; YOKA Games",
+      "originalName": "Sky Team",
+      "recPlayers": "2",
       "copies": [
         {
           "gameName": "天合小队",
@@ -19897,6 +20650,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/QJ8h4sL208PSSfTq4tG2OA__thumb/img/J2adZAjPI7Ta8VFw_pPLTDFJd4U=/fit-in/200x150/filters:strip_icc()/pic8340578.png",
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -19916,11 +20671,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__thumb/img/5G45GN8CE7pq38fJMMocmPtV4_U=/fit-in/200x150/filters:strip_icc()/pic7570101.png",
       "isExpansion": 0,
       "playCount": 15,
-      "bggRank": 257,
-      "bggRating": 7.54022,
+      "bggRank": 254,
+      "bggRating": 7.53859,
       "complexity": 1.9,
       "yearPublished": 2024,
       "bestPlayers": "3",
+      "publishers": "Blackrock Games; BoardGamePlanet; Catch Up Games; CMON Global Limited; 狗吠火車",
+      "originalName": "Faraway",
+      "recPlayers": "2,3,4,5",
       "copies": [
         {
           "gameName": "遙遠之地",
@@ -19930,6 +20688,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友37"
@@ -19958,11 +20718,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__thumb/img/tVSFjSxYEcw7sKj3unIIQV8kxoc=/fit-in/200x150/filters:strip_icc()/pic5100691.jpg",
       "isExpansion": 0,
       "playCount": 3,
-      "bggRank": 60,
-      "bggRating": 7.88694,
+      "bggRank": 61,
+      "bggRating": 7.8823,
       "complexity": 1.8,
       "yearPublished": 2021,
       "bestPlayers": "2,3",
+      "publishers": "Alderac Entertainment Group; Flatout Games",
+      "originalName": "Cascadia",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "卡斯卡迪亚之旅",
@@ -19972,6 +20735,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/tN67UGHd1ASWKbZZqfIxhg__thumb/img/zVq19ajWx83dvnsMk3Mm08tfTcE=/fit-in/200x150/filters:strip_icc()/pic6511062.png",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "王乐桐"
@@ -20000,11 +20765,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__thumb/img/hPsEFlgh0b_JhtQmsJQv3vmq814=/fit-in/200x150/filters:strip_icc()/pic7107431.jpg",
       "isExpansion": 1,
       "playCount": 3,
-      "bggRank": 88,
-      "bggRating": 8.21624,
-      "complexity": 2.7,
+      "bggRank": 89,
+      "bggRating": 8.21219,
+      "complexity": 2.6,
       "yearPublished": 2022,
       "bestPlayers": "2",
+      "publishers": "Stonemaier Games",
+      "originalName": "Wingspan Asia",
+      "recPlayers": "1,2",
       "copies": [
         {
           "gameName": "展翅翱翔：亚洲篇",
@@ -20014,6 +20782,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/h1dRxq4lNMpuSUSGdgCmfA__thumb/img/hPsEFlgh0b_JhtQmsJQv3vmq814=/fit-in/200x150/filters:strip_icc()/pic7107431.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "何林"
@@ -20024,6 +20794,44 @@ window.KIZ_DATA = {
         ],
         "lowerBetter": false
       }
+    },
+    {
+      "id": 25,
+      "name": "时空神探：巴黎1920",
+      "nameSim": "时空神探：巴黎1920",
+      "nameTrad": "時空神探：巴黎1920",
+      "bggId": 402111,
+      "bggName": "Kronologic: Paris 1920",
+      "rating": 75,
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 30,
+      "maxPlayTime": 30,
+      "designers": "Fabien Gridel, Yoann Levet",
+      "urlImage": "https://cf.geekdo-images.com/BTLIJvNhaROMzo6cqP0aNw__original/img/BagaofOFwLoN8hOqY3AKd6ij7Lk=/0x0/filters:format(png)/pic7963849.png",
+      "urlThumb": "https://cf.geekdo-images.com/BTLIJvNhaROMzo6cqP0aNw__thumb/img/pZ40LewUI2fCRrpd3-0sKELUG4I=/fit-in/200x150/filters:strip_icc()/pic7963849.png",
+      "isExpansion": 0,
+      "playCount": 12,
+      "bggRank": 1524,
+      "bggRating": 7.46779,
+      "complexity": 2.1,
+      "yearPublished": 2024,
+      "bestPlayers": "3",
+      "publishers": "Origames; Super Meeple",
+      "originalName": "Kronologic: Paris 1920",
+      "recPlayers": "1,2,3,4",
+      "copies": [
+        {
+          "gameName": "时空神探：巴黎1920",
+          "urlThumb": "https://cf.geekdo-images.com/hs2S-MqxnVImXby7ZZQzHw__thumb/img/_cGJqwWGF7t9biP1rX9Bz5ePpuY=/fit-in/200x150/filters:strip_icc()/pic8334576.jpg"
+        }
+      ],
+      "ownedThumb": "https://cf.geekdo-images.com/hs2S-MqxnVImXby7ZZQzHw__thumb/img/_cGJqwWGF7t9biP1rX9Bz5ePpuY=/fit-in/200x150/filters:strip_icc()/pic8334576.jpg",
+      "ownedVersionLabel": "简体中文版",
+      "playedStandalone": true,
+      "prevowned": true,
+      "sold": true,
+      "recordHolder": null
     },
     {
       "id": 26,
@@ -20047,6 +20855,9 @@ window.KIZ_DATA = {
       "complexity": 0.0,
       "yearPublished": 2024,
       "bestPlayers": "",
+      "publishers": "YOKA Games",
+      "originalName": "一带一路 (Belt and Road)",
+      "recPlayers": "",
       "copies": [
         {
           "gameName": "一带一路 (Belt and Road)",
@@ -20056,6 +20867,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/adqcD_9a2o4GD0N2EzFY_A__thumb/img/m_Nfq9nsvCDrCBdSIYXn2HbIiRQ=/fit-in/200x150/filters:strip_icc()/pic8782948.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20075,11 +20888,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__thumb/img/ibEjwlnZixyeVXYcS_793Cgtrdw=/fit-in/200x150/filters:strip_icc()/pic6871709.png",
       "isExpansion": 0,
       "playCount": 12,
-      "bggRank": 725,
-      "bggRating": 7.85271,
+      "bggRank": 720,
+      "bggRating": 7.85285,
       "complexity": 1.8,
       "yearPublished": 2024,
       "bestPlayers": "2,3",
+      "publishers": "One Moment Games",
+      "originalName": "Azul: Master Chocolatier",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "花砖物语：巧夺天工",
@@ -20089,6 +20905,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/CHIy1KMWI-LCkiux4q81Fg__thumb/img/ibEjwlnZixyeVXYcS_793Cgtrdw=/fit-in/200x150/filters:strip_icc()/pic6871709.png",
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友33"
@@ -20117,11 +20935,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__thumb/img/1vOvXQ6dCrBd5uzciGpc8-cbZuM=/fit-in/200x150/filters:strip_icc()/pic6459659.jpg",
       "isExpansion": 1,
       "playCount": 1,
-      "bggRank": 1299,
-      "bggRating": 8.79898,
+      "bggRank": 1285,
+      "bggRating": 8.80049,
       "complexity": 3.9,
       "yearPublished": 2023,
       "bestPlayers": "1,2",
+      "publishers": "GoKids 玩樂小子",
+      "originalName": "Too Many Bones: Unbreakable",
+      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "骸骨險境: 堅不可摧",
@@ -20131,6 +20952,46 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__small/img/1vOvXQ6dCrBd5uzciGpc8-cbZuM=/fit-in/200x150/filters:strip_icc()/pic6459659.jpg",
       "ownedVersionLabel": "繁体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
+      "recordHolder": null
+    },
+    {
+      "id": 29,
+      "name": "末世亲缘：斯旺之书",
+      "nameSim": "末世亲缘：斯旺之书",
+      "nameTrad": "末世親緣：斯旺之書",
+      "bggId": 340216,
+      "bggName": "Heredity: The Book of Swan",
+      "rating": 85,
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "minPlayTime": 120,
+      "maxPlayTime": 180,
+      "designers": "Jerome Cance, Laurent Kobel",
+      "urlImage": "https://cf.geekdo-images.com/U2REknDWUEXMo-LU8lAPNg__original/img/73UNG0rEHX5Q7Khzv8-OawnmFgM=/0x0/filters:format(png)/pic8828048.png",
+      "urlThumb": "https://cf.geekdo-images.com/U2REknDWUEXMo-LU8lAPNg__thumb/img/mAmYUmxM_rJZfOCbVtY3kV73ET4=/fit-in/200x150/filters:strip_icc()/pic8828048.png",
+      "isExpansion": 0,
+      "playCount": 1,
+      "bggRank": 3025,
+      "bggRating": 7.95874,
+      "complexity": 2.6,
+      "yearPublished": 2024,
+      "bestPlayers": "2",
+      "publishers": "Game Harbor",
+      "originalName": "Heredity: The Book of Swan",
+      "recPlayers": "1,2,3,4",
+      "copies": [
+        {
+          "gameName": "末世亲缘：斯旺之书",
+          "urlThumb": "https://cf.geekdo-images.com/ylk9H-f4Lb-ijod2YhPmwg__previewthumb/img/BRobdQ3vksCM3alKRO3sRFuMiuI=/fit-in/300x320/filters:strip_icc()/pic8545722.png"
+        }
+      ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "中文版",
+      "playedStandalone": true,
+      "prevowned": true,
+      "sold": true,
       "recordHolder": null
     },
     {
@@ -20151,10 +21012,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 1,
       "bggRank": 352,
-      "bggRating": 7.37727,
+      "bggRating": 7.37746,
       "complexity": 1.1,
       "yearPublished": 2009,
       "bestPlayers": "8",
+      "publishers": "Broadway Toys LTD",
+      "originalName": "Telestrations",
+      "recPlayers": "5,6,7,8",
       "copies": [
         {
           "gameName": "傳情畫意",
@@ -20164,6 +21028,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20184,10 +21050,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 12,
       "bggRank": 19,
-      "bggRating": 8.35429,
+      "bggRating": 8.35151,
       "complexity": 2.1,
       "yearPublished": 2024,
       "bestPlayers": "2",
+      "publishers": "Repos Production",
+      "originalName": "The Lord of the Rings: Duel for Middle-earth",
+      "recPlayers": "2",
       "copies": [
         {
           "gameName": "魔戒：中洲对决",
@@ -20197,6 +21066,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/6vBURiLzqrXzrs12z05rVQ__thumb/img/ArUAnJ4iF6f0YxMmjSUIp63EStA=/fit-in/200x150/filters:strip_icc()/pic8655582.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20216,11 +21087,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/eCdiHCB9OobumwaGl4dbOQ__thumb/img/dyaAIesMyeQWUoLRA25Dj9MhruI=/fit-in/200x150/filters:strip_icc()/pic6204967.png",
       "isExpansion": 0,
       "playCount": 13,
-      "bggRank": 213,
-      "bggRating": 7.84892,
+      "bggRank": 214,
+      "bggRating": 7.84245,
       "complexity": 2.5,
       "yearPublished": 2024,
       "bestPlayers": "2,3,4",
+      "publishers": "BoardGamePlanet",
+      "originalName": "Welcome to the Moon",
+      "recPlayers": "1,2,3,4,5,6",
       "copies": [
         {
           "gameName": "欢迎来到月球",
@@ -20230,6 +21104,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -20258,11 +21134,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__thumb/img/jq8k_OtehrDmlr05OPXymlPM27Q=/fit-in/200x150/filters:strip_icc()/pic7683878.png",
       "isExpansion": 1,
       "playCount": 5,
-      "bggRank": 1515,
-      "bggRating": 7.64321,
+      "bggRank": 1479,
+      "bggRating": 7.6311,
       "complexity": 2.1,
       "yearPublished": 2023,
       "bestPlayers": "4,6,8",
+      "publishers": "",
+      "originalName": "Challengers! Beach Cup",
+      "recPlayers": "2,4,5,6,7,8",
       "copies": [
         {
           "gameName": "Challengers! Beach Cup",
@@ -20272,6 +21151,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/QZWrLoOoruqb0YRDQT-jng__thumb/img/jq8k_OtehrDmlr05OPXymlPM27Q=/fit-in/200x150/filters:strip_icc()/pic7683878.png",
       "ownedVersionLabel": "",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友33"
@@ -20301,10 +21182,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 7,
       "bggRank": 117,
-      "bggRating": 7.76495,
+      "bggRating": 7.76356,
       "complexity": 1.8,
       "yearPublished": 2023,
       "bestPlayers": "4,6",
+      "publishers": "Scorpion Masqué",
+      "originalName": "Decrypto",
+      "recPlayers": "4,5,6,7,8",
       "copies": [
         {
           "gameName": "谍报风云：5周年纪念版",
@@ -20314,6 +21198,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/-4zJqFsCgwk-LiF1TVV7Rw__thumb/img/hCUKPsNIUB2LZmLGU8s5kQRL3HQ=/fit-in/200x150/filters:strip_icc()/pic8739785.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20338,6 +21224,9 @@ window.KIZ_DATA = {
       "complexity": 0,
       "yearPublished": 0,
       "bestPlayers": "",
+      "publishers": "",
+      "originalName": "",
+      "recPlayers": "",
       "copies": [
         {
           "gameName": "三国杀：欢乐斗地主",
@@ -20347,6 +21236,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -20357,6 +21248,44 @@ window.KIZ_DATA = {
         ],
         "lowerBetter": false
       }
+    },
+    {
+      "id": 42,
+      "name": "大搜查：神话冒险",
+      "nameSim": "大搜查：神话冒险",
+      "nameTrad": "大搜查：神話冒險",
+      "bggId": 302425,
+      "bggName": "Unlock!: Mythic Adventures",
+      "rating": 77,
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "minPlayTime": 60,
+      "maxPlayTime": 60,
+      "designers": "Cyril Demaegd, Jérémy Fraile, Vincent Goyat, Jeremy Koch, Périnne Kurtz, Arnaud Pincemaille, Yohan Servais",
+      "urlImage": "https://cf.geekdo-images.com/WS1Rfg-PUi8XB00iMJresw__original/img/WGgH2xLObSIK2TDmXEFYuW2KQ0o=/0x0/filters:format(jpeg)/pic5712544.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/WS1Rfg-PUi8XB00iMJresw__thumb/img/UMUl6bHBk_7IHFAzfxtC-SHE1Rg=/fit-in/200x150/filters:strip_icc()/pic5712544.jpg",
+      "isExpansion": 0,
+      "playCount": 2,
+      "bggRank": 1366,
+      "bggRating": 7.633,
+      "complexity": 2.2,
+      "yearPublished": 2021,
+      "bestPlayers": "2",
+      "publishers": "Space Cowboys",
+      "originalName": "Unlock!: Mythic Adventures",
+      "recPlayers": "1,2,3,4",
+      "copies": [
+        {
+          "gameName": "大搜查：神话冒险",
+          "urlThumb": "https://cf.geekdo-images.com/bba_zWI9gwsP3h-BtPlExw__previewthumb/img/nYmSJqQ8eqGxfNbZ7_QlyoKvLCY=/fit-in/300x320/filters:strip_icc()/pic6167263.png"
+        }
+      ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "中文版",
+      "playedStandalone": true,
+      "prevowned": true,
+      "sold": true,
+      "recordHolder": null
     },
     {
       "id": 43,
@@ -20375,11 +21304,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__thumb/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
       "isExpansion": 0,
       "playCount": 19,
-      "bggRank": 510,
-      "bggRating": 7.21564,
+      "bggRank": 513,
+      "bggRating": 7.2055,
       "complexity": 1.0,
       "yearPublished": 2025,
       "bestPlayers": "5,6",
+      "publishers": "The Op Games",
+      "originalName": "Flip 7",
+      "recPlayers": "3,4,5,6,7,8,9",
       "copies": [
         {
           "gameName": "Flip 7",
@@ -20389,6 +21321,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/bGJlDiwrV7MCTBLB96W0EQ__thumb/img/2XVMkxuMogvqZzPePUXDQZEIBOA=/fit-in/200x150/filters:strip_icc()/pic8794481.jpg",
       "ownedVersionLabel": "英文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "朱晨阳"
@@ -20418,10 +21352,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 9,
       "bggRank": null,
-      "bggRating": 7.82756,
+      "bggRating": 7.82922,
       "complexity": 1.9,
       "yearPublished": 2025,
-      "bestPlayers": "2,4",
+      "bestPlayers": "2,4,5",
+      "publishers": "Catch Up Games; CMON Global Limited; 狗吠火車",
+      "originalName": "Faraway: People From Below",
+      "recPlayers": "2,3,4,5,6",
       "copies": [
         {
           "gameName": "遙遠之地：地下族群",
@@ -20431,6 +21368,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/rgbbrW3CnQ5G3sFgIF6Wfg__thumb/img/angSBd4pbmt8FGZLmaeVFxn3Z80=/fit-in/200x150/filters:strip_icc()/pic8624086.png",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20451,10 +21390,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 1,
       "bggRank": null,
-      "bggRating": 8.34476,
+      "bggRating": 8.33505,
       "complexity": 2.5,
       "yearPublished": 2024,
       "bestPlayers": "2",
+      "publishers": "Alderac Entertainment Group; YOKA Games",
+      "originalName": "War Chest: Nightfall",
+      "recPlayers": "2,4",
       "copies": [
         {
           "gameName": "战争之匣：夜幕",
@@ -20464,6 +21406,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/djvsKRLS6H1j1bIYMvDxpw__thumb/img/ScfI_XNOILWyNzJdbYKVFjrZRNs=/fit-in/200x150/filters:strip_icc()/pic8340459.png",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20484,10 +21428,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 7,
       "bggRank": 1,
-      "bggRating": 8.56198,
+      "bggRating": 8.55975,
       "complexity": 3.9,
       "yearPublished": 2020,
       "bestPlayers": "3,4",
+      "publishers": "Board Game Rookie; Dexker Games; Roxley",
+      "originalName": "Brass: Birmingham",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "工業革命：伯明翰",
@@ -20497,6 +21444,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/9R-zfmWa3EjsPeFNWypmGA__small/img/iOC9MDdy9NgMQOSzPWM2L-nlGeU=/fit-in/200x150/filters:strip_icc()/pic5616885.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -20525,11 +21474,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__thumb/img/3et-UTpNaMhKlHPgnj89mkTkGkU=/fit-in/200x150/filters:strip_icc()/pic6985339.jpg",
       "isExpansion": 0,
       "playCount": 2,
-      "bggRank": 358,
-      "bggRating": 7.88911,
+      "bggRank": 354,
+      "bggRating": 7.88223,
       "complexity": 2.5,
       "yearPublished": 2022,
       "bestPlayers": "2",
+      "publishers": "Brueh Games Inc.; Treetato Studio",
+      "originalName": "Keep the Heroes Out!",
+      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "英雄止步",
@@ -20539,6 +21491,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20559,10 +21513,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 1,
       "bggRank": null,
-      "bggRating": 8.14334,
+      "bggRating": 8.12595,
       "complexity": 2.6,
       "yearPublished": 2022,
       "bestPlayers": "3",
+      "publishers": "Brueh Games Inc.; Treetato Studio",
+      "originalName": "Keep the Heroes Out!: Guild Master's Revenge Expansion",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "英雄止步:會長的復仇",
@@ -20572,6 +21529,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20592,10 +21551,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 0,
       "bggRank": null,
-      "bggRating": 8.62115,
+      "bggRating": 8.60286,
       "complexity": 2.9,
       "yearPublished": 2024,
       "bestPlayers": "2",
+      "publishers": "",
+      "originalName": "Keep the Heroes Out!: Boss Battles",
+      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: Boss Battles",
@@ -20605,6 +21567,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20625,10 +21589,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 0,
       "bggRank": null,
-      "bggRating": 8.65326,
+      "bggRating": 8.65569,
       "complexity": 3.6,
       "yearPublished": 2022,
       "bestPlayers": "",
+      "publishers": "Chip Theory Games",
+      "originalName": "Too Many Bones: Riffle",
+      "recPlayers": "",
       "copies": [
         {
           "gameName": "Too Many Bones: Riffle",
@@ -20638,6 +21605,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "英文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20658,10 +21627,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 0,
       "bggRank": null,
-      "bggRating": 8.72186,
+      "bggRating": 8.73028,
       "complexity": 3.3,
       "yearPublished": 2023,
       "bestPlayers": "",
+      "publishers": "Chip Theory Games",
+      "originalName": "Too Many Bones: Carcass",
+      "recPlayers": "",
       "copies": [
         {
           "gameName": "Too Many Bones: Carcass",
@@ -20671,6 +21643,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "英文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20691,10 +21665,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 0,
       "bggRank": null,
-      "bggRating": 8.67949,
+      "bggRating": 8.68206,
       "complexity": 4.0,
       "yearPublished": 2023,
       "bestPlayers": "",
+      "publishers": "Chip Theory Games",
+      "originalName": "Too Many Bones: Polaris",
+      "recPlayers": "",
       "copies": [
         {
           "gameName": "Too Many Bones: Polaris",
@@ -20704,6 +21681,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "英文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20724,10 +21703,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 0,
       "bggRank": null,
-      "bggRating": 8.65165,
+      "bggRating": 8.661,
       "complexity": 4.0,
       "yearPublished": 2023,
       "bestPlayers": "",
+      "publishers": "Chip Theory Games",
+      "originalName": "Too Many Bones: Static",
+      "recPlayers": "",
       "copies": [
         {
           "gameName": "Too Many Bones: Static",
@@ -20737,6 +21719,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "英文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20756,11 +21740,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/CFYHrg61ph-Et4YQkedWnA__thumb/img/W2fs8ZJSiwXfXRkasIzs1cMmRro=/fit-in/200x150/filters:strip_icc()/pic3107661.jpg",
       "isExpansion": 0,
       "playCount": 7,
-      "bggRank": 8816,
-      "bggRating": 6.51423,
+      "bggRank": 8863,
+      "bggRating": 6.50221,
       "complexity": 1.0,
       "yearPublished": 2016,
       "bestPlayers": "6",
+      "publishers": "Broadway Toys LTD",
+      "originalName": "Stick Stack",
+      "recPlayers": "3,4,5,6,7,8,9,10,11,12,13,14,15",
       "copies": [
         {
           "gameName": "籤籤入扣 stick stack",
@@ -20770,6 +21757,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友12",
@@ -20801,10 +21790,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 1,
       "bggRank": null,
-      "bggRating": 8.24551,
-      "complexity": 2.6,
+      "bggRating": 8.22832,
+      "complexity": 2.5,
       "yearPublished": 2022,
       "bestPlayers": "2",
+      "publishers": "Brueh Games Inc.",
+      "originalName": "Keep the Heroes Out!: The Great Dreamer Expansion",
+      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Great Dreamer Expansion",
@@ -20814,6 +21806,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "多语言版(含中文)",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20834,10 +21828,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 0,
       "bggRank": null,
-      "bggRating": 8.04424,
-      "complexity": 2.7,
+      "bggRating": 7.99254,
+      "complexity": 2.5,
       "yearPublished": 2024,
       "bestPlayers": "2",
+      "publishers": "Brueh Games Inc.",
+      "originalName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
+      "recPlayers": "1,2,3",
       "copies": [
         {
           "gameName": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
@@ -20847,6 +21844,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "英文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20866,11 +21865,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/rGomBfj0FGrZM-w3h5HFWQ__thumb/img/DnptKBxT6l_W2B3jGXdnEDEkDM0=/fit-in/200x150/filters:strip_icc()/pic8250341.png",
       "isExpansion": 0,
       "playCount": 34,
-      "bggRank": 217,
-      "bggRating": 7.6759,
+      "bggRank": 206,
+      "bggRating": 7.67769,
       "complexity": 1.7,
       "yearPublished": 2025,
       "bestPlayers": "2",
+      "publishers": "Catch Up Games; YOKA Games",
+      "originalName": "Castle Combo",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "城堡嘉年华",
@@ -20880,6 +21882,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -20900,10 +21904,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 10,
       "bggRank": 5,
-      "bggRating": 8.70144,
+      "bggRating": 8.69836,
       "complexity": 3.5,
       "yearPublished": 2025,
       "bestPlayers": "4",
+      "publishers": "Broadway Toys LTD; Dire Wolf",
+      "originalName": "Dune: Imperium – Uprising",
+      "recPlayers": "1,2,3,4,6",
       "copies": [
         {
           "gameName": "沙丘：帝国 - 起义",
@@ -20913,6 +21920,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -20941,11 +21950,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/R2R8UHcaRNJwaCJq8PJGFQ__thumb/img/wxs22a4TfQjVpfpmNvaTdPo0FHY=/fit-in/200x150/filters:strip_icc()/pic43709.jpg",
       "isExpansion": 0,
       "playCount": 2,
-      "bggRank": 1011,
-      "bggRating": 7.06751,
+      "bggRank": 1019,
+      "bggRating": 7.06634,
       "complexity": 2.6,
       "yearPublished": 1850,
       "bestPlayers": "4",
+      "publishers": "",
+      "originalName": "Mahjong",
+      "recPlayers": "4",
       "copies": [
         {
           "gameName": "Mahjong",
@@ -20955,6 +21967,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "何林"
@@ -20983,11 +21997,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/nLDGtbwdSC0eYKffjYzrnQ__thumb/img/8F46R57i735WAI6ZjCppWb73bT0=/fit-in/200x150/filters:strip_icc()/pic6917219.jpg",
       "isExpansion": 0,
       "playCount": 4,
-      "bggRank": 1278,
-      "bggRating": 7.29137,
+      "bggRank": 1295,
+      "bggRating": 7.27324,
       "complexity": 2.4,
       "yearPublished": 2025,
       "bestPlayers": "5",
+      "publishers": "Game Harbor",
+      "originalName": "Betrayal at House on the Hill: 3rd Edition",
+      "recPlayers": "4,5,6",
       "copies": [
         {
           "gameName": "山中小屋",
@@ -20997,6 +22014,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21016,11 +22035,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/Z6MMX39UEAZT3-f-DlnHsA__small/img/5Bf6oWIJTdHYpLAodTPqbDxh_Bc=/fit-in/200x150/filters:strip_icc()/pic8114705.jpg",
       "isExpansion": 0,
       "playCount": 0,
-      "bggRank": 898,
-      "bggRating": 7.48198,
+      "bggRank": 887,
+      "bggRating": 7.46972,
       "complexity": 3.3,
       "yearPublished": 2024,
       "bestPlayers": "1",
+      "publishers": "",
+      "originalName": "Gloomhaven: Buttons & Bugs",
+      "recPlayers": "1",
       "copies": [
         {
           "gameName": "Gloomhaven: Buttons & Bugs",
@@ -21030,6 +22052,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21049,11 +22073,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/C6V2VCtf1_7cavenn7Is3A__small/img/ZJJOWNSKk81xpvNkMpGd5T0ybLo=/fit-in/200x150/filters:strip_icc()/pic8932906.jpg",
       "isExpansion": 0,
       "playCount": 5,
-      "bggRank": 811,
-      "bggRating": 7.66124,
+      "bggRank": 749,
+      "bggRating": 7.64941,
       "complexity": 2.8,
       "yearPublished": 2025,
       "bestPlayers": "2,3",
+      "publishers": "Feuerland Spiele; Game Harbor",
+      "originalName": "Sanctuary",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "方舟保护区",
@@ -21063,6 +22090,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -21091,11 +22120,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/4EVpaxECrqdKYVtBJnFLeA__small/img/XHjyZnIevY46IZZAxbma6HvWlIw=/fit-in/200x150/filters:strip_icc()/pic3008714.png",
       "isExpansion": 0,
       "playCount": 6,
-      "bggRank": 2695,
-      "bggRating": 6.53426,
+      "bggRank": 2735,
+      "bggRating": 6.52853,
       "complexity": 1.3,
       "yearPublished": 2014,
       "bestPlayers": "6,8",
+      "publishers": "Broadway Toys LTD",
+      "originalName": "Good Cop Bad Cop",
+      "recPlayers": "4,5,6,7,8",
       "copies": [
         {
           "gameName": "無間風雲",
@@ -21105,6 +22137,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21124,11 +22158,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/ZaBpuleG30S1-hAmJnL4RA__small/img/7AM38OD3FPy_I1Z2t8HP2GYz4WU=/fit-in/200x150/filters:strip_icc()/pic7077185.jpg",
       "isExpansion": 0,
       "playCount": 3,
-      "bggRank": 1032,
-      "bggRating": 7.31414,
+      "bggRank": 1023,
+      "bggRating": 7.29103,
       "complexity": 2.4,
       "yearPublished": 2023,
       "bestPlayers": "2",
+      "publishers": "FryxGames; Stronghold Games; Surfin' Meeple China",
+      "originalName": "Terraforming Mars: The Dice Game",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "骰筑火星",
@@ -21138,6 +22175,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "何林"
@@ -21148,6 +22187,44 @@ window.KIZ_DATA = {
         ],
         "lowerBetter": false
       }
+    },
+    {
+      "id": 75,
+      "name": "巫师飞塔",
+      "nameSim": "巫师飞塔",
+      "nameTrad": "巫師飛塔",
+      "bggId": 355483,
+      "bggName": "Wandering Towers",
+      "rating": 73,
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "minPlayTime": 30,
+      "maxPlayTime": 30,
+      "designers": "Michael Kiesling, Wolfgang Kramer",
+      "urlImage": "https://cf.geekdo-images.com/602eY-xlgkaL3gtyZ7QVVQ__original/img/0pBr7ImqUOKLPUb12_r0_R0MD1M=/0x0/filters:format(jpeg)/pic7347437.jpg",
+      "urlThumb": "https://cf.geekdo-images.com/602eY-xlgkaL3gtyZ7QVVQ__small/img/6u9GKTBVH0wRAhhpOi1kn3sSNeo=/fit-in/200x150/filters:strip_icc()/pic7347437.jpg",
+      "isExpansion": 0,
+      "playCount": 3,
+      "bggRank": 714,
+      "bggRating": 7.32247,
+      "complexity": 1.6,
+      "yearPublished": 2025,
+      "bestPlayers": "4,5",
+      "publishers": "ABACUSSPIELE; Yaofish Games",
+      "originalName": "Wandering Towers",
+      "recPlayers": "3,4,5,6",
+      "copies": [
+        {
+          "gameName": "巫师飞塔",
+          "urlThumb": "https://cf.geekdo-images.com/CjiPf184RDt1degOCfWfwg__previewthumb/img/t-8cA3yGOC0RhuBErjsTt7Bxj1E=/fit-in/300x320/filters:strip_icc()/pic9078806.jpg"
+        }
+      ],
+      "ownedThumb": "",
+      "ownedVersionLabel": "中文版",
+      "playedStandalone": true,
+      "prevowned": true,
+      "sold": true,
+      "recordHolder": null
     },
     {
       "id": 76,
@@ -21167,10 +22244,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 8,
       "bggRank": null,
-      "bggRating": 8.68079,
+      "bggRating": 8.69527,
       "complexity": 3.6,
       "yearPublished": 2025,
       "bestPlayers": "4",
+      "publishers": "Broadway Toys LTD",
+      "originalName": "Dune: Imperium – Bloodlines",
+      "recPlayers": "2,3,4,6",
       "copies": [
         {
           "gameName": "沙丘：帝國 血脈永續",
@@ -21180,6 +22260,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21200,10 +22282,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 6,
       "bggRank": null,
-      "bggRating": 8.66711,
+      "bggRating": 8.65536,
       "complexity": 3.0,
       "yearPublished": 2025,
       "bestPlayers": "4",
+      "publishers": "GoKids 玩樂小子",
+      "originalName": "Puerto Rico 1897: Special Edition",
+      "recPlayers": "1,2,3,4,5",
       "copies": [
         {
           "gameName": "波多黎各 1897 特別典藏版",
@@ -21213,6 +22298,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -21242,10 +22329,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 2,
       "bggRank": null,
-      "bggRating": 7.71901,
+      "bggRating": 7.77053,
       "complexity": 2.7,
       "yearPublished": 2025,
       "bestPlayers": "3",
+      "publishers": "FryxGames",
+      "originalName": "Terraforming Mars: The Dice Game – Missions",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "Terraforming Mars: The Dice Game – Missions",
@@ -21255,6 +22345,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png",
       "ownedVersionLabel": "英文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21275,10 +22367,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 12,
       "bggRank": null,
-      "bggRating": 6.57546,
-      "complexity": 2.0,
+      "bggRating": 6.66369,
+      "complexity": 2.3,
       "yearPublished": 2025,
       "bestPlayers": "2",
+      "publishers": "Repos Production",
+      "originalName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
+      "recPlayers": "2",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – Grond Promo Tile",
@@ -21288,6 +22383,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/ngqAhmcN-PPeoNvJC3eonQ__small/img/nQkfWnOr1BE7kn2MRKiHdkEMIjU=/fit-in/200x150/filters:strip_icc()/pic9109378.jpg",
       "ownedVersionLabel": "",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21308,10 +22405,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 12,
       "bggRank": null,
-      "bggRating": 6.95997,
-      "complexity": 1.7,
+      "bggRating": 6.9964,
+      "complexity": 1.6,
       "yearPublished": 2025,
       "bestPlayers": "2",
+      "publishers": "Repos Production",
+      "originalName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
+      "recPlayers": "2",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-earth – The Shire Promo Tile",
@@ -21321,6 +22421,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/CRNkPR2wqrHEpotB3vLtjQ__small/img/scur5f9x8lrVM11cKIUgyykk-wk=/fit-in/200x150/filters:strip_icc()/pic8448726.png",
       "ownedVersionLabel": "",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21340,11 +22442,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/lxzo9PekKd4TRyBUlLH7Yw__small/img/1cEL93SEH6KEoO7CAlde9Sqi12s=/fit-in/200x150/filters:strip_icc()/pic8703614.png",
       "isExpansion": 0,
       "playCount": 0,
-      "bggRank": 2168,
-      "bggRating": 7.59546,
+      "bggRank": 1682,
+      "bggRating": 7.59818,
       "complexity": 3.2,
       "yearPublished": 2025,
       "bestPlayers": "4",
+      "publishers": "YOKA Games",
+      "originalName": "Feya's Swamp",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "菲雅的沼泽",
@@ -21354,6 +22459,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21373,11 +22480,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/8IO6sl0jN5IylDDRAOK8GQ__small/img/FNNjUKGi6KOAxkithC8seFipxPo=/fit-in/200x150/filters:strip_icc()/pic8214042.jpg",
       "isExpansion": 0,
       "playCount": 0,
-      "bggRank": 4017,
-      "bggRating": 6.2741,
+      "bggRank": 4008,
+      "bggRating": 6.2689,
       "complexity": 1.2,
       "yearPublished": 2024,
       "bestPlayers": "4",
+      "publishers": "Mattel, Inc.",
+      "originalName": "UNO Flip!",
+      "recPlayers": "2,3,4,5,6,7",
       "copies": [
         {
           "gameName": "UNO Flip!",
@@ -21387,6 +22497,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "英文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21407,10 +22519,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 4,
       "bggRank": null,
-      "bggRating": 8.10678,
+      "bggRating": 8.10779,
       "complexity": 3.0,
       "yearPublished": 2021,
       "bestPlayers": "5",
+      "publishers": "Repos Production",
+      "originalName": "7 Wonders (Second Edition): Armada",
+      "recPlayers": "3,4,5,6,7",
       "copies": [
         {
           "gameName": "七大奇迹：舰队扩展",
@@ -21420,6 +22535,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21439,11 +22556,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/Naw8y8J_s-8cvq1GoTON6w__small/img/ieH8A28KJe3truXqQe1nDXSpxUE=/fit-in/200x150/filters:strip_icc()/pic7416519.jpg",
       "isExpansion": 0,
       "playCount": 9,
-      "bggRank": 199,
-      "bggRating": 7.82171,
+      "bggRank": 192,
+      "bggRating": 7.82179,
       "complexity": 2.3,
       "yearPublished": 2020,
       "bestPlayers": "4,5",
+      "publishers": "Repos Production",
+      "originalName": "7 Wonders (Second Edition)",
+      "recPlayers": "3,4,5,6,7",
       "copies": [
         {
           "gameName": "七大奇蹟：第二版",
@@ -21453,6 +22573,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友46"
@@ -21481,11 +22603,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/QhsvR9GY0LbTpj27fairWA__small/img/_Nvnav-rd4ckyC_lMKYu0AqC06I=/fit-in/200x150/filters:strip_icc()/pic186610.jpg",
       "isExpansion": 1,
       "playCount": 1,
-      "bggRank": 1410,
-      "bggRating": 6.72018,
+      "bggRank": 1419,
+      "bggRating": 6.72475,
       "complexity": 2.4,
       "yearPublished": 1810,
       "bestPlayers": "5,6",
+      "publishers": "",
+      "originalName": "Poker",
+      "recPlayers": "3,4,5,6,7,8,9",
       "copies": [
         {
           "gameName": "Poker",
@@ -21495,6 +22620,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21514,11 +22641,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/4BDkj75aMObXau8L08jX5w__small/img/ICsFoIjh4k2TlrByRP_sWL9sDKw=/fit-in/200x150/filters:strip_icc()/pic4673729.jpg",
       "isExpansion": 0,
       "playCount": 3,
-      "bggRank": 953,
-      "bggRating": 7.46179,
+      "bggRank": 941,
+      "bggRating": 7.45635,
       "complexity": 1.4,
       "yearPublished": 2020,
       "bestPlayers": "4,5",
+      "publishers": "Broadway Toys LTD",
+      "originalName": "Las Vegas Royale",
+      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "拉斯維加斯豪華版",
@@ -21528,6 +22658,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中英双语版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "陈勇杰"
@@ -21556,11 +22688,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__small/img/r6HitXm51jUA9MgnzrObznLnGUM=/fit-in/200x150/filters:strip_icc()/pic5426946.jpg",
       "isExpansion": 0,
       "playCount": 3,
-      "bggRank": 2243,
-      "bggRating": 7.15577,
+      "bggRank": 2235,
+      "bggRating": 7.14673,
       "complexity": 1.8,
       "yearPublished": 2022,
       "bestPlayers": "6,7,8",
+      "publishers": "Broadway Toys LTD; 狗吠火車",
+      "originalName": "Night of the Ninja",
+      "recPlayers": "5,6,7,8,9,10,11",
       "copies": [
         {
           "gameName": "忍者之夜",
@@ -21570,6 +22705,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "白如",
@@ -21601,10 +22738,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 5,
       "bggRank": null,
-      "bggRating": 8.171,
+      "bggRating": 8.15693,
       "complexity": 1.8,
       "yearPublished": 2025,
       "bestPlayers": "2",
+      "publishers": "",
+      "originalName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
+      "recPlayers": "2",
       "copies": [
         {
           "gameName": "The Lord of the Rings: Duel for Middle-Earth – Allies",
@@ -21614,6 +22754,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/YY-oPScwCLqmtL7RqHifcQ__small/img/19u4B9Odc1dfbllXXFrMqzIK8sk=/fit-in/200x150/filters:strip_icc()/pic8993092.jpg",
       "ownedVersionLabel": "",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21634,10 +22776,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 0,
       "bggRank": 14,
-      "bggRating": 8.41567,
+      "bggRating": 8.41231,
       "complexity": 3.8,
       "yearPublished": 2025,
       "bestPlayers": "3",
+      "publishers": "Broadway Toys LTD; Czech Games Edition (CGE)",
+      "originalName": "SETI: Search for Extraterrestrial Intelligence",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "星空觅迹：探寻地外文明计划",
@@ -21647,6 +22792,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21666,11 +22813,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/scw36iBIad7l-rGzxPGcGg__small/img/dyMBa6SBkPwpWfA4FINqbX8RNDQ=/fit-in/200x150/filters:strip_icc()/pic8662670.png",
       "isExpansion": 0,
       "playCount": 1,
-      "bggRank": 71,
-      "bggRating": 8.33382,
+      "bggRank": 58,
+      "bggRating": 8.33573,
       "complexity": 3.1,
       "yearPublished": 2025,
       "bestPlayers": "3",
+      "publishers": "Z-Man Games",
+      "originalName": "The Lord of the Rings: Fate of the Fellowship",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "魔戒：命运同盟",
@@ -21680,6 +22830,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/nkClgOdfdO607xmqREwdOA__small/img/Z5sQN0e-rXbfaI3aZucv37yjPJ4=/fit-in/200x150/filters:strip_icc()/pic8920654.png",
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21700,10 +22852,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 16,
       "bggRank": 3,
-      "bggRating": 8.50123,
+      "bggRating": 8.50044,
       "complexity": 2.8,
       "yearPublished": 2016,
       "bestPlayers": "4",
+      "publishers": "Jolly Thinkers; Z-Man Games",
+      "originalName": "Pandemic Legacy: Season 1",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "瘟疫危機︰承傳",
@@ -21713,6 +22868,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/UCurv84wkB3RzFysLGvGaw__small/img/KNoAmeV9w3ssnCGVmBgzp11uUxE=/fit-in/200x150/filters:strip_icc()/pic3025181.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21732,11 +22889,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/cCLn9Mvb7jRSaZzHeUXhoQ__small/img/B8BFQLR2Po3ekI_7XSG1kR9oil0=/fit-in/200x150/filters:strip_icc()/pic6937913.jpg",
       "isExpansion": 0,
       "playCount": 5,
-      "bggRank": 49,
-      "bggRating": 8.22825,
+      "bggRank": 48,
+      "bggRating": 8.22769,
       "complexity": 2.5,
       "yearPublished": 2025,
       "bestPlayers": "3",
+      "publishers": "Broadway Toys LTD",
+      "originalName": "Clank!: Catacombs",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "噤声寻宝记！地下墓穴",
@@ -21746,6 +22906,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/2l2V2TdKIVBJr_GO6MrZRQ__small/img/xSIsKec1dzExzqNGsLtYe4i8e1s=/fit-in/200x150/filters:strip_icc()/pic9509911.jpg",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "王乐桐"
@@ -21774,11 +22936,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/1uW8t9AkuqOF0xjv_sXKgw__small/img/tWEmoT1EaoYUpbwrTGCLMHaaZGs=/fit-in/200x150/filters:strip_icc()/pic9106864.png",
       "isExpansion": 0,
       "playCount": 5,
-      "bggRank": 410,
-      "bggRating": 7.81432,
+      "bggRank": 306,
+      "bggRating": 7.77263,
       "complexity": 1.2,
       "yearPublished": 2025,
       "bestPlayers": "5,6",
+      "publishers": "CMYK",
+      "originalName": "Magical Athlete",
+      "recPlayers": "3,4,5,6",
       "copies": [
         {
           "gameName": "Magical Athlete",
@@ -21788,6 +22953,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "英文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "朱晨阳"
@@ -21816,11 +22983,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/hLfQAtkN8m06_L3xAtqXEQ__small/img/noJhLlB0U0_TVyBj_pQRm07qxWI=/fit-in/200x150/filters:strip_icc()/pic8544768.png",
       "isExpansion": 0,
       "playCount": 18,
-      "bggRank": 2357,
-      "bggRating": 7.46639,
+      "bggRank": 2246,
+      "bggRating": 7.448,
       "complexity": 1.4,
       "yearPublished": 2025,
       "bestPlayers": "4",
+      "publishers": "Z-Man Games",
+      "originalName": "Arkham Horror: Lovecraft Letter",
+      "recPlayers": "3,4,5,6",
       "copies": [
         {
           "gameName": "诡镇奇谈：洛夫克拉夫特情书",
@@ -21830,6 +23000,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/hAQl2dZ2E2vfSOJMvfctfQ__small/img/FaCfHLRDNvoxR4zDmj-SOsIA0OM=/fit-in/200x150/filters:strip_icc()/pic8715020.jpg",
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21850,10 +23022,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 2,
       "bggRank": null,
-      "bggRating": 8.2723,
+      "bggRating": 8.28312,
       "complexity": 2.5,
       "yearPublished": 2024,
       "bestPlayers": "3",
+      "publishers": "",
+      "originalName": "Clank!: Catacombs – Lairs and Lost Chambers",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "Clank!: Catacombs – Lairs and Lost Chambers",
@@ -21863,6 +23038,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21883,10 +23060,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 1,
       "bggRank": null,
-      "bggRating": 8.23991,
+      "bggRating": 8.227,
       "complexity": 2.9,
       "yearPublished": 2025,
       "bestPlayers": "3",
+      "publishers": "",
+      "originalName": "Clank!: Catacombs – Underworld",
+      "recPlayers": "2,3,4",
       "copies": [
         {
           "gameName": "Clank!: Catacombs – Underworld",
@@ -21896,6 +23076,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21916,10 +23098,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 1,
       "bggRank": null,
-      "bggRating": 7.77617,
-      "complexity": 2.2,
+      "bggRating": 7.72049,
+      "complexity": 2.1,
       "yearPublished": 2026,
-      "bestPlayers": "2,3,5",
+      "bestPlayers": "2,3,4,5",
+      "publishers": "Blackrock Games; BoardGamePlanet; Catch Up Games; CMON Global Limited",
+      "originalName": "Faraway: Under Starry Skies",
+      "recPlayers": "2,3,4,5,6",
       "copies": [
         {
           "gameName": "遙遠之地：星空之下",
@@ -21929,6 +23114,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "繁体中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -21949,10 +23136,13 @@ window.KIZ_DATA = {
       "isExpansion": 0,
       "playCount": 3,
       "bggRank": null,
-      "bggRating": 7.69271,
+      "bggRating": 7.68528,
       "complexity": 1.9,
       "yearPublished": 2024,
-      "bestPlayers": "7",
+      "bestPlayers": "6,7",
+      "publishers": "AMIGO; Broadway Toys LTD",
+      "originalName": "Saboteur: 20th Anniversary Edition",
+      "recPlayers": "4,5,6,7,8,9",
       "copies": [
         {
           "gameName": "矮人掘金：20週年紀念版",
@@ -21962,6 +23152,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友33"
@@ -21990,11 +23182,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/QBwnHLJy8DRV2Mx-ZkB1_A__small/img/Pk2dokqgJ9hxgHHvZSadh4wKNog=/fit-in/200x150/filters:strip_icc()/pic5783560.png",
       "isExpansion": 0,
       "playCount": 5,
-      "bggRank": 2617,
-      "bggRating": 6.89098,
+      "bggRank": 2633,
+      "bggRating": 6.88324,
       "complexity": 1.1,
-      "yearPublished": 2020,
+      "yearPublished": 2023,
       "bestPlayers": "5,6,7",
+      "publishers": "Oink Games",
+      "originalName": "Durian",
+      "recPlayers": "4,5,6,7",
       "copies": [
         {
           "gameName": "榴莲忘贩",
@@ -22004,6 +23199,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友44",
@@ -22045,10 +23242,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 4,
       "bggRank": null,
-      "bggRating": 0,
-      "complexity": 0,
-      "yearPublished": 0,
-      "bestPlayers": "",
+      "bggRating": 8.00912,
+      "complexity": 1.8,
+      "yearPublished": 2025,
+      "bestPlayers": "2,3",
+      "publishers": "Catch Up Games; Hachette Boardgames UK",
+      "originalName": "Castle Combo: Out of the Oubliette!",
+      "recPlayers": "2,3,4,5",
       "copies": [
         {
           "gameName": "Castle Combo: Out of the Oubliette!",
@@ -22058,6 +23258,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "英文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -22077,11 +23279,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/VuBqZ1sMaDAVVHF_OEJP4g__small/img/EdacXlcFZ06YK0-ZKa0oKwL4VCw=/fit-in/200x150/filters:strip_icc()/pic5988903.jpg",
       "isExpansion": 0,
       "playCount": 12,
-      "bggRank": null,
-      "bggRating": 0,
-      "complexity": 0,
-      "yearPublished": 0,
-      "bestPlayers": "",
+      "bggRank": 45,
+      "bggRating": 8.03819,
+      "complexity": 2.1,
+      "yearPublished": 2022,
+      "bestPlayers": "4",
+      "publishers": "KOSMOS; Swan Panasia Co., Ltd.",
+      "originalName": "The Crew: Mission Deep Sea",
+      "recPlayers": "3,4,5",
       "copies": [
         {
           "gameName": "星際探險隊：深海任務",
@@ -22091,6 +23296,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -22110,11 +23317,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/2H0pJddVJA3r6btqRNLG1g__small/img/scMQ04r1admTpyvH91g9DbZEncg=/fit-in/200x150/filters:strip_icc()/pic7541330.png",
       "isExpansion": 0,
       "playCount": 2,
-      "bggRank": null,
-      "bggRating": 0,
-      "complexity": 0,
-      "yearPublished": 0,
-      "bestPlayers": "",
+      "bggRank": 49,
+      "bggRating": 8.60576,
+      "complexity": 2.6,
+      "yearPublished": 2023,
+      "bestPlayers": "4",
+      "publishers": "Days of Wonder; GoKids 玩樂小子",
+      "originalName": "Ticket to Ride Legacy: Legends of the West",
+      "recPlayers": "2,3,4,5",
       "copies": [
         {
           "gameName": "Ticket to Ride Legacy: Legends of the West",
@@ -22124,6 +23334,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "繁体中文版",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "何林"
@@ -22157,6 +23369,9 @@ window.KIZ_DATA = {
       "complexity": 0,
       "yearPublished": 0,
       "bestPlayers": "",
+      "publishers": "",
+      "originalName": "",
+      "recPlayers": "",
       "copies": [
         {
           "gameName": "谁是火箭队",
@@ -22166,6 +23381,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -22185,11 +23402,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/DFZlakC9Lv8cB5Co5z3meA__small/img/zioDxFvYNCzSbh09ibB6arS017w=/fit-in/200x150/filters:strip_icc()/pic9230112.jpg",
       "isExpansion": 0,
       "playCount": 2,
-      "bggRank": null,
-      "bggRating": 0,
-      "complexity": 0,
-      "yearPublished": 0,
-      "bestPlayers": "",
+      "bggRank": 108,
+      "bggRating": 7.72868,
+      "complexity": 2.4,
+      "yearPublished": 2012,
+      "bestPlayers": "3,4",
+      "publishers": "",
+      "originalName": "Lords of Waterdeep",
+      "recPlayers": "2,3,4,5",
       "copies": [
         {
           "gameName": "深水城領主",
@@ -22199,6 +23419,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "白如"
@@ -22227,11 +23449,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/1qvA21HdRaPYwrn4tGDNaQ__small/img/3tBwuRBxhDuhcTvA1g-IjVuUXqY=/fit-in/200x150/filters:strip_icc()/pic8689185.jpg",
       "isExpansion": 0,
       "playCount": 3,
-      "bggRank": null,
-      "bggRating": 0,
-      "complexity": 0,
-      "yearPublished": 0,
-      "bestPlayers": "",
+      "bggRank": 284,
+      "bggRating": 7.53005,
+      "complexity": 1.7,
+      "yearPublished": 2013,
+      "bestPlayers": "4,5,6",
+      "publishers": "",
+      "originalName": "Skull King",
+      "recPlayers": "3,4,5,6",
       "copies": [
         {
           "gameName": "Skull King",
@@ -22241,6 +23466,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "",
       "playedStandalone": true,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": {
         "names": [
           "桌友18"
@@ -22270,10 +23497,13 @@ window.KIZ_DATA = {
       "isExpansion": 1,
       "playCount": 2,
       "bggRank": null,
-      "bggRating": 0,
-      "complexity": 0,
-      "yearPublished": 0,
-      "bestPlayers": "",
+      "bggRating": 8.21038,
+      "complexity": 2.7,
+      "yearPublished": 2013,
+      "bestPlayers": "4",
+      "publishers": "",
+      "originalName": "Lords of Waterdeep: Scoundrels of Skullport",
+      "recPlayers": "2,3,4,5,6",
       "copies": [
         {
           "gameName": "Lords of Waterdeep: Scoundrels of Skullport",
@@ -22283,6 +23513,8 @@ window.KIZ_DATA = {
       "ownedThumb": "https://cf.geekdo-images.com/m0K45Fn1B6lLnYVqU7xyoA__small/img/OxJ7mFhZL5FHWW_nVk14dIpKj_k=/fit-in/200x150/filters:strip_icc()/pic9230110.jpg",
       "ownedVersionLabel": "",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -22302,11 +23534,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/S1_USNVBwzwidSpxAoKhuw__small/img/26QtSRyUNOySkhtk6tnkzVqPx5A=/fit-in/200x150/filters:strip_icc()/pic6940296.jpg",
       "isExpansion": 0,
       "playCount": 0,
-      "bggRank": null,
-      "bggRating": 0,
-      "complexity": 0,
-      "yearPublished": 0,
-      "bestPlayers": "",
+      "bggRank": 540,
+      "bggRating": 7.5626,
+      "complexity": 3.8,
+      "yearPublished": 2022,
+      "bestPlayers": "3",
+      "publishers": "Delicious Games; YOKA Games",
+      "originalName": "Woodcraft",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "木心匠艺",
@@ -22316,6 +23551,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "简体中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     },
     {
@@ -22335,11 +23572,14 @@ window.KIZ_DATA = {
       "urlThumb": "https://cf.geekdo-images.com/0GirCf3O4zKBOzAIncZa8g__small/img/A9lK55A9bE-bMVNAgsrtXkJ6Z8g=/fit-in/200x150/filters:strip_icc()/pic8587448.png",
       "isExpansion": 0,
       "playCount": 0,
-      "bggRank": null,
-      "bggRating": 0,
-      "complexity": 0,
-      "yearPublished": 0,
-      "bestPlayers": "",
+      "bggRank": 5481,
+      "bggRating": 7.62209,
+      "complexity": 2.6,
+      "yearPublished": 2025,
+      "bestPlayers": "1,2",
+      "publishers": "Origames; Super Meeple",
+      "originalName": "Kronologic: Cuzco 1450",
+      "recPlayers": "1,2,3,4",
       "copies": [
         {
           "gameName": "时空神探：库斯科1450",
@@ -22349,6 +23589,8 @@ window.KIZ_DATA = {
       "ownedThumb": "",
       "ownedVersionLabel": "中文版",
       "playedStandalone": false,
+      "prevowned": false,
+      "sold": false,
       "recordHolder": null
     }
   ],
@@ -22383,11 +23625,11 @@ window.KIZ_DATA = {
     }
   ],
   "stats": {
-    "totalPlays": 486,
+    "totalPlays": 506,
     "totalPlayers": 58,
-    "totalGames": 86,
-    "avgPlaysPerGame": 5.7,
-    "avgPlaysPerPlayer": 8.4,
+    "totalGames": 91,
+    "avgPlaysPerGame": 5.6,
+    "avgPlaysPerPlayer": 8.7,
     "topGames": [
       {
         "gameRefId": 20,
@@ -22433,19 +23675,19 @@ window.KIZ_DATA = {
     "topPlayers": [
       {
         "playerRefId": 1,
-        "count": 453
+        "count": 469
       },
       {
         "playerRefId": 3,
-        "count": 220
+        "count": 221
       },
       {
         "playerRefId": 28,
-        "count": 182
+        "count": 185
       },
       {
         "playerRefId": 7,
-        "count": 171
+        "count": 176
       },
       {
         "playerRefId": 30,
@@ -22453,7 +23695,7 @@ window.KIZ_DATA = {
       },
       {
         "playerRefId": 4,
-        "count": 104
+        "count": 106
       },
       {
         "playerRefId": 17,
@@ -22465,7 +23707,7 @@ window.KIZ_DATA = {
       },
       {
         "playerRefId": 31,
-        "count": 43
+        "count": 47
       },
       {
         "playerRefId": 61,

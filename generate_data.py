@@ -86,6 +86,9 @@ def load_bgg_collection():
                 "complexity": round(safe_float(row.get("avgweight"), 0), 1),
                 "yearPublished": safe_int(row.get("yearpublished"), 0),
                 "bestPlayers": row.get("bggbestplayers", ""),
+                "publishers": (row.get("version_publishers") or "").strip(),
+                "originalName": (row.get("originalname") or "").strip(),
+                "recPlayers": (row.get("bggrecplayers") or "").strip(),
             }
 
     print(f"加载 BGG 收藏: {len(bgg_info)} 款游戏")
@@ -310,11 +313,22 @@ def _owned_version_fields(copies):
 
 
 def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
-    """保留所有拥有的游戏，附带游玩次数和 BGG 详细信息。"""
+    """保留所有拥有（含曾拥有已出售）的游戏，附带游玩次数和 BGG 详细信息。
+
+    纳入口径：
+      - 现拥有（statusOwned==1）→ 正常计入；
+      - 曾拥有但已出售（statusPrevOwned==1 且 statusOwned!=1）→ 计入历史对局统计，
+        并打「已出」标记，但不进入「近期上新」。
+    """
     games = []
     for g in raw_games:
         owned = any(c.get("statusOwned") == 1 for c in g.get("copies", []))
-        if not owned:
+        prev_owned = any(c.get("statusPrevOwned") == 1 for c in g.get("copies", []))
+        if not owned and not prev_owned:
+            continue
+        sold = bool(prev_owned and not owned)  # 曾拥有、现已不在手
+        # 曾拥有已出售的游戏：仅当其确有对局记录（"曾拥有且玩过"）才纳入统计
+        if sold and play_counts.get(g["id"], 0) == 0:
             continue
 
         bgg_id = str(g.get("bggId", 0))
@@ -347,6 +361,9 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
             "complexity": bgg.get("complexity", 0),
             "yearPublished": bgg.get("yearPublished", 0),
             "bestPlayers": bgg.get("bestPlayers", ""),
+            "publishers": bgg.get("publishers", ""),
+            "originalName": bgg.get("originalName", ""),
+            "recPlayers": bgg.get("recPlayers", ""),
             "copies": [{
                 "gameName": c.get("gameName", g["name"]),
                 "urlThumb": c.get("urlThumb", ""),
@@ -354,6 +371,8 @@ def filter_games(raw_games, play_counts, bgg_collection, base_play_counts):
             "ownedThumb": owned_thumb,
             "ownedVersionLabel": owned_version_label,
             "playedStandalone": base_play_counts.get(g["id"], 0) > 0,
+            "prevowned": prev_owned,
+            "sold": sold,
         })
     return games
 
