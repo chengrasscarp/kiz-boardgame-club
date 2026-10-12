@@ -161,7 +161,7 @@ def anonymize_players(players):
 def filter_plays(raw_plays, player_ids):
     """筛选有效地点 + 研究生参与的对局。
 
-    线下地点：普通筛选，仅保留至少1名研究生的对局。
+    线下地点：普通筛选，仅保留至少2名研究生的对局。
     BGA 线上(id=4)：特殊处理——
       - 先检查筛选条件，通过后才创建歪果人
       - 必须包含陈勇杰(id=1) + 至少另1名研究生
@@ -200,7 +200,9 @@ def filter_plays(raw_plays, player_ids):
             if len(known_member_ids) < 2:
                 continue
         else:
-            if not known_member_ids:
+            # 线下对局：除地点需在白名单外，还要求至少 2 名研究生成员参与，
+            # 避免仅 1 名成员带非成员朋友游玩的对局（如情书）被误纳入统计
+            if len(known_member_ids) < 2:
                 continue
 
         # 第二步：通过筛选，构建 playerScores
@@ -535,7 +537,7 @@ def sanity_report(data, players, player_ids, plays, pseudo_players, removed_by_g
             if not has_chen or member_cnt < 2:
                 bga_rejected += 1
                 continue
-        elif member_cnt == 0:
+        elif member_cnt < 2:
             no_grad += 1
             continue
         if len(pss) < 2 and p.get("gameRefId") not in SOLO_ALLOWED_GAME_IDS:
@@ -547,7 +549,7 @@ def sanity_report(data, players, player_ids, plays, pseudo_players, removed_by_g
             f"如需收录请将其加入 VALID_LOCATION_IDS"
         )
     if no_grad:
-        warnings.append(f"{no_grad} 场线下对局因无研究生成员参与被跳过")
+        warnings.append(f"{no_grad} 场线下对局因研究生成员不足 2 人参与被跳过")
     if bga_rejected:
         warnings.append(f"{bga_rejected} 场 BGA 对局因不满足规则（需陈勇杰+另1名成员）被跳过")
     if solo_dropped:
