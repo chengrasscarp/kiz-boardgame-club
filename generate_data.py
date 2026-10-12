@@ -42,6 +42,12 @@ CHEN_PLAYER_ID = 1                          # 陈勇杰
 # 允许单人游玩的对局游戏（如单人破案/剧情游戏，虽仅1人但保留统计）
 SOLO_ALLOWED_GAME_IDS = {6, 16, 18, 19}  # 罪案疑云系列
 
+# 这些游戏的对局即便只有 1 名研究生成员参与也保留统计
+# （单人破案类 罪案疑云系列，以及常由陈勇杰独自/带非成员游玩的 欢迎来到月球），
+# 其余游戏仍要求 ≥2 名研究生。与 SOLO_ALLOWED_GAME_IDS 同源但语义不同：
+# 后者仅放宽"单人局过滤"，本集合放宽"研究生人数 ≥2"的要求。
+GRAD_EXEMPT_GAME_IDS = SOLO_ALLOWED_GAME_IDS | {33}  # 罪案疑云系列 + 欢迎来到月球(id=33)
+
 # 本地游戏封面覆盖：游戏名 -> 站点内相对路径。
 LOCAL_GAME_IMAGES = {
     "三国杀：欢乐斗地主": "img/三国杀欢乐斗地主.jpg",
@@ -161,7 +167,8 @@ def anonymize_players(players):
 def filter_plays(raw_plays, player_ids):
     """筛选有效地点 + 研究生参与的对局。
 
-    线下地点：普通筛选，仅保留至少2名研究生的对局。
+    线下地点：普通筛选，默认仅保留至少2名研究生的对局；
+    GRAD_EXEMPT_GAME_IDS 中的游戏（罪案疑云系列、欢迎来到月球）仅 1 名研究生也保留。
     BGA 线上(id=4)：特殊处理——
       - 先检查筛选条件，通过后才创建歪果人
       - 必须包含陈勇杰(id=1) + 至少另1名研究生
@@ -200,9 +207,11 @@ def filter_plays(raw_plays, player_ids):
             if len(known_member_ids) < 2:
                 continue
         else:
-            # 线下对局：除地点需在白名单外，还要求至少 2 名研究生成员参与，
-            # 避免仅 1 名成员带非成员朋友游玩的对局（如情书）被误纳入统计
-            if len(known_member_ids) < 2:
+            # 线下对局：地点需在白名单；默认要求 ≥2 名研究生成员，
+            # 但 GRAD_EXEMPT_GAME_IDS 中的游戏（罪案疑云系列、欢迎来到月球）
+            # 仅 1 名研究生参与也保留（单人破案 / 陈勇杰独自或带朋友游玩）
+            min_grad = 1 if p.get("gameRefId") in GRAD_EXEMPT_GAME_IDS else 2
+            if len(known_member_ids) < min_grad:
                 continue
 
         # 第二步：通过筛选，构建 playerScores
@@ -538,8 +547,12 @@ def sanity_report(data, players, player_ids, plays, pseudo_players, removed_by_g
                 bga_rejected += 1
                 continue
         elif member_cnt < 2:
-            no_grad += 1
-            continue
+            # 豁免游戏（罪案疑云系列、欢迎来到月球）仅 1 名研究生也保留，不计入被跳过
+            if member_cnt == 1 and p.get("gameRefId") in GRAD_EXEMPT_GAME_IDS:
+                pass
+            else:
+                no_grad += 1
+                continue
         if len(pss) < 2 and p.get("gameRefId") not in SOLO_ALLOWED_GAME_IDS:
             solo_dropped += 1
 
