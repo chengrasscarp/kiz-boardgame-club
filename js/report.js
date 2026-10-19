@@ -156,7 +156,7 @@ function renderWeeklyReport() {
     }
     document.getElementById('repTimeline').innerHTML = tl;
 
-    // 本周新游戏首秀 + 本周名场面
+    // 本周新游戏首秀
     var monYmd = ymdOf(week.monday);
     var sunYmd = ymdOf(week.sunday);
     var debutSet = {};
@@ -168,31 +168,11 @@ function renderWeeklyReport() {
       }
     }
     var debutGames = Object.keys(debutSet);
-    var quotes = [];
-    var seenQuote = {};
-    for (var qi = 0; qi < plays.length; qi++) {
-      var cm = (plays[qi].comments || '').trim();
-      if (cm.length < 4) continue;
-      if (seenQuote[cm]) continue;
-      seenQuote[cm] = true;
-      quotes.push({ text: cm, game: getGameNameForPlay(plays[qi]) });
-    }
-    quotes.sort(function (a, b) { return b.text.length - a.text.length; });
-    quotes = quotes.slice(0, 2);
 
     var extra = '';
     if (debutGames.length) {
       extra += '<div class="report-extra-card"><div class="report-extra-title">🆕 本周新游戏首秀</div>' +
         '<div class="report-extra-body">' + debutGames.join('、') + '</div></div>';
-    }
-    if (quotes.length) {
-      var qHtml = '';
-      for (var xi = 0; xi < quotes.length; xi++) {
-        qHtml += '<div class="quote-item">“' + escapeHtml(quotes[xi].text) + '”' +
-          (quotes[xi].game ? ' <span class="quote-game">— ' + escapeHtml(quotes[xi].game) + '</span>' : '') + '</div>';
-      }
-      extra += '<div class="report-extra-card"><div class="report-extra-title">💬 本周名场面</div>' +
-        '<div class="report-quotes">' + qHtml + '</div></div>';
     }
     var extraEl = document.getElementById('repExtra');
     if (extraEl) extraEl.innerHTML = extra;
@@ -208,8 +188,7 @@ function renderWeeklyReport() {
       var busiestDay = null, bc = -1;
       for (var dk in dayCount) { if (dayCount[dk] > bc) { bc = dayCount[dk]; busiestDay = dk; } }
       var perfect = pgArr.filter(function (r) { return r.wins === r.plays && r.plays >= 1; }).map(function (r) { return r.name; });
-      hl = '📌 本周共 <b>' + total + '</b> 场对局，<b>' + formatDate(busiestDay) + '</b> 单日 ' + bc + ' 场最为活跃；' +
-        '<b>' + pgArr[0].name + '</b> 出战 ' + pgArr[0].plays + ' 场领跑，<b>' + (gcArr.length ? gcArr[0].name : '—') + '</b> 以 ' +
+      hl = '📌 本周共 <b>' + total + '</b> 场对局，<b>' + formatDate(busiestDay) + '</b> 单日 ' + bc + ' 场最为活跃；<b>' + (gcArr.length ? gcArr[0].name : '—') + '</b> 以 ' +
         (gcArr.length ? gcArr[0].count : 0) + ' 场成为最热门游戏。';
       if (perfect.length) hl += ' 🔥 ' + perfect.join('、') + ' 本周全胜！';
     } else {
