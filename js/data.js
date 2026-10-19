@@ -539,6 +539,26 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "4F2D6919-0FCF-4D36-87C6-CBF3C8176729",
+      "gameRefId": 1,
+      "locationRefId": 1,
+      "playDateYmd": 20250324,
+      "playDate": "2025-03-24 13:24:57",
+      "durationMin": 60,
+      "scoringSetting": 3,
+      "board": "13a",
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "F9FDEDBE-2AD8-4C07-898E-A18C2213A358",
       "gameRefId": 7,
       "locationRefId": 2,
@@ -801,6 +821,26 @@ window.KIZ_DATA = {
           "playerRefId": 1,
           "score": "86",
           "winner": false,
+          "rank": 0
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "5A1A42BE-0A2B-4675-82EA-DFB309552E2A",
+      "gameRefId": 28,
+      "locationRefId": 1,
+      "playDateYmd": 20250318,
+      "playDate": "2025-03-18 16:28:21",
+      "durationMin": 240,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "罗尔和洛克",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
           "rank": 0
         }
       ],
@@ -5849,6 +5889,26 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "6048F011-A6D7-4BE6-998A-4FB932389F74",
+      "gameRefId": 29,
+      "locationRefId": 2,
+      "playDateYmd": 20250822,
+      "playDate": "2025-08-22 00:07:56",
+      "durationMin": 180,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "第二章",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "9F3E843B-BFD5-492F-A0DA-940071E5B15F",
       "gameRefId": 27,
       "locationRefId": 1,
@@ -6076,6 +6136,46 @@ window.KIZ_DATA = {
         {
           "playerRefId": 1,
           "score": "104",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "4970FAD7-2ACF-4F36-89C7-AABB32531128",
+      "gameRefId": 29,
+      "locationRefId": 2,
+      "playDateYmd": 20250824,
+      "playDate": "2025-08-24 00:32:27",
+      "durationMin": 180,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "9B4B8870-38A8-4D7D-922C-B4BEDAB842F5",
+      "gameRefId": 29,
+      "locationRefId": 2,
+      "playDateYmd": 20250826,
+      "playDate": "2025-08-26 23:32:53",
+      "durationMin": 180,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
           "winner": true,
           "rank": 1
         }
@@ -6534,6 +6634,26 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "DC87BB92-6FEB-486C-BBDC-217AFBC95058",
+      "gameRefId": 23,
+      "locationRefId": 1,
+      "playDateYmd": 20250905,
+      "playDate": "2025-09-05 23:15:52",
+      "durationMin": 0,
+      "scoringSetting": 1,
+      "board": null,
+      "comments": "成就5",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "94E3FC6F-1DA7-4C5E-9273-D5F611435E24",
       "gameRefId": 50,
       "locationRefId": 1,
@@ -6738,6 +6858,86 @@ window.KIZ_DATA = {
           "gameRefId": 19
         }
       ]
+    },
+    {
+      "uuid": "45BB71E0-E6F9-4127-AE0A-87F4997B70C3",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20250927,
+      "playDate": "2025-09-27 11:20:57",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "剧本1",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "71FA4DC1-992E-4009-8D36-51CF3914E78B",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251001,
+      "playDate": "2025-10-01 15:32:23",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "剧本2",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "66A076BF-0E3C-4159-A11C-0735910B1138",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251001,
+      "playDate": "2025-10-01 15:32:50",
+      "durationMin": 26,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "剧本4",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "80C849F4-55CF-43F0-8774-576FC15AEB39",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251001,
+      "playDate": "2025-10-01 16:03:04",
+      "durationMin": 27,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "剧本5",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "CDC0BFF6-2AE8-4B88-AFCB-B72B1927D049",
@@ -7512,6 +7712,86 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "C3676809-17D9-440F-8742-099E5645F6EE",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251005,
+      "playDate": "2025-10-05 09:39:05",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "5",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "8B85CC5D-3AF7-43A2-A32B-54118658025F",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251005,
+      "playDate": "2025-10-05 09:39:17",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "6",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "B4EEC8F4-4766-45A0-A62C-0E6709215D06",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251013,
+      "playDate": "2025-10-13 12:29:08",
+      "durationMin": 21,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "6",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "6A2743AF-0A79-4E43-AC33-A8DEB34DC543",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251015,
+      "playDate": "2025-10-15 12:57:37",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "6",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "A7A1F017-F83D-4477-A449-0808671369A7",
       "gameRefId": 21,
       "locationRefId": 1,
@@ -7678,6 +7958,86 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "270C6F89-DBD7-46D6-BF1B-6C76716C0BF3",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251018,
+      "playDate": "2025-10-18 10:12:19",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "6",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "081FC6C7-EB98-4E46-BE4A-5A54F0D87F32",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251018,
+      "playDate": "2025-10-18 10:12:26",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "6",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "ABF56ED2-4601-4C47-B1FC-C1DA1BD33FD8",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251018,
+      "playDate": "2025-10-18 10:12:34",
+      "durationMin": 14,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "6",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "851679D4-3502-4983-8458-E6A93CADCD0A",
+      "gameRefId": 74,
+      "locationRefId": 1,
+      "playDateYmd": 20251018,
+      "playDate": "2025-10-18 10:13:34",
+      "durationMin": 0,
+      "scoringSetting": 1,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "CF276F62-004D-4B7F-B977-FCC641879009",
       "gameRefId": 49,
       "locationRefId": 1,
@@ -7754,6 +8114,26 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "46FF70D3-7232-40BA-AFA4-78560B44AE91",
+      "gameRefId": 75,
+      "locationRefId": 1,
+      "playDateYmd": 20251023,
+      "playDate": "2025-10-23 23:14:06",
+      "durationMin": 13,
+      "scoringSetting": 1,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "A065DEC0-F689-4FC9-B6B3-A327CD11A5D4",
       "gameRefId": 32,
       "locationRefId": 1,
@@ -7787,6 +8167,46 @@ window.KIZ_DATA = {
           "gameRefId": 81
         }
       ]
+    },
+    {
+      "uuid": "70048769-9C44-4871-A129-65971A4533E3",
+      "gameRefId": 67,
+      "locationRefId": 1,
+      "playDateYmd": 20251025,
+      "playDate": "2025-10-25 00:41:02",
+      "durationMin": 70,
+      "scoringSetting": 1,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "EBA07182-1421-427D-9C09-8888C7EA5969",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20251025,
+      "playDate": "2025-10-25 22:44:18",
+      "durationMin": 18,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "8",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
     },
     {
       "uuid": "6CCA0708-396C-4733-BEFA-D89FF4F8CE06",
@@ -8552,6 +8972,46 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "51DF553D-8953-4D3D-BC17-CA2E71D01EC3",
+      "gameRefId": 67,
+      "locationRefId": 1,
+      "playDateYmd": 20251202,
+      "playDate": "2025-12-02 23:13:28",
+      "durationMin": 30,
+      "scoringSetting": 1,
+      "board": "1",
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "116",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "4A2333A6-CC10-47F3-B410-736BF69CF022",
+      "gameRefId": 67,
+      "locationRefId": 1,
+      "playDateYmd": 20251203,
+      "playDate": "2025-12-03 12:26:42",
+      "durationMin": 38,
+      "scoringSetting": 1,
+      "board": "2",
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "186",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "DFF05716-EFE5-492E-B736-D7DC15115112",
       "gameRefId": 13,
       "locationRefId": 1,
@@ -9175,6 +9635,35 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "6FF930B6-D52E-4EA5-9CD2-DADE65CE287F",
+      "gameRefId": 28,
+      "locationRefId": 1,
+      "playDateYmd": 20251221,
+      "playDate": "2025-12-21 21:37:54",
+      "durationMin": 180,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "多米娜",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 55
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 54
+        }
+      ]
+    },
+    {
       "uuid": "768BEF7A-87E3-4E97-86C5-D953D0CB49C3",
       "gameRefId": 28,
       "locationRefId": 1,
@@ -9199,6 +9688,35 @@ window.KIZ_DATA = {
         }
       ],
       "expansionPlays": []
+    },
+    {
+      "uuid": "0D70BE18-8459-489F-B136-462467A3D020",
+      "gameRefId": 28,
+      "locationRefId": 1,
+      "playDateYmd": 20251226,
+      "playDate": "2025-12-26 21:42:49",
+      "durationMin": 210,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 56
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 53
+        }
+      ]
     },
     {
       "uuid": "89EED489-B79F-4F30-BDE8-5CF8055E755A",
@@ -9716,6 +10234,26 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "BA4F68A2-E65D-4CF3-A35E-36034BEF4DE4",
+      "gameRefId": 28,
+      "locationRefId": 1,
+      "playDateYmd": 20260107,
+      "playDate": "2026-01-07 23:47:26",
+      "durationMin": 270,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "纳西索斯",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "6CE4F063-8B2A-4E8A-88EF-0850D90F2C68",
       "gameRefId": 77,
       "locationRefId": 1,
@@ -9755,6 +10293,46 @@ window.KIZ_DATA = {
           "score": "49",
           "winner": true,
           "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "9AB3BBCA-5043-4380-B783-2BFB81F09731",
+      "gameRefId": 50,
+      "locationRefId": 1,
+      "playDateYmd": 20260114,
+      "playDate": "2026-01-14 19:09:27",
+      "durationMin": 25,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "4",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "C163859A-1ECA-47D7-95D7-1E21966BB024",
+      "gameRefId": 50,
+      "locationRefId": 1,
+      "playDateYmd": 20260115,
+      "playDate": "2026-01-15 23:59:19",
+      "durationMin": 60,
+      "scoringSetting": 6,
+      "board": null,
+      "comments": "13",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 2
         }
       ],
       "expansionPlays": []
@@ -19180,6 +19758,55 @@ window.KIZ_DATA = {
       "expansionPlays": []
     },
     {
+      "uuid": "94811C64-E765-4460-88BF-DF05F25E1143",
+      "gameRefId": 74,
+      "locationRefId": 1,
+      "playDateYmd": 20260905,
+      "playDate": "2026-09-05 13:57:16",
+      "durationMin": 80,
+      "scoringSetting": 1,
+      "board": "Solo",
+      "comments": "",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "70",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": [
+        {
+          "bggId": 0,
+          "gameRefId": 79
+        },
+        {
+          "bggId": 0,
+          "gameRefId": 78
+        }
+      ]
+    },
+    {
+      "uuid": "0BD535EC-387A-41E7-A545-066E8E783CBB",
+      "gameRefId": 23,
+      "locationRefId": 1,
+      "playDateYmd": 20260905,
+      "playDate": "2026-09-05 20:49:22",
+      "durationMin": 27,
+      "scoringSetting": 1,
+      "board": "Solo",
+      "comments": "成就5",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "102",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "B6FA88F1-74C6-4525-89D0-54F1C4A43140",
       "gameRefId": 98,
       "locationRefId": 1,
@@ -19325,6 +19952,26 @@ window.KIZ_DATA = {
         {
           "playerRefId": 1,
           "score": "250",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "4C24C81E-394E-4F1C-88D8-926461492D01",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20260907,
+      "playDate": "2026-09-07 23:06:35",
+      "durationMin": 23,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "10",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
           "winner": true,
           "rank": 1
         }
@@ -19641,6 +20288,46 @@ window.KIZ_DATA = {
         {
           "playerRefId": 3,
           "score": "220",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "CBB5DCAB-5D6A-4A18-A4F0-8E453B27C1D3",
+      "gameRefId": 124,
+      "locationRefId": 1,
+      "playDateYmd": 20260915,
+      "playDate": "2026-09-15 12:34:21",
+      "durationMin": 0,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "黄金权杖1",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": false,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "1ED20E3E-D845-4326-B1F2-9938902D69C8",
+      "gameRefId": 124,
+      "locationRefId": 1,
+      "playDateYmd": 20260915,
+      "playDate": "2026-09-15 12:43:30",
+      "durationMin": 18,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "黄金权杖2\n铜放大镜",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
           "winner": true,
           "rank": 1
         }
@@ -20854,6 +21541,66 @@ window.KIZ_DATA = {
       ]
     },
     {
+      "uuid": "1FC773F8-5DC6-4D5A-99CE-A750AF7B8155",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20261013,
+      "playDate": "2026-10-13 13:04:41",
+      "durationMin": 41,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "11",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "8F7DF36A-F7FC-4AC7-AEE9-016D8132EC7B",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20261015,
+      "playDate": "2026-10-15 12:56:29",
+      "durationMin": 34,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "13",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
+      "uuid": "1AA1B07D-4D5D-4DFA-9E65-39A8F040218C",
+      "gameRefId": 66,
+      "locationRefId": 1,
+      "playDateYmd": 20261016,
+      "playDate": "2026-10-16 21:35:47",
+      "durationMin": 18,
+      "scoringSetting": 3,
+      "board": null,
+      "comments": "14",
+      "playerScores": [
+        {
+          "playerRefId": 1,
+          "score": "",
+          "winner": true,
+          "rank": 1
+        }
+      ],
+      "expansionPlays": []
+    },
+    {
       "uuid": "B371DC34-0627-4A7F-AF64-2F49EFED52B6",
       "gameRefId": 43,
       "locationRefId": 1,
@@ -21615,7 +22362,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/VrNrk7XVU1hN0j1ZFhjcjw__original/img/IYxnn0KV56lDy18_0e23DSLcMso=/0x0/filters:format(jpeg)/pic4934938.jpg",
       "urlThumb": "https://cf.geekdo-images.com/VrNrk7XVU1hN0j1ZFhjcjw__thumb/img/6XPO0XNGGw3V77NjWR0K7Y33fqc=/fit-in/200x150/filters:strip_icc()/pic4934938.jpg",
       "isExpansion": 0,
-      "playCount": 7,
+      "playCount": 8,
       "bggRank": null,
       "bggRating": 8.45527,
       "complexity": 2.9,
@@ -22484,7 +23231,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__original/img/B374C04Eip7fmQBGJzgiOTp-jyQ=/0x0/filters:format(jpeg)/pic5100691.jpg",
       "urlThumb": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__thumb/img/tVSFjSxYEcw7sKj3unIIQV8kxoc=/fit-in/200x150/filters:strip_icc()/pic5100691.jpg",
       "isExpansion": 0,
-      "playCount": 3,
+      "playCount": 5,
       "bggRank": 61,
       "bggRating": 7.8823,
       "complexity": 1.8,
@@ -22505,10 +23252,12 @@ window.KIZ_DATA = {
       "sold": false,
       "recordHolder": {
         "names": [
+          "陈勇杰",
           "王乐桐"
         ],
         "score": "102",
         "dates": [
+          "20260905",
           "20260515"
         ],
         "lowerBetter": false
@@ -22696,7 +23445,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__original/img/kIX9K4lOWHA3N9Mbp_tv3kHdjH8=/0x0/filters:format(jpeg)/pic6459659.jpg",
       "urlThumb": "https://cf.geekdo-images.com/-zpfJOZF6eRc60DVt5Y_cg__thumb/img/1vOvXQ6dCrBd5uzciGpc8-cbZuM=/fit-in/200x150/filters:strip_icc()/pic6459659.jpg",
       "isExpansion": 1,
-      "playCount": 1,
+      "playCount": 5,
       "bggRank": 1285,
       "bggRating": 8.80049,
       "complexity": 3.9,
@@ -22733,7 +23482,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/U2REknDWUEXMo-LU8lAPNg__original/img/73UNG0rEHX5Q7Khzv8-OawnmFgM=/0x0/filters:format(png)/pic8828048.png",
       "urlThumb": "https://cf.geekdo-images.com/U2REknDWUEXMo-LU8lAPNg__thumb/img/mAmYUmxM_rJZfOCbVtY3kV73ET4=/fit-in/200x150/filters:strip_icc()/pic8828048.png",
       "isExpansion": 0,
-      "playCount": 1,
+      "playCount": 4,
       "bggRank": 3025,
       "bggRating": 7.95874,
       "complexity": 2.6,
@@ -23222,7 +23971,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__original/img/qtWs6Wg0a241k2D1TWWbesVwu-s=/0x0/filters:format(jpeg)/pic6985339.jpg",
       "urlThumb": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__thumb/img/3et-UTpNaMhKlHPgnj89mkTkGkU=/fit-in/200x150/filters:strip_icc()/pic6985339.jpg",
       "isExpansion": 0,
-      "playCount": 2,
+      "playCount": 4,
       "bggRank": 354,
       "bggRating": 7.88223,
       "complexity": 2.5,
@@ -23333,7 +24082,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__original/img/FPBVNyv_zj3GJqqp8ZdkwNcREBA=/0x0/filters:format(png)/pic7062819.png",
       "urlThumb": "https://cf.geekdo-images.com/eRZrIEybJ9trOGeT6UPMSQ__thumb/img/nI32TO4iNeOIcUM39y8AKVl9rwo=/fit-in/200x150/filters:strip_icc()/pic7062819.png",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.65569,
       "complexity": 3.6,
@@ -23370,7 +24119,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__original/img/et_n56Ng35DPxOFW1CgH_-MjoGw=/0x0/filters:format(jpeg)/pic6478237.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ANXUJKalYTsaW1IEK_GAMg__thumb/img/ogt_oWV3RJW6tcVO_jDVtvSp_MI=/fit-in/200x150/filters:strip_icc()/pic6478237.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.73028,
       "complexity": 3.3,
@@ -23407,7 +24156,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__original/img/5MwgvP_hBijNifRJGCuq9PS5po0=/0x0/filters:format(jpeg)/pic6478240.jpg",
       "urlThumb": "https://cf.geekdo-images.com/GZXO7uygTixlKFa51PA53A__thumb/img/ScKhnZdxSfqUdJ8rm_2jDeoCFSE=/fit-in/200x150/filters:strip_icc()/pic6478240.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.68206,
       "complexity": 4.0,
@@ -23444,7 +24193,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__original/img/pYNRPK2lsim_6vFJU0NwaN8WsTw=/0x0/filters:format(jpeg)/pic6478243.jpg",
       "urlThumb": "https://cf.geekdo-images.com/723fi3T92PlV3yFH0cXbRA__thumb/img/Ov6SSJ1nJ8XBE-we722E9cefEow=/fit-in/200x150/filters:strip_icc()/pic6478243.jpg",
       "isExpansion": 1,
-      "playCount": 0,
+      "playCount": 1,
       "bggRank": null,
       "bggRating": 8.661,
       "complexity": 4.0,
@@ -23769,7 +24518,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/Z6MMX39UEAZT3-f-DlnHsA__original/img/0t6A_tOIToHUkrBkhd2vUKDfric=/0x0/filters:format(jpeg)/pic8114705.jpg",
       "urlThumb": "https://cf.geekdo-images.com/Z6MMX39UEAZT3-f-DlnHsA__small/img/5Bf6oWIJTdHYpLAodTPqbDxh_Bc=/fit-in/200x150/filters:strip_icc()/pic8114705.jpg",
       "isExpansion": 0,
-      "playCount": 0,
+      "playCount": 16,
       "bggRank": 887,
       "bggRating": 7.46972,
       "complexity": 3.3,
@@ -23785,7 +24534,7 @@ window.KIZ_DATA = {
       ],
       "ownedThumb": "",
       "ownedVersionLabel": "",
-      "playedStandalone": false,
+      "playedStandalone": true,
       "prevowned": false,
       "sold": false,
       "recordHolder": null
@@ -23806,7 +24555,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/C6V2VCtf1_7cavenn7Is3A__original/img/mdgxo4BZpLgvG20XfNHfMg8j8Go=/0x0/filters:format(jpeg)/pic8932906.jpg",
       "urlThumb": "https://cf.geekdo-images.com/C6V2VCtf1_7cavenn7Is3A__small/img/ZJJOWNSKk81xpvNkMpGd5T0ybLo=/fit-in/200x150/filters:strip_icc()/pic8932906.jpg",
       "isExpansion": 0,
-      "playCount": 5,
+      "playCount": 8,
       "bggRank": 749,
       "bggRating": 7.64941,
       "complexity": 2.8,
@@ -23829,9 +24578,9 @@ window.KIZ_DATA = {
         "names": [
           "陈勇杰"
         ],
-        "score": "141",
+        "score": "186",
         "dates": [
-          "20251228"
+          "20251203"
         ],
         "lowerBetter": false
       }
@@ -23889,7 +24638,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/ZaBpuleG30S1-hAmJnL4RA__original/img/V1kFJ4iZmcH94m7gNYgHvuMny0w=/0x0/filters:format(jpeg)/pic7077185.jpg",
       "urlThumb": "https://cf.geekdo-images.com/ZaBpuleG30S1-hAmJnL4RA__small/img/7AM38OD3FPy_I1Z2t8HP2GYz4WU=/fit-in/200x150/filters:strip_icc()/pic7077185.jpg",
       "isExpansion": 0,
-      "playCount": 3,
+      "playCount": 5,
       "bggRank": 1023,
       "bggRating": 7.29103,
       "complexity": 2.4,
@@ -23935,7 +24684,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/602eY-xlgkaL3gtyZ7QVVQ__original/img/0pBr7ImqUOKLPUb12_r0_R0MD1M=/0x0/filters:format(jpeg)/pic7347437.jpg",
       "urlThumb": "https://cf.geekdo-images.com/602eY-xlgkaL3gtyZ7QVVQ__small/img/6u9GKTBVH0wRAhhpOi1kn3sSNeo=/fit-in/200x150/filters:strip_icc()/pic7347437.jpg",
       "isExpansion": 0,
-      "playCount": 3,
+      "playCount": 4,
       "bggRank": 714,
       "bggRating": 7.32247,
       "complexity": 1.6,
@@ -24055,7 +24804,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__original/img/QMm4IWF48v833dzB53JkFpxDRYc=/0x0/filters:format(png)/pic9155610.png",
       "urlThumb": "https://cf.geekdo-images.com/segX0Ohxc_-6_io5qH1Erg__small/img/Nt315pbCT2hH2XsPuXo4RzS5BC4=/fit-in/200x150/filters:strip_icc()/pic9155610.png",
       "isExpansion": 1,
-      "playCount": 2,
+      "playCount": 3,
       "bggRank": null,
       "bggRating": 7.77053,
       "complexity": 2.7,
@@ -25315,7 +26064,7 @@ window.KIZ_DATA = {
       "urlImage": "https://cf.geekdo-images.com/0GirCf3O4zKBOzAIncZa8g__original/img/g2Q1D1gQGHg_hm5whKJYVsP4j5Q=/0x0/filters:format(png)/pic8587448.png",
       "urlThumb": "https://cf.geekdo-images.com/0GirCf3O4zKBOzAIncZa8g__small/img/A9lK55A9bE-bMVNAgsrtXkJ6Z8g=/fit-in/200x150/filters:strip_icc()/pic8587448.png",
       "isExpansion": 0,
-      "playCount": 6,
+      "playCount": 8,
       "bggRank": 5481,
       "bggRating": 7.62209,
       "complexity": 2.6,
@@ -25442,11 +26191,11 @@ window.KIZ_DATA = {
     }
   ],
   "stats": {
-    "totalPlays": 551,
+    "totalPlays": 587,
     "totalPlayers": 61,
     "totalGames": 94,
-    "avgPlaysPerGame": 5.9,
-    "avgPlaysPerPlayer": 9.0,
+    "avgPlaysPerGame": 6.2,
+    "avgPlaysPerPlayer": 9.6,
     "topGames": [
       {
         "gameRefId": 20,
@@ -25477,22 +26226,22 @@ window.KIZ_DATA = {
         "count": 18
       },
       {
+        "gameRefId": 66,
+        "count": 16
+      },
+      {
         "gameRefId": 98,
         "count": 16
       },
       {
         "gameRefId": 22,
         "count": 15
-      },
-      {
-        "gameRefId": 27,
-        "count": 13
       }
     ],
     "topPlayers": [
       {
         "playerRefId": 1,
-        "count": 511
+        "count": 547
       },
       {
         "playerRefId": 3,
