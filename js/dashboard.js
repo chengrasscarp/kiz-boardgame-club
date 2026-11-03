@@ -13,9 +13,7 @@ function dashTruncate(s, n) {
   return s.length > n ? s.slice(0, n) + '…' : s;
 }
 
-function ymdOf(d) {
-  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
-}
+// ymdOf / parseYmdToDate / getMonday 由 main.js 提供，此处不重复定义。
 
 // 横向条形图（适合排行榜：游戏/玩家/胜率/搭子/分布）
 // items: [{label, value, sub}] 已按数值降序

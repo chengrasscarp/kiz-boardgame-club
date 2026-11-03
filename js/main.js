@@ -52,6 +52,11 @@ function isoWeekNumber(d) {
 }
 
 /* ===== Helpers ===== */
+// 由 Date 得到 YYYYMMDD 数字键（report.js / dashboard.js 共用）
+function ymdOf(d) {
+  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+}
+
 var GAME_CARD_COLORS = [
   'linear-gradient(135deg, #E17055, #D4A574)',
   'linear-gradient(135deg, #2D5A3D, #4a8a5a)',
@@ -94,14 +99,21 @@ function pickAvatarTextColor(bg) {
   return L > 62 ? '#2b2b2b' : '#ffffff';
 }
 
-// bgColor: 头像底色（如 player.avatarColor）；extraStyle: 附加内联样式（无需 style= 前缀）
-function renderAvatar(name, bgColor, extraStyle) {
-  var imgPath = 'img/' + name + '.jpg';
+// player: 成员对象（含 name/avatarColor/hasAvatar）；extraStyle: 附加内联样式（无需 style= 前缀）
+function renderAvatar(player, extraStyle) {
+  var bgColor = player.avatarColor;
   var styleAttr = (bgColor ? 'background:' + bgColor + ';' : '') + (extraStyle || '');
   var tc = pickAvatarTextColor(bgColor);
+  // 仅当生成期检测到 img/<姓名>.jpg 存在时才输出 <img>，避免无照片成员发起必然 404 的请求。
+  // 图片为装饰性（首字母已传达身份），故 alt="" + aria-hidden。
+  var imgHtml = '';
+  if (player.hasAvatar) {
+    imgHtml = '<img src="img/' + encodeURIComponent(player.name) + '.jpg" class="avatar-img" alt="" aria-hidden="true" ' +
+      'onerror="this.style.display=\'none\'" onload="this.style.display=\'block\'">';
+  }
   return '<div class="member-avatar"' + (styleAttr ? ' style="' + styleAttr + '"' : '') + '>' +
-    '<img src="' + imgPath + '" class="avatar-img" onerror="this.style.display=\'none\'" onload="this.style.display=\'block\'">' +
-    '<span class="avatar-initial" style="color:' + tc + '">' + name.charAt(0) + '</span>' +
+    imgHtml +
+    '<span class="avatar-initial" style="color:' + tc + '">' + escapeHtml(player.name.charAt(0)) + '</span>' +
   '</div>';
 }
 
@@ -353,17 +365,17 @@ function fillStats() {
 /* ===== Home Page: Hot Games ===== */
 // 通用游戏卡片（点击跳转详情页），供热门游戏 / 近期上新复用
 function buildGameCardHtml(game, subline) {
-  var name = game.name;
+  var name = escapeHtml(game.name);
   var thumb = getGameThumb(game);
   var soldBadge = game.sold ? '<span class="sold-badge">已出</span>' : '';
   return '<div class="game-card" onclick="location.href=\'game.html?id=' + game.id + '\'">' +
     '<div class="game-card-image">' +
-      (thumb ? '<img src="' + thumb + '" alt="' + name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
+      (thumb ? '<img src="' + escapeHtml(thumb) + '" alt="' + name + '" loading="lazy" decoding="async">' : '<span class="game-card-placeholder">🎲</span>') +
       soldBadge +
     '</div>' +
     '<div class="game-card-body">' +
       '<div class="game-card-title">' + name + '</div>' +
-      '<div class="game-card-plays">' + (subline != null ? subline : ('🏆 ' + (game.playCount || 0) + '次游玩')) + '</div>' +
+      '<div class="game-card-plays">' + (subline != null ? escapeHtml(subline) : ('🏆 ' + (game.playCount || 0) + '次游玩')) + '</div>' +
     '</div>' +
   '</div>';
 }
@@ -481,15 +493,15 @@ function renderRecentPlays() {
     var winner = getWinnerFromScores(play.playerScores);
 
     var playerNames = play.playerScores.map(function(ps) {
-      return getPlayerNameById(ps.playerRefId);
+      return escapeHtml(getPlayerNameById(ps.playerRefId));
     }).join(' · ');
 
     html += '<div class="timeline-item">' +
       '<div class="timeline-dot"></div>' +
       '<div class="timeline-card">' +
-        '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + locName + '</div>' +
-        '<div class="timeline-game">' + gameName + onlineBadge(play) +
-          (winner ? ' <span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
+        '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + escapeHtml(locName) + '</div>' +
+        '<div class="timeline-game">' + escapeHtml(gameName) + onlineBadge(play) +
+          (winner ? ' <span class="timeline-winner">🏆 ' + escapeHtml(winner.name) + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
         '</div>' +
         '<div class="timeline-players">👥 ' + playerNames + '</div>' +
       '</div>' +
@@ -554,32 +566,32 @@ function renderGameLibrary() {
     var gpHtml = '';
     if (gp) {
       var crownLabel = gp.names.length > 1 ? '👑 胜率王（并列）' : '👑 胜率王';
-      gpHtml = '<div class="winrate-line">' + crownLabel + '：' + gp.names.join('、') + '（' + gp.rate + '%）</div>';
+      gpHtml = '<div class="winrate-line">' + crownLabel + '：' + escapeHtml(gp.names.join('、')) + '（' + gp.rate + '%）</div>';
     }
-    var verBadge = g.ownedVersionLabel ? '<span class="version-badge">' + g.ownedVersionLabel + '</span>' : '';
+    var verBadge = g.ownedVersionLabel ? '<span class="version-badge">' + escapeHtml(g.ownedVersionLabel) + '</span>' : '';
     var soldBadge = g.sold ? '<span class="sold-badge">已出</span>' : '';
     var rec = g.recordHolder;
     var recHtml = '';
     if (rec && rec.names && rec.names.length) {
-      var names = rec.names.join('、');
+      var names = escapeHtml(rec.names.join('、'));
       var titleParts = [];
       for (var ri = 0; ri < rec.names.length; ri++) {
         var rd = (rec.dates && rec.dates[ri]) ? rec.dates[ri] : '';
         var rpd = (rd.length === 8) ? rd.slice(0,4) + '-' + rd.slice(4,6) + '-' + rd.slice(6,8) : rd;
         titleParts.push(rec.names[ri] + (rpd ? ' ' + rpd : ''));
       }
-      var recTitle = titleParts.length ? ' title="记录保持者：' + titleParts.join('、') + '"' : '';
+      var recTitle = titleParts.length ? ' title="记录保持者：' + escapeHtml(titleParts.join('、')) + '"' : '';
       recHtml = '<div class="record-line"' + recTitle + '>🏅 记录：' + names + ' ' + rec.score + '分</div>';
     }
     return '<div class="game-card" onclick="location.href=\'game.html?id=' + g.id + '\'">' +
       '<div class="game-card-image">' +
-        (thumb ? '<img src="' + thumb + '" alt="' + g.name + '" loading="lazy">' : '<span class="game-card-placeholder">🎲</span>') +
+        (thumb ? '<img src="' + escapeHtml(thumb) + '" alt="' + escapeHtml(g.name) + '" loading="lazy" decoding="async">' : '<span class="game-card-placeholder">🎲</span>') +
         rankBadge +
         verBadge +
         soldBadge +
       '</div>' +
       '<div class="game-card-body">' +
-        '<div class="game-card-title">' + g.name + '</div>' +
+        '<div class="game-card-title">' + escapeHtml(g.name) + '</div>' +
         '<div class="game-card-meta">' +
           (stars ? '<span class="meta-stars">' + stars + '</span>' : '') +
           (complexityHtml || '') +
@@ -589,7 +601,7 @@ function renderGameLibrary() {
         recHtml +
         '<div class="game-card-tags">' +
           '<span class="tag tag-primary">👥 ' + g.minPlayers + '-' + g.maxPlayers + '人</span>' +
-          (g.bestPlayers ? '<span class="tag tag-accent">👍 ' + g.bestPlayers + '人</span>' : '') +
+          (g.bestPlayers ? '<span class="tag tag-accent">👍 ' + escapeHtml(g.bestPlayers) + '人</span>' : '') +
           (g.yearPublished ? '<span class="tag tag-secondary">📅 ' + g.yearPublished + '</span>' : '') +
         '</div>' +
       '</div>' +
@@ -717,16 +729,16 @@ function renderGameProfile() {
   var html = '<div class="profile-header">' +
     '<div class="profile-avatar-wrap">' +
       (thumb
-        ? '<img class="game-profile-cover" src="' + thumb + '" alt="' + game.name + '">'
+        ? '<img class="game-profile-cover" src="' + escapeHtml(thumb) + '" alt="' + escapeHtml(game.name) + '" decoding="async">'
         : '<div class="game-profile-cover game-profile-cover-empty">🎲</div>') +
     '</div>' +
     '<div class="profile-info">' +
-      '<h1 class="profile-name">' + game.name +
-        (game.ownedVersionLabel ? ' <span class="version-badge">' + game.ownedVersionLabel + '</span>' : '') +
+      '<h1 class="profile-name">' + escapeHtml(game.name) +
+        (game.ownedVersionLabel ? ' <span class="version-badge">' + escapeHtml(game.ownedVersionLabel) + '</span>' : '') +
       '</h1>' +
       '<div class="game-card-tags" style="margin-top:8px;">' +
         '<span class="tag tag-primary">👥 ' + game.minPlayers + '-' + game.maxPlayers + '人</span>' +
-        (game.bestPlayers ? '<span class="tag tag-accent">👍 ' + game.bestPlayers + '人</span>' : '') +
+        (game.bestPlayers ? '<span class="tag tag-accent">👍 ' + escapeHtml(game.bestPlayers) + '人</span>' : '') +
         (game.yearPublished ? '<span class="tag tag-secondary">📅 ' + game.yearPublished + '</span>' : '') +
         (game.bggRating ? '<span class="tag tag-secondary">⭐ BGG ' + game.bggRating.toFixed(1) + '</span>' : '') +
         (game.bggRank ? '<span class="tag tag-secondary">#️⃣ BGG Rank ' + game.bggRank + '</span>' : '') +
@@ -758,8 +770,8 @@ function renderGameProfile() {
 
   // ===== 统计卡片 =====
   var rec = game.recordHolder;
-  var recText = (rec && rec.names && rec.names.length) ? rec.names.join('、') + ' ' + rec.score + '分' : '—';
-  var bpText = bestPlayer ? bestPlayer.names.join('、') + '（' + bestPlayer.rate + '%）' : '—';
+  var recText = (rec && rec.names && rec.names.length) ? escapeHtml(rec.names.join('、')) + ' ' + rec.score + '分' : '—';
+  var bpText = bestPlayer ? escapeHtml(bestPlayer.names.join('、')) + '（' + bestPlayer.rate + '%）' : '—';
   html += '<div class="profile-stats">' +
     '<div class="profile-stat-card"><div class="stat-value">' + gamePlays.length + '</div><div class="stat-label">总场次</div></div>' +
     '<div class="profile-stat-card"><div class="stat-value">' + participantCount + '</div><div class="stat-label">参与成员</div></div>' +
@@ -778,7 +790,7 @@ function renderGameProfile() {
       var rate = Math.round(row.wins / row.plays * 100);
       var crown = crownNames.indexOf(row.name) !== -1 ? '👑 ' : '';
       html += '<div class="profile-game-item">' +
-        '<span class="profile-game-name">' + crown + row.name + '</span>' +
+        '<span class="profile-game-name">' + crown + escapeHtml(row.name) + '</span>' +
         '<span class="profile-game-stat">' + rate + '%</span>' +
         '<span class="profile-game-detail">（' + row.wins + '胜/' + row.plays + '局）</span>' +
       '</div>';
@@ -793,13 +805,13 @@ function renderGameProfile() {
     html += '<h2 class="profile-section-title">🧩 扩展与变体</h2><div class="profile-game-list">';
     for (var en = 0; en < expNames.length; en++) {
       html += '<div class="profile-game-item">' +
-        '<span class="profile-game-name">🧩 ' + expNames[en] + '</span>' +
+        '<span class="profile-game-name">🧩 ' + escapeHtml(expNames[en]) + '</span>' +
         '<span class="profile-game-detail">使用 ' + expCount[expNames[en]] + ' 次</span>' +
       '</div>';
     }
     for (var bn = 0; bn < boardNames.length; bn++) {
       html += '<div class="profile-game-item">' +
-        '<span class="profile-game-name">🎲 ' + boardNames[bn] + '</span>' +
+        '<span class="profile-game-name">🎲 ' + escapeHtml(boardNames[bn]) + '</span>' +
         '<span class="profile-game-detail">使用 ' + boardCount[boardNames[bn]] + ' 次</span>' +
       '</div>';
     }
@@ -822,8 +834,8 @@ function renderGameProfile() {
       for (var si2 = 0; si2 < play.playerScores.length; si2++) {
         var ps2 = play.playerScores[si2];
         if (si2 > 0) playerNames += ' · ';
-        playerNames += getPlayerNameById(ps2.playerRefId);
-        if (hasScoring && ps2.score && !ps2.winner) playerNames += ' ' + ps2.score + '分';
+        playerNames += escapeHtml(getPlayerNameById(ps2.playerRefId));
+        if (hasScoring && ps2.score && !ps2.winner) playerNames += ' ' + escapeHtml(ps2.score) + '分';
       }
 
       var expHtml = '';
@@ -833,17 +845,17 @@ function renderGameProfile() {
           var en2 = getGameNameById(play.expansionPlays[ei].gameRefId);
           if (en2) exNames.push(en2);
         }
-        if (exNames.length > 0) expHtml = '<div class="timeline-expansion">🧩 ' + exNames.join('、') + '</div>';
+        if (exNames.length > 0) expHtml = '<div class="timeline-expansion">🧩 ' + escapeHtml(exNames.join('、')) + '</div>';
       }
-      var boardHtml = play.board ? '<div class="timeline-board">🎲 变体：' + play.board + '</div>' : '';
-      var commentHtml = play.comments ? '<div class="timeline-comment">📝 ' + play.comments + '</div>' : '';
+      var boardHtml = play.board ? '<div class="timeline-board">🎲 变体：' + escapeHtml(play.board) + '</div>' : '';
+      var commentHtml = play.comments ? '<div class="timeline-comment">📝 ' + escapeHtml(play.comments) + '</div>' : '';
 
       html += '<div class="timeline-item">' +
         '<div class="timeline-dot"></div>' +
         '<div class="timeline-card">' +
-          '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + locName + '</div>' +
+          '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + escapeHtml(locName) + '</div>' +
           '<div class="timeline-game">' +
-            (winner ? '<span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
+            (winner ? '<span class="timeline-winner">🏆 ' + escapeHtml(winner.name) + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
             onlineBadge(play) +
           '</div>' +
           expHtml + boardHtml +
@@ -1049,12 +1061,12 @@ function renderPlayRecords() {
       var playerNames = '';
       for (var si2 = 0; si2 < play.playerScores.length; si2++) {
         var ps = play.playerScores[si2];
-        var pn = getPlayerNameById(ps.playerRefId);
+        var pn = escapeHtml(getPlayerNameById(ps.playerRefId));
         if (si2 > 0) playerNames += ' · ';
         playerNames += pn;
         // 非冠军玩家才记分数（冠军的分数已显示在游戏名右边）
         if (hasScoring && ps.score && !ps.winner) {
-          playerNames += ' ' + ps.score + '分';
+          playerNames += ' ' + escapeHtml(ps.score) + '分';
         }
       }
 
@@ -1068,27 +1080,27 @@ function renderPlayRecords() {
           if (expGame) expNames.push(expGame.name);
         }
         if (expNames.length > 0) {
-          expHtml = '<div class="timeline-expansion">🧩 ' + expNames.join('、') + '</div>';
+          expHtml = '<div class="timeline-expansion">🧩 ' + escapeHtml(expNames.join('、')) + '</div>';
         }
       }
 
       // 变体/版图信息
       var boardHtml = '';
       if (play.board) {
-        boardHtml = '<div class="timeline-board">🎲 变体：' + play.board + '</div>';
+        boardHtml = '<div class="timeline-board">🎲 变体：' + escapeHtml(play.board) + '</div>';
       }
 
       var commentHtml = '';
       if (play.comments) {
-        commentHtml = '<div class="timeline-comment">📝 ' + play.comments + '</div>';
+        commentHtml = '<div class="timeline-comment">📝 ' + escapeHtml(play.comments) + '</div>';
       }
 
       html += '<div class="timeline-item">' +
         '<div class="timeline-dot"></div>' +
         '<div class="timeline-card">' +
-          '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + locName + '</div>' +
-          '<div class="timeline-game">' + gameName + onlineBadge(play) +
-            (winner ? ' <span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
+          '<div class="timeline-date">' + formatDate(play.playDateYmd) + ' · ' + escapeHtml(locName) + '</div>' +
+          '<div class="timeline-game">' + escapeHtml(gameName) + onlineBadge(play) +
+            (winner ? ' <span class="timeline-winner">🏆 ' + escapeHtml(winner.name) + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
           '</div>' +
           expHtml +
           boardHtml +
@@ -1224,8 +1236,8 @@ function renderMemberWall() {
       html += '<a href="member.html?id=' + p.id + '" class="podium-card-link">' +
         '<div class="podium-card ' + podiumClasses[i] + '">' +
         '<div class="podium-medal">' + medals[i] + '</div>' +
-        renderAvatar(p.name, p.avatarColor, 'margin:8px auto;') +
-        '<div class="podium-name">' + p.name + '</div>' +
+        renderAvatar(p, 'margin:8px auto;') +
+        '<div class="podium-name">' + escapeHtml(p.name) + '</div>' +
         '<div class="podium-plays">' + (playCount[p.id] || 0) + '场</div>' +
       '</div></a>';
     }
@@ -1240,11 +1252,11 @@ function renderMemberWall() {
       var p = sorted[i];
       var initial = p.name.charAt(0);
       var bg = getPlayerBestGame(p.id, winMaps);
-      var bgHtml = bg ? '<div class="member-best">🏆 最擅长：' + bg.gameName + '（' + bg.rate + '%，' + bg.wins + '/' + bg.plays + '）</div>' : '';
+      var bgHtml = bg ? '<div class="member-best">🏆 最擅长：' + escapeHtml(bg.gameName) + '（' + bg.rate + '%，' + bg.wins + '/' + bg.plays + '）</div>' : '';
       html += '<a href="member.html?id=' + p.id + '" class="member-card-link">' +
       '<div class="member-card">' +
-        renderAvatar(p.name, p.avatarColor, '') +
-        '<div class="member-name">' + p.name + '</div>' +
+        renderAvatar(p, '') +
+        '<div class="member-name">' + escapeHtml(p.name) + '</div>' +
         '<div class="member-plays">' + (playCount[p.id] || 0) + '场</div>' +
         bgHtml +
       '</div></a>';
@@ -1341,13 +1353,13 @@ function renderMemberProfile() {
   // Header
   html += '<div class="profile-header">' +
     '<div class="profile-avatar-wrap">' +
-      renderAvatar(player.name, player.avatarColor, 'width:80px;height:80px;font-size:32px;') +
+      renderAvatar(player, 'width:80px;height:80px;font-size:32px;') +
     '</div>' +
     '<div class="profile-info">' +
-      '<h1 class="profile-name">' + player.name + '</h1>';
+      '<h1 class="profile-name">' + escapeHtml(player.name) + '</h1>';
 
   if (player.bgaUsername) {
-    html += '<div class="profile-bgg">🎮 <a href="https://boardgamearena.com/" target="_blank" rel="noopener">BGA: ' + player.bgaUsername + '</a></div>';
+    html += '<div class="profile-bgg">🎮 <a href="https://boardgamearena.com/" target="_blank" rel="noopener">BGA: ' + escapeHtml(player.bgaUsername) + '</a></div>';
   }
 
   html += '<a href="members.html" class="profile-back">← 返回成员墙</a>' +
@@ -1366,7 +1378,7 @@ function renderMemberProfile() {
     html += '<h2 class="profile-section-title">🎯 最擅长的游戏</h2><div class="profile-game-list">';
     for (var bi = 0; bi < bestRateGames.length; bi++) {
       var bg = bestRateGames[bi];
-      var gn = gameNames[bg.id] || 'Unknown';
+      var gn = escapeHtml(gameNames[bg.id] || 'Unknown');
       var rate = Math.round(bg.wins / bg.plays * 100);
       html += '<div class="profile-game-item">' +
         '<span class="profile-game-name">' + gn + '</span>' +
@@ -1382,7 +1394,7 @@ function renderMemberProfile() {
     html += '<h2 class="profile-section-title">📊 玩得最多的游戏</h2><div class="profile-game-list">';
     for (var ti = 0; ti < topPlayed.length; ti++) {
       var tg = topPlayed[ti];
-      var gn2 = gameNames[tg.id] || 'Unknown';
+      var gn2 = escapeHtml(gameNames[tg.id] || 'Unknown');
       html += '<div class="profile-game-item">' +
         '<span class="profile-game-name">' + gn2 + '</span>' +
         '<span class="profile-game-stat">' + tg.plays + '局</span>' +
@@ -1398,9 +1410,9 @@ function renderMemberProfile() {
     for (var ri = 0; ri < recordGames.length; ri++) {
       var r = recordGames[ri];
       var scoreLabel = r.record.lowerBetter ? '最低' : '最高';
-      var namesDisplay = r.record.names.join('、') + ' ' + r.record.score + '分';
+      var namesDisplay = escapeHtml(r.record.names.join('、')) + ' ' + r.record.score + '分';
       html += '<div class="profile-game-item">' +
-        '<span class="profile-game-name">' + r.game.name + '</span>' +
+        '<span class="profile-game-name">' + escapeHtml(r.game.name) + '</span>' +
         '<span class="profile-game-stat">' + namesDisplay + '</span>' +
         '<span class="profile-game-detail">（' + scoreLabel + '分记录）</span>' +
       '</div>';
@@ -1443,7 +1455,7 @@ function renderMemberProfile() {
     for (var hli = 0; hli < h2hList.length; hli++) {
       var hh = h2hList[hli];
       html += '<div class="profile-game-item">' +
-        '<span class="profile-game-name">' + hh.name + '</span>' +
+        '<span class="profile-game-name">' + escapeHtml(hh.name) + '</span>' +
         '<span class="profile-game-stat">' + hh.win + '胜' + hh.loss + '负' + (hh.draw > 0 ? hh.draw + '平' : '') + '</span>' +
         '<span class="profile-game-detail">（共' + hh.plays + '局）</span>' +
       '</div>';
@@ -1455,8 +1467,8 @@ function renderMemberProfile() {
   var recentItems = [];
   for (var ri2 = 0; ri2 < sortedPlays.length; ri2++) {
     var sp = sortedPlays[ri2];
-    var gn3 = getGameNameForPlay(sp) || 'Unknown';
-    var loc = getLocationNameById(sp.locationRefId) || '';
+    var gn3 = escapeHtml(getGameNameForPlay(sp) || 'Unknown');
+    var loc = escapeHtml(getLocationNameById(sp.locationRefId) || '');
     // Find this player's score in this play
     var myPs = null;
     for (var ssi = 0; ssi < sp.playerScores.length; ssi++) {
@@ -1557,7 +1569,7 @@ function renderLeaderboard() {
   if (gamesEl) {
     var html = '';
     for (var i = 0; i < topGames.length; i++) {
-      var name = getGameNameById(topGames[i].gameRefId);
+      var name = escapeHtml(getGameNameById(topGames[i].gameRefId));
       html += '<div class="leaderboard-row">' +
         '<span class="leaderboard-rank' + (i < 3 ? ' top' : '') + '">' + (i + 1) + '</span>' +
         '<span class="leaderboard-name">' + name + '</span>' +
@@ -1572,7 +1584,7 @@ function renderLeaderboard() {
   if (playersEl) {
     var html = '';
     for (var i = 0; i < topPlayers.length; i++) {
-      var name = getPlayerNameById(topPlayers[i].id);
+      var name = escapeHtml(getPlayerNameById(topPlayers[i].id));
       html += '<div class="leaderboard-row">' +
         '<span class="leaderboard-rank' + (i < 3 ? ' top' : '') + '">' + (i + 1) + '</span>' +
         '<span class="leaderboard-name">' + name + '</span>' +
@@ -1614,7 +1626,7 @@ function renderLeaderboard() {
       var wrate = Math.round(wp.wins / wp.plays * 100);
       wrHtml += '<div class="leaderboard-row">' +
         '<span class="leaderboard-rank' + (wri < 3 ? ' top' : '') + '">' + (wri + 1) + '</span>' +
-        '<span class="leaderboard-name">' + getPlayerNameById(wp.id) + '</span>' +
+        '<span class="leaderboard-name">' + escapeHtml(getPlayerNameById(wp.id)) + '</span>' +
         '<span class="leaderboard-value">' + wrate + '% · ' + wp.wins + '胜/' + wp.plays + '场</span>' +
       '</div>';
     }
@@ -1630,7 +1642,7 @@ function renderLeaderboard() {
       var count = locPlayCount[loc.id] || 0;
       html += '<div class="leaderboard-row">' +
         '<span class="leaderboard-rank' + (i < 3 ? ' top' : '') + '">' + (i + 1) + '</span>' +
-        '<span class="leaderboard-name">' + loc.name + '</span>' +
+        '<span class="leaderboard-name">' + escapeHtml(loc.name) + '</span>' +
         '<span class="leaderboard-value">' + count + '场</span>' +
       '</div>';
     }

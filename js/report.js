@@ -1,16 +1,6 @@
 /* ===== Weekly Report ===== */
 // 自动按数据生成「每周对局简报」，默认展示最近一个完整周（周一–周日），可前后翻周。
-// 依赖 main.js 提供的 parseYmdToDate / getMonday / isoWeekNumber 共享日期工具。
-
-function escapeHtml(s) {
-  return String(s)
-    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-}
-
-function ymdOf(d) {
-  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
-}
+// 依赖 main.js 提供的 parseYmdToDate / getMonday / isoWeekNumber / ymdOf / escapeHtml 共享工具。
 
 function renderWeeklyReport() {
   var data = window.KIZ_DATA;
@@ -115,7 +105,7 @@ function renderWeeklyReport() {
       var rate = Math.round(100 * r.wins / r.plays);
       rankHtml += '<div class="leaderboard-row">' +
         '<span class="leaderboard-rank' + (ri < 3 ? ' top' : '') + '">' + (ri + 1) + '</span>' +
-        '<span class="leaderboard-name">' + r.name + '</span>' +
+        '<span class="leaderboard-name">' + escapeHtml(r.name) + '</span>' +
         '<span class="leaderboard-value">' + r.plays + '场 · ' + r.wins + '胜（' + rate + '%）</span>' +
         '</div>';
     }
@@ -131,7 +121,7 @@ function renderWeeklyReport() {
       var g = gcArr[gi];
       gameHtml += '<div class="leaderboard-row">' +
         '<span class="leaderboard-rank' + (gi < 3 ? ' top' : '') + '">' + (gi + 1) + '</span>' +
-        '<span class="leaderboard-name">' + g.name + '</span>' +
+        '<span class="leaderboard-name">' + escapeHtml(g.name) + '</span>' +
         '<span class="leaderboard-value">' + g.count + '场</span>' +
         '</div>';
     }
@@ -145,11 +135,11 @@ function renderWeeklyReport() {
       var gname = getGameNameForPlay(pp);
       var loc = getLocationNameById(pp.locationRefId);
       var winner = getWinnerFromScores(pp.playerScores);
-      var players = pp.playerScores.map(function (s) { return getPlayerNameById(s.playerRefId); }).join(' · ');
+      var players = pp.playerScores.map(function (s) { return escapeHtml(getPlayerNameById(s.playerRefId)); }).join(' · ');
       tl += '<div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-card">' +
-        '<div class="timeline-date">' + formatDate(pp.playDateYmd) + ' · ' + loc + '</div>' +
-        '<div class="timeline-game">' + gname + onlineBadge(pp) +
-        (winner ? ' <span class="timeline-winner">🏆 ' + winner.name + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
+        '<div class="timeline-date">' + formatDate(pp.playDateYmd) + ' · ' + escapeHtml(loc) + '</div>' +
+        '<div class="timeline-game">' + escapeHtml(gname) + onlineBadge(pp) +
+        (winner ? ' <span class="timeline-winner">🏆 ' + escapeHtml(winner.name) + (winner.score > 0 ? ' ' + winner.score + '分' : '') + '</span>' : '') +
         '</div>' +
         '<div class="timeline-players">👥 ' + players + '</div>' +
         '</div></div>';
@@ -172,7 +162,7 @@ function renderWeeklyReport() {
     var extra = '';
     if (debutGames.length) {
       extra += '<div class="report-extra-card"><div class="report-extra-title">🆕 本周新游戏首秀</div>' +
-        '<div class="report-extra-body">' + debutGames.join('、') + '</div></div>';
+        '<div class="report-extra-body">' + escapeHtml(debutGames.join('、')) + '</div></div>';
     }
     var extraEl = document.getElementById('repExtra');
     if (extraEl) extraEl.innerHTML = extra;
@@ -188,9 +178,9 @@ function renderWeeklyReport() {
       var busiestDay = null, bc = -1;
       for (var dk in dayCount) { if (dayCount[dk] > bc) { bc = dayCount[dk]; busiestDay = dk; } }
       var perfect = pgArr.filter(function (r) { return r.wins === r.plays && r.plays >= 1; }).map(function (r) { return r.name; });
-      hl = '📌 本周共 <b>' + total + '</b> 场对局，<b>' + formatDate(busiestDay) + '</b> 单日 ' + bc + ' 场最为活跃；<b>' + (gcArr.length ? gcArr[0].name : '—') + '</b> 以 ' +
+      hl = '📌 本周共 <b>' + total + '</b> 场对局，<b>' + formatDate(busiestDay) + '</b> 单日 ' + bc + ' 场最为活跃；<b>' + escapeHtml(gcArr.length ? gcArr[0].name : '—') + '</b> 以 ' +
         (gcArr.length ? gcArr[0].count : 0) + ' 场成为最热门游戏。';
-      if (perfect.length) hl += ' 🔥 ' + perfect.join('、') + ' 本周全胜！';
+      if (perfect.length) hl += ' 🔥 ' + escapeHtml(perfect.join('、')) + ' 本周全胜！';
     } else {
       hl = '本周暂无对局记录。';
     }
