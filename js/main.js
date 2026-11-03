@@ -2,11 +2,40 @@
 function initNavigation() {
   var toggle = document.getElementById('navToggle');
   var links = document.getElementById('navLinks');
-  if (toggle && links) {
-    toggle.addEventListener('click', function() {
-      links.classList.toggle('open');
-    });
+  if (!toggle || !links) return;
+
+  toggle.setAttribute('aria-controls', 'navLinks');
+  toggle.setAttribute('aria-expanded', 'false');
+
+  function setOpen(open) {
+    links.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
   }
+
+  toggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    setOpen(!links.classList.contains('open'));
+  });
+
+  // Esc 收起菜单并把焦点交还菜单按钮
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && links.classList.contains('open')) {
+      setOpen(false);
+      toggle.focus();
+    }
+  });
+
+  // 点击菜单外部时收起
+  document.addEventListener('click', function (e) {
+    if (!links.classList.contains('open')) return;
+    if (links.contains(e.target) || toggle.contains(e.target)) return;
+    setOpen(false);
+  });
+
+  // 视口回到桌面布局（导航断点 1024px）时清除移动菜单状态
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 1024) setOpen(false);
+  });
 }
 
 /* ===== Shared Date Helpers ===== */
@@ -363,6 +392,17 @@ function getWinnerFromScores(playerScores) {
   return best;
 }
 
+/* ===== 数据加载兜底：data.js 缺失时给出可读提示，避免整页空白 ===== */
+function requireData(containerId) {
+  var data = window.KIZ_DATA;
+  if (data) return data;
+  var el = document.getElementById(containerId);
+  if (el) {
+    el.innerHTML = '<div class="member-profile-error">数据加载失败，请检查网络连接后刷新重试。</div>';
+  }
+  return null;
+}
+
 /* ===== Home Page: Stats ===== */
 function fillStats() {
   var data = window.KIZ_DATA;
@@ -383,7 +423,7 @@ function buildGameCardHtml(game, subline) {
   var name = escapeHtml(game.name);
   var thumb = getGameThumb(game);
   var soldBadge = game.sold ? '<span class="sold-badge">已出</span>' : '';
-  return '<div class="game-card" onclick="location.href=\'game.html?id=' + game.id + '\'">' +
+  return '<a class="game-card" href="game.html?id=' + game.id + '">' +
     '<div class="game-card-image">' +
       (thumb ? '<img src="' + escapeHtml(thumb) + '" alt="' + name + '" loading="lazy" decoding="async">' : '<span class="game-card-placeholder">🎲</span>') +
       soldBadge +
@@ -392,7 +432,7 @@ function buildGameCardHtml(game, subline) {
       '<div class="game-card-title">' + name + '</div>' +
       '<div class="game-card-plays">' + (subline != null ? escapeHtml(subline) : ('🏆 ' + (game.playCount || 0) + '次游玩')) + '</div>' +
     '</div>' +
-  '</div>';
+  '</a>';
 }
 
 // 计算每款游戏在全数据集中的「首次游玩日期」
@@ -424,7 +464,8 @@ function renderHotGames() {
   var container = document.getElementById('hotGames');
   if (!container) return;
 
-  var data = window.KIZ_DATA;
+  var data = requireData('hotGames');
+  if (!data) return;
   // 热门游戏只展示本体游戏，以及"既是本体又是扩展"的游戏（如沙丘：帝国-起义）；
   // 纯扩展（isExpansion 且从未作为本体开过局）不展示
   var hotPool = data.games.filter(function(g) {
@@ -449,7 +490,8 @@ function renderNewGames(containerId, titleId) {
   var container = document.getElementById(containerId);
   if (!container) return;
 
-  var data = window.KIZ_DATA;
+  var data = requireData(containerId);
+  if (!data) return;
   var first = computeGameFirstPlay();
   // 以数据集最新对局日期为基准，往前 NEW_GAME_WINDOW_DAYS 天为「近期」
   var NEW_GAME_WINDOW_DAYS = 30;
@@ -494,7 +536,8 @@ function renderRecentPlays() {
   var container = document.getElementById('recentPlays');
   if (!container) return;
 
-  var data = window.KIZ_DATA;
+  var data = requireData('recentPlays');
+  if (!data) return;
   // Sort plays by date descending
   var sorted = data.plays.slice().sort(function(a, b) {
     return b.playDate.localeCompare(a.playDate);
@@ -531,7 +574,8 @@ function renderGameLibrary() {
   var container = document.getElementById('gameGrid');
   if (!container) return;
 
-  var data = window.KIZ_DATA;
+  var data = requireData('gameGrid');
+  if (!data) return;
 
   // Split games
   var baseGames = data.games.filter(function(g) { return !g.isExpansion; });
@@ -597,7 +641,7 @@ function renderGameLibrary() {
       var recTitle = titleParts.length ? ' title="记录保持者：' + escapeHtml(titleParts.join('、')) + '"' : '';
       recHtml = '<div class="record-line"' + recTitle + '>🏅 记录：' + names + ' ' + rec.score + '分</div>';
     }
-    return '<div class="game-card" onclick="location.href=\'game.html?id=' + g.id + '\'">' +
+    return '<a class="game-card" href="game.html?id=' + g.id + '">' +
       '<div class="game-card-image">' +
         (thumb ? '<img src="' + escapeHtml(thumb) + '" alt="' + escapeHtml(g.name) + '" loading="lazy" decoding="async">' : '<span class="game-card-placeholder">🎲</span>') +
         rankBadge +
@@ -619,7 +663,7 @@ function renderGameLibrary() {
           (g.yearPublished ? '<span class="tag tag-secondary">📅 ' + g.yearPublished + '</span>' : '') +
         '</div>' +
       '</div>' +
-    '</div>';
+    '</a>';
   }
 
   function render(filterText, sortBy) {
@@ -678,7 +722,8 @@ function renderGameProfile() {
   var container = document.getElementById('gameProfile');
   if (!container) return;
 
-  var data = window.KIZ_DATA;
+  var data = requireData('gameProfile');
+  if (!data) return;
   var params = new URLSearchParams(window.location.search);
   var gameId = parseInt(params.get('id'));
 
@@ -893,7 +938,8 @@ var playsPageConfig = {
 };
 
 function renderPlayRecords() {
-  var data = window.KIZ_DATA;
+  var data = requireData('playTimeline');
+  if (!data) return;
 
   // Fill count
   var countEl = document.getElementById('playCount');
@@ -1210,7 +1256,8 @@ function renderPlayRecords() {
 
 /* ===== Members Page ===== */
 function renderMemberWall() {
-  var data = window.KIZ_DATA;
+  var data = requireData('memberGrid');
+  if (!data) return;
 
   // 只统计仍在游戏库中的对局（与个人主页口径一致，避免库外/已下架游戏导致两边数字不符）
   var validGameIds = {};
@@ -1280,7 +1327,8 @@ function renderMemberWall() {
 
 /* ===== Member Profile Page ===== */
 function renderMemberProfile() {
-  var data = window.KIZ_DATA;
+  var data = requireData('memberProfile');
+  if (!data) return;
   var params = new URLSearchParams(window.location.search);
   var playerId = parseInt(params.get('id'));
   if (!playerId) {
@@ -1550,7 +1598,8 @@ function renderMemberProfile() {
 
 /* ===== Leaderboard Page ===== */
 function renderLeaderboard() {
-  var data = window.KIZ_DATA;
+  var data = requireData('leaderboardGames');
+  if (!data) return;
 
   // Count plays per game
   // Use pre-computed top games (already filtered for owned games)

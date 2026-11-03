@@ -152,7 +152,7 @@ function dashHeatmap(dayCounts, year, maxDay) {
 }
 
 function renderDashboard() {
-  var data = window.KIZ_DATA;
+  var data = requireData('dashboard');
   if (!data) return;
   var container = document.getElementById('dashboard');
   if (!container) return;
@@ -310,7 +310,9 @@ function renderDashboard() {
     return '<div class="stat-item"><div class="stat-number">' + v + '</div><div class="stat-label">' + l + '</div></div>';
   }
   function panel(title, svg, note) {
-    return '<div class="dash-card"><h3>' + title + '</h3>' + svg +
+    // 为内联 SVG 提供可访问名称：读屏软件将其视为一张有标题的图，而非无内容节点
+    var labelled = svg.replace('<svg ', '<svg role="img" aria-label="' + dashEsc(title) + '" ');
+    return '<div class="dash-card"><h3>' + title + '</h3>' + labelled +
       (note ? '<div class="chart-note">' + note + '</div>' : '') + '</div>';
   }
 

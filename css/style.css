@@ -4,10 +4,13 @@
   --color-primary-dark: #c06045;
   --color-secondary: #2D5A3D;
   --color-accent: #D4A574;
+  /* accent 本身偏浅，仅用于边框/背景；文字场景改用深色变体以满足对比度 */
+  --color-accent-text: #8a5a2b;
   --color-bg: #F8F4E6;
   --color-white: #FFFFFF;
   --color-text: #2D3436;
-  --color-text-muted: #8a7a6a;
+  /* 原 #8a7a6a 在米底仅 3.76:1，未达 WCAG AA；#75655a 为 5.07:1 */
+  --color-text-muted: #75655a;
   --color-text-light: #5a4a3a;
   --color-border: #e8d5c0;
   --color-gold: #FFD700;
@@ -101,7 +104,8 @@ input, select { font-family: inherit; }
   margin-left: auto;
 }
 
-@media (max-width: 768px) {
+/* 8 个导航项 + logo 在 769–1024px 区间会挤压换行，故汉堡菜单提前到 1024px 启用 */
+@media (max-width: 1024px) {
   .nav-links {
     display: none;
     position: absolute;
@@ -216,7 +220,7 @@ input, select { font-family: inherit; }
 }
 
 .stat-number.green { color: var(--color-secondary); }
-.stat-number.gold { color: var(--color-accent); }
+.stat-number.gold { color: var(--color-accent-text); }
 
 .stat-label {
   font-size: 13px;
@@ -226,6 +230,10 @@ input, select { font-family: inherit; }
 
 /* ===== Game Card ===== */
 .game-card {
+  /* 卡片为 <a> 元素：保证可 Tab 聚焦、可新标签打开 */
+  display: block;
+  color: inherit;
+  text-decoration: none;
   background: var(--color-white);
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -238,6 +246,11 @@ input, select { font-family: inherit; }
 .game-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
+}
+
+.game-card:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
 }
 
 .game-card-image {
@@ -367,7 +380,7 @@ input, select { font-family: inherit; }
 
 .tag-primary { background: var(--color-primary); color: var(--color-white); }
 .tag-secondary { background: var(--color-secondary); color: var(--color-white); }
-.tag-accent { background: var(--color-accent); color: var(--color-white); }
+.tag-accent { background: var(--color-accent); color: #4a3418; }
 
 /* ===== Game Grid ===== */
 .game-grid {
@@ -541,7 +554,7 @@ input, select { font-family: inherit; }
 
 .record-line {
   font-size: 12px;
-  color: var(--color-accent);
+  color: var(--color-accent-text);
   margin-top: 4px;
 }
 
@@ -843,6 +856,8 @@ input, select { font-family: inherit; }
 
 .filter-bar input,
 .filter-bar select {
+  /* 防止最长 option（长游戏名）把筛选区撑出视口 */
+  max-width: 100%;
   padding: 10px 16px;
   border: 2px solid var(--color-accent);
   border-radius: var(--radius-sm);
@@ -1335,4 +1350,21 @@ input, select { font-family: inherit; }
   height: 12px;
   border-radius: 3px;
   display: inline-block;
+}
+
+/* ===== Small-screen refinements (≤480px) ===== */
+@media (max-width: 480px) {
+  /* 筛选控件纵向堆叠，避免长游戏名/日期组造成横向溢出 */
+  .filter-bar > * { flex: 1 1 100%; }
+  .filter-bar input,
+  .filter-bar select,
+  .filter-search { min-width: 0; width: 100%; }
+  .filter-month,
+  .filter-date { flex-wrap: wrap; }
+
+  /* 详情页头部改为纵向排列，避免封面/头像挤压标题 */
+  .profile-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+
+  /* 成员对局历史的四列行允许换行 */
+  .profile-recent-item { flex-wrap: wrap; row-gap: 2px; }
 }

@@ -3,7 +3,7 @@
 // 依赖 main.js 提供的 parseYmdToDate / getMonday / isoWeekNumber / ymdOf / escapeHtml 共享工具。
 
 function renderWeeklyReport() {
-  var data = window.KIZ_DATA;
+  var data = requireData('weeklyReport');
   if (!data) return;
   var root = document.getElementById('weeklyReport');
   if (!root) return;
