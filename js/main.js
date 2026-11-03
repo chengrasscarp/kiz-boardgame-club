@@ -52,6 +52,16 @@ function isoWeekNumber(d) {
 }
 
 /* ===== Helpers ===== */
+// 简单防抖：高频 input 事件下避免每次按键都全量重渲染
+function debounce(fn, wait) {
+  var t = null;
+  return function () {
+    var self = this, args = arguments;
+    if (t) clearTimeout(t);
+    t = setTimeout(function () { fn.apply(self, args); }, wait);
+  };
+}
+
 // 由 Date 得到 YYYYMMDD 数字键（report.js / dashboard.js 共用）
 function ymdOf(d) {
   return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
@@ -142,12 +152,25 @@ function getGameThumb(game) {
   return '';
 }
 
+/* ===== 数据索引：id -> 名称 一次构建，避免渲染循环中反复线性扫描 ===== */
+var _dataIndex = null;
+function getDataIndex() {
+  if (_dataIndex) return _dataIndex;
+  var data = window.KIZ_DATA;
+  var gameName = {}, playerName = {}, locName = {};
+  var i;
+  for (i = 0; i < data.games.length; i++) gameName[data.games[i].id] = data.games[i].name;
+  for (i = 0; i < data.players.length; i++) playerName[data.players[i].id] = data.players[i].name;
+  var pseudo = data.pseudoPlayers || [];
+  for (i = 0; i < pseudo.length; i++) playerName[pseudo[i].id] = pseudo[i].name;
+  for (i = 0; i < data.locations.length; i++) locName[data.locations[i].id] = data.locations[i].name;
+  _dataIndex = { gameName: gameName, playerName: playerName, locName: locName, best: null };
+  return _dataIndex;
+}
+
 function getGameNameById(id) {
-  var games = window.KIZ_DATA.games;
-  for (var i = 0; i < games.length; i++) {
-    if (games[i].id === id) return games[i].name;
-  }
-  return 'Unknown';
+  var n = getDataIndex().gameName[id];
+  return n === undefined ? 'Unknown' : n;
 }
 
 /* ===== Win Rate Stats ===== */
@@ -178,74 +201,69 @@ function buildWinRateMaps() {
   return { wins: wins, plays: plays };
 }
 
-// 某玩家胜率最高的游戏（tie-break：胜场更多者优先）
-function getPlayerBestGame(pid, maps) {
-  var best = null;
+// 一次性预计算「每游戏胜率王」与「每玩家最擅长游戏」，渲染时 O(1) 查询。
+// 口径与原实现一致：仅统计 ≥WIN_RATE_MIN_PLAYS 场且胜率>0 的候选。
+function getBestStats() {
+  var idx = getDataIndex();
+  if (idx.best) return idx.best;
+  var maps = buildWinRateMaps();
+  var candByGame = {};
+  var bestByPlayer = {};
   for (var key in maps.plays) {
     var parts = key.split(':');
-    if (Number(parts[0]) !== pid) continue;
+    var pid = Number(parts[0]), gid = Number(parts[1]);
     var pc = maps.plays[key];
     if (pc < WIN_RATE_MIN_PLAYS) continue;
     var wc = maps.wins[key] || 0;
     var rate = Math.round(wc / pc * 100);
-    var gid = Number(parts[1]);
-    // 跳过已下架/不在游戏库中的对局（gameRefId 在 games 里找不到，getGameNameById 返回 "Unknown"）
+    if (rate <= 0) continue;
+    (candByGame[gid] || (candByGame[gid] = [])).push({
+      playerId: pid, name: getPlayerNameById(pid), rate: rate, wins: wc, plays: pc
+    });
+    // 跳过已不在游戏库中的游戏（getGameNameById 返回 Unknown）
     var gameName = getGameNameById(gid);
-    if (gameName === null || gameName === 'Unknown') continue;
-    if (!best || rate > best.rate || (rate === best.rate && wc > best.wins)) {
-      best = { gameId: gid, gameName: gameName, rate: rate, wins: wc, plays: pc };
+    if (gameName && gameName !== 'Unknown') {
+      var prev = bestByPlayer[pid];
+      if (!prev || rate > prev.rate || (rate === prev.rate && wc > prev.wins)) {
+        bestByPlayer[pid] = { gameId: gid, gameName: gameName, rate: rate, wins: wc, plays: pc };
+      }
     }
   }
-  return (best && best.rate > 0) ? best : null;
+  var bestByGame = {};
+  for (var gid2 in candByGame) {
+    var cands = candByGame[gid2];
+    var bestRate = -1, bestWins = -1, i;
+    for (i = 0; i < cands.length; i++) { if (cands[i].rate > bestRate) bestRate = cands[i].rate; }
+    for (i = 0; i < cands.length; i++) {
+      if (cands[i].rate === bestRate && cands[i].wins > bestWins) bestWins = cands[i].wins;
+    }
+    var winners = cands.filter(function (c) { return c.rate === bestRate && c.wins === bestWins; });
+    winners.sort(function (a, b) { return a.playerId - b.playerId; });
+    bestByGame[gid2] = {
+      names: winners.map(function (w) { return w.name; }),
+      rate: bestRate,
+      wins: bestWins,
+      plays: winners[0].plays,
+    };
+  }
+  idx.best = { byGame: bestByGame, byPlayer: bestByPlayer };
+  return idx.best;
 }
 
-// 某游戏胜率最高的玩家（并列则全部列出；二级 tie-break：胜场更多者优先；再用玩家 id 稳定排序避免出现"随机"胜者）
-function getGameBestPlayer(gid, maps) {
-  var cands = [];
-  for (var key in maps.plays) {
-    var parts = key.split(':');
-    if (Number(parts[1]) !== gid) continue;
-    var pc = maps.plays[key];
-    if (pc < WIN_RATE_MIN_PLAYS) continue;
-    var wc = maps.wins[key] || 0;
-    var rate = Math.round(wc / pc * 100);
-    var pid = Number(parts[0]);
-    var pname = getPlayerNameById(pid);
-    if (pname === null) continue;
-    cands.push({ playerId: pid, name: pname, rate: rate, wins: wc, plays: pc });
-  }
-  cands = cands.filter(function (c) { return c.rate > 0; });
-  if (!cands.length) return null;
-  var bestRate = -1, bestWins = -1;
-  for (var i = 0; i < cands.length; i++) {
-    if (cands[i].rate > bestRate) bestRate = cands[i].rate;
-  }
-  for (var j = 0; j < cands.length; j++) {
-    if (cands[j].rate === bestRate && cands[j].wins > bestWins) bestWins = cands[j].wins;
-  }
-  var winners = cands.filter(function (c) { return c.rate === bestRate && c.wins === bestWins; });
-  winners.sort(function (a, b) { return a.playerId - b.playerId; });
-  return {
-    names: winners.map(function (w) { return w.name; }),
-    rate: bestRate,
-    wins: bestWins,
-    plays: winners[0].plays,
-  };
+// 某玩家胜率最高的游戏（tie-break：胜场更多者优先）
+function getPlayerBestGame(pid) {
+  return getBestStats().byPlayer[pid] || null;
+}
+
+// 某游戏胜率最高的玩家（并列则全部列出；二级 tie-break 胜场更多；再按玩家 id 稳定排序）
+function getGameBestPlayer(gid) {
+  return getBestStats().byGame[gid] || null;
 }
 
 function getPlayerNameById(id) {
-  var players = window.KIZ_DATA.players;
-  for (var i = 0; i < players.length; i++) {
-    if (players[i].id === id) return players[i].name;
-  }
-  // BGA 线上对局中的匿名玩家（歪果人）存于独立字段，不污染成员墙
-  var pseudo = window.KIZ_DATA.pseudoPlayers;
-  if (pseudo) {
-    for (var j = 0; j < pseudo.length; j++) {
-      if (pseudo[j].id === id) return pseudo[j].name;
-    }
-  }
-  return '玩家';
+  var n = getDataIndex().playerName[id];
+  // 未解析的 id（如无研究生标签的匿名玩家）显示为「玩家」
+  return n === undefined ? '玩家' : n;
 }
 
 // 取对局游戏名：优先使用 BGA 线上对局自带的名称兜底（库外游戏也能显示真名）
@@ -260,11 +278,8 @@ function onlineBadge(play) {
 }
 
 function getLocationNameById(id) {
-  var locations = window.KIZ_DATA.locations;
-  for (var i = 0; i < locations.length; i++) {
-    if (locations[i].id === id) return locations[i].name;
-  }
-  return '未知地点';
+  var n = getDataIndex().locName[id];
+  return n === undefined ? '未知地点' : n;
 }
 
 function formatDate(ymd) {
@@ -517,7 +532,6 @@ function renderGameLibrary() {
   if (!container) return;
 
   var data = window.KIZ_DATA;
-  var winMaps = buildWinRateMaps();
 
   // Split games
   var baseGames = data.games.filter(function(g) { return !g.isExpansion; });
@@ -562,7 +576,7 @@ function renderGameLibrary() {
     var rankBadge = g.bggRank ? '<span class="bgg-rank-badge">#' + g.bggRank + '</span>' : '';
     var stars = g.bggRating ? '⭐' + g.bggRating.toFixed(1) : '';
     var complexityHtml = g.complexity ? '<span class="complexity" title="复杂度 ' + g.complexity.toFixed(1) + '/5">' + renderComplexity(g.complexity) + ' ' + g.complexity.toFixed(1) + '</span>' : '';
-    var gp = getGameBestPlayer(g.id, winMaps);
+    var gp = getGameBestPlayer(g.id);
     var gpHtml = '';
     if (gp) {
       var crownLabel = gp.names.length > 1 ? '👑 胜率王（并列）' : '👑 胜率王';
@@ -647,9 +661,9 @@ function renderGameLibrary() {
   var sortSelect = document.getElementById('gameSort');
 
   if (searchInput) {
-    searchInput.addEventListener('input', function() {
+    searchInput.addEventListener('input', debounce(function() {
       render(this.value, sortSelect ? sortSelect.value : 'plays');
-    });
+    }, 150));
   }
 
   if (sortSelect) {
@@ -721,8 +735,7 @@ function renderGameProfile() {
     });
 
   // 胜率王（复用全局逻辑，含 ≥3 场门槛与并列）
-  var winMaps = buildWinRateMaps();
-  var bestPlayer = getGameBestPlayer(gameId, winMaps);
+  var bestPlayer = getGameBestPlayer(gameId);
 
   // ===== Header =====
   var thumb = getGameThumb(game);
@@ -1113,7 +1126,8 @@ function renderPlayRecords() {
     if (config.currentPage === 0) {
       container.innerHTML = html;
     } else {
-      container.innerHTML += html;
+      // 仅追加新增节点，避免 innerHTML += 整列重解析
+      container.insertAdjacentHTML('beforeend', html);
     }
 
     // Show/hide load more
@@ -1184,7 +1198,7 @@ function renderPlayRecords() {
   // 游戏名搜索（输入即筛选）
   var searchEl = document.getElementById('playSearch');
   var searchClear = document.getElementById('playSearchClear');
-  if (searchEl) searchEl.addEventListener('input', filterAndRender);
+  if (searchEl) searchEl.addEventListener('input', debounce(filterAndRender, 150));
   if (searchClear) searchClear.addEventListener('click', function() {
     if (searchEl) searchEl.value = '';
     filterAndRender();
@@ -1197,7 +1211,6 @@ function renderPlayRecords() {
 /* ===== Members Page ===== */
 function renderMemberWall() {
   var data = window.KIZ_DATA;
-  var winMaps = buildWinRateMaps();
 
   // 只统计仍在游戏库中的对局（与个人主页口径一致，避免库外/已下架游戏导致两边数字不符）
   var validGameIds = {};
@@ -1251,7 +1264,7 @@ function renderMemberWall() {
     for (var i = 0; i < sorted.length; i++) {
       var p = sorted[i];
       var initial = p.name.charAt(0);
-      var bg = getPlayerBestGame(p.id, winMaps);
+      var bg = getPlayerBestGame(p.id);
       var bgHtml = bg ? '<div class="member-best">🏆 最擅长：' + escapeHtml(bg.gameName) + '（' + bg.rate + '%，' + bg.wins + '/' + bg.plays + '）</div>' : '';
       html += '<a href="member.html?id=' + p.id + '" class="member-card-link">' +
       '<div class="member-card">' +
@@ -1284,8 +1297,6 @@ function renderMemberProfile() {
     document.getElementById('memberProfile').innerHTML = '<div class="member-profile-error">未找到该成员</div>';
     return;
   }
-
-  var winMaps = buildWinRateMaps();
 
   // Build valid game ID set (仅统计仍在游戏库中的游戏)
   var validGameIds = {};
@@ -1519,8 +1530,10 @@ function renderMemberProfile() {
   if (recentListEl) {
     var recentShown = 0;
     var renderRecentMore = function() {
-      recentShown = Math.min(recentShown + 10, recentItems.length);
-      recentListEl.innerHTML = recentItems.slice(0, recentShown).join('');
+      var next = Math.min(recentShown + 10, recentItems.length);
+      // 只追加新增的 10 条，不重排已有节点
+      recentListEl.insertAdjacentHTML('beforeend', recentItems.slice(recentShown, next).join(''));
+      recentShown = next;
       var moreEl = document.getElementById('profileRecentMore');
       if (moreEl) {
         if (recentShown < recentItems.length) {
